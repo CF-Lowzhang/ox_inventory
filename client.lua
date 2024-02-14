@@ -733,15 +733,15 @@ local function registerCommands()
 			return client.openInventory()
 		end
 	})
-
+	primary:disable(true)
 	lib.addKeybind({
 		name = 'inv2',
 		description = locale('open_secondary_inventory'),
 		defaultKey = client.keys[2],
 		onPressed = function(self)
-            if primary:getCurrentKey() == self:getCurrentKey() then
+            --[[if primary:getCurrentKey() == self:getCurrentKey() then
                 return warn(("secondary inventory keybind '%s' disabled (keybind cannot match primary inventory keybind)"):format(self:getCurrentKey()))
-            end
+            end]]
 
 			if invOpen then
 				return client.closeInventory()

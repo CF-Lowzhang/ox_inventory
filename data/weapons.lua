@@ -235,7 +235,7 @@ return {
 		},
 
 		['WEAPON_FLASHLIGHT'] = {
-			label = 'Flashlight',
+			label = '手電筒',
 			weight = 125,
 			durability = 0.1,
 		},

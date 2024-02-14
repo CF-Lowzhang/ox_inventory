@@ -2,7 +2,7 @@ return {
 	{
 		items = {
 			{
-				name = 'lockpick',
+				name = 't65-2',
 				ingredients = {
 					scrapmetal = 5,
 					WEAPON_HAMMER = 0.05

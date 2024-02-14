@@ -88,6 +88,58 @@ for type, data in pairs(lib.load('data.weapons')) do
 	end
 end
 
+for k, v in pairs(lib.load('data.items_C')) do
+	v.name = k
+	local success, response = pcall(newItem, v)
+
+    if not success then
+        warn(('An error occurred while creating item "%s" callback!\n^1SCRIPT ERROR: %s^0'):format(k, response))
+    end
+end
+
+for k, v in pairs(lib.load('data.items_F')) do
+	v.name = k
+	local success, response = pcall(newItem, v)
+
+    if not success then
+        warn(('An error occurred while creating item "%s" callback!\n^1SCRIPT ERROR: %s^0'):format(k, response))
+    end
+end
+
+for k, v in pairs(lib.load('data.items_M')) do
+	v.name = k
+	local success, response = pcall(newItem, v)
+
+    if not success then
+        warn(('An error occurred while creating item "%s" callback!\n^1SCRIPT ERROR: %s^0'):format(k, response))
+    end
+end
+
+for k, v in pairs(lib.load('data.items_O')) do
+	v.name = k
+	local success, response = pcall(newItem, v)
+
+    if not success then
+        warn(('An error occurred while creating item "%s" callback!\n^1SCRIPT ERROR: %s^0'):format(k, response))
+    end
+end
+for k, v in pairs(lib.load('data.items_S')) do
+	v.name = k
+	local success, response = pcall(newItem, v)
+
+    if not success then
+        warn(('An error occurred while creating item "%s" callback!\n^1SCRIPT ERROR: %s^0'):format(k, response))
+    end
+end
+for k, v in pairs(lib.load('data.items_T')) do
+	v.name = k
+	local success, response = pcall(newItem, v)
+
+    if not success then
+        warn(('An error occurred while creating item "%s" callback!\n^1SCRIPT ERROR: %s^0'):format(k, response))
+    end
+end
+
 for k, v in pairs(lib.load('data.items')) do
 	v.name = k
 	local success, response = pcall(newItem, v)
