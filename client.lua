@@ -1696,6 +1696,34 @@ RegisterNUICallback('useButton', function(data, cb)
 	cb(1)
 end)
 
+RegisterNUICallback('removeItem', function(data, cb)
+    TriggerServerEvent('ox_inventory:deleteItem', data.slot,data.count or 0)
+	cb(1)
+end)
+
+RegisterNUICallback('onChange', function(data, cb)
+	local input = lib.inputDialog('背包物品操作',{
+		{type = 'input', label = '修改物品名稱', description = '依照角色理解填寫內容', required = true, min = 0, max = 20},
+	})
+	if not input then return end
+    TriggerServerEvent('ox_inventory:changeName', data.slot,input[1])
+	cb(1)
+end)
+
+RegisterNUICallback('onChangeRemoval', function(data, cb)
+    TriggerServerEvent('ox_inventory:changeRemoval', data.slot)
+	cb(1)
+end)
+
+RegisterNUICallback('onChangeDesc', function(data, cb)
+	local input = lib.inputDialog('背包物品操作',{
+		{type = 'input', label = '修改物品備註', description = '依照角色理解填寫內容', required = true, min = 0, max = 20},
+	})
+	if not input then return end
+    TriggerServerEvent('ox_inventory:changeNameDesc', data.slot,input[1])
+	cb(1)
+end)
+
 RegisterNUICallback('exit', function(_, cb)
 	client.closeInventory()
 	cb(1)

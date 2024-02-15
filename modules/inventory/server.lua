@@ -2363,6 +2363,51 @@ RegisterServerEvent('ox_inventory:closeInventory', function()
 	end
 end)
 
+RegisterServerEvent('ox_inventory:changeName', function(slot, newName)
+	local fromInventory = Inventories[source]
+	local data = fromInventory.items[slot]
+	if not data then return end
+	local item = Items(data.name)
+	local metadata = data.metadata
+	metadata.original_label = data.label
+	if metadata.label and not metadata.original_label then
+        metadata.original_label = metadata.label
+    end
+	metadata.label = newName
+	Inventory.SetMetadata(source, slot, metadata)
+end)
+
+RegisterServerEvent('ox_inventory:changeNameDesc', function(slot, newName)
+	local fromInventory = Inventories[source]
+	local data = fromInventory.items[slot]
+	if not data then return end
+	local item = Items(data.name)
+	local metadata = data.metadata
+	metadata.description  = newName
+	Inventory.SetMetadata(source, slot, metadata)
+end)
+
+
+RegisterServerEvent('ox_inventory:deleteItem', function(slot, count)
+	local fromInventory = Inventories[source]
+
+	if count <= 0 then count = 1 end
+	local data = fromInventory.items[slot]
+	if not data then return end
+	local item = Items(data.name)
+
+	if Inventory.RemoveItem(fromInventory, item, count, data.metadata, slot) then
+		if server.loglevel > 0 then
+			lib.logger(fromInventory.owner, 'deleteItem', ('"%s" delete %sx %s'):format(fromInventory.label, count, data.name))
+		end
+		return
+	else
+		print('Error Happen (Bao)')
+	end
+
+end)
+
+
 RegisterServerEvent('ox_inventory:giveItem', function(slot, target, count)
 	local fromInventory = Inventories[source]
 	local toInventory = Inventories[target]

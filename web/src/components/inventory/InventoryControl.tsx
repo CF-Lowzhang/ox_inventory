@@ -6,6 +6,9 @@ import { DragSource } from '../../typings';
 import { onUse } from '../../dnd/onUse';
 import { onGive } from '../../dnd/onGive';
 import { onDelete } from '../../dnd/onDelete';
+import { onChange } from '../../dnd/onChange';
+import { onChangeRemoval } from '../../dnd/onChangeRemoval';
+import { onChangeDesc } from '../../dnd/onChangeDesc';
 import { fetchNui } from '../../utils/fetchNui';
 import { Locale } from '../../store/locale';
 import UsefulControls from './UsefulControls';
@@ -37,6 +40,26 @@ const InventoryControl: React.FC = () => {
     },
   }));
 
+  const [, changeItem] = useDrop<DragSource, void, any>(() => ({
+    accept: 'SLOT',
+    drop: (source) => {
+      source.inventory === 'player' && onChange(source.item);
+    },
+  }));
+  
+  const [, changeItemRemoval] = useDrop<DragSource, void, any>(() => ({
+    accept: 'SLOT',
+    drop: (source) => {
+      source.inventory === 'player' && onChangeRemoval(source.item);
+    },
+  }));
+
+  const [, changeDesc] = useDrop<DragSource, void, any>(() => ({
+    accept: 'SLOT',
+    drop: (source) => {
+      source.inventory === 'player' && onChangeDesc(source.item);
+    },
+  }));
   const inputHandler = (event: React.ChangeEvent<HTMLInputElement>) => {
     event.target.valueAsNumber =
       isNaN(event.target.valueAsNumber) || event.target.valueAsNumber < 0 ? 0 : Math.floor(event.target.valueAsNumber);
@@ -63,6 +86,15 @@ const InventoryControl: React.FC = () => {
           </button>
           <button className="inventory-control-button" ref={deleteDrop}>
             {'刪除「須允許」'}
+          </button>
+          <button className="inventory-control-button" ref={changeItem}>
+            {'修改名稱'}
+          </button>
+          <button className="inventory-control-button" ref={changeItemRemoval}>
+            {'恢復名稱'}
+          </button>
+          <button className="inventory-control-button" ref={changeDesc}>
+            {'修改備註'}
           </button>
           <button className="inventory-control-button" onClick={() => fetchNui('exit')}>
             {Locale.ui_close || 'Close'}

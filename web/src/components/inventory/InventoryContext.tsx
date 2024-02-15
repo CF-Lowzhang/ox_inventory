@@ -2,6 +2,9 @@ import { onUse } from '../../dnd/onUse';
 import { onGive } from '../../dnd/onGive';
 import { onDrop } from '../../dnd/onDrop';
 import { onDelete} from '../../dnd/onDelete';
+import { onChange} from '../../dnd/onChange';
+import { onChangeRemoval} from '../../dnd/onChangeRemoval';
+import { onChangeDesc} from '../../dnd/onChangeDesc';
 import { Items } from '../../store/items';
 import { fetchNui } from '../../utils/fetchNui';
 import { Locale } from '../../store/locale';
@@ -56,6 +59,15 @@ const InventoryContext: React.FC = () => {
       case 'delete':
         isSlotWithItem(item) && onDelete({name: item.name, slot: item.slot});
         break
+      case 'change':
+        isSlotWithItem(item) && onChange({name: item.name, slot: item.slot});
+        break
+      case 'changeRemoval':
+        isSlotWithItem(item) && onChangeRemoval({name: item.name, slot: item.slot});
+        break
+      case 'changeDesc':
+        isSlotWithItem(item) && onChangeDesc({name: item.name, slot: item.slot});
+        break
       case 'remove':
         fetchNui('removeComponent', { component: data?.component, slot: data?.slot });
         break;
@@ -100,6 +112,9 @@ const InventoryContext: React.FC = () => {
         <MenuItem onClick={() => handleClick({ action: 'give' })} label={Locale.ui_give || 'Give'} />
         <MenuItem onClick={() => handleClick({ action: 'drop' })} label={Locale.ui_drop || 'Drop'} />
         <MenuItem onClick={() => handleClick({ action: 'delete'})} label ={'刪除「須允許」'}/>
+        <MenuItem onClick={() => handleClick({ action: 'change'})} label ={'修改名稱'}/>
+        <MenuItem onClick={() => handleClick({ action: 'changeRemoval'})} label ={'恢復名稱'}/>
+        <MenuItem onClick={() => handleClick({ action: 'changeDesc'})} label ={'修改備註'}/>
         {item && item.metadata?.ammo > 0 && (
           <MenuItem onClick={() => handleClick({ action: 'removeAmmo' })} label={Locale.ui_remove_ammo} />
         )}
