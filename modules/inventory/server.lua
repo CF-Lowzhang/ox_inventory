@@ -2377,6 +2377,17 @@ RegisterServerEvent('ox_inventory:changeName', function(slot, newName)
 	Inventory.SetMetadata(source, slot, metadata)
 end)
 
+RegisterServerEvent('ox_inventory:changeRemoval', function(slot)
+	local fromInventory = Inventories[source]
+	local data = fromInventory.items[slot]
+	if not data then return end
+	local item = Items(data.name)
+	local metadata = data.metadata
+	metadata.label = metadata.original_label
+	metadata.original_label = nil
+	Inventory.SetMetadata(source, slot, metadata)
+end)
+
 RegisterServerEvent('ox_inventory:changeNameDesc', function(slot, newName)
 	local fromInventory = Inventories[source]
 	local data = fromInventory.items[slot]
@@ -2386,7 +2397,6 @@ RegisterServerEvent('ox_inventory:changeNameDesc', function(slot, newName)
 	metadata.description  = newName
 	Inventory.SetMetadata(source, slot, metadata)
 end)
-
 
 RegisterServerEvent('ox_inventory:deleteItem', function(slot, count)
 	local fromInventory = Inventories[source]
