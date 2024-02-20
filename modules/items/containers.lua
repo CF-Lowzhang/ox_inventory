@@ -63,4 +63,17 @@ setContainerProperties('pizzabox', {
 	whitelist = { 'pizza' }
 })
 
+setContainerProperties('bon_whiteenv', {
+	slots = 5,
+	maxWeight = 200000000,
+})
+
+
+setContainerProperties('b3_coffin', {
+	slots = 20,
+	maxWeight = 60000,
+})
+
+
+
 return containers

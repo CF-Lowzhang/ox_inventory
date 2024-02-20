@@ -231,7 +231,13 @@ CreateThread(function()
 	collectgarbage('collect') -- clean up from initialisation
 	shared.ready = true
 end)
+local function GenerateNumber(number)
+	if number and number:len() > 7 then
+		return number
+	end
 
+	return ('%s%s'):format(math.random(100,999), math.random(100,999))
+end
 local function GenerateText(num)
 	local str
 	repeat str = {}
@@ -276,7 +282,20 @@ function Items.Metadata(inv, item, metadata, count)
 	if not count then count = 1 end
 
 	---@cast metadata table<string, any>
+	if item.name == 'radio' then
+		if type(metadata) ~= 'table' then metadata = {} end
 
+		if metadata.registered ~= false then
+			local registered = type(metadata.registered) == 'string' and metadata.registered or inv?.player?.name
+
+			if registered then
+				metadata.registered = registered
+				metadata.serial = GenerateNumber(metadata.serial)
+			else
+				metadata.registered = nil
+			end
+		end
+	end
 	if item.weapon then
 		if type(metadata) ~= 'table' then metadata = {} end
 		if not metadata.durability then metadata.durability = 100 end

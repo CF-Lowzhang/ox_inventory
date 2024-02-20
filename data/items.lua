@@ -1190,9 +1190,18 @@ return {
 
 	["radio"] = {
 		label = "無線電",
-		weight = 1,
-		stack = true,
-		close = true,
+		weight = 100,
+		stack = false,
+		close = false,
+		client = {
+			event = 'CF_Radio:openRadio',
+			remove = function(total)
+				if total < 1 then
+					print(total)
+					TriggerEvent('we_radio:disableRadio')
+				end
+			end
+		}
 	},
 
 	["slaughtered_chicken"] = {
