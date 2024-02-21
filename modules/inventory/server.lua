@@ -2412,7 +2412,17 @@ RegisterServerEvent('ox_inventory:deleteItem', function(slot, count)
 		end
 		return
 	else
-		print('Error Happen (Bao)')
+		--print('Error Happen (Bao)')
+		if data.count < count then
+			if Inventory.RemoveItem(fromInventory, item, data.count, data.metadata, slot) then
+				if server.loglevel > 0 then
+					lib.logger(fromInventory.owner, 'deleteItem', ('"%s" delete %sx %s'):format(fromInventory.label, count, data.name))
+				end
+				return
+			else
+				print('Error Happen2 (Bao)')
+			end
+		end
 	end
 
 end)

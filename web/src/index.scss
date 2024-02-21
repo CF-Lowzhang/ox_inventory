@@ -9,7 +9,7 @@ $secondaryColorDark: rgba(12, 12, 12, 0.8);
 
 $gridCols: 6;
 $gridRows: 5;
-$gridSize: 10.0vh;
+$gridSize: 11.0vh;
 $gridGap: 4.5px;
 $containerSize: calc(#{$gridRows} * #{$gridSize + 0.22vh} + #{$gridRows} * #{$gridGap});
 
@@ -291,8 +291,8 @@ button:active {
   border: 1px solid rgba(23,90,9,.2823529412);
   border: 1px solid #395233;
   box-shadow: 0px 0px 10px 0px #ffffff;
-  border: 17px solid rgba(235,235,235,20%);
-  border-top-width: 20px;
+  border: 7px solid rgba(235,235,235,20%);
+  border-top-width: 7px;
   border-radius: 5px;
   padding: 5px;
 }
@@ -344,10 +344,10 @@ button:active {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  padding: 5px 3px;
+  padding: 1px 4px;
   font-weight: 400;
   font-family: $mainFont;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .inventory-slot-number {
@@ -389,8 +389,7 @@ button:active {
   padding: 3px;
   gap: 3px;
   p {
-    font-size: 16px;
-    font-weight: 800;
+    font-size: 12px;
   }
 }
 
