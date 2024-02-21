@@ -9,7 +9,7 @@ $secondaryColorDark: rgba(12, 12, 12, 0.8);
 
 $gridCols: 6;
 $gridRows: 5;
-$gridSize: 11.0vh;
+$gridSize: 10.5vh;
 $gridGap: 4.5px;
 $containerSize: calc(#{$gridRows} * #{$gridSize + 0.22vh} + #{$gridRows} * #{$gridGap});
 
@@ -384,12 +384,13 @@ button:active {
 
 .item-slot-info-wrapper {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-self: flex-end;
   padding: 3px;
-  gap: 3px;
+  gap: 5.3vh;
   p {
     font-size: 12px;
+    margin-left:auto;
   }
 }
 
