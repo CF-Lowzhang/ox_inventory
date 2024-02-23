@@ -204,7 +204,7 @@ return {
 					 { name = 'c99-1', price = 0 ,currency = 'money'},
 		}, locations = {
 			vec3(-1284.1,-2963.1,-48.5)
-		}, targets = false,
+		}, targets = {},
 	},	
 	godItem_F = {
 	 name = '道具(F)購買處',
@@ -1272,7 +1272,7 @@ return {
 					 { name = 'f999-1', price = 0 ,currency = 'money'},
 		}, locations = {
 			vec3(-1282.6,-2963.1,-48.5)
-		}, targets = false,
+		}, targets = {},
 	},	
 	godItem_M = {
 	 name = '道具(M)購買處',
@@ -1327,7 +1327,7 @@ return {
 					 { name = 'm9-1', price = 0 ,currency = 'money'},
 		}, locations = {
 			vec3(-1281.1,-2963.1,-48.5)
-		}, targets = false,
+		}, targets = {},
 	},	godItem_O = {
 	 name = '道具(O)購買處',
 	 inventory = {
@@ -1457,7 +1457,7 @@ return {
 					 { name = 'o99-1', price = 0 ,currency = 'money'},
 		}, locations = {
 			vec3(-1279.6,-2963.1,-48.5)
-		}, targets = false,
+		}, targets = {},
 	},	
 	godItem_S = {
 	 name = '道具(S)購買處',
@@ -2316,7 +2316,7 @@ return {
 					 { name = 's99-5', price = 0 ,currency = 'money'},
 		}, locations = {
 			vec3(-1278.1,-2963.1,-48.5)
-		}, targets = false,
+		}, targets = {},
 	},	
 	godItem_T = {
 	 name = '道具(T)購買處',
@@ -2599,7 +2599,7 @@ return {
 					 { name = 't99-1', price = 0 ,currency = 'money'},
 		}, locations = {
 			vec3(-1276.6,-2963.1,-48.5)
-		}, targets = false,
+		}, targets = {},
 	},
 	godItem_Normal = {
 	 name = '道具(Normal)購買處',
@@ -2729,7 +2729,7 @@ return {
 					 { name = 'yellow_melon', price = 0 ,currency = 'money'},
 		}, locations = {
 			vec3(-1275.1,-2963.1,-48.5)
-		}, targets = false,
+		}, targets = {},
 	},
 
 	godItem_Weapon = {
@@ -2932,7 +2932,7 @@ return {
 					 { name = 'at_suppressor_light', price = 0 ,currency = 'money'},
 		}, locations = {
 			vec3(-1284.1,-2965.1,-48.5)
-		}, targets = false,
+		}, targets = {},
 	},
 
 	--[[General = {

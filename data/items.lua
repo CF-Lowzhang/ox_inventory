@@ -16,6 +16,16 @@ return {
             test = "what an amazingly delicious burger, amirite?"
         }
     },
+    ['notepad'] = {
+        label = '筆記本(Dev)',--'筆記本',
+        weight = 75,
+        stack = 1,
+        close = 1,
+        consume = 0,
+        client = {
+            usetime = 0,
+        }
+    },
     ["money"] = {
         label = "紙錢",
         weight = 0,

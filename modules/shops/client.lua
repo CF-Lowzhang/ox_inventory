@@ -138,6 +138,23 @@ local function refreshShops()
                     },
 				})
 			elseif shop.targets then
+				
+				if #shop.targets == 0 then
+					if not hasShopAccess(shop) then goto skipLoop end
+					for i = 1, #shop.locations do
+						local coords = shop.locations[i]
+						id += 1
+						shops[id] = lib.points.new(coords, 16, {
+							coords = coords,
+							distance = 16,
+							inv = 'shop',
+							invId = i,
+							type = type,
+							nearby = nearbyShop,
+							blip = blip and createBlip(blip, coords)
+						})
+					end
+				end
 				for i = 1, #shop.targets do
 					local target = shop.targets[i]
 					local shopid = ('%s-%s'):format(type, i)

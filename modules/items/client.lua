@@ -142,6 +142,11 @@ local xSound = exports['xsound']
 -----------------------------------------------------------------------------------------------
 -- Clientside item use functions
 -----------------------------------------------------------------------------------------------
+Item('notepad', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		ExecuteCommand('notepad')
+	end)
+end)
 
 Item('bandage', function(data, slot)
 	local maxHealth = GetEntityMaxHealth(cache.ped)
