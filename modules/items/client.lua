@@ -144,7 +144,7 @@ local xSound = exports['xsound']
 -----------------------------------------------------------------------------------------------
 Item('notepad', function(data, slot)
 	ox_inventory:useItem(data, function(data)
-		ExecuteCommand('wnotepad')
+		ExecuteCommand('wnotepad '.. data.slot)
 	end)
 end)
 Item('notepage', function(data, slot)

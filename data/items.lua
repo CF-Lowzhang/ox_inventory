@@ -33,7 +33,6 @@ return {
         close = 1,
         consume = 0,
         client = {
-            usetime = 0,
         }
     },
     ["money"] = {
