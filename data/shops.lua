@@ -1,4 +1,15 @@
 return {
+	Newbie = {
+	 name = '新人禮包處',
+	 inventory = {
+					 { name = 'phone', price = 0 ,currency = 'money'},
+					 { name = 'radio', price = 0 ,currency = 'money'},
+					 { name = 'notepad', price = 0 ,currency = 'money'},
+					 { name = 'crutch', price = 0 ,currency = 'money'},
+		}, locations = {
+			vector3(-1268.28, -3005.08, -48.48)
+		}, targets = {},
+	},	
 	godItem_C = {
 	 name = '道具(C)購買處',
 	 inventory = {
