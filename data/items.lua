@@ -26,6 +26,16 @@ return {
             usetime = 0,
         }
     },
+    ['notepage'] = {
+        label = '筆記(Dev)',--'筆記本',
+        weight = 5,
+        stack = 0,
+        close = 1,
+        consume = 0,
+        client = {
+            usetime = 0,
+        }
+    },
     ["money"] = {
         label = "紙錢",
         weight = 0,
