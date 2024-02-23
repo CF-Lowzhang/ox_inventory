@@ -17,18 +17,17 @@ return {
         }
     },
     ['notepad'] = {
-        label = '筆記本(Dev)',--'筆記本',
-        weight = 75,
+        label = '筆記本',--'筆記本',
+        weight = 100,
         stack = 1,
         close = 1,
         consume = 0,
         client = {
-            usetime = 0,
         }
     },
     ['notepage'] = {
         label = '筆記(Dev)',--'筆記本',
-        weight = 5,
+        weight = 1,
         stack = 0,
         close = 1,
         consume = 0,
