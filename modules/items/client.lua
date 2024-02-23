@@ -149,7 +149,9 @@ Item('notepad', function(data, slot)
 end)
 Item('notepage', function(data, slot)
 	ox_inventory:useItem(data, function(data)
-		ExecuteCommand('notepadItem')
+		if data.metadata.note then
+			TriggerEvent('CF_notepad:ReadItem', data.metadata.note)
+		end
 	end)
 end)
 

@@ -834,6 +834,32 @@ local function registerCommands()
 	registerCommands = nil
 end
 
+function client.keybindOpper()
+	if invOpen then
+		return client.closeInventory()
+	end
+
+	if cache.vehicle then
+		return openGlovebox(cache.vehicle)
+	end
+
+	local closest = lib.points.getClosestPoint()
+	if not closest then 
+		return client.openInventory() 
+	end
+	if closest and closest.currentDistance < 1.2 and (not closest.instance or closest.instance == currentInstance) then
+		if closest.inv == 'crafting' then
+			return client.openInventory('crafting', { id = closest.id, index = closest.index })
+		elseif closest.inv ~= 'license' and closest.inv ~= 'policeevidence' then
+			return client.openInventory(closest.inv or 'drop', { id = closest.invId, type = closest.type })
+		end
+	end
+	return client.openInventory()
+end
+
+
+RegisterNetEvent('ox_inventory:keybindOpper', client.keybindOpper)
+
 function client.closeInventory(server)
 	-- because somehow people are triggering this when the inventory isn't loaded
 	-- and they're incapable of debugging, and I can't repro on a fresh install
