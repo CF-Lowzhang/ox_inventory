@@ -1339,7 +1339,8 @@ return {
 		}, locations = {
 			vec3(-1281.1,-2963.1,-48.5)
 		}, targets = {},
-	},	godItem_O = {
+	},	
+	godItem_O = {
 	 name = '道具(O)購買處',
 	 inventory = {
 					 { name = 'o1-1', price = 0 ,currency = 'money'},
@@ -2327,7 +2328,9 @@ return {
 					 { name = 's99-5', price = 0 ,currency = 'money'},
 		}, locations = {
 			vec3(-1278.1,-2963.1,-48.5)
-		}, targets = {},
+		}, targets = {
+			--{loc = vec3(-1278.1,-2963.1,-48.5), length = 0.5, width = 3.0, heading = 270.0, minZ = -49.0, maxZ = -48.0, distance = 6 }
+		},
 	},	
 	godItem_T = {
 	 name = '道具(T)購買處',

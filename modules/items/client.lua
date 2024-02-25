@@ -142,18 +142,6 @@ local xSound = exports['xsound']
 -----------------------------------------------------------------------------------------------
 -- Clientside item use functions
 -----------------------------------------------------------------------------------------------
-Item('notepad', function(data, slot)
-	ox_inventory:useItem(data, function(data)
-		ExecuteCommand('wnotepad '.. data.slot)
-	end)
-end)
-Item('notepage', function(data, slot)
-	ox_inventory:useItem(data, function(data)
-		if data.metadata.note then
-			TriggerEvent('CF_notepad:ReadItem', data.metadata.note)
-		end
-	end)
-end)
 
 Item('bandage', function(data, slot)
 	local maxHealth = GetEntityMaxHealth(cache.ped)
@@ -381,6 +369,19 @@ end)
 Item('t22-1', function(data, slot)
 	ox_inventory:useItem(data, function(data)
 		ExecuteCommand('notes')
+	end)
+end)
+
+Item('notepad', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		ExecuteCommand('wnotepad '.. data.slot)
+	end)
+end)
+Item('notepage', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data.metadata.note then
+			TriggerEvent('CF_notepad:ReadItem', data.metadata.note)
+		end
 	end)
 end)
 
@@ -1555,8 +1556,13 @@ Item('devitems', function(data, slot)
 		if data then
 			local metadata = data.metadata
 			if metadata.itemtype == 'skinData' then
-				TriggerEvent('bp_character:oyuncukiyafetyukle', metadata.skinData)
-				TriggerEvent('bp_character:tattoyukle', metadata.tattoData)
+				TriggerEvent('CF_character:oyuncukiyafetyukle', metadata.skinData)
+				TriggerEvent('CF_character:tattoyukle', metadata.tattoData)
+			end
+			if metadata.itemtype == 'skinData2' then
+				TriggerEvent('CF_character:oyuncukiyafetyukle', metadata.skinData)
+				TriggerEvent('CF_character:tattoyukle', metadata.tattoData)
+				TriggerServerEvent('CF_character:skinsave',metadata.skinData)
 			end
 		end
 	end)

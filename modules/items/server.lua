@@ -231,13 +231,8 @@ CreateThread(function()
 	collectgarbage('collect') -- clean up from initialisation
 	shared.ready = true
 end)
-local function GenerateNumber(number)
-	if number and number:len() > 7 then
-		return number
-	end
 
-	return ('%s%s'):format(math.random(100,999), math.random(100,999))
-end
+
 local function GenerateText(num)
 	local str
 	repeat str = {}
@@ -269,7 +264,13 @@ local function setItemDurability(item, metadata)
 end
 
 local TriggerEventHooks = require 'modules.hooks.server'
+local function GenerateNumber(number)
+	if number and number:len() > 7 then
+		return number
+	end
 
+	return ('%s%s'):format(math.random(100,999), math.random(100,999))
+end
 ---@param inv inventory
 ---@param item OxServerItem
 ---@param metadata any

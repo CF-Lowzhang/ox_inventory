@@ -13,12 +13,16 @@ for shopType, shopData in pairs(lib.load('data.shops') --[[@as table<string, OxS
         icon = shopData.icon
 	}
 
-	if shared.target then
+	shop.model = shopData.model
+	shop.targets = shopData.targets
+	shop.locations = shopData.locations
+	--[[if shared.target then
 		shop.model = shopData.model
 		shop.targets = shopData.targets
+		shop.locations = shopData.locations
 	else
 		shop.locations = shopData.locations
-	end
+	end]]
 
 	shopTypes[shopType] = shop
 	local blip = shop.blip
@@ -138,7 +142,6 @@ local function refreshShops()
                     },
 				})
 			elseif shop.targets then
-				
 				if #shop.targets == 0 then
 					if not hasShopAccess(shop) then goto skipLoop end
 					for i = 1, #shop.locations do

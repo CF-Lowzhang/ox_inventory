@@ -2412,7 +2412,6 @@ RegisterServerEvent('ox_inventory:deleteItem', function(slot, count)
 		end
 		return
 	else
-		--print('Error Happen (Bao)')
 		if data.count < count then
 			if Inventory.RemoveItem(fromInventory, item, data.count, data.metadata, slot) then
 				if server.loglevel > 0 then

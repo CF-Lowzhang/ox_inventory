@@ -72,8 +72,14 @@ local function createShop(shopType, id)
 	local shop = Shops[shopType]
 
 	if not shop then return end
+	local locationss = locations
+	if locations == 'targets' then
+        if #shop.targets == 0 then
+        	locationss = 'locations'
+        end
+	end
 
-	local store = (shop[locations] or shop.locations)?[id]
+	local store = (shop[locationss] or shop.locationss)?[id]
 
 	if not store then return end
 
@@ -86,6 +92,9 @@ local function createShop(shopType, id)
             coords = vec3(store.loc.x, store.loc.y, z)
         else
             coords = store.coords or store.loc
+        end
+        if #shop.targets == 0 then
+        	coords = store
         end
     else
         coords = store
@@ -120,14 +129,12 @@ end)
 
 lib.callback.register('ox_inventory:openShop', function(source, data)
 	local left, shop = Inventory(source)
-
 	if not left then return end
 
 	if data then
 		shop = Shops[data.type]
 
 		if not shop then return end
-
 		if not shop.items then
 			shop = (data.id and shop[data.id] or createShop(data.type, data.id))
 

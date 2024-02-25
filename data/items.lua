@@ -55,6 +55,11 @@ return {
             event = 'CF_General:UseCrutch'
         }
     },
+    ['devitems'] = {
+        label = '技術組物品',
+        weight = 0,
+        consume = 0,
+    },
     ['wheelchair'] = {
         label = 'Wheelchair',
         weight = 540,
@@ -1206,21 +1211,21 @@ return {
 		close = true,
 	},
 
-	["radio"] = {
-		label = "無線電",
-		weight = 100,
-		stack = false,
-		close = false,
-		client = {
-			event = 'CF_Radio:openRadio',
-			remove = function(total)
-				if total < 1 then
-					print(total)
-					TriggerEvent('we_radio:disableRadio')
-				end
-			end
-		}
-	},
+    ["radio"] = {
+        label = "無線電",
+        weight = 100,
+        stack = false,
+        close = false,
+        client = {
+            event = 'CF_Radio:openRadio',
+            remove = function(total)
+                if total < 1 then
+                    print(total)
+                    TriggerEvent('we_radio:disableRadio')
+                end
+            end
+        }
+    },
 
 	["slaughtered_chicken"] = {
 		label = "Slaughtered chicken",
