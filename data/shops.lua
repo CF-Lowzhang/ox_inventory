@@ -6,8 +6,163 @@ return {
 					 { name = 'radio', price = 0 ,currency = 'money'},
 					 { name = 'notepad', price = 0 ,currency = 'money'},
 					 { name = 'crutch', price = 0 ,currency = 'money'},
+					 { name = 'wheelchair', price = 0 ,currency = 'money'},
+					 { name = 'yns1-gold', price = 0 ,currency = 'money'},
+					 { name = 'yns1-notepad', price = 0 ,currency = 'money'},
+					 { name = 'yns1-pyrite', price = 0 ,currency = 'money'},
+					 { name = 'yns1-scarab', price = 0 ,currency = 'money'},
 		}, locations = {
 			vector3(-1268.28, -3005.08, -48.48)
+		}, targets = {},
+	},	
+	YNS1_Resort = {
+	 name = '渡假村點餐處',
+	 inventory = {	 					 
+					 { name = 'f32-1', price = 0 ,currency = 'money'},
+					 { name = 'f374-1', price = 0 ,currency = 'money'},
+					 { name = 'f36-1', price = 0 ,currency = 'money'},
+					 { name = 'f35-1', price = 0 ,currency = 'money'},
+					 { name = 'f42-1', price = 0 ,currency = 'money'},
+					 { name = 'f396-1', price = 0 ,currency = 'money'},
+					 { name = 'f710-1', price = 0 ,currency = 'money'},
+					 { name = 'f572-1', price = 0 ,currency = 'money'},
+					 { name = 'f575-1', price = 0 ,currency = 'money'},
+					 { name = 'f400-1', price = 0 ,currency = 'money'},
+					 { name = 'f402-1', price = 0 ,currency = 'money'},
+					 { name = 'f886-1', price = 0 ,currency = 'money'},
+					 { name = 'f233-1', price = 0 ,currency = 'money'},
+					 { name = 'f403-1', price = 0 ,currency = 'money'},
+					 { name = 'f13-1', price = 0 ,currency = 'money'},
+
+		}, locations = {
+			vector3(-3021.88, 41.2, 10.12),
+		}, targets = {
+			--{loc = vector3(324.72, -584.28, 42.28), length = 0.5, width = 3.0, heading = 153.0, minZ = 40.28, maxZ = 43.28, distance = 6 },
+		},
+	},
+
+	YNS1_Coffee = {
+	 name = '咖啡廳點餐處',
+	 inventory = {	 					 
+	 				{ name = 'f986-1', price = 0 ,currency = 'money'},
+					 { name = 'f987-1', price = 0 ,currency = 'money'},
+					 { name = 'f988-1', price = 0 ,currency = 'money'},
+					 { name = 'f989-1', price = 0 ,currency = 'money'},
+					 { name = 'f990-1', price = 0 ,currency = 'money'},
+					 { name = 'f991-1', price = 0 ,currency = 'money'},
+					 { name = 'f604-1', price = 0 ,currency = 'money'},
+					 { name = 'f605-1', price = 0 ,currency = 'money'},
+					 { name = 'f509-1', price = 0 ,currency = 'money'},
+					 { name = 'f607-1', price = 0 ,currency = 'money'},
+					 { name = 'f504-1', price = 0 ,currency = 'money'},
+					 { name = 'f581-1', price = 0 ,currency = 'money'},
+					 { name = 'f503-1', price = 0 ,currency = 'money'},
+					 { name = 'f506-1', price = 0 ,currency = 'money'},
+					 { name = 'f514-1', price = 0 ,currency = 'money'},
+					 { name = 'f18-2', price = 0 ,currency = 'money'},
+					 { name = 'f557-1', price = 0 ,currency = 'money'},
+					 { name = 'c7-1', price = 0 ,currency = 'money'},
+		}, locations = {
+			vector3(-634.04, 233.8, 81.88),
+		}, targets = {
+			--{loc = vector3(324.72, -584.28, 42.28), length = 0.5, width = 3.0, heading = 153.0, minZ = 40.28, maxZ = 43.28, distance = 6 },
+		},
+	},
+
+	YNS1_Shopping = {
+	 name = '商場購買處',
+	 inventory = {	 { name = 't9-1', price = 0 ,currency = 'money'},
+					 { name = 't21-1', price = 0 ,currency = 'money'},
+					 { name = 't22-1', price = 0 ,currency = 'money'},
+					 { name = 't29-1', price = 0 ,currency = 'money'},
+					 { name = 't30-1', price = 0 ,currency = 'money'},
+					 { name = 's117-1', price = 0 ,currency = 'money'},
+					 { name = 's121-1', price = 0 ,currency = 'money'},
+					 { name = 'f271-1', price = 0 ,currency = 'money'},
+					 { name = 't58-2', price = 0 ,currency = 'money'},
+					 { name = 't81-1', price = 0 ,currency = 'money'},
+					 { name = 'f675-2', price = 0 ,currency = 'money'},
+					 { name = 'f710-1', price = 0 ,currency = 'money'},
+					 { name = 't109-1', price = 0 ,currency = 'money'},
+					 { name = 't111-1', price = 0 ,currency = 'money'},
+					 { name = 's280-1', price = 0 ,currency = 'money'},
+					 { name = 's282-1', price = 0 ,currency = 'money'},
+					 { name = 't116-1', price = 0 ,currency = 'money'},
+					 { name = 't117-1', price = 0 ,currency = 'money'},
+					 { name = 't127-1', price = 0 ,currency = 'money'},
+					 { name = 's263-8', price = 0 ,currency = 'money'},
+					 { name = 's359-1', price = 0 ,currency = 'money'},
+					 { name = 't187-1', price = 0 ,currency = 'money'},
+					 { name = 't188-1', price = 0 ,currency = 'money'},
+					 { name = 't189-1', price = 0 ,currency = 'money'},
+					 { name = 't190-1', price = 0 ,currency = 'money'},
+
+		}, locations = {
+			vector3(-552.12, -584.6, 34.68),
+		}, targets = {
+			--{loc = vector3(324.72, -584.28, 42.28), length = 0.5, width = 3.0, heading = 153.0, minZ = 40.28, maxZ = 43.28, distance = 6 },
+		},
+	},
+
+
+	YNS1_Resturant = {
+	 name = '購買餐點處',
+	 inventory = {	 { name = 'f509-1', price = 0 ,currency = 'money'},
+					 { name = 'f520-1', price = 0 ,currency = 'money'},
+					 { name = 'f528-1', price = 0 ,currency = 'money'},
+					 { name = 'f25-2', price = 0 ,currency = 'money'},
+					 { name = 'f552-1', price = 0 ,currency = 'money'},
+					 { name = 'f660-1', price = 0 ,currency = 'money'},
+					 { name = 'f567-1', price = 0 ,currency = 'money'},
+					 { name = 'f580-1', price = 0 ,currency = 'money'},
+					 { name = 'f500-1', price = 0 ,currency = 'money'},
+					 { name = 'f505-1', price = 0 ,currency = 'money'},
+					 { name = 'f508-1', price = 0 ,currency = 'money'},
+					 { name = 'f578-1', price = 0 ,currency = 'money'},
+					 { name = 'f575-1', price = 0 ,currency = 'money'},
+					 { name = 'f202-1', price = 0 ,currency = 'money'},
+					 { name = 'f522-1', price = 0 ,currency = 'money'},
+		}, locations = {
+			vector3(-1838.8, -1184.2, 14.32),
+		}, targets = {
+			--{loc = vector3(324.72, -584.28, 42.28), length = 0.5, width = 3.0, heading = 153.0, minZ = 40.28, maxZ = 43.28, distance = 6 },
+
+		},
+	},	
+	YNS1_hospital_Shop = {
+	 name = '醫療品購買處',
+	 inventory = {
+					 { name = 't4-1', price = 0 ,currency = 'money'},
+					 { name = 't19-1', price = 0 ,currency = 'money'},
+					 { name = 'm6-1', price = 0 ,currency = 'money'},
+					 { name = 'm8-1', price = 0 ,currency = 'money'},
+					 { name = 'm12-1', price = 0 ,currency = 'money'},
+					 { name = 'm15-1', price = 0 ,currency = 'money'},
+					 { name = 'm16-1', price = 0 ,currency = 'money'},
+					 { name = 'm17-1', price = 0 ,currency = 'money'},
+					 { name = 'm20-1', price = 0 ,currency = 'money'},
+					 { name = 'm21-1', price = 0 ,currency = 'money'},
+					 { name = 'm26-1', price = 0 ,currency = 'money'},
+					 { name = 'm2-2', price = 0 ,currency = 'money'},
+					 { name = 'm40-1', price = 0 ,currency = 'money'},
+					 { name = 'm42-1', price = 0 ,currency = 'money'},
+					 { name = 'm34-1', price = 0 ,currency = 'money'},
+	}, 
+	groups = {["YN_care"] = 0,["god"] = 0,["star"] = 0},
+	locations = {
+			vector3(324.2, -585.04, 43.28),
+	}, 
+	targets = {
+			--{loc = vector3(324.72, -584.28, 42.28), length = 0.5, width = 3.0, heading = 153.0, minZ = 40.28, maxZ = 43.28, distance = 6 },
+
+	},
+	},	
+	YNS1_hospital = {
+	 name = '輪椅領取區',
+	 inventory = {
+					 { name = 'wheelchair', price = 0 ,currency = 'money'},
+		}, locations = {
+			vector3(309.56, -585.8, 43.28)
 		}, targets = {},
 	},	
 	godItem_C = {

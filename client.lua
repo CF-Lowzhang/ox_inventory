@@ -834,6 +834,7 @@ local function registerCommands()
 	registerCommands = nil
 end
 
+
 function client.keybindOpper()
 	if invOpen then
 		return client.closeInventory()
@@ -859,6 +860,8 @@ end
 
 
 RegisterNetEvent('ox_inventory:keybindOpper', client.keybindOpper)
+
+
 
 function client.closeInventory(server)
 	-- because somehow people are triggering this when the inventory isn't loaded
@@ -1047,7 +1050,6 @@ local function createDrop(dropId, data)
 		instance = data.instance,
 		model = data.model
 	})
-
 	if point.model or client.dropprops then
 		point.distance = 30
 		point.onEnter = onEnterDrop
@@ -1055,7 +1057,7 @@ local function createDrop(dropId, data)
 	else
 		point.nearby = nearbyDrop
 	end
-
+	
 	client.drops[dropId] = point
 end
 

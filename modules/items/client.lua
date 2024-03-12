@@ -384,6 +384,15 @@ Item('notepage', function(data, slot)
 		end
 	end)
 end)
+Item('yns1-notepad', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data.metadata.note then
+			TriggerEvent('CF_YNS1_notepad:ReadItem', data.metadata.note)
+		else
+			ExecuteCommand('YNS1_wnotepad '.. data.slot)
+		end
+	end)
+end)
 
 Item('t179-1', function(data, slot)
 	local metadata = slot.metadata
@@ -4981,6 +4990,13 @@ Item('s341-1', function(data, slot)
 	end)
 end)
 
+Item('wheelchair', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+        	ExecuteCommand('wheelchair')
+		end
+	end)
+end)
 
 -----------------------------------------------------------------------------------------------
 

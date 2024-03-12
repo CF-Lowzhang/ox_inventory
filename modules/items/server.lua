@@ -232,7 +232,6 @@ CreateThread(function()
 	shared.ready = true
 end)
 
-
 local function GenerateText(num)
 	local str
 	repeat str = {}

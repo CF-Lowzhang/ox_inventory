@@ -16,6 +16,43 @@ return {
             test = "what an amazingly delicious burger, amirite?"
         }
     },
+    ['yns1-gold'] = {
+        label = '黃金礦',--'筆記本',
+        weight = 800,
+        stack = 1,
+        close = 1,
+        consume = 0,
+        client = {
+        }
+    },
+    ['yns1-notepad'] = {
+        label = '莎草紙',--'筆記本',
+        weight = 20,
+        stack = false,
+        close = true,
+        consume = 0,
+        description = '一寫上就無法擦去。',
+        client = {
+        }
+    },
+    ['yns1-pyrite'] = {
+        label = '黃鐵礦',--'筆記本',
+        weight = 800,
+        stack = 1,
+        close = 1,
+        consume = 0,
+        client = {
+        }
+    },
+    ['yns1-scarab'] = {
+        label = '聖甲蟲',--'筆記本',
+        weight = 800,
+        stack = 1,
+        close = 1,
+        consume = 0,
+        client = {
+        }
+    },
     ['notepad'] = {
         label = '筆記本',--'筆記本',
         weight = 100,
@@ -61,8 +98,8 @@ return {
         consume = 0,
     },
     ['wheelchair'] = {
-        label = 'Wheelchair',
-        weight = 540,
+        label = '攜帶式輪椅',
+        weight = 544,
         stack = false,
         close = true,
     },
