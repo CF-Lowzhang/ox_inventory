@@ -1,4 +1,5 @@
 return {
+<<<<<<< HEAD
     ["testburger"] = {
         label = " ",
          --'Test Burger',
@@ -1068,6 +1069,117 @@ return {
 
 	["alive_chicken"] = {
 		label = "Living chicken",
+=======
+	['testburger'] = {
+		label = 'Test Burger',
+		weight = 220,
+		degrade = 60,
+		client = {
+			image = 'burger_chicken.png',
+			status = { hunger = 200000 },
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'ox_inventory_examples.testburger'
+		},
+		server = {
+			export = 'ox_inventory_examples.testburger',
+			test = 'what an amazingly delicious burger, amirite?'
+		},
+		buttons = {
+			{
+				label = 'Lick it',
+				action = function(slot)
+					print('You licked the burger')
+				end
+			},
+			{
+				label = 'Squeeze it',
+				action = function(slot)
+					print('You squeezed the burger :(')
+				end
+			},
+			{
+				label = 'What do you call a vegan burger?',
+				group = 'Hamburger Puns',
+				action = function(slot)
+					print('A misteak.')
+				end
+			},
+			{
+				label = 'What do frogs like to eat with their hamburgers?',
+				group = 'Hamburger Puns',
+				action = function(slot)
+					print('French flies.')
+				end
+			},
+			{
+				label = 'Why were the burger and fries running?',
+				group = 'Hamburger Puns',
+				action = function(slot)
+					print('Because they\'re fast food.')
+				end
+			}
+		},
+		consume = 0.3
+	},
+
+	['bandage'] = {
+		label = 'Bandage',
+		weight = 115,
+		client = {
+			anim = { dict = 'missheistdockssetup1clipboard@idle_a', clip = 'idle_a', flag = 49 },
+			prop = { model = `prop_rolled_sock_02`, pos = vec3(-0.14, -0.14, -0.08), rot = vec3(-50.0, -50.0, 0.0) },
+			disable = { move = true, car = true, combat = true },
+			usetime = 2500,
+		}
+	},
+
+	['black_money'] = {
+		label = 'Dirty Money',
+	},
+
+	['burger'] = {
+		label = 'Burger',
+		weight = 220,
+		client = {
+			status = { hunger = 200000 },
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			notification = 'You ate a delicious burger'
+		},
+	},
+
+	['sprunk'] = {
+		label = 'Sprunk',
+		weight = 350,
+		client = {
+			status = { thirst = 200000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_ld_can_01`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			notification = 'You quenched your thirst with a sprunk'
+		}
+	},
+
+	['parachute'] = {
+		label = 'Parachute',
+		weight = 8000,
+		stack = false,
+		client = {
+			anim = { dict = 'clothingshirt', clip = 'try_shirt_positive_d' },
+			usetime = 1500
+		}
+	},
+
+	['garbage'] = {
+		label = 'Garbage',
+	},
+
+	['paperbag'] = {
+		label = 'Paper Bag',
+>>>>>>> upstream/main
 		weight = 1,
 		stack = true,
 		close = true,
@@ -1078,6 +1190,11 @@ return {
 		weight = 2,
 		stack = true,
 		close = true,
+	['identification'] = {
+		label = 'Identification',
+		client = {
+			image = 'card_id.png'
+		}
 	},
 
 	["blowpipe"] = {
@@ -1148,6 +1265,13 @@ return {
 		weight = 1,
 		stack = true,
 		close = true,
+	['mastercard'] = {
+		label = 'Fleeca Card',
+		stack = false,
+		weight = 10,
+		client = {
+			image = 'card_bank.png'
+		}
 	},
 
 	["fabric"] = {
