@@ -15,13 +15,13 @@ local function vehicleIsCycle(vehicle)
 	return class == 8 or class == 13
 end
 
-function Weapon.Equip(item, data, noWeaponAnim)
+function Weapon.Equip(item, data)
 	local playerPed = cache.ped
 	local coords = GetEntityCoords(playerPed, true)
     local sleep
 
 	if client.weaponanims then
-		if noWeaponAnim or (cache.vehicle and vehicleIsCycle(cache.vehicle)) then
+		if cache.vehicle and vehicleIsCycle(cache.vehicle) then
 			goto skipAnim
 		end
 
@@ -86,10 +86,7 @@ function Weapon.Equip(item, data, noWeaponAnim)
 	end
 
 	TriggerEvent('ox_inventory:currentWeapon', item)
-
-	if client.weaponnotify then
-		Utils.ItemNotify({ item, 'ui_equipped' })
-	end
+	Utils.ItemNotify({ item, 'ui_equipped' })
 
 	return item, sleep
 end
@@ -98,7 +95,10 @@ function Weapon.Disarm(currentWeapon, noAnim)
 	if currentWeapon?.timer then
 		currentWeapon.timer = nil
 
-        TriggerServerEvent('ox_inventory:updateWeapon')
+		if source == '' then
+			TriggerServerEvent('ox_inventory:updateWeapon')
+		end
+
 		SetPedAmmo(cache.ped, currentWeapon.hash, 0)
 
 		if client.weaponanims and not noAnim then
@@ -123,10 +123,7 @@ function Weapon.Disarm(currentWeapon, noAnim)
 
 		::skipAnim::
 
-		if client.weaponnotify then
-			Utils.ItemNotify({ currentWeapon, 'ui_holstered' })
-		end
-
+		Utils.ItemNotify({ currentWeapon, 'ui_holstered' })
 		TriggerEvent('ox_inventory:currentWeapon')
 	end
 

@@ -61,17 +61,19 @@ end
 local function hasItem(items, amount)
     amount = amount or 1
 
-    if type(items) == 'table' then
-        for _, v in pairs(items) do
-            if Inventory.GetItemCount(v) < amount then
+    local count = Inventory.Search('count', items)
+
+    if type(items) == 'table' and type(count) == 'table' then
+        for _, v in pairs(count) do
+            if v < amount then
                 return false
             end
         end
 
         return true
-    else
-        return Inventory.GetItemCount(items) >= amount
     end
+
+    return count >= amount
 end
 
 AddStateBagChangeHandler('inv_busy', ('player:%s'):format(cache.serverId), function(_, _, value)

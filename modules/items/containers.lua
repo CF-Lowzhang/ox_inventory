@@ -58,9 +58,15 @@ setContainerProperties('paperbag', {
 })
 
 setContainerProperties('pizzabox', {
-	slots = 5,
+	slots = 50,
 	maxWeight = 1000,
 	whitelist = { 'pizza' }
+})
+
+setContainerProperties('t93-1', {
+	slots = 200,
+	maxWeight = 4000,
+	whitelist = { 'yns1_key1','yns1_key2' }
 })
 
 return containers
