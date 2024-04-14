@@ -253,6 +253,11 @@ Item('yns1-notepad', function(data, slot)
 		end
 	end)
 end)
+Item('yns1-look2', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		ExecuteCommand('showPic yns1_look2')
+	end)
+end)
 
 ---------------------
 -- 房蝕 (FSZ1)Item
@@ -267,6 +272,13 @@ Item('fs_dirtynote', function(data, slot)
 					end
 				end
 			end)
+		end
+	end)
+end)
+Item('fs_needle', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			TriggerEvent('CF_General:FSZ1:needle')
 		end
 	end)
 end)
@@ -301,11 +313,29 @@ Item('fs_diary2', function(data, slot)
 		end
 	end)
 end)
+Item('fs_blood1', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			Citizen.CreateThread(function()
+				TriggerEvent('CF_MenuViewer:open','fs_blood1')
+			end)
+		end
+	end)
+end)
+Item('fs_blood2', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			Citizen.CreateThread(function()
+				TriggerEvent('CF_MenuViewer:open','fs_blood2')
+			end)
+		end
+	end)
+end)
 Item('fs_ig1', function(data, slot)
 	ox_inventory:useItem(data, function(data)
 		if data then
 			Citizen.CreateThread(function()
-				TriggerEvent('CF_MenuViewer:open','test_catr')
+				TriggerEvent('CF_MenuViewer:open','fs_ig1')
 			end)
 		end
 	end)
@@ -314,7 +344,7 @@ Item('fs_ig2', function(data, slot)
 	ox_inventory:useItem(data, function(data)
 		if data then
 			Citizen.CreateThread(function()
-				TriggerEvent('CF_MenuViewer:open','test_catr')
+				TriggerEvent('CF_MenuViewer:open','fs_ig2')
 			end)
 		end
 	end)
@@ -323,7 +353,7 @@ Item('fs_ig3', function(data, slot)
 	ox_inventory:useItem(data, function(data)
 		if data then
 			Citizen.CreateThread(function()
-				TriggerEvent('CF_MenuViewer:open','test_catr')
+				TriggerEvent('CF_MenuViewer:open','fs_ig3')
 			end)
 		end
 	end)
@@ -391,6 +421,45 @@ Item('fs_note10', function(data, slot)
 		if data then
 			Citizen.CreateThread(function()
 				TriggerEvent('CF_MenuViewer:open','fs_note10')
+			end)
+		end
+	end)
+end)
+Item('fs_movie1', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			Citizen.CreateThread(function()
+				if data.metadata then
+					if data.metadata.imageview then
+						TriggerEvent('CF_MenuViewer:open',data.metadata.imageview)
+					end
+				end
+			end)
+		end
+	end)
+end)
+Item('fs_medicenrecord', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			Citizen.CreateThread(function()
+				if data.metadata then
+					if data.metadata.imageview then
+						TriggerEvent('CF_MenuViewer:open',data.metadata.imageview)
+					end
+				end
+			end)
+		end
+	end)
+end)
+Item('fs_medicenrecord2', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			Citizen.CreateThread(function()
+				if data.metadata then
+					if data.metadata.imageview then
+						TriggerEvent('CF_MenuViewer:open',data.metadata.imageview)
+					end
+				end
 			end)
 		end
 	end)
@@ -1539,6 +1608,24 @@ Item('t4-4', function(data, slot)
 		end
 	end)
 end)
+Item('t5-2', function(data, slot)
+	if true then
+		ox_inventory:useItem(data, function(data)
+			if data then
+				ExecuteCommand('basketball')
+			end
+		end)
+	end
+end)
+Item('t5-3', function(data, slot)
+	if true then
+		ox_inventory:useItem(data, function(data)
+			if data then
+				ExecuteCommand('football')
+			end
+		end)
+	end
+end)
 Item('t13-1', function(data, slot)
 	if true then
 		ox_inventory:useItem(data, function(data)
@@ -1699,6 +1786,15 @@ Item('t68-1', function(data, slot)
 		end
 	end)
 end)
+Item('t74-1', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+        	TriggerEvent('CF_General:NEWS:Toggle')
+		end
+	end)
+end)
+
+
 Item('t77-1', function(data, slot)
 	ox_inventory:useItem(data, function(data)
 		if data then
@@ -1771,7 +1867,86 @@ Item('t81-2', function(data, slot)
 		end
 	end)
 end)
+Item('t81-4', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+		    Citizen.CreateThread(function()
+		        if lib.progressCircle({
+		            label = '使用中...',
+		            duration = 8000,
+		            position = 'bottom',
+				    anim = {
+				        dict = 'mp_safehouseshower@male@',
+				        clip = 'male_shower_idle_b'
+				    },
+		            useWhileDead = false,
+		            canCancel = true,
+		            }) then 
 
+					ApplyPedDamagePack(GetPlayerPed(-1),"HOSPITAL_5", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"HOSPITAL_6", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"HOSPITAL_7", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"HOSPITAL_8", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"HOSPITAL_9", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"SCR_Dumpster", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"BigHitByVehicle", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"SCR_Finale_Michael_Face", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"SCR_Franklin_finb", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"SCR_Finale_Michael", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"SCR_Franklin_finb2", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"Explosion_Med", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"SCR_Torture", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"SCR_TracySplash", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"Skin_Melee_0", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"Useful_Bits", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"Explosion_Large", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"Dirt_Dry", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"Dirt_Grass", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"Dirt_Mud", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"Burnt_Ped_Left_Arm", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"Burnt_Ped_Right_Arm", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"Burnt_Ped_Limbs", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"Burnt_Ped_Head_Torso", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"Burnt_Ped_0", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"Car_Crash_Light", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"Car_Crash_Heavy", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"Fall_Low", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"Fall", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"HitByVehicle", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"BigRunOverByVehicle", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"RunOverByVehicle", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"Splashback_Face_0", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"Splashback_Face_1", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"Splashback_Torso_0", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"Splashback_Torso_1", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"SCR_Cougar", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"SCR_DogAttack", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"SCR_Shark", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"TD_KNIFE_FRONT", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"TD_KNIFE_FRONT_VA", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"TD_KNIFE_FRONT_VB", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"TD_KNIFE_REAR", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"TD_KNIFE_REAR_VA", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"TD_KNIFE_REAR_VB", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"TD_KNIFE_STEALTH", 100, 100)
+					ApplyPedDamagePack(GetPlayerPed(-1),"TD_MELEE_FRONT", 100, 100)
+
+		    		lib.notify({title = '擦拭系統',description = '使用完成',type = 'info'})
+		        else
+		    		lib.notify({title = '擦拭系統',description = '使用取消',type = 'error'})
+		        end
+		    end)
+		end
+	end)
+end)
+
+Item('t82-1', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			TriggerEvent('CF_Target:GYM:Item_Menu')
+		end
+	end)
+end)
 Item('t85-1', function(data, slot)
 	ox_inventory:useItem(data, function(data)
 		if data then
@@ -3143,6 +3318,34 @@ Item('s210-2', function(data, slot)
                 Citizen.Wait(10*1000)
             	TriggerServerEvent("stadus_skills:updatePlayerInfo", GetPlayerServerId(PlayerId(-1)))
             end, GetPlayerServerId(PlayerId(-1)))
+		end
+	end)
+end)
+Item('s250-1', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			ExecuteCommand('GOLFF')
+		end
+	end)
+end)
+Item('s250-2', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			ExecuteCommand('GOLFF')
+		end
+	end)
+end)
+Item('s250-3', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			ExecuteCommand('GOLFF')
+		end
+	end)
+end)
+Item('s250-4', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			ExecuteCommand('GOLFF')
 		end
 	end)
 end)
@@ -4782,6 +4985,16 @@ end)
 ----------------------------------------------------------------
 -- 未分類U(Unsort) Item
 ----------------------------------------------------------------
+
+Item('golfbagx', function(data, slot)
+	if true then
+		ox_inventory:useItem(data, function(data)
+			if data then
+				ExecuteCommand('GOLF')
+			end
+		end)
+	end
+end)
 
 Item('bandage', function(data, slot)
 	local maxHealth = GetEntityMaxHealth(cache.ped)

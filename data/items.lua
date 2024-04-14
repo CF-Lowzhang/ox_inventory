@@ -33,7 +33,7 @@ return {
         },
         ["phone"] = {
             label = "手機",
-            weight = 1,
+            weight = 100,
             stack = true,
             close = true,
         },
@@ -53,6 +53,22 @@ return {
             }
         },
 
+        ['acar_keys'] = {
+            label = '萬能車鑰匙',--'萬能車鑰匙',
+            weight = 200,
+            stack = true,
+            close = true,
+            client = {}
+        }, 
+        ['car_keys'] = {
+            label = '車鑰匙',--'車鑰匙',
+            weight = 200,
+            stack = false,
+            close = true,
+            client = {
+                event = 'CF_VehicleKey:LockUnlock'
+            }
+        },
         ----------------------------------------------------------------
         -- YNS1 Item
         ----------------------------------------------------------------
@@ -130,11 +146,90 @@ return {
             stack = false,
             close = true,
         },
+        ['yns1-look2'] = {
+            label = '最後的機會地圖',--'筆記本',
+            weight = 1,
+            stack = 1,
+            close = 1,
+            consume = 0,
+        },
 
         ----------------------------------------------------------------
         -- FSZ1 Item
         ----------------------------------------------------------------
 
+        ['fs_brokenphone'] = {
+            label = '壞掉手機',
+            weight = 100,
+            stack = false,
+            close = true,
+            consume = 0,
+            description = '無論怎麼使用，都沒有回應。',
+        },
+        ['fs_brokenradio'] = {
+            label = '壞掉無線電',
+            weight = 100,
+            stack = false,
+            close = true,
+            consume = 0,
+            description = '無論怎麼使用，都沒有回應。',
+        },
+        ['fs_blood1'] = {
+            label = '鮮血紙條',
+            weight = 1,
+            stack = false,
+            close = true,
+            consume = 0,
+            description = '沾滿血的紙條',
+        },
+        ['fs_blood2'] = {
+            label = '鮮血紙條',
+            weight = 1,
+            stack = false,
+            close = true,
+            consume = 0,
+            description = '沾滿血的紙條',
+        },
+        ['fs_movie1'] = {
+            label = '影片截圖',
+            weight = 1,
+            stack = false,
+            close = true,
+            consume = 0,
+            description = '影音平台的某部影片截圖',
+        },
+        ['fs_needle'] = {
+            label = '奶奶的針',
+            weight = 5,
+            stack = false,
+            close = true,
+            consume = 0,
+            description = '乍看之下只是個普通的針，但可以感覺到很溫暖的氣息。',
+        },
+        ['fs_evil'] = {
+            label = '惡魔之書',
+            weight = 6666,
+            stack = false,
+            close = true,
+            consume = 0,
+            description = '上面依序寫著劉少欽、簡愛美、歐陽薰、陳甄、伊琪婉、程冠漪、李以恩、孫仲天、南宮翎、李展青。最底下浮現一行字「死仇不報，此書不滅。欲滅此書，尋親鋒芒，破其封扉」',
+        },
+        ['fs_medicenrecord'] = {
+            label = '診療紀錄',
+            weight = 1,
+            stack = false,
+            close = true,
+            consume = 0,
+            description = '某醫院的就醫診療紀錄，上面的字跡很模糊閱讀起來有點吃力。',
+        },
+        ['fs_medicenrecord2'] = {
+            label = '陳舊的診斷證明',
+            weight = 1,
+            stack = false,
+            close = true,
+            consume = 0,
+            description = '李展青的就醫診斷紀錄。',
+        },
         ['fs_dirtynote'] = {
             label = '髒紙條',--'筆記本',
             weight = 1,
@@ -158,7 +253,6 @@ return {
             close = true,
             consume = 0,
         },
-
         ['fs_diary1'] = {
             label = '李展青的日記殘片1',--'筆記本',
             weight = 3,
@@ -176,28 +270,28 @@ return {
             description = '一本使用痕跡累累的日記本，不知道為什麼紙張有種被水沾濕過又乾涸的捲曲感。',
         },
         ['fs_ig1'] = {
-            label = '5號的IG紀錄1',--'筆記本',
+            label = 'IG截圖影本1',--'筆記本',
             weight = 3,
             stack = false,
             close = true,
             consume = 0,
-            description = '不知道誰印下來的社群軟體截圖',
+            description = '不知道是誰印下來的IG截圖。',
         },
         ['fs_ig2'] = {
-            label = '5號的IG紀錄2',--'筆記本',
+            label = 'IG截圖影本2',--'筆記本',
             weight = 3,
             stack = false,
             close = true,
             consume = 0,
-            description = '不知道誰印下來的社群軟體截圖',
+            description = '不知道是誰印下來的IG截圖。',
         },
         ['fs_ig3'] = {
-            label = '5號的IG紀錄3',--'筆記本',
+            label = 'IG截圖影本3',--'筆記本',
             weight = 3,
             stack = false,
             close = true,
             consume = 0,
-            description = '不知道誰印下來的社群軟體截圖',
+            description = '不知道是誰印下來的IG截圖。',
         },
         ['fs_destroy1'] = {
             label = '被撕毀的作業',--'筆記本',
@@ -208,12 +302,12 @@ return {
             description = '無法辨識是誰的作業，隱約能看到成績非常高。',
         },
         ['fs_destroy2'] = {
-            label = '被毀損的書包',--'筆記本',
+            label = '破舊書包' ,-- '被毀損的書包',--'筆記本',
             weight = 200,
             stack = false,
             close = true,
             consume = 0,
-            description = '一個老舊的書包，感覺得出來使用了很長一段時間，但卻被惡意弄壞了。',
+            description = '上面佈滿污痕與惡意破壞的痕跡。',
         },
         ['fs_destroy3'] = {
             label = '髒亂的制服',--'筆記本',
@@ -224,12 +318,12 @@ return {
             description = '沾滿了泥土、髒污的制服…上面繡字處只隱約看得出來「子」「月」。',
         },
         ['fs_loveletter'] = {
-            label = '情書',--'筆記本',
-            weight = 3,
+            label = '陳舊的情書',--'筆記本',
+            weight = 5,
             stack = false,
             close = true,
             consume = 0,
-            description = '被揉爛的女用信紙，上面還有著沒黏性的愛心貼紙。',
+            description = '被揉爛的女用信紙，信封上寫著李展青以及沒黏性的愛心貼紙。內文模糊不清，但依稀看得出屬名者為陳甄。',
         },
         ['fs_deathnote'] = {
             label = '死亡證明書',--'筆記本',
@@ -280,8 +374,6 @@ return {
             description = '上面寫著謾罵的字眼',
         },
 
-
-
         ----------------------------------------------------------------
         -- Technology Testing Item
         ----------------------------------------------------------------
@@ -294,6 +386,35 @@ return {
         ["clothing"] = {
             label = "衣服",
             consume = 0
+        },
+        ['template_food'] = {
+            label = ' ',
+            weight = 300,
+            client = {
+                anim = 'eating',
+                prop = 'burger',
+                usetime = 2500,
+            },
+        },
+        ['template_drink'] = {
+            label = ' ',
+            weight = 300,
+            client = {
+                anim = 'drinking',
+                prop = 'bottle',
+                usetime = 2500,
+            },
+        },
+        ['template_useonly'] = {
+            label = ' ',
+            weight = 300,
+            client = {
+                usetime = 2500,
+            }
+        },
+        ['template_normal'] = {
+            label = ' ',
+            weight = 300,
         },
 
         ["whalepic_effectcard"] = {
@@ -326,7 +447,12 @@ return {
         ----------------------------------------------------------------
         -- Unsort Item
         ----------------------------------------------------------------
-
+        ["golfbagx"] = {
+            label = "高爾夫球袋",
+            weight = 1000,
+            stack = false,
+            close = true,
+        },
         ["testburger"] = {
             label = " ",
              --'Test Burger',

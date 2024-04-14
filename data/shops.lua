@@ -13,6 +13,7 @@ return {
 			 { name = 'yns1-scarab', price = 0 ,currency = 'money'},
 			 { name = 't22-1', price = 0 ,currency = 'money'},
 			 { name = 't93-1', price = 0 ,currency = 'money'},
+			 { name = 'yns1-look2', price = 0 ,currency = 'money'},
 		}, locations = {
 			vector3(-1268.00,-3005.00,-48.48)
 		}, targets = {},
@@ -20,6 +21,11 @@ return {
 	YNS1_Technology = {
 	 name = '遺念技術處',
 	 inventory = {
+				{ name = 'golfbagx', price = 0 ,currency = 'money'},
+				{ name = 't5-2', price = 0 ,currency = 'money'},
+				{ name = 't5-3', price = 0 ,currency = 'money'},
+				{ name = 't74-1', price = 0 ,currency = 'money'},
+				{ name = 't82-1', price = 0 ,currency = 'money'},
 				{ name = 'c7-1', price = 0 ,currency = 'money'},
 				{ name = 'c7-2', price = 0 ,currency = 'money'},
 				{ name = 'f13-1', price = 0 ,currency = 'money'},
@@ -385,7 +391,7 @@ return {
 	},	
 	FSZ1_Technology = {
 	 name = '房蝕技術處',
-	 inventory = {                    
+	 inventory = {            
 	 				{ name = 'fs_deathnote', price = 0 ,currency = 'money'},
                     { name = 'fs_destroy1', price = 0 ,currency = 'money'},
                     { name = 'fs_destroy2', price = 0 ,currency = 'money'},
@@ -408,7 +414,19 @@ return {
                     { name = 'fs_brokendiary',metadata = {imageview = 'fs_broken3' }, price = 0 ,currency = 'money'},
                     { name = 'fs_brokendiary',metadata = {imageview = 'fs_broken4' }, price = 0 ,currency = 'money'},
                     { name = 'fs_brokendiary',metadata = {imageview = 'fs_broken5' }, price = 0 ,currency = 'money'},
-			 
+                    { name = 'fs_movie1',metadata = {imageview = 'fs_movie1' }, price = 0 ,currency = 'money'},
+                    { name = 'fs_medicenrecord',metadata = {imageview = 'fs_medican1' }, price = 0 ,currency = 'money'},
+                    { name = 'fs_medicenrecord2',metadata = {imageview = 'fs_medican2' }, price = 0 ,currency = 'money'},
+                    { name = 'fs_brokenphone', price = 0 ,currency = 'money'},
+                    { name = 'fs_brokenradio', price = 0 ,currency = 'money'},
+                    { name = 'fs_blood1', price = 0 ,currency = 'money'},
+                    { name = 'fs_blood2', price = 0 ,currency = 'money'},
+                    { name = 'fs_needle', price = 0 ,currency = 'money'},
+                    { name = 'fs_evil', price = 0 ,currency = 'money'},
+					{ name = 't81-1', price = 0 ,currency = 'money'}, -- 毛巾
+					{ name = 't81-2', price = 0 ,currency = 'money'}, -- 熱毛巾
+					{ name = 't81-3', price = 0 ,currency = 'money'}, -- 髒毛巾
+					{ name = 't81-4', price = 0 ,currency = 'money'}, -- 髒毛巾
                     { name = 'fs_diary1', price = 0 ,currency = 'money'},
                     { name = 'fs_diary2', price = 0 ,currency = 'money'},
                     { name = 'fs_ig1', price = 0 ,currency = 'money'},
@@ -422,6 +440,7 @@ return {
 	FSZ1_Newbie = {
 	 name = '房蝕禮包處',
 	 inventory = {
+			 		{ name = 'notepad', price = 0 ,currency = 'money'},
 	 				{ name = 'm40-1', price = 0 ,currency = 'money'},
 					{ name = 't140-1', price = 0 ,currency = 'money'},
 					{ name = 'm26-1', price = 0 ,currency = 'money'},

@@ -69,4 +69,9 @@ setContainerProperties('t93-1', {
 	whitelist = { 'yns1_key1','yns1_key2' }
 })
 
+setContainerProperties('fs_destroy2', {
+	slots = 20,
+	maxWeight = 2000,
+})
+
 return containers

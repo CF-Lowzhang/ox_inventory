@@ -157,16 +157,18 @@ return {
         description = ""
     },
     ["t5-2"] = {
-        label = " ",
-         --'籃球',
-        weight = 0,
-        stack = true,
+        label = "籃球",
+        weight = 200,
+        stack = false,
         close = true,
-        consume = 1,
-        client = {
-            usetime = 0
-            --'wf_menuViewer:item'
-        }
+        consume = 0,
+    },
+    ["t5-3"] = {
+        label = "足球",
+        weight = 200,
+        stack = false,
+        close = true,
+        consume = 0,
     },
     ["t6-1"] = {
         label = " ",
@@ -1077,19 +1079,16 @@ return {
         close = true
     },
     ["t73-1"] = {
-        label = " ",
-         --'萬能鑰匙',
+        label = "萬能鑰匙",
         weight = 4,
         stack = true,
         close = true
     },
     ["t74-1"] = {
-        label = " ",
-         --'攝影套組',
-        weight = 1500,
-        stack = true,
+        label = "攝影套組",
+        weight = 4000,
+        stack = false,
         close = true,
-        description = "攝影套組"
     },
     ["t75-1"] = {
         label = " ",
@@ -1183,15 +1182,20 @@ return {
     },
     ["t81-3"] = {
         label = "髒毛巾",      --'髒毛巾',
-        weight = 200,
+        weight = 210,
+        stack = true,
+        close = true
+    },
+    ["t81-4"] = {
+        label = "血毛巾",      --'髒毛巾',
+        weight = 210,
         stack = true,
         close = true
     },
     ["t82-1"] = {
-        label = " ",
-         --'健身啞鈴',
+        label = "健身啞鈴",
         weight = 15000,
-        stack = true,
+        stack = false,
         close = true
     },
     ["t83-1"] = {

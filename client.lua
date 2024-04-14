@@ -178,7 +178,7 @@ function client.openInventory(inv, data)
 
 			local targetCoords = targetPed and GetEntityCoords(targetPed)
 
-			if not targetCoords or #(targetCoords - GetEntityCoords(playerPed)) > 1.8 or not (client.hasGroup(shared.police) or canOpenTarget(targetPed)) then
+			if not targetCoords or #(targetCoords - GetEntityCoords(playerPed)) > 1.8 then --or not (client.hasGroup(shared.police) or canOpenTarget(targetPed)) then
 				return lib.notify({ id = 'inventory_right_access', type = 'error', description = locale('inventory_right_access') })
 			end
 		end
@@ -776,6 +776,7 @@ local function registerCommands()
 	RegisterCommand('steal', openNearbyInventory, false)
 
 	local function openGlovebox(vehicle)
+		print('123456')
 		if not IsPedInAnyVehicle(playerPed, false) or not NetworkGetEntityIsNetworked(vehicle) then return end
 
 		local vehicleHash = GetEntityModel(vehicle)
@@ -919,7 +920,21 @@ function client.keybindOpper()
 	end
 
 	if cache.vehicle then
-		return openGlovebox(cache.vehicle)
+		if not IsPedInAnyVehicle(playerPed, false) or not NetworkGetEntityIsNetworked(cache.vehicle) then return end
+
+		local vehicleHash = GetEntityModel(cache.vehicle)
+		local vehicleClass = GetVehicleClass(cache.vehicle)
+		local checkVehicle = Vehicles.Storage[vehicleHash]
+
+		-- No storage or no glovebox
+		if (checkVehicle == 0 or checkVehicle == 2) or (not Vehicles.glovebox[vehicleClass] and not Vehicles.glovebox.models[vehicleHash]) then return end
+
+		local isOpen = client.openInventory('glovebox', { id = 'glove'..GetVehicleNumberPlateText(cache.vehicle), netid = NetworkGetNetworkIdFromEntity(cache.vehicle) })
+
+		if isOpen then
+			currentInventory.entity = cache.vehicle
+		end
+		return
 	end
 
 	local closest = lib.points.getClosestPoint()
@@ -1428,14 +1443,14 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
 						local ped = GetPlayerPed(id)
 						local pedCoords = GetEntityCoords(ped)
 
-						if not id or #(playerCoords - pedCoords) > 1.8 or not (client.hasGroup(shared.police) or canOpenTarget(ped)) then
+						if not id or #(playerCoords - pedCoords) > 1.8 then -- or not (client.hasGroup(shared.police) or canOpenTarget(ped)) then
 							client.closeInventory()
 							lib.notify({ id = 'inventory_lost_access', type = 'error', description = locale('inventory_lost_access') })
 						else
 							TaskTurnPedToFaceCoord(playerPed, pedCoords.x, pedCoords.y, pedCoords.z, 50)
 						end
 
-					elseif currentInventory.coords and (#(playerCoords - currentInventory.coords) > (currentInventory.distance or 2.0) or canOpenTarget(playerPed)) then
+					elseif currentInventory.coords and #(playerCoords - currentInventory.coords) > (currentInventory.distance or 2.0) then -- or canOpenTarget(playerPed)) then
 						client.closeInventory()
 						lib.notify({ id = 'inventory_lost_access', type = 'error', description = locale('inventory_lost_access') })
 					end
