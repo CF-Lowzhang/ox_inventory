@@ -66,12 +66,34 @@ setContainerProperties('pizzabox', {
 setContainerProperties('t93-1', {
 	slots = 200,
 	maxWeight = 4000,
-	whitelist = { 'yns1_key1','yns1_key2' }
+	whitelist = { 'yns1_key1','yns1_key2','t73-1'}
 })
 
 setContainerProperties('fs_destroy2', {
 	slots = 20,
 	maxWeight = 2000,
+})
+
+setContainerProperties('t79-1', {
+	slots = 20,
+	maxWeight = 2000,
+})
+
+setContainerProperties('t79-2', {
+	slots = 10,
+	maxWeight = 2000,
+})
+
+setContainerProperties('t79-4', {
+	slots = 60,
+	maxWeight = 6000,
+	whitelist = {'bpclothing'}
+})
+
+setContainerProperties('t79-5', {
+	slots = 60,
+	maxWeight = 6000,
+	whitelist = {'acar_keys','car_keys','t73-1'}
 })
 
 return containers

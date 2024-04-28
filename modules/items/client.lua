@@ -115,6 +115,52 @@ function multicheckItems(items)
     end
 	return true
 end
+
+
+function CheckItem(items,v,metadata,multi)
+    local SearchName = nil
+    local SearchValue = v or 1  
+    local ReturnData = {}
+    for k,item in ipairs(items) do
+        ReturnData[item] = 0
+        local Items = exports.ox_inventory:GetPlayerItems()
+        for _, v2 in pairs(Items) do
+            if v2.metadata then
+                if v2.metadata.container then
+                    local ItemsX = lib.callback.await('CF_General:Item:ContainerItemList', false, v2.slot)
+                    for i, v in ipairs(ItemsX) do
+                        table.insert(Items,v)
+                    end
+                end
+            end
+        end
+        for _,v in pairs(Items) do
+            if v.name == item then
+                if not v.metadata then v.metadata = {} end
+                if not metadata or lib.table.contains(v.metadata, {type=metadata}) then
+                    ReturnData[item] += v.count
+                end
+            end
+        end
+        if multi then
+            if ReturnData[item] < SearchValue then
+                return false
+            end
+        end
+    end
+    if multi then
+        return true  
+    else
+        for _,item in ipairs(items) do
+            if ReturnData[item] >= SearchValue then
+                return item
+            end
+        end
+    end
+    return SearchName
+end
+
+
 local function SetWeapon(pedid,weapon_name)
 	GiveWeaponToPed(pedid, GetHashKey(weapon_name), 1000, 0, false)
     SetCurrentPedWeapon(pedid, GetHashKey(weapon_name), true)
@@ -258,6 +304,40 @@ Item('yns1-look2', function(data, slot)
 		ExecuteCommand('showPic yns1_look2')
 	end)
 end)
+Item('yns1-cs0005-1', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+        lib.notify({duration = 10000,title = '道具提示 - 生理感受',description = '使吸菸者感受到愉悅感，有放鬆的效果。',type = 'inform'})
+		if data then
+			ExecuteCommand('e smoke')
+		end
+	end)
+end)
+Item('yns1-cs0009-1', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		ExecuteCommand('showPic yns1-CS0009-1 none 1')
+		xSound:PlayUrl('yns1-cs0009-1','yns1-CS0009-1',0.2,false)
+        lib.notify({duration = 10000,title = '道具提示 - 心理感受',description = '你感覺在你眼前出現了現在最想見到的人，然後漸漸在眼前消失，你會有強烈地想要留下他的衝動。',type = 'inform'})
+        lib.notify({duration = 10000,title = '道具提示 - 嗅覺感受',description = '你聞到花瓣淡淡的香氣。',type = 'inform'})
+	end)
+end)
+Item('yns1-cs0008-2', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+        TriggerEvent('CF_General:Heal:Heal3',-0.1)
+        lib.notify({duration = 10000,title = '道具提示 - 生理感受',description = '趕到嗜睡及嘔吐感...',type = 'inform'})
+	end)
+end)
+Item('yns1-cs0008-3', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+        ExecuteCommand('e champagnespray2')
+	end)
+end)
+Item('yns1-cs0008-5', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+        ExecuteCommand('showPic yns1-cs0008-5')
+	end)
+end)
+
+
 
 ---------------------
 -- 房蝕 (FSZ1)Item

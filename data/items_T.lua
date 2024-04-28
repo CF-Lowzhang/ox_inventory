@@ -1135,7 +1135,7 @@ return {
         }
     },
     ["t79-1"] = {
-        label = " ",
+        label = "袋子(20格)",
          --'小袋子(10格)',
         weight = 1,
         stack = false,
@@ -1143,7 +1143,7 @@ return {
         consume = 0
     },
     ["t79-2"] = {
-        label = " ",
+        label = "袋子(10格)",
          --'小袋子(5格)',
         weight = 1,
         stack = false,
@@ -1153,6 +1153,18 @@ return {
     ["t79-3"] = {
         label = " ",
          --'狗狗紙袋',
+        weight = 20,
+        stack = true,
+        close = true
+    },
+    ["t79-4"] = {
+        label = "袋子(衣服專用)",
+        weight = 20,
+        stack = true,
+        close = true
+    },
+    ["t79-5"] = {
+        label = "袋子(車鑰專用)",
         weight = 20,
         stack = true,
         close = true

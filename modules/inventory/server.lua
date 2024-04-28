@@ -266,6 +266,37 @@ end
 
 exports('GetContainerFromSlot', Inventory.GetContainerFromSlot)
 
+
+
+
+
+local ItemContainers = require 'modules.items.containers'
+
+
+---@param inv inventory
+---@param slotId numbe
+---@return OxInventory?
+function Inventory.GetContainerItemsFromPlayer(inv)
+	local InvenrotyItems = Inventory(inv).items
+	local ContainerItems = {}
+	for k,v in pairs(InvenrotyItems) do
+		if v.metadata.container then 
+    		local ContainerItemList = exports.ox_inventory:GetContainerFromSlot(inv,v.slot).items
+    		for kk,vv in pairs(ContainerItemList) do
+    			table.insert(ContainerItems,vv)
+    		end
+		end
+	end
+	return ContainerItems
+end
+
+exports('GetContainerItemsFromPlayer', Inventory.GetContainerItemsFromPlayer)
+
+
+
+
+
+
 ---@param inv? inventory
 ---@param ignoreId? number|false
 function Inventory.CloseAll(inv, ignoreId)
@@ -1047,6 +1078,14 @@ end
 
 exports('SetMaxWeight', Inventory.SetMaxWeight)
 
+
+local GainCount = 1
+RegisterServerEvent('CF_Crystal:GainCount:Set')
+AddEventHandler('CF_Crystal:GainCount:Set', function(data)
+	GainCount = tonumber(data)
+	--print('GainCount',data,GainCount)
+end)
+
 ---@param inv inventory
 ---@param item table | string
 ---@param count number
@@ -1065,7 +1104,8 @@ function Inventory.AddItem(inv, item, count, metadata, slot, cb)
 
 	local toSlot, slotMetadata, slotCount
 	local success, response = false
-	count = math.floor(count + 0.5)
+	count = math.floor(count*GainCount + 0.5)
+	--print(count,GainCount)
 	metadata = assertMetadata(metadata)
 
 	if slot then
@@ -1173,12 +1213,17 @@ exports('AddItem', Inventory.AddItem)
 ---@param items table | string
 ---@param metadata? table | string
 function Inventory.Search(inv, search, items, metadata)
+	local BackInv = inv
 	if items then
 		inv = Inventory(inv) --[[@as OxInventory]]
 
 		if inv then
 			inv = inv.items
-
+			--[[
+			for i,v in pairs(ItemList) do
+            	table.insert(inv,v)
+			end
+			]]
 			if search == 'slots' then search = 1 elseif search == 'count' then search = 2 end
 			if type(items) == 'string' then items = {items} end
 
@@ -1197,12 +1242,30 @@ function Inventory.Search(inv, search, items, metadata)
 				end
 
 				for _, v in pairs(inv) do
+					--print(_,v.name,item,v.slot,json.encode(returnData))
 					if v.name == item then
 						if not v.metadata then v.metadata = {} end
-
 						if not metadata or table.contains(v.metadata, metadata) then
 							if search == 1 then
 								returnData[item][#returnData[item]+1] = inv[v.slot]
+								--print(_,v.name,item,v.slot,json.encode(returnData))
+							elseif search == 2 then
+								returnData[item] += v.count
+							end
+						end
+					end
+				end
+				local ItemList = exports.ox_inventory:GetContainerItemsFromPlayer(BackInv)
+				--print('ItemList -----------')
+				for _,v in pairs(ItemList) do
+
+					--print(_,v.name,item,v.slot,json.encode(returnData))
+					if v.name == item then
+						if not v.metadata then v.metadata = {} end
+						if not metadata or table.contains(v.metadata, metadata) then
+							if search == 1 then
+								returnData[item][#returnData[item]+1] = v
+								--print(_,v.name,item,v.slot,json.encode(returnData))
 							elseif search == 2 then
 								returnData[item] += v.count
 							end
@@ -1255,24 +1318,58 @@ exports('GetItemSlots', Inventory.GetItemSlots)
 ---@return boolean? success, string? response
 function Inventory.RemoveItem(inv, item, count, metadata, slot, ignoreTotal)
 	if type(item) ~= 'table' then item = Items(item) end
-
 	if not item then return false, 'invalid_item' end
-
 	count = math.floor(count + 0.5)
-
+	local BackInv = inv
+	--print(inv, item, count, metadata, slot, ignoreTotal)
 	if count > 0 then
 		inv = Inventory(inv) --[[@as OxInventory]]
-
 		if not inv?.slots then return false, 'invalid_inventory' end
-
 		metadata = assertMetadata(metadata)
 		local itemSlots, totalCount = Inventory.GetItemSlots(inv, item, metadata)
-
-		if not itemSlots then return false end
+		--print('First Round Check',itemSlots, totalCount)
+		--print(json.encode(itemSlots),itemSlots)
+		if not itemSlots then 
+			--print('Deep Search1',itemSlots)
+			local InvenrotyItems = Inventory(BackInv).items  
+			for k,v in pairs(InvenrotyItems) do
+				if v.metadata.container then
+					--print('found Stage2',json.encode(v.metadata.container))
+					local containerInventory = Inventory(v.metadata.container)
+					local itemSlots, totalCount = Inventory.GetItemSlots(containerInventory, item, metadata)
+					--print('found Stage3',itemSlots,totalCount)
+					if itemSlots then 
+						--print('found Stage4 Try Remove Item')
+						if Inventory.RemoveItem(containerInventory, item, count, metadata, itemSlots) then
+							return true
+						end
+					end
+				end
+			end
+			return false 
+		end
+		--print('Two Round Check',itemSlots, totalCount)
+		if totalCount == 0 then  
+			--print('Deep Search2',itemSlots)
+			local InvenrotyItems = Inventory(BackInv).items 
+			for k,v in pairs(InvenrotyItems) do
+				if v.metadata.container then
+					--print('found Stage2',json.encode(v.metadata.container))
+					local containerInventory = Inventory(v.metadata.container)
+					local itemSlots, totalCount = Inventory.GetItemSlots(containerInventory, item, metadata)
+					--print('found Stage3',itemSlots,totalCount)
+					if itemSlots then 
+						--print('found Stage4 Try Remove Item')
+						if Inventory.RemoveItem(containerInventory, item, count, metadata, itemSlots) then
+							return true
+						end
+					end
+				end
+			end 
+		end
 
 		if totalCount and count > totalCount then
 			if not ignoreTotal then return false, 'not_enough_items' end
-
 			count = totalCount
 		end
 

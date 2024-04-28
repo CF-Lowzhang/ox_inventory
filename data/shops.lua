@@ -6,6 +6,7 @@ return {
 			 { name = 'radio', price = 0 ,currency = 'money'},
 			 { name = 'notepad', price = 0 ,currency = 'money'},
 			 { name = 'crutch', price = 0 ,currency = 'money'},
+			 { name = 'crutch2', price = 0 ,currency = 'money'},
 			 { name = 'wheelchair', price = 0 ,currency = 'money'},
 			 { name = 'yns1-gold', price = 0 ,currency = 'money'},
 			 { name = 'yns1-notepad', price = 0 ,currency = 'money'},
@@ -14,6 +15,11 @@ return {
 			 { name = 't22-1', price = 0 ,currency = 'money'},
 			 { name = 't93-1', price = 0 ,currency = 'money'},
 			 { name = 'yns1-look2', price = 0 ,currency = 'money'},
+			 { name = 't79-4', price = 0 ,currency = 'money'},
+			 { name = 't79-1', price = 0 ,currency = 'money'},
+			 { name = 't79-2', price = 0 ,currency = 'money'},
+			 { name = 't79-5', price = 0 ,currency = 'money'},
+			 { name = 'yns1_key1', price = 0 ,currency = 'money'},
 		}, locations = {
 			vector3(-1268.00,-3005.00,-48.48)
 		}, targets = {},
@@ -21,6 +27,23 @@ return {
 	YNS1_Technology = {
 	 name = '遺念技術處',
 	 inventory = {
+				{ name = 'yns1-cs0004-1', price = 0 ,currency = 'money'},
+				{ name = 'yns1-cs0005-1', price = 0 ,currency = 'money'},
+				{ name = 'yns1-cs0008-1', price = 0 ,currency = 'money'},
+				{ name = 'yns1-cs0008-2', price = 0 ,currency = 'money'},
+				{ name = 'yns1-cs0008-3', price = 0 ,currency = 'money'},
+				{ name = 'yns1-cs0008-4', price = 0 ,currency = 'money'},
+				{ name = 'yns1-cs0008-5', price = 0 ,currency = 'money'},
+				{ name = 'yns1-cs0009-1', price = 0 ,currency = 'money'},
+				{ name = 'yns1-cs0011-1', price = 0 ,currency = 'money'},
+				{ name = 'yns1-cs0011-2', price = 0 ,currency = 'money'},
+				{ name = 'yns1-cs0011-3', price = 0 ,currency = 'money'},
+				{ name = 'yns1-cs0011-4', price = 0 ,currency = 'money'},
+				{ name = 'yns1-cs0011-5', price = 0 ,currency = 'money'},
+				{ name = 'yns1-cs0011-6', price = 0 ,currency = 'money'},
+				{ name = 'yns1-cs0011-7', price = 0 ,currency = 'money'},
+				{ name = 'yns1-cs0011-8', price = 0 ,currency = 'money'},
+				{ name = 'yns1-cs0011-9', price = 0 ,currency = 'money'},
 				{ name = 'golfbagx', price = 0 ,currency = 'money'},
 				{ name = 't5-2', price = 0 ,currency = 'money'},
 				{ name = 't5-3', price = 0 ,currency = 'money'},
@@ -115,6 +138,10 @@ return {
 				{ name = 't58-1', price = 0 ,currency = 'money'}, 
 				{ name = 't58-2', price = 0 ,currency = 'money'}, 
 				{ name = 't58-3', price = 0 ,currency = 'money'}, 
+				{ name = 't79-1', price = 0 ,currency = 'money'}, 
+				{ name = 't79-2', price = 0 ,currency = 'money'}, 
+				{ name = 't79-4', price = 0 ,currency = 'money'}, 
+				{ name = 't79-5', price = 0 ,currency = 'money'}, 
 				{ name = 't81-1', price = 0 ,currency = 'money'}, -- 毛巾
 				{ name = 't81-2', price = 0 ,currency = 'money'}, -- 熱毛巾
 				{ name = 't81-3', price = 0 ,currency = 'money'}, -- 髒毛巾
@@ -552,6 +579,9 @@ return {
 				{ name = 't9-3', price = 0 ,currency = 'money'},
 				{ name = 't9-4', price = 0 ,currency = 'money'},
 			 	{ name = 'yns1-scarab', price = 0 ,currency = 'money'},
+				{ name = 'yns1-cs0008-1', price = 0 ,currency = 'money'},
+				{ name = 'yns1-cs0008-3', price = 0 ,currency = 'money'},
+				{ name = 'yns1-cs0008-4', price = 0 ,currency = 'money'},
 			 	{ name = 'notepad', price = 0 ,currency = 'money'},
 				{ name = 't29-1', price = 0 ,currency = 'money'}, -- 滑板
 				{ name = 't29-2', price = 0 ,currency = 'money'}, -- 滑板
@@ -559,6 +589,7 @@ return {
 				{ name = 't58-1', price = 0 ,currency = 'money'}, 
 				{ name = 't58-2', price = 0 ,currency = 'money'}, 
 				{ name = 't58-3', price = 0 ,currency = 'money'}, 
+				{ name = 'yns1-cs0005-1', price = 0 ,currency = 'money'},
 				{ name = 't81-1', price = 0 ,currency = 'money'}, -- 毛巾
 				{ name = 't81-2', price = 0 ,currency = 'money'}, -- 熱毛巾
 				{ name = 't81-3', price = 0 ,currency = 'money'}, -- 髒毛巾
@@ -580,7 +611,9 @@ return {
 	},
 	YNS1_Resturant = {
 		name = '購買餐點處',
-		inventory = {	 { name = 'f509-1', price = 0 ,currency = 'money'},
+		inventory = {
+		             { name = 'yns1-cs0004-1', price = 0 ,currency = 'money'},	 
+			         { name = 'f509-1', price = 0 ,currency = 'money'},
 					 { name = 'f520-1', price = 0 ,currency = 'money'},
 					 { name = 'f528-1', price = 0 ,currency = 'money'},
 					 { name = 'f25-2', price = 0 ,currency = 'money'},
@@ -595,6 +628,11 @@ return {
 					 { name = 'f575-1', price = 0 ,currency = 'money'},
 					 { name = 'f202-1', price = 0 ,currency = 'money'},
 					 { name = 'f522-1', price = 0 ,currency = 'money'},
+					 { name = 'yns1-cs0011-1', price = 0 ,currency = 'money'},
+					 { name = 'yns1-cs0011-2', price = 0 ,currency = 'money'},
+					 { name = 'yns1-cs0011-3', price = 0 ,currency = 'money'},
+
+
 		}, locations = {
 			vector3(-1838.8, -1184.2, 14.32),
 		}, targets = {
@@ -604,6 +642,7 @@ return {
 	YNS1_hospital_Shop = {
 	 	name = '醫療品購買處',
 		inventory = {
+				     { name = 'yns1-cs0008-2', price = 0 ,currency = 'money'},
 					 { name = 'm2-2', price = 0 ,currency = 'money'},
 					 { name = 'm12-1', price = 0 ,currency = 'money'},
 					 { name = 'm15-1', price = 0 ,currency = 'money'},

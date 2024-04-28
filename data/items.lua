@@ -41,7 +41,7 @@ return {
             label = "無線電",
             weight = 100,
             stack = false,
-            close = false,
+            close = true,
             client = {
                 event = 'CF_Radio:openRadio',
                 remove = function(total)
@@ -52,7 +52,6 @@ return {
                 end
             }
         },
-
         ['acar_keys'] = {
             label = '萬能車鑰匙',--'萬能車鑰匙',
             weight = 200,
@@ -69,10 +68,10 @@ return {
                 event = 'CF_VehicleKey:LockUnlock'
             }
         },
+
         ----------------------------------------------------------------
         -- YNS1 Item
         ----------------------------------------------------------------
-
         ['yns1_key1'] = {
             label = '長照員鑰匙',--'筆記本',
             weight = 20,
@@ -140,6 +139,16 @@ return {
                 event = 'CF_General:UseCrutch'
             }
         },
+        ['crutch2'] = {
+            label = '拐杖',
+            weight = 165,
+            stack = false,
+            close = true,
+            description = '',
+            client={
+                event = 'CF_General:UseCrutch2'
+            }
+        },
         ['wheelchair'] = {
             label = '攜帶式輪椅',
             weight = 544,
@@ -150,6 +159,167 @@ return {
             label = '最後的機會地圖',--'筆記本',
             weight = 1,
             stack = 1,
+            close = 1,
+            consume = 0,
+        },
+        ['yns1-cs0004-1'] = {
+            label = '鮮蝦麵',
+            description = '吃完熱騰騰的泡麵後,你覺得心情好多了',
+            weight = 250,
+            stack = 0,
+            close = 1,
+            consume = 1,
+            client = {
+                status = {hunger = 250000},
+                anim = "eating",
+                usetime = 2500,
+            }
+        },
+        ['yns1-cs0005-1'] = {
+            label = '中華香菸',
+            description = '寫著中華的香菸',
+            weight = 40,
+            stack = 1,
+            close = 1,
+            consume = 1,
+            client = {
+                usetime = 2500
+            }
+        },
+
+        ['yns1-cs0008-1'] = {
+            label = '園藝組（工具）',
+            weight = 600,
+            stack = 0,
+            close = 1,
+            consume = 0,
+        },
+        ['yns1-cs0008-2'] = {
+            label = '世彰安養中心藥包',
+            description = '副作用會有嗜睡跟嘔吐的效果',
+            weight = 20,
+            stack = 1,
+            close = 1,
+            consume = 1,
+            client = {
+                anim = "eating",
+                usetime = 1500,
+            }
+        },
+        ['yns1-cs0008-3'] = {
+            label = '園藝組（肥料）',
+            weight = 200,
+            stack = 1,
+            close = 1,
+            consume = 0,
+        },
+        ['yns1-cs0008-4'] = {
+            label = '園藝組（灑水器）',
+            weight = 100,
+            stack = 1,
+            close = 1,
+            consume = 0,
+        },
+        ['yns1-cs0008-5'] = {
+            label = '樹木圖鑑',
+            description = '夾著一個楓葉書籤',
+            weight = 80,
+            stack = 0,
+            close = 1,
+            consume = 0,
+        },
+        ['yns1-cs0009-1'] = {
+            label = '白色花瓣',
+            description = '仔細聞有淡雅香氣',
+            weight = 1,
+            stack = 1,
+            close = 1,
+            consume = 0,
+        },
+        ['yns1-cs0011-1'] = {
+            label = '水餃',
+            description = '裏頭包著高麗菜、韭菜、豬肉餡，內餡兒是隨機的！',
+            weight = 600,
+            stack = 0,
+            close = 1,
+            consume = 1,
+            client = {
+                status = {hunger = 300000},
+                anim = "eating",
+                usetime = 3000,
+            }
+        },
+        ['yns1-cs0011-2'] = {
+            label = '地瓜粥',
+            description = '幾個地瓜丟進去，蒸熟就給您的地瓜粥，吃起來一點點甜，但毫無樂趣！',
+            weight = 350,
+            stack = 0,
+            close = 1,
+            consume = 1,
+            client = {
+                status = {hunger = 175000},
+                anim = "eating",
+                usetime = 2750,
+            }
+        },
+        ['yns1-cs0011-3'] = {
+            label = '水煮雞肉',
+            description = '加了少許鹽巴的雞肉，吃起來只有鹽巴的感覺，毫無樂趣',
+            weight = 100,
+            stack = 1,
+            close = 1,
+            consume = 1,
+            client = {
+                status = {hunger = 50000},
+                anim = "eating",
+                usetime = 2000,
+            }
+        },
+        ['yns1-cs0011-4'] = {
+            label = '寄命紙',
+            description = '費登 ，寄命土地公、虎爺，平平安安回來',
+            weight = 10,
+            stack = 0,
+            close = 1,
+            consume = 0,
+        },
+        ['yns1-cs0011-5'] = {
+            label = '寄命紙',
+            description = '林鴻堂 ，寄命土地公、虎爺，平平安安回來',
+            weight = 10,
+            stack = 0,
+            close = 1,
+            consume = 0,
+        },
+        ['yns1-cs0011-6'] = {
+            label = '寄命紙',
+            description = '雷平安 ，寄命土地公、虎爺，平平安安回來',
+            weight = 10,
+            stack = 0,
+            close = 1,
+            consume = 0,
+        },
+        ['yns1-cs0011-7'] = {
+            label = '寄命紙',
+            description = '黃少興 ，寄命土地公、虎爺，平平安安回來',
+            weight = 10,
+            stack = 0,
+            close = 1,
+            consume = 0,
+        },
+        ['yns1-cs0011-8'] = {
+            label = '寄命紙',
+            description = '費囍 ，寄命土地公、虎爺，平平安安回來',
+            weight = 10,
+            stack = 0,
+            close = 1,
+            consume = 0,
+        },
+        ['yns1-cs0011-9'] = {
+            label = '寄命紙',
+            description = '孫枝娟 ，寄命土地公、虎爺，平平安安回來',
+            weight = 10,
+            stack = 0,
             close = 1,
             consume = 0,
         },
