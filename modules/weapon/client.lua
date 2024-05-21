@@ -14,6 +14,8 @@ local function vehicleIsCycle(vehicle)
 	local class = GetVehicleClass(vehicle)
 	return class == 8 or class == 13
 end
+local RefillFlag = false
+
 
 function Weapon.Equip(item, data)
 	local playerPed = cache.ped
@@ -79,10 +81,13 @@ function Weapon.Equip(item, data)
 	SetWeaponsNoAutoswap(true)
 	SetPedAmmo(playerPed, data.hash, ammo)
 	SetTimeout(0, function() RefillAmmoInstantly(playerPed) end)
-
 	if item.group == `GROUP_PETROLCAN` or item.group == `GROUP_FIREEXTINGUISHER` then
 		item.metadata.ammo = item.metadata.durability
 		SetPedInfiniteAmmo(playerPed, true, data.hash)
+		--SetWeaponsNoAutoswap(false)
+		RefillAmmoInstantly(playerPed)
+		RefillFlag = true
+		RefillAmmoLoop(data.hash)
 	end
 
 	TriggerEvent('ox_inventory:currentWeapon', item)
@@ -90,6 +95,21 @@ function Weapon.Equip(item, data)
 
 	return item, sleep
 end
+
+RefillAmmoLoop = function(data)
+	Citizen.CreateThread(function()
+		local playerPed = cache.ped
+		print('enterLoop')
+		while RefillFlag do
+			Citizen.Wait(0)
+			SetPedInfiniteAmmo(playerPed, true, data)
+			RefillAmmoInstantly(playerPed)
+		end
+		print('exitLoop')
+	end)
+end
+
+
 
 function Weapon.Disarm(currentWeapon, noAnim)
 	if currentWeapon?.timer then
@@ -129,6 +149,7 @@ function Weapon.Disarm(currentWeapon, noAnim)
 
 	Utils.WeaponWheel()
 	RemoveAllPedWeapons(cache.ped, true)
+	RefillFlag = false
 end
 
 function Weapon.ClearAll(currentWeapon)

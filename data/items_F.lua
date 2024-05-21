@@ -3711,13 +3711,11 @@ return {
         }
     },
     ["f152-1"] = {
-        label = " ",
-         --'豪華壽司',
-        weight = 170,
-        stack = true,
+        label = "豪華壽司",
+        weight = 750,
+        stack = 0,
         close = true,
         consume = 1,
-        description = "",
         client = {
             status = {hunger = 750000, thirst = -150000},
             anim = {dict = "mp_player_inteat@burger", clip = "mp_player_int_eat_burger_fp"},
@@ -3726,10 +3724,80 @@ return {
                 pos = {x = 0.02, y = 0.02, z = -0.02},
                 rot = {x = 0.0, y = 0.0, z = 0.0}
             },
-            usetime = 2500,
-            notification = ""
+            usetime = 7500,
         }
     },
+    ["f152-2"] = {
+        label = "壽司",
+        weight = 500,
+        stack = 0,
+        close = true,
+        consume = 1,
+        client = {
+            status = {hunger = 500000},
+            anim = {dict = "mp_player_inteat@burger", clip = "mp_player_int_eat_burger_fp"},
+            prop = {
+                model = "prop_cs_burger_01",
+                pos = {x = 0.02, y = 0.02, z = -0.02},
+                rot = {x = 0.0, y = 0.0, z = 0.0}
+            },
+            usetime = 5000
+        }
+    },
+    ["f152-3"] = {
+        label = "玉米壽司",
+        weight = 100,
+        stack = 0,
+        close = true,
+        consume = 1,
+        client = {
+            status = {hunger = 105000},
+            anim = {dict = "mp_player_inteat@burger", clip = "mp_player_int_eat_burger_fp"},
+            prop = {
+                model = "prop_cs_burger_01",
+                pos = {x = 0.02, y = 0.02, z = -0.02},
+                rot = {x = 0.0, y = 0.0, z = 0.0}
+            },
+            usetime = 1000,
+        }
+    },
+    ["f152-4"] = {
+        label = "海苔壽司捲",
+        weight = 610,
+        stack = 0,
+        close = true,
+        consume = 1,
+        client = {
+            status = {hunger = 610000, thirst = -150000},
+            anim = {dict = "mp_player_inteat@burger", clip = "mp_player_int_eat_burger_fp"},
+            prop = {
+                model = "prop_cs_burger_01",
+                pos = {x = 0.02, y = 0.02, z = -0.02},
+                rot = {x = 0.0, y = 0.0, z = 0.0}
+            },
+            usetime = 6100,
+        }
+    },
+    ["f152-5"] = {
+        label = "功夫壽司披薩",
+        weight = 650,
+        stack = 0,
+        close = true,
+        consume = 1,
+        client = {
+            status = {hunger = 650000, thirst = -150000},
+            anim = {dict = "mp_player_inteat@burger", clip = "mp_player_int_eat_burger_fp"},
+            prop = {
+                model = "prop_cs_burger_01",
+                pos = {x = 0.02, y = 0.02, z = -0.02},
+                rot = {x = 0.0, y = 0.0, z = 0.0}
+            },
+            usetime = 6500,
+        }
+    },
+
+
+
     ["f153-1"] = {
         label = " ",
          --'蒸肉餅',

@@ -1747,37 +1747,36 @@ local function isGiveTargetValid(ped, coords)
     end
 
     local entity = Utils.Raycast(1|2|4|8|16, coords + vec3(0, 0, 0.5), 0.2)
-
-    return entity == ped and IsEntityVisible(ped)
+    --print(entity,ped,IsEntityVisible(ped))
+    return IsEntityVisible(ped)
+    -- return entity == ped and IsEntityVisible(ped)
 end
 
 RegisterNUICallback('giveItem', function(data, cb)
 	cb(1)
 
 	if client.giveplayerlist then
-		local nearbyPlayers = lib.getNearbyPlayers(GetEntityCoords(playerPed), 3.0)
+		local nearbyPlayers = lib.getNearbyPlayers(GetEntityCoords(playerPed), 5.0)
         local nearbyCount = #nearbyPlayers
 
 		if nearbyCount == 0 then return end
 
         if nearbyCount == 1 then
 			local option = nearbyPlayers[1]
-
             if not isGiveTargetValid(option.ped, option.coords) then return end
-
             return giveItemToTarget(GetPlayerServerId(option.id), data.slot, data.count)
         end
-
         local giveList, n = {}, 0
-
 		for i = 1, #nearbyPlayers do
 			local option = nearbyPlayers[i]
-
+			--print(option,json.encode(option))
             if isGiveTargetValid(option.ped, option.coords) then
 				local playerName = GetPlayerName(option.id)
 				option.id = GetPlayerServerId(option.id)
+				local ESXName = lib.callback.await('ox_inventory:ID:ReturnName',false,option.id)
+				--print(option.id,playerName,ESXName)
                 ---@diagnostic disable-next-line: inject-field
-				option.label = ('[%s] %s'):format(option.id, playerName)
+				option.label = ('[%s] %s'):format(option.id, ESXName)--playerName)
 				n += 1
 				giveList[n] = option
 			end
@@ -1812,7 +1811,7 @@ RegisterNUICallback('giveItem', function(data, cb)
 
     local entity = Utils.Raycast(1|2|4|8|16, GetOffsetFromEntityInWorldCoords(cache.ped, 0.0, 3.0, 0.5), 0.2)
 
-    if entity and IsPedAPlayer(entity) and IsEntityVisible(entity) and #(GetEntityCoords(playerPed, true) - GetEntityCoords(entity, true)) < 3.0 then
+    if entity and IsPedAPlayer(entity) and IsEntityVisible(entity) and #(GetEntityCoords(playerPed, true) - GetEntityCoords(entity, true)) < 5.0 then
         return giveItemToTarget(GetPlayerServerId(NetworkGetPlayerIndexFromPed(entity)), data.slot, data.count)
     end
 end)
@@ -1828,9 +1827,11 @@ RegisterNUICallback('removeItem', function(data, cb)
 end)
 
 RegisterNUICallback('onChange', function(data, cb)
+	--SetNuiFocusKeepInput(false)
 	local input = lib.inputDialog('背包物品操作',{
 		{type = 'input', label = '修改物品名稱', description = '依照角色理解填寫內容', required = true, min = 0, max = 20},
 	})
+	--SetNuiFocusKeepInput(true)
 	if not input then return end
     TriggerServerEvent('ox_inventory:changeName', data.slot,input[1])
 	cb(1)
@@ -1842,9 +1843,11 @@ RegisterNUICallback('onChangeRemoval', function(data, cb)
 end)
 
 RegisterNUICallback('onChangeDesc', function(data, cb)
+	--SetNuiFocusKeepInput(false)
 	local input = lib.inputDialog('背包物品操作',{
 		{type = 'input', label = '修改物品備註', description = '依照角色理解填寫內容', required = true, min = 0, max = 20},
 	})
+	--SetNuiFocusKeepInput(true)
 	if not input then return end
     TriggerServerEvent('ox_inventory:changeNameDesc', data.slot,input[1])
 	cb(1)

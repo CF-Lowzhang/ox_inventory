@@ -74,6 +74,21 @@ setContainerProperties('fs_destroy2', {
 	maxWeight = 2000,
 })
 
+setContainerProperties('t47-1', {
+	slots = 10,
+	maxWeight = 1200,
+})
+setContainerProperties('t47-2', {
+	slots = 10,
+	maxWeight = 1200,
+})
+
+setContainerProperties('t47-3', {
+	slots = 10,
+	maxWeight = 1200,
+})
+
+
 setContainerProperties('t79-1', {
 	slots = 20,
 	maxWeight = 2000,

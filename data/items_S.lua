@@ -1180,21 +1180,12 @@ return {
         label = " ",
          --'夜視鏡',
         weight = 222,
-        stack = 1,
+        stack = 0,
         close = 1,
         consume = 0,
-        description = "",
         client = {
             usetime = 0
         }
-    },
-    ["s40-1"] = {
-        label = " ",
-         --'夜視鏡',
-        weight = 222,
-        stack = 1,
-        close = 1,
-        description = ""
     },
     ["s41-1"] = {
         label = " ",
@@ -4065,10 +4056,11 @@ return {
         close = true
     },
     ["s223-8"] = {
-        label = " ",
+        label = "鱷魚牙齒項鍊",
+        description = '漂亮的鱷魚牙齒項鍊',
          --'教宗信物',
         weight = 110,
-        stack = true,
+        stack = false,
         close = true
     },
     ["s223-9"] = {

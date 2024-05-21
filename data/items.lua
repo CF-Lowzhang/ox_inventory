@@ -68,6 +68,18 @@ return {
                 event = 'CF_VehicleKey:LockUnlock'
             }
         },
+        ["umbrella"] = {
+            label = "摺疊雨傘",
+            weight = 212,
+            stack = false,
+            close = true,
+        },
+        ["poster"] = {
+            label = "海報",
+            weight = 3,
+            stack = 1,
+            close = true,
+        },
 
         ----------------------------------------------------------------
         -- YNS1 Item
@@ -92,6 +104,14 @@ return {
             client = {
             }
         },
+        ['yns1_rules'] = {
+            label = '收容守則',--'筆記本',
+            weight = 2,
+            stack = true,
+            close = true,
+            consume = 0,
+            description = '背面寫著：2023年11月01日，長照員轉院而來',
+        },
         ['yns1-gold'] = {
             label = '黃金礦',--'筆記本',
             weight = 800,
@@ -113,7 +133,8 @@ return {
         },
         ['yns1-pyrite'] = {
             label = '黃鐵礦',--'筆記本',
-            weight = 800,
+            weight = 1,
+            description = '奇怪的物質，穩定待在背包或飄在旁邊，無法被物理破壞。',
             stack = 1,
             close = 1,
             consume = 0,
@@ -162,9 +183,69 @@ return {
             close = 1,
             consume = 0,
         },
+        ['yns1-cft0001-1'] = {
+            label = '論文紙張',
+            weight = 5,
+            stack = 0,
+            close = 1,
+            consume = 0,
+        },
+        ['yns1-cft0001-1'] = {
+            label = '論文紙張',
+            weight = 5,
+            stack = 0,
+            close = 1,
+            consume = 0,
+        },
+        ['yns1-cft0001-2'] = {
+            label = '認識人性',
+            weight = 240,
+            stack = 0,
+            close = 1,
+            consume = 0,
+        },
+        ['yns1-cft0001-3'] = {
+            label = '衝突的力量',
+            weight = 253,
+            stack = 0,
+            close = 1,
+            consume = 0,
+        },
+        ['yns1-cft0001-4'] = {
+            label = '戰爭中的殺人心理',
+            weight = 300,
+            stack = 0,
+            close = 1,
+            consume = 0,
+        },
+        ['yns1-cft0001-5'] = {
+            label = '我和你',
+            weight = 30,
+            stack = 0,
+            close = 1,
+            consume = 0,
+        },
+        ['yns1-cft0001-6'] = {
+            label = '團員',
+            weight = 30,
+            stack = 0,
+            close = 1,
+            consume = 0,
+        },
+        ['yns1-cft0001-7'] = {
+            label = '醬油拉麵',
+            weight = 800,
+            stack = 0,
+            close = 1,
+            consume = 1,
+            client = {
+                status = {hunger = 800000},
+                anim = {dict = "mp_player_inteat@burger", clip = "mp_player_int_eat_burger_fp"},
+                usetime = 8000,
+            }
+        },
         ['yns1-cs0004-1'] = {
             label = '鮮蝦麵',
-            description = '吃完熱騰騰的泡麵後,你覺得心情好多了',
             weight = 250,
             stack = 0,
             close = 1,
@@ -175,17 +256,40 @@ return {
                 usetime = 2500,
             }
         },
+        ['yns1-cs0004-2'] = {
+            label = '血栓溶解劑',
+            weight = 100,
+            stack = 1,
+            close = 1,
+            consume = 1,
+        },
         ['yns1-cs0005-1'] = {
             label = '中華香菸',
             description = '寫著中華的香菸',
             weight = 40,
             stack = 1,
             close = 1,
-            consume = 1,
+            consume = 0.05,
             client = {
                 usetime = 2500
             }
         },
+        ['yns1-cs0005-2'] = {
+            label = '陳舊的相框',
+            weight = 260,
+            stack = 0,
+            close = 1,
+            consume = 0,
+        },
+        ['yns1-cs0005-3'] = {
+            label = '年長女性的照片',
+            description = '保存良好',
+            weight = 5,
+            stack = 0,
+            close = 1,
+            consume = 0,
+        },
+
 
         ['yns1-cs0008-1'] = {
             label = '園藝組（工具）',
@@ -228,11 +332,47 @@ return {
             close = 1,
             consume = 0,
         },
+        ['yns1-cs0008-6'] = {
+            label = '防尿墊',
+            weight = 300,
+            stack = 0,
+            close = 1,
+            consume = 0,
+        },
+        ['yns1-cs0008-7'] = {
+            label = '穿戴式接尿器',
+            weight = 700,
+            stack = 0,
+            close = 1,
+            consume = 0,
+        },
+        ['yns1-cs0008-8'] = {
+            label = '成人尿布',
+            weight = 150,
+            stack = 1,
+            close = 1,
+            consume = 0,
+        },
         ['yns1-cs0009-1'] = {
             label = '白色花瓣',
             description = '仔細聞有淡雅香氣',
             weight = 1,
             stack = 1,
+            close = 1,
+            consume = 0,
+        },
+        ['yns1-cs0009-2'] = {
+            label = '紙船',
+            description = '摺好的紙船',
+            weight = 10,
+            stack = 0,
+            close = 1,
+            consume = 1,
+        },
+        ['yns1-cs0009-3'] = {
+            label = '紙條塗鴉',
+            weight = 1,
+            stack = 0,
             close = 1,
             consume = 0,
         },
@@ -322,6 +462,42 @@ return {
             stack = 0,
             close = 1,
             consume = 0,
+        },
+        ['yns1-cs0013-1'] = {
+            label = '熱茶',
+            weight = 200,
+            stack = 0,
+            close = 1,
+            consume = 1,
+            client = {
+                status = {thirst = 200000},
+                anim = {dict = "mp_player_intdrink", clip = "loop_bottle"},
+                usetime = 2000,
+            }
+        },
+        ['yns1-cs0013-2'] = {
+            label = '不熟的橘子',
+            weight = 200,
+            stack = 0,
+            close = 1,
+            consume = 1,
+            client = {
+                status = {hunger = 200000},
+                anim = {dict = "mp_player_inteat@burger", clip = "mp_player_int_eat_burger_fp"},
+                usetime = 2000,
+            }
+        },
+        ['yns1-cs0013-3'] = {
+            label = '成熟的橘子',
+            weight = 800,
+            stack = 0,
+            close = 1,
+            consume = 1,
+            client = {
+                status = {hunger = 800000},
+                anim = {dict = "mp_player_inteat@burger", clip = "mp_player_int_eat_burger_fp"},
+                usetime = 8000,
+            }
         },
 
         ----------------------------------------------------------------

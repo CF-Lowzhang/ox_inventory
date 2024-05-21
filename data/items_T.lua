@@ -332,28 +332,19 @@ return {
         }
     },
     ["t20-1"] = {
-        label = " ",
-         --'望遠鏡',
+        label = "望遠鏡",
         weight = 125,
         stack = 0,
         close = 1,
         consume = 0,
-        description = "望遠鏡",
-        client = {
-            usetime = 0
-        }
     },
     ["t20-2"] = {
-        label = " ",
-         --'多功能望遠鏡',
-        weight = 222,
-        stack = 1,
+        label = "多功能望遠鏡",
+        weight = 255,
+        stack = 0,
         close = 1,
         consume = 0,
         description = "",
-        client = {
-            usetime = 0
-        }
     },
     ["t21-1"] = {
         label = "拐杖",     --'拐杖',
@@ -398,16 +389,20 @@ return {
         description = ""
     },
     ["t24-1"] = {
-        label = " ",
+        label = "潛水裝備(輕)",
          --'潛水裝備',
         weight = 500,
-        stack = 1,
+        stack = 0,
         close = 1,
         consume = 0,
-        description = "潛水裝備",
-        client = {
-            usetime = 2500
-        }
+    },
+    ["t24-2"] = {
+        label = "潛水裝備(種)",
+         --'潛水裝備',
+        weight = 1500,
+        stack = 0,
+        close = 1,
+        consume = 0,
     },
     ["t26-1"] = {
         label = " ",
@@ -670,55 +665,49 @@ return {
         }
     },
     ["t46-1"] = {
-        label = " ",
-         --'書',
+        label = "書",
         weight = 100,
         stack = true,
         close = true,
-        client = {}
+        description = "演繹延伸：請當作任意一本書。",
     },
     ["t46-2"] = {
-        label = " ",
-         --'小黃書',
+        label = "18+書",
         weight = 100,
         stack = 1,
         close = 0,
         description = ""
     },
     ["t47-1"] = {
-        label = " ",
-         --'信封',
+        label = "文信封",
         weight = 1,
         stack = false,
         close = false,
         consume = 0
     },
     ["t47-2"] = {
-        label = " ",
-         --'黑信封(5格)',
+        label = "黑信封",
         weight = 1,
         stack = false,
         close = false,
         consume = 0
     },
     ["t47-3"] = {
-        label = " ",
-         --'白信封(5格)',
+        label = "白信封",
         weight = 1,
         stack = false,
         close = false,
         consume = 0
     },
     ["t48-1"] = {
-        label = " ",
-         -- '水槍拉 幹',
+        label = "水槍",
         weight = 3000,
         stack = false,
         close = true,
         consume = 0,
         description = "玩具槍，不會死。",
         client = {
-            event = "devcore_watergun:c_Start"
+            event = "CF_General:Prop:WaterGun:Start_C"
         }
     },
     ["t49-1"] = {
