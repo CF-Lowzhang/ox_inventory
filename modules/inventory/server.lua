@@ -463,6 +463,10 @@ function Inventory.SlotWeight(item, slot, ignoreCount)
 		end
 	end
 
+    if item.hash == `WEAPON_PETROLCAN` then
+        weight += 15000 * (slot.metadata.ammo / 100)
+    end
+
 	if slot.metadata.components then
 		for i = #slot.metadata.components, 1, -1 do
 			local componentWeight = Items(slot.metadata.components[i])?.weight
@@ -1341,12 +1345,19 @@ exports('Search', Inventory.Search)
 ---@param inv inventory
 ---@param item table | string
 ---@param metadata? table
-function Inventory.GetItemSlots(inv, item, metadata)
+---@param strict? boolean
+function Inventory.GetItemSlots(inv, item, metadata, strict)
+	if type(item) ~= 'table' then item = Items(item) end
+	if not item then return end
+
 	inv = Inventory(inv) --[[@as OxInventory]]
 
 	if not inv?.slots then return end
 
 	local totalCount, slots, emptySlots = 0, {}, inv.slots
+
+	if strict == nil then strict = true end
+	local tablematch = strict and table.matches or table.contains
 
 	for k, v in pairs(inv.items) do
 		emptySlots -= 1
@@ -1354,7 +1365,7 @@ function Inventory.GetItemSlots(inv, item, metadata)
 			if metadata and v.metadata == nil then
 				v.metadata = {}
 			end
-			if not metadata or table.matches(v.metadata, metadata) then
+			if not metadata or tablematch(v.metadata, metadata) then
 				totalCount = totalCount + v.count
 				slots[k] = v.count
 			end
@@ -1371,8 +1382,9 @@ exports('GetItemSlots', Inventory.GetItemSlots)
 ---@param metadata? table | string
 ---@param slot? number
 ---@param ignoreTotal? boolean
+---@param strict? boolean
 ---@return boolean? success, string? response
-function Inventory.RemoveItem(inv, item, count, metadata, slot, ignoreTotal)
+function Inventory.RemoveItem(inv, item, count, metadata, slot, ignoreTotal, strict)
 	if type(item) ~= 'table' then item = Items(item) end
 	if not item then return false, 'invalid_item' end
 	count = math.floor(count + 0.5)
@@ -1668,6 +1680,8 @@ local function dropItem(source, playerInventory, fromData, data)
 
     if toData.weight > shared.playerweight then return end
 
+    local dropId = generateInvId('drop')
+
 	if not TriggerEventHooks('swapItems', {
 		source = source,
 		fromInventory = playerInventory.id,
@@ -1678,6 +1692,7 @@ local function dropItem(source, playerInventory, fromData, data)
 		toType = 'drop',
 		count = data.count,
         action = 'move',
+        dropId = dropId,
 	}) then return end
 
     fromData.count -= data.count
@@ -1697,7 +1712,6 @@ local function dropItem(source, playerInventory, fromData, data)
 		playerInventory.weapon = nil
 	end
 
-	local dropId = generateInvId('drop')
 	local inventory = Inventory.Create(dropId, ('Drop %s'):format(dropId:gsub('%D', '')), 'drop', shared.dropslots, toData.weight, shared.dropweight, false, {[data.toSlot] = toData})
 
 	if not inventory then return end
@@ -2727,6 +2741,10 @@ local function updateWeapon(source, action, value, slot, specialAmmo)
                 weapon.metadata.durability = 0
             end
 
+            if item.hash == `WEAPON_PETROLCAN` then
+                weapon.weight = Inventory.SlotWeight(item, weapon)
+            end
+
 			if action ~= 'throw' then
 				inventory:syncSlotsWithPlayer({
 					{ item = weapon }
@@ -2774,7 +2792,10 @@ lib.callback.register('ox_inventory:removeAmmoFromWeapon', function(source, slot
 end)
 
 local function checkStashProperties(properties)
-	local name, slots, maxWeight, coords in properties
+	local name = properties.name
+	local slots = properties.slots
+	local maxWeight = properties.maxWeight
+	local coords = properties.coords
 
 	if type(name) ~= 'string' then
 		error(('received %s for stash name (expected string)'):format(type(name)))
