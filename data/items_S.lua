@@ -1,23 +1,20 @@
 return {
     ["s1-1"] = {
-        label = " ",
-         --'極樂之證',
+        label = "極樂之證",
         weight = 666,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s1-2"] = {
-        label = " ",
-         --'極樂之證',
+        label = "極樂之證",
         weight = 666,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s2-1"] = {
-        label = " ",
-         --'夢蝶花水',
+        label = "夢蝶花水",
         weight = 500,
         stack = true,
         close = true,
@@ -26,8 +23,7 @@ return {
         }
     },
     ["s2-2"] = {
-        label = " ",
-         --'夢蝶花水',
+        label = "夢蝶花水",
         weight = 500,
         stack = true,
         close = true,
@@ -36,8 +32,7 @@ return {
         }
     },
     ["s3-1"] = {
-        label = " ",
-         --'能量水晶塔',
+        label = "能量水晶塔",
         weight = 200,
         stack = true,
         close = true,
@@ -47,8 +42,7 @@ return {
         }
     },
     ["s3-2"] = {
-        label = " ",
-         --'能量水晶塔',
+        label = "能量水晶塔",
         weight = 200,
         stack = true,
         close = true,
@@ -58,22 +52,19 @@ return {
         }
     },
     ["s4-1"] = {
-        label = " ",
-         --'父之鑰',
+        label = "父之鑰",
         weight = 74,
         stack = true,
         close = true
     },
     ["s4-2"] = {
-        label = " ",
-         --'父之鑰',
+        label = "父之鑰",
         weight = 74,
         stack = true,
         close = true
     },
     ["s5-1"] = {
-        label = " ",
-         --'自由',
+        label = "自由",
         weight = 748,
         stack = true,
         close = true,
@@ -84,8 +75,7 @@ return {
         }
     },
     ["s5-2"] = {
-        label = " ",
-         --'自由',
+        label = "自由",
         weight = 110,
         stack = true,
         close = true,
@@ -93,8 +83,7 @@ return {
         description = "從小陪伴熊忻長大的玩偶"
     },
     ["s6-1"] = {
-        label = " ",
-         --'黑心丸',
+        label = "黑心丸",
         weight = 200,
         stack = true,
         close = true,
@@ -105,8 +94,7 @@ return {
         }
     },
     ["s6-2"] = {
-        label = " ",
-         --'黑心丸',
+        label = "黑心丸",
         weight = 14,
         stack = true,
         close = true,
@@ -118,8 +106,7 @@ return {
         }
     },
     ["s7-1"] = {
-        label = " ",
-         --'定身液',
+        label = "定身液",
         weight = 200,
         stack = true,
         close = true,
@@ -129,8 +116,7 @@ return {
         }
     },
     ["s7-2"] = {
-        label = " ",
-         --'定身液',
+        label = "定身液",
         weight = 50,
         stack = true,
         close = true,
@@ -145,8 +131,7 @@ return {
         }
     },
     ["s8-1"] = {
-        label = " ",
-         -- '安苡妍簽名小卡',
+        label = "安苡妍簽名小卡",
         weight = 100,
         stack = true,
         close = true,
@@ -155,8 +140,7 @@ return {
         client = {}
     },
     ["s8-2"] = {
-        label = " ",
-         -- '吳子祈簽名小卡',
+        label = "吳子祈簽名小卡",
         weight = 100,
         stack = true,
         close = true,
@@ -165,8 +149,7 @@ return {
         client = {}
     },
     ["s8-3"] = {
-        label = " ",
-         -- '白鹿絲簽名小卡',
+        label = "白鹿絲簽名小卡",
         weight = 100,
         stack = true,
         close = true,
@@ -175,8 +158,7 @@ return {
         client = {}
     },
     ["s8-4"] = {
-        label = " ",
-         -- '白日夢簽名小卡',
+        label = "白日夢簽名小卡",
         weight = 100,
         stack = true,
         close = true,
@@ -185,8 +167,7 @@ return {
         client = {}
     },
     ["s8-5"] = {
-        label = " ",
-         -- '曾高杏簽名小卡',
+        label = "曾高杏簽名小卡",
         weight = 100,
         stack = true,
         close = true,
@@ -195,8 +176,7 @@ return {
         client = {}
     },
     ["s8-6"] = {
-        label = " ",
-         -- '林媤簽名小卡',
+        label = "林媤簽名小卡",
         weight = 100,
         stack = true,
         close = true,
@@ -205,8 +185,7 @@ return {
         client = {}
     },
     ["s8-7"] = {
-        label = " ",
-         -- '宮城凜簽名小卡',
+        label = "宮城凜簽名小卡",
         weight = 100,
         stack = true,
         close = true,
@@ -215,8 +194,7 @@ return {
         client = {}
     },
     ["s8-8"] = {
-        label = " ",
-         -- '徐小霓簽名小卡',
+        label = "徐小霓簽名小卡",
         weight = 100,
         stack = true,
         close = true,
@@ -225,8 +203,7 @@ return {
         client = {}
     },
     ["s8-9"] = {
-        label = " ",
-         -- '夏愛檸簽名小卡',
+        label = "夏愛檸簽名小卡",
         weight = 100,
         stack = true,
         close = true,
@@ -235,8 +212,7 @@ return {
         client = {}
     },
     ["s8-10"] = {
-        label = " ",
-         -- '布朗妮簽名小卡',
+        label = "布朗妮簽名小卡",
         weight = 100,
         stack = true,
         close = true,
@@ -245,8 +221,7 @@ return {
         client = {}
     },
     ["s8-11"] = {
-        label = " ",
-         -- '布朗妮簽名小卡',
+        label = "布朗妮簽名小卡",
         weight = 100,
         stack = true,
         close = true,
@@ -255,8 +230,7 @@ return {
         client = {}
     },
     ["s8-12"] = {
-        label = " ",
-         -- 'pururu卡包',
+        label = "pururu卡包",
         weight = 50,
         stack = true,
         close = true,
@@ -267,64 +241,56 @@ return {
         }
     },
     ["s9-1"] = {
-        label = " ",
-         -- 'G COUPON',
+        label = "G COUPON",
         weight = 0,
         stack = true,
         close = true,
         description = ""
     },
     ["s9-2"] = {
-        label = " ",
-         -- 'F COUPON',
+        label = "F COUPON",
         weight = 0,
         stack = true,
         close = true,
         description = ""
     },
     ["s9-3"] = {
-        label = " ",
-         -- 'E COUPON',
+        label = "E COUPON",
         weight = 0,
         stack = true,
         close = true,
         description = ""
     },
     ["s9-4"] = {
-        label = " ",
-         -- 'D COUPON',
+        label = "D COUPON",
         weight = 0,
         stack = true,
         close = true,
         description = ""
     },
     ["s9-5"] = {
-        label = " ",
-         -- 'C COUPON',
+        label = "C COUPON",
         weight = 0,
         stack = true,
         close = true,
         description = ""
     },
     ["s9-6"] = {
-        label = " ",
-         -- 'B COUPON',
+        label = "B COUPON",
         weight = 0,
         stack = true,
         close = true,
         description = ""
     },
     ["s9-7"] = {
-        label = " ",
-         -- 'A COUPON',
+        label = "A COUPON",
         weight = 0,
         stack = true,
         close = true,
         description = ""
     },
     ["s10-1"] = {
-        label = " ",
-         --'傳情餅乾',
+        label = "傳情餅乾",
         weight = 80,
         stack = true,
         close = true,
@@ -343,8 +309,7 @@ return {
         }
     },
     ["s10-2"] = {
-        label = " ",
-         --'傳情糖果',
+        label = "傳情糖果",
         weight = 80,
         stack = true,
         close = true,
@@ -363,8 +328,7 @@ return {
         }
     },
     ["s10-3"] = {
-        label = " ",
-         --'傳情餅乾05',
+        label = "傳情餅乾05",
         weight = 80,
         stack = true,
         close = true,
@@ -383,8 +347,7 @@ return {
         }
     },
     ["s10-4"] = {
-        label = " ",
-         --'傳情餅乾04',
+        label = "傳情餅乾04",
         weight = 80,
         stack = true,
         close = true,
@@ -403,8 +366,7 @@ return {
         }
     },
     ["s10-5"] = {
-        label = " ",
-         --'傳情糖果03',
+        label = "傳情糖果03",
         weight = 80,
         stack = true,
         close = true,
@@ -423,8 +385,7 @@ return {
         }
     },
     ["s10-6"] = {
-        label = " ",
-         --'傳情餅乾02',
+        label = "傳情餅乾02",
         weight = 80,
         stack = true,
         close = true,
@@ -443,8 +404,7 @@ return {
         }
     },
     ["s10-7"] = {
-        label = " ",
-         --'傳情糖果01',
+        label = "傳情糖果01",
         weight = 80,
         stack = true,
         close = true,
@@ -463,8 +423,7 @@ return {
         }
     },
     ["s10-8"] = {
-        label = " ",
-         --'傳情紙條05',
+        label = "傳情紙條05",
         weight = 10,
         stack = true,
         close = true,
@@ -473,8 +432,7 @@ return {
         client = {}
     },
     ["s10-9"] = {
-        label = " ",
-         --'傳情紙條04',
+        label = "傳情紙條04",
         weight = 10,
         stack = true,
         close = true,
@@ -483,8 +441,7 @@ return {
         client = {}
     },
     ["s10-10"] = {
-        label = " ",
-         --'傳情紙條03',
+        label = "傳情紙條03",
         weight = 10,
         stack = true,
         close = true,
@@ -493,8 +450,7 @@ return {
         client = {}
     },
     ["s10-11"] = {
-        label = " ",
-         --'傳情紙條02',
+        label = "傳情紙條02",
         weight = 10,
         stack = true,
         close = true,
@@ -503,8 +459,7 @@ return {
         client = {}
     },
     ["s10-12"] = {
-        label = " ",
-         --'傳情紙條01',
+        label = "傳情紙條01",
         weight = 10,
         stack = true,
         close = true,
@@ -513,8 +468,7 @@ return {
         client = {}
     },
     ["s11-1"] = {
-        label = " ",
-         -- '布朗妮信件',
+        label = "布朗妮信件",
         weight = 150,
         stack = true,
         close = true,
@@ -523,8 +477,7 @@ return {
         client = {}
     },
     ["s11-2"] = {
-        label = " ",
-         -- '布朗妮信件',
+        label = "布朗妮信件",
         weight = 150,
         stack = true,
         close = true,
@@ -533,8 +486,7 @@ return {
         client = {}
     },
     ["s11-3"] = {
-        label = " ",
-         -- '布朗妮信件',
+        label = "布朗妮信件",
         weight = 150,
         stack = true,
         close = true,
@@ -543,8 +495,7 @@ return {
         client = {}
     },
     ["s11-4"] = {
-        label = " ",
-         -- '布朗妮信件',
+        label = "布朗妮信件",
         weight = 150,
         stack = true,
         close = true,
@@ -553,8 +504,7 @@ return {
         client = {}
     },
     ["s11-5"] = {
-        label = " ",
-         -- '布朗妮信件',
+        label = "布朗妮信件",
         weight = 150,
         stack = true,
         close = true,
@@ -563,8 +513,7 @@ return {
         client = {}
     },
     ["s12-1"] = {
-        label = " ",
-         -- '特製廚師-證照',
+        label = "特製廚師-證照",
         weight = 150,
         stack = true,
         close = true,
@@ -573,8 +522,7 @@ return {
         client = {}
     },
     ["s12-2"] = {
-        label = " ",
-         -- '特製廚師-證照',
+        label = "特製廚師-證照",
         weight = 150,
         stack = true,
         close = true,
@@ -583,8 +531,7 @@ return {
         client = {}
     },
     ["s12-3"] = {
-        label = " ",
-         -- '特製廚師-證照',
+        label = "特製廚師-證照",
         weight = 150,
         stack = true,
         close = true,
@@ -593,8 +540,7 @@ return {
         client = {}
     },
     ["s13-1"] = {
-        label = " ",
-         --'陳德莫的小本本',
+        label = "陳德莫的小本本",
         weight = 30,
         stack = true,
         close = true,
@@ -603,8 +549,7 @@ return {
         client = {}
     },
     ["s13-2"] = {
-        label = " ",
-         --'陳德莫的小本本',
+        label = "陳德莫的小本本",
         weight = 30,
         stack = true,
         close = true,
@@ -613,8 +558,7 @@ return {
         client = {}
     },
     ["s13-3"] = {
-        label = " ",
-         --'陳德莫的小本本',
+        label = "陳德莫的小本本",
         weight = 30,
         stack = true,
         close = true,
@@ -623,8 +567,7 @@ return {
         client = {}
     },
     ["s13-4"] = {
-        label = " ",
-         --'陳德莫的小本本',
+        label = "陳德莫的小本本",
         weight = 30,
         stack = true,
         close = true,
@@ -633,8 +576,7 @@ return {
         client = {}
     },
     ["s13-5"] = {
-        label = " ",
-         --'陳德莫的小本本',
+        label = "陳德莫的小本本",
         weight = 30,
         stack = true,
         close = true,
@@ -643,8 +585,7 @@ return {
         client = {}
     },
     ["s13-6"] = {
-        label = " ",
-         --'陳德莫的小本本',
+        label = "陳德莫的小本本",
         weight = 30,
         stack = true,
         close = true,
@@ -653,8 +594,7 @@ return {
         client = {}
     },
     ["s13-7"] = {
-        label = " ",
-         --'陳德莫的小本本',
+        label = "陳德莫的小本本",
         weight = 30,
         stack = true,
         close = true,
@@ -663,8 +603,7 @@ return {
         client = {}
     },
     ["s13-8"] = {
-        label = " ",
-         --'陳德莫的小本本',
+        label = "陳德莫的小本本",
         weight = 30,
         stack = true,
         close = true,
@@ -673,8 +612,7 @@ return {
         client = {}
     },
     ["s13-9"] = {
-        label = " ",
-         --'陳德莫的小本本',
+        label = "陳德莫的小本本",
         weight = 30,
         stack = true,
         close = true,
@@ -683,31 +621,27 @@ return {
         client = {}
     },
     ["s14-1"] = {
-        label = " ",
-         --'不明液體',
+        label = "不明液體",
         weight = 100,
         stack = true,
         close = true,
         description = "帶有鐵鏽味"
     },
     ["s14-2"] = {
-        label = " ",
-         --'不明液體',
+        label = "不明液體",
         weight = 100,
         stack = true,
         close = true,
         description = "黏稠且帶有煤味"
     },
     ["s15-1"] = {
-        label = " ",
-         --'泰迪熊',
+        label = "泰迪熊",
         weight = 300,
         stack = true,
         close = true
     },
     ["s15-2"] = {
-        label = " ",
-         --'泰迪熊',
+        label = "泰迪熊",
         weight = 100,
         stack = false,
         close = true,
@@ -718,8 +652,7 @@ return {
         }
     },
     ["s16-1"] = {
-        label = " ",
-         --'科技寶石',
+        label = "科技寶石",
         weight = 200,
         stack = 1,
         close = 1,
@@ -729,8 +662,7 @@ return {
         }
     },
     ["s16-2"] = {
-        label = " ",
-         --'科技寶石',
+        label = "科技寶石",
         weight = 200,
         stack = 1,
         close = 1,
@@ -740,8 +672,7 @@ return {
         }
     },
     ["s17-1"] = {
-        label = " ",
-         --'光與影-康×管同人本',
+        label = "光與影-康×管同人本",
         weight = 100,
         stack = false,
         close = true,
@@ -752,24 +683,21 @@ return {
         }
     },
     ["s18-1"] = {
-        label = " ",
-         --'校長內褲',
+        label = "校長內褲",
         weight = 100,
         stack = 0,
         close = 0,
         description = "好像有股，校長的味道？"
     },
     ["s18-2"] = {
-        label = " ",
-         --'校長內褲',
+        label = "校長內褲",
         weight = 100,
         stack = 0,
         close = 0,
         description = "好像有股，校長的味道？"
     },
     ["s19-1"] = {
-        label = " ",
-         --'報紙垃圾',
+        label = "報紙垃圾",
         weight = 200,
         stack = true,
         close = true,
@@ -779,8 +707,7 @@ return {
         }
     },
     ["s19-2"] = {
-        label = " ",
-         --'報紙垃圾',
+        label = "報紙垃圾",
         weight = 200,
         stack = true,
         close = true,
@@ -790,8 +717,7 @@ return {
         }
     },
     ["s19-3"] = {
-        label = " ",
-         --'報紙垃圾',
+        label = "報紙垃圾",
         weight = 200,
         stack = true,
         close = true,
@@ -801,8 +727,7 @@ return {
         }
     },
     ["s19-4"] = {
-        label = " ",
-         --'報紙垃圾',
+        label = "報紙垃圾",
         weight = 200,
         stack = true,
         close = true,
@@ -812,8 +737,7 @@ return {
         }
     },
     ["s19-5"] = {
-        label = " ",
-         --'報紙垃圾',
+        label = "報紙垃圾",
         weight = 200,
         stack = true,
         close = true,
@@ -823,8 +747,7 @@ return {
         }
     },
     ["s19-6"] = {
-        label = " ",
-         --'報紙垃圾',
+        label = "報紙垃圾",
         weight = 200,
         stack = true,
         close = true,
@@ -834,8 +757,7 @@ return {
         }
     },
     ["s19-7"] = {
-        label = " ",
-         --'報紙垃圾',
+        label = "報紙垃圾",
         weight = 200,
         stack = true,
         close = true,
@@ -845,36 +767,31 @@ return {
         }
     },
     ["s20-1"] = {
-        label = " ",
-         --'血祈禱',
+        label = "血祈禱",
         weight = 0,
         stack = true,
         close = true
     },
     ["s20-2"] = {
-        label = " ",
-         --'血祈禱',
+        label = "血祈禱",
         weight = 0,
         stack = true,
         close = true
     },
     ["s21-1"] = {
-        label = " ",
-         --'遺骸鑰匙',
+        label = "遺骸鑰匙",
         weight = 250,
         stack = true,
         close = true
     },
     ["s21-2"] = {
-        label = " ",
-         --'遺骸鑰匙',
+        label = "遺骸鑰匙",
         weight = 250,
         stack = true,
         close = true
     },
     ["s22-2"] = {
-        label = " ",
-         --'費氏特效小藥包',
+        label = "費氏特效小藥包",
         weight = 180,
         stack = true,
         close = true,
@@ -886,8 +803,7 @@ return {
         }
     },
     ["s23-2"] = {
-        label = " ",
-         --'阿天果汁',
+        label = "阿天果汁",
         weight = 125,
         stack = true,
         close = true,
@@ -898,213 +814,186 @@ return {
         }
     },
     ["s24-1"] = {
-        label = " ",
-         --'血寶石',
+        label = "血寶石",
         weight = 210,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s24-2"] = {
-        label = " ",
-         --'沉默的血寶石',
+        label = "沉默的血寶石",
         weight = 210,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s24-3"] = {
-        label = " ",
-         --'揭示的血寶石',
+        label = "揭示的血寶石",
         weight = 210,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s24-4"] = {
-        label = " ",
-         --'綠寶石',
+        label = "綠寶石",
         weight = 210,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s24-5"] = {
-        label = " ",
-         --'沉寂的綠寶石',
+        label = "沉寂的綠寶石",
         weight = 210,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s24-6"] = {
-        label = " ",
-         --'揭穿的綠寶石',
+        label = "揭穿的綠寶石",
         weight = 210,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s24-7"] = {
-        label = " ",
-         --'紅寶石',
+        label = "紅寶石",
         weight = 210,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s24-8"] = {
-        label = " ",
-         --'沉深的紅寶石',
+        label = "沉深的紅寶石",
         weight = 210,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s24-9"] = {
-        label = " ",
-         --'揭露的紅寶石',
+        label = "揭露的紅寶石",
         weight = 210,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s24-10"] = {
-        label = " ",
-         --'藍寶石',
+        label = "藍寶石",
         weight = 210,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s24-11"] = {
-        label = " ",
-         --'沉埃的藍寶石',
+        label = "沉埃的藍寶石",
         weight = 210,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s24-12"] = {
-        label = " ",
-         --'揭破的藍寶石',
+        label = "揭破的藍寶石",
         weight = 210,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s24-13"] = {
-        label = " ",
-         --'青綠色貓眼石',
+        label = "青綠色貓眼石",
         weight = 210,
         stack = true,
         close = true
     },
     ["s24-14"] = {
-        label = " ",
-         --'血紅色貓眼石',
+        label = "血紅色貓眼石",
         weight = 210,
         stack = true,
         close = true
     },
     ["s24-15"] = {
-        label = " ",
-         --'金黃色貓眼石',
+        label = "金黃色貓眼石",
         weight = 210,
         stack = true,
         close = true
     },
     ["s25-1"] = {
-        label = " ",
-         --'隱靈果',
+        label = "隱靈果",
         weight = 222,
         stack = 1,
         close = 1,
         description = "小心呵護"
     },
     ["s26-1"] = {
-        label = " ",
-         --'抗落劑(弱)',
+        label = "抗落劑(弱)",
         weight = 50,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s26-2"] = {
-        label = " ",
-         --'抗落劑(普)',
+        label = "抗落劑(普)",
         weight = 50,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s26-3"] = {
-        label = " ",
-         --'抗落劑(強)',
+        label = "抗落劑(強)",
         weight = 50,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s27-1"] = {
-        label = " ",
-         --'安予藥膏',
+        label = "安予藥膏",
         weight = 20,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s28-1"] = {
-        label = " ",
-         --'巴斯豆',
+        label = "巴斯豆",
         weight = 50,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s29-1"] = {
-        label = " ",
-         --'貓',
+        label = "貓",
         weight = 200,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s30-1"] = {
-        label = " ",
-         --'貓的眼淚',
+        label = "貓的眼淚",
         weight = 50,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s31-1"] = {
-        label = " ",
-         --'爪藻',
+        label = "爪藻",
         weight = 48,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s32-1"] = {
-        label = " ",
-         --'鱷脊草',
+        label = "鱷脊草",
         weight = 31,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s33-1"] = {
-        label = " ",
-         --'爪藻萃取液',
+        label = "爪藻萃取液",
         weight = 35,
         stack = 1,
         close = 0,
         description = ""
     },
     ["s34-1"] = {
-        label = " ",
-         --'餽贈超強藥膏',
+        label = "餽贈超強藥膏",
         weight = 10,
         stack = true,
         close = true,
@@ -1114,8 +1003,7 @@ return {
         }
     },
     ["s35-1"] = {
-        label = " ",
-         --'渾沌之泉',
+        label = "渾沌之泉",
         weight = 200,
         stack = 1,
         close = 1,
@@ -1127,8 +1015,7 @@ return {
         }
     },
     ["s36-1"] = {
-        label = " ",
-         --'主神之賜',
+        label = "主神之賜",
         weight = 500,
         stack = 1,
         close = 1,
@@ -1140,32 +1027,28 @@ return {
         }
     },
     ["s37-1"] = {
-        label = " ",
-         --'灰狼草',
+        label = "灰狼草",
         weight = 200,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s38-1"] = {
-        label = " ",
-         --'真實 ',
+        label = "真實 ",
         weight = 40,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s38-2"] = {
-        label = " ",
-         --'忍耐 ',
+        label = "忍耐 ",
         weight = 40,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s39-1"] = {
-        label = " ",
-         --'活動地圖',
+        label = "活動地圖",
         weight = 20,
         stack = 1,
         close = 1,
@@ -1177,8 +1060,7 @@ return {
         }
     },
     ["s40-1"] = {
-        label = " ",
-         --'夜視鏡',
+        label = "夜視鏡",
         weight = 222,
         stack = 0,
         close = 1,
@@ -1188,40 +1070,35 @@ return {
         }
     },
     ["s41-1"] = {
-        label = " ",
-         --'萊斯糖(藍)',
+        label = "萊斯糖(藍)",
         weight = 23,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s41-2"] = {
-        label = " ",
-         --'萊斯糖(紫)',
+        label = "萊斯糖(紫)",
         weight = 25,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s41-3"] = {
-        label = " ",
-         --'萊斯糖(紅)',
+        label = "萊斯糖(紅)",
         weight = 24,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s41-4"] = {
-        label = " ",
-         --'萊斯糖(黃)',
+        label = "萊斯糖(黃)",
         weight = 22,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s42-1"] = {
-        label = " ",
-         --'大帥香蕉',
+        label = "大帥香蕉",
         weight = 89,
         stack = 1,
         close = 1,
@@ -1231,8 +1108,7 @@ return {
         }
     },
     ["s42-2"] = {
-        label = " ",
-         --'幸運櫻桃',
+        label = "幸運櫻桃",
         weight = 88,
         stack = 1,
         close = 1,
@@ -1242,8 +1118,7 @@ return {
         }
     },
     ["s42-3"] = {
-        label = " ",
-         --'微笑葡萄',
+        label = "微笑葡萄",
         weight = 90,
         stack = 1,
         close = 1,
@@ -1253,8 +1128,7 @@ return {
         }
     },
     ["s42-4"] = {
-        label = " ",
-         --'俊俏芒果',
+        label = "俊俏芒果",
         weight = 91,
         stack = 1,
         close = 1,
@@ -1264,8 +1138,7 @@ return {
         }
     },
     ["s42-5"] = {
-        label = " ",
-         --'超酸檸檬',
+        label = "超酸檸檬",
         weight = 92,
         stack = 1,
         close = 1,
@@ -1275,8 +1148,7 @@ return {
         }
     },
     ["s42-6"] = {
-        label = " ",
-         --'壞壞忙果',
+        label = "壞壞忙果",
         weight = 93,
         stack = 1,
         close = 1,
@@ -1286,8 +1158,7 @@ return {
         }
     },
     ["s42-7"] = {
-        label = " ",
-         --'酷酷柳橙',
+        label = "酷酷柳橙",
         weight = 84,
         stack = 1,
         close = 1,
@@ -1297,8 +1168,7 @@ return {
         }
     },
     ["s43-1"] = {
-        label = " ",
-         --'坨坨果',
+        label = "坨坨果",
         weight = 88,
         stack = 1,
         close = 0,
@@ -1308,8 +1178,7 @@ return {
         }
     },
     ["s44-1"] = {
-        label = " ",
-         --'熊熊特效藥',
+        label = "熊熊特效藥",
         weight = 1250,
         stack = 1,
         close = 1,
@@ -1324,96 +1193,84 @@ return {
         }
     },
     ["s45-1"] = {
-        label = " ",
-         --'小白兔',
+        label = "小白兔",
         weight = 200,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s46-1"] = {
-        label = " ",
-         --'消散藥水',
+        label = "消散藥水",
         weight = 20,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s46-2"] = {
-        label = " ",
-         --'輕羽藥水',
+        label = "輕羽藥水",
         weight = 20,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s47-1"] = {
-        label = " ",
-         --'遺骸百合',
+        label = "遺骸百合",
         weight = 42,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s48-1"] = {
-        label = " ",
-         --'夜視溶劑',
+        label = "夜視溶劑",
         weight = 50,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s49-1"] = {
-        label = " ",
-         --'??菇',
+        label = "??菇",
         weight = 42,
         stack = 1,
         close = 1,
         description = "黑又臭。"
     },
     ["s50-1"] = {
-        label = " ",
-         --'特殊黏液',
+        label = "特殊黏液",
         weight = 50,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s51-1"] = {
-        label = " ",
-         --'血沙',
+        label = "血沙",
         weight = 0,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s51-2"] = {
-        label = " ",
-         --'血沙石',
+        label = "血沙石",
         weight = 0,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s51-3"] = {
-        label = " ",
-         --'黑血鑽',
+        label = "黑血鑽",
         weight = 0,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s52-1"] = {
-        label = " ",
-         --'??草',
+        label = "??草",
         weight = 5,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s53-1"] = {
-        label = " ",
-         --'非常驚爆',
+        label = "非常驚爆",
         weight = 111,
         stack = 1,
         close = 1,
@@ -1422,166 +1279,145 @@ return {
         client = {}
     },
     ["s54-1"] = {
-        label = " ",
-         --'湖水',
+        label = "湖水",
         weight = 111,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s54-2"] = {
-        label = " ",
-         --'羽落湖水',
+        label = "羽落湖水",
         weight = 111,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s55-1"] = {
-        label = " ",
-         --'阿天草',
+        label = "阿天草",
         weight = 74,
         stack = 1,
         close = 1,
         description = "阿天草"
     },
     ["s56-1"] = {
-        label = " ",
-         --'怪異黑傑豆',
+        label = "怪異黑傑豆",
         weight = 5,
         stack = 1,
         close = 1,
         description = "烏漆發黑的黑色豆塊。"
     },
     ["s57-1"] = {
-        label = " ",
-         --'薛爾錠',
+        label = "薛爾錠",
         weight = 20,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s58-1"] = {
-        label = " ",
-         --'星眠棠',
+        label = "星眠棠",
         weight = 72,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s59-1"] = {
-        label = " ",
-         --'安神香',
+        label = "安神香",
         weight = 150,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s60-1"] = {
-        label = " ",
-         --'索托斯泡沫液',
+        label = "索托斯泡沫液",
         weight = 20,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s61-1"] = {
-        label = " ",
-         --'極樂花',
+        label = "極樂花",
         weight = 50,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s62-1"] = {
-        label = " ",
-         --'聖潛者',
+        label = "聖潛者",
         weight = 200,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s63-1"] = {
-        label = " ",
-         --'太陽草',
+        label = "太陽草",
         weight = 34,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s64-1"] = {
-        label = " ",
-         --'提爾納諾',
+        label = "提爾納諾",
         weight = 40,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s65-1"] = {
-        label = " ",
-         --'燕子',
+        label = "燕子",
         weight = 200,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s66-1"] = {
-        label = " ",
-         --'聖珈娜之淚',
+        label = "聖珈娜之淚",
         weight = 200,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s67-1"] = {
-        label = " ",
-         --'怪異香料',
+        label = "怪異香料",
         weight = 80,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s68-1"] = {
-        label = " ",
-         --'迴光藥丸',
+        label = "迴光藥丸",
         weight = 61,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s69-1"] = {
-        label = " ",
-         --'灰狼',
+        label = "灰狼",
         weight = 200,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s70-1"] = {
-        label = " ",
-         --'零壹林錠',
+        label = "零壹林錠",
         weight = 87,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s71-1"] = {
-        label = " ",
-         --'滴血草',
+        label = "滴血草",
         weight = 50,
         stack = true,
         close = true
     },
     ["s71-2"] = {
-        label = " ",
-         --'七彩蓮花',
+        label = "七彩蓮花",
         weight = 20,
         stack = true,
         close = true
     },
     ["s72-1"] = {
-        label = " ",
-         --'拉亞特之書',
+        label = "拉亞特之書",
         weight = 100,
         stack = true,
         close = true
@@ -1591,16 +1427,14 @@ return {
      --'Dirty Money',
     },
     ["s74-1"] = {
-        label = " ",
-         --'幸福手鍊',
+        label = "幸福手鍊",
         weight = 50,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s75-1"] = {
-        label = " ",
-         --'那堤的信1',
+        label = "那堤的信1",
         weight = 10,
         stack = true,
         close = true,
@@ -1609,8 +1443,7 @@ return {
         }
     },
     ["s75-2"] = {
-        label = " ",
-         --'那堤的信2',
+        label = "那堤的信2",
         weight = 10,
         stack = true,
         close = true,
@@ -1619,8 +1452,7 @@ return {
         }
     },
     ["s75-3"] = {
-        label = " ",
-         --'那堤的信3',
+        label = "那堤的信3",
         weight = 10,
         stack = true,
         close = true,
@@ -1629,8 +1461,7 @@ return {
         }
     },
     ["s75-4"] = {
-        label = " ",
-         --'那堤的信4',
+        label = "那堤的信4",
         weight = 10,
         stack = true,
         close = true,
@@ -1639,8 +1470,7 @@ return {
         }
     },
     ["s75-5"] = {
-        label = " ",
-         --'那堤的信5',
+        label = "那堤的信5",
         weight = 10,
         stack = true,
         close = true,
@@ -1649,8 +1479,7 @@ return {
         }
     },
     ["s75-6"] = {
-        label = " ",
-         --'那堤的信6',
+        label = "那堤的信6",
         weight = 10,
         stack = true,
         close = true,
@@ -1659,8 +1488,7 @@ return {
         }
     },
     ["s75-7"] = {
-        label = " ",
-         --'那堤的信7',
+        label = "那堤的信7",
         weight = 10,
         stack = true,
         close = true,
@@ -1669,8 +1497,7 @@ return {
         }
     },
     ["s75-8"] = {
-        label = " ",
-         --'那堤的信8',
+        label = "那堤的信8",
         weight = 10,
         stack = true,
         close = true,
@@ -1679,8 +1506,7 @@ return {
         }
     },
     ["s75-9"] = {
-        label = " ",
-         --'那堤的信9',
+        label = "那堤的信9",
         weight = 10,
         stack = true,
         close = true,
@@ -1689,24 +1515,21 @@ return {
         }
     },
     ["s76-1"] = {
-        label = " ",
-         --'睡覺暮暮玩偶',
+        label = "睡覺暮暮玩偶",
         weight = 260,
         stack = true,
         close = true,
         description = "縫紉手法有點粗糙的玩偶，和暮暮的顏色一樣鮮豔。"
     },
     ["s77-1"] = {
-        label = " ",
-         --'雄雄',
+        label = "雄雄",
         weight = 260,
         stack = true,
         close = true,
         description = "從小與菲斯特長大的泰迪熊。"
     },
     ["s78-1"] = {
-        label = " ",
-         --'拉瑪果',
+        label = "拉瑪果",
         weight = 777,
         stack = true,
         close = true,
@@ -1717,8 +1540,7 @@ return {
         }
     },
     ["s79-1"] = {
-        label = " ",
-         --'月輪蛋糕',
+        label = "月輪蛋糕",
         weight = 242,
         stack = true,
         close = true,
@@ -1729,8 +1551,7 @@ return {
         }
     },
     ["s80-1"] = {
-        label = " ",
-         --'駝駝餅',
+        label = "駝駝餅",
         weight = 114,
         stack = true,
         close = true,
@@ -1742,8 +1563,7 @@ return {
         }
     },
     ["s81-1"] = {
-        label = " ",
-         --'睡睡茶包',
+        label = "睡睡茶包",
         weight = 5,
         stack = true,
         close = true,
@@ -1752,8 +1572,7 @@ return {
         }
     },
     ["s81-2"] = {
-        label = " ",
-         --'睡睡水',
+        label = "睡睡水",
         weight = 100,
         stack = true,
         close = true,
@@ -1763,8 +1582,7 @@ return {
         }
     },
     ["s81-3"] = {
-        label = " ",
-         --'燙燙糖',
+        label = "燙燙糖",
         weight = 20,
         stack = true,
         close = true,
@@ -1774,8 +1592,7 @@ return {
         }
     },
     ["s82-1"] = {
-        label = " ",
-         --'傾聽',
+        label = "傾聽",
         weight = 250,
         stack = true,
         close = true,
@@ -1784,8 +1601,7 @@ return {
         }
     },
     ["s83-1"] = {
-        label = " ",
-         --'瑪拉道特製養分袋',
+        label = "瑪拉道特製養分袋",
         weight = 250,
         stack = true,
         close = true,
@@ -1794,8 +1610,7 @@ return {
         }
     },
     ["s84-1"] = {
-        label = " ",
-         --'哈柏定神香薰',
+        label = "哈柏定神香薰",
         weight = 200,
         stack = true,
         close = true,
@@ -1804,106 +1619,91 @@ return {
         }
     },
     ["s85-1"] = {
-        label = " ",
-         --'夢蝶花',
+        label = "夢蝶花",
         weight = 74,
         stack = true,
         close = true
     },
     ["s86-1"] = {
-        label = " ",
-         --'酒社鑰',
+        label = "酒社鑰",
         weight = 74,
         stack = true,
         close = true
     },
     ["s87-1"] = {
-        label = " ",
-         --'朗之鑰',
+        label = "朗之鑰",
         weight = 74,
         stack = true,
         close = true
     },
     ["s88-1"] = {
-        label = " ",
-         --'豪宅鑰',
+        label = "豪宅鑰",
         weight = 74,
         stack = true,
         close = true
     },
     ["s89-1"] = {
-        label = " ",
-         --'狐狸的掛牌',
+        label = "狐狸的掛牌",
         weight = 20,
         stack = true,
         close = true
     },
     ["s90-1"] = {
-        label = " ",
-         --'編號：G72',
+        label = "編號：G72",
         weight = 74,
         stack = true,
         close = true
     },
     ["s90-2"] = {
-        label = " ",
-         --'編號：R33',
+        label = "編號：R33",
         weight = 74,
         stack = true,
         close = true
     },
     ["s90-3"] = {
-        label = " ",
-         --'編號：O45',
+        label = "編號：O45",
         weight = 74,
         stack = true,
         close = true
     },
     ["s90-4"] = {
-        label = " ",
-         --'編號：O64',
+        label = "編號：O64",
         weight = 74,
         stack = true,
         close = true
     },
     ["s90-5"] = {
-        label = " ",
-         --'編號：T17',
+        label = "編號：T17",
         weight = 74,
         stack = true,
         close = true
     },
     ["s90-6"] = {
-        label = " ",
-         --'編號：Y452',
+        label = "編號：Y452",
         weight = 74,
         stack = true,
         close = true
     },
     ["s90-7"] = {
-        label = " ",
-         --'編號：Z587',
+        label = "編號：Z587",
         weight = 74,
         stack = true,
         close = true
     },
     ["s90-8"] = {
-        label = " ",
-         --'編號：M176',
+        label = "編號：M176",
         weight = 74,
         stack = true,
         close = true
     },
     ["s90-9"] = {
-        label = " ",
-         --'編號：R458',
+        label = "編號：R458",
         weight = 74,
         stack = true,
         close = true
     },
     ["s91-1"] = {
-        label = " ",
-         --'信仰',
+        label = "信仰",
         weight = 74,
         stack = true,
         close = true,
@@ -1914,8 +1714,7 @@ return {
         }
     },
     ["s91-2"] = {
-        label = " ",
-         --'你',
+        label = "你",
         weight = 74,
         stack = true,
         close = true,
@@ -1926,8 +1725,7 @@ return {
         }
     },
     ["s91-3"] = {
-        label = " ",
-         --'家',
+        label = "家",
         weight = 74,
         stack = true,
         close = true,
@@ -1938,15 +1736,13 @@ return {
         }
     },
     ["s92-1"] = {
-        label = " ",
-         --'凝結的夜空',
+        label = "凝結的夜空",
         weight = 200,
         stack = true,
         close = true
     },
     ["s93-1"] = {
-        label = " ",
-         --'夢蝶花粉末',
+        label = "夢蝶花粉末",
         weight = 24,
         stack = true,
         close = true,
@@ -1956,8 +1752,7 @@ return {
         }
     },
     ["s94-1"] = {
-        label = " ",
-         --'迴廊',
+        label = "迴廊",
         weight = 200,
         stack = true,
         close = true,
@@ -1968,8 +1763,7 @@ return {
         }
     },
     ["s95-1"] = {
-        label = " ",
-         --'鱷魚之眼',
+        label = "鱷魚之眼",
         weight = 187,
         stack = true,
         close = true,
@@ -1980,8 +1774,7 @@ return {
         }
     },
     ["s96-1"] = {
-        label = " ",
-         --'阿基蔬果汁',
+        label = "阿基蔬果汁",
         weight = 154,
         stack = true,
         close = true,
@@ -1992,8 +1785,7 @@ return {
         }
     },
     ["s97-1"] = {
-        label = " ",
-         --'小阿天果醬',
+        label = "小阿天果醬",
         weight = 78,
         stack = true,
         close = true,
@@ -2004,8 +1796,7 @@ return {
         }
     },
     ["s98-1"] = {
-        label = " ",
-         --'阿基麵包',
+        label = "阿基麵包",
         weight = 156,
         stack = true,
         close = true,
@@ -2016,71 +1807,61 @@ return {
         }
     },
     ["s99-1"] = {
-        label = " ",
-         --'星月之樹',
+        label = "星月之樹",
         weight = 222,
         stack = true,
         close = true
     },
     ["s99-2"] = {
-        label = " ",
-         --'漂浮水母',
+        label = "漂浮水母",
         weight = 75,
         stack = true,
         close = true
     },
     ["s99-3"] = {
-        label = " ",
-         --'生物骸骨',
+        label = "生物骸骨",
         weight = 85,
         stack = true,
         close = true
     },
     ["s99-4"] = {
-        label = " ",
-         --'骨粉',
+        label = "骨粉",
         weight = 50,
         stack = true,
         close = true
     },
     ["s99-5"] = {
-        label = " ",
-         --'星之鹿',
+        label = "星之鹿",
         weight = 210,
         stack = true,
         close = true
     },
     ["s100-1"] = {
-        label = " ",
-         --'鑲鑽髮箍',
+        label = "鑲鑽髮箍",
         weight = 60,
         stack = true,
         close = true
     },
     ["s101-1"] = {
-        label = " ",
-         --'可愛古輝玩偶',
+        label = "可愛古輝玩偶",
         weight = 150,
         stack = true,
         close = true
     },
     ["s102-1"] = {
-        label = " ",
-         --'羅杰族長信物',
+        label = "羅杰族長信物",
         weight = 150,
         stack = true,
         close = true
     },
     ["s103-1"] = {
-        label = " ",
-         --'食譜',
+        label = "食譜",
         weight = 150,
         stack = true,
         close = true
     },
     ["s104-1"] = {
-        label = " ",
-         --'烤牛奶',
+        label = "烤牛奶",
         weight = 128,
         stack = true,
         close = true,
@@ -2091,8 +1872,7 @@ return {
         }
     },
     ["s105-1"] = {
-        label = " ",
-         --'苒人麵包捲',
+        label = "苒人麵包捲",
         weight = 175,
         stack = true,
         close = true,
@@ -2103,8 +1883,7 @@ return {
         }
     },
     ["s106-1"] = {
-        label = " ",
-         --'雲慕',
+        label = "雲慕",
         weight = 222,
         stack = true,
         close = true,
@@ -2115,8 +1894,7 @@ return {
         }
     },
     ["s107-1"] = {
-        label = " ",
-         --'甜辛麵包捲',
+        label = "甜辛麵包捲",
         weight = 167,
         stack = true,
         close = true,
@@ -2127,8 +1905,7 @@ return {
         }
     },
     ["s108-1"] = {
-        label = " ",
-         --'夢湯',
+        label = "夢湯",
         weight = 777,
         stack = true,
         close = true,
@@ -2139,8 +1916,7 @@ return {
         }
     },
     ["s109-1"] = {
-        label = " ",
-         --'怪奇蕈菇燉飯',
+        label = "怪奇蕈菇燉飯",
         weight = 224,
         stack = true,
         close = true,
@@ -2151,8 +1927,7 @@ return {
         }
     },
     ["s110-1"] = {
-        label = " ",
-         --'丼飯',
+        label = "丼飯",
         weight = 222,
         stack = true,
         close = true,
@@ -2163,8 +1938,7 @@ return {
         }
     },
     ["s111-1"] = {
-        label = " ",
-         --'高粱餅乾',
+        label = "高粱餅乾",
         weight = 158,
         stack = true,
         close = true,
@@ -2175,8 +1949,7 @@ return {
         }
     },
     ["s112-1"] = {
-        label = " ",
-         --'羅杰餅乾',
+        label = "羅杰餅乾",
         weight = 158,
         stack = true,
         close = true,
@@ -2187,8 +1960,7 @@ return {
         }
     },
     ["s113-1"] = {
-        label = " ",
-         --'冰鑽番茄',
+        label = "冰鑽番茄",
         weight = 122,
         stack = true,
         close = true,
@@ -2199,16 +1971,14 @@ return {
         }
     },
     ["s114-1"] = {
-        label = " ",
-         --'萬能車鑰匙',
+        label = "萬能車鑰匙",
         weight = 200,
         stack = true,
         close = true,
         client = {}
     },
     ["s115-1"] = {
-        label = " ",
-         --'充電襙光蟲',
+        label = "充電襙光蟲",
         weight = 1,
         stack = true,
         close = true,
@@ -2216,8 +1986,7 @@ return {
         description = "充滿雷電的蟲"
     },
     ["s116-1"] = {
-        label = " ",
-         --'植物圖鑑',
+        label = "植物圖鑑",
         weight = 350,
         stack = false,
         close = true,
@@ -2232,8 +2001,7 @@ return {
         consume = 0,
     },
     ["s118-1"] = {
-        label = " ",
-         --'軍牌項鍊',
+        label = "軍牌項鍊",
         weight = 120,
         stack = false,
         close = true,
@@ -2241,8 +2009,7 @@ return {
         description = "上面寫著Ishimura Iemitsu"
     },
     ["s119-1"] = {
-        label = " ",
-         --'環保杯',
+        label = "環保杯",
         durability = 100,
         weight = 200,
         stack = false,
@@ -2259,8 +2026,7 @@ return {
         }
     },
     ["s120-1"] = {
-        label = " ",
-         --'變身腰帶',
+        label = "變身腰帶",
         weight = 500,
         stack = false,
         close = true,
@@ -2276,8 +2042,7 @@ return {
         description = "含有78張塔羅牌的盒子。"
     },
     ["s122-1"] = {
-        label = " ",
-         --'隨機特殊晶片卡',
+        label = "隨機特殊晶片卡",
         weight = 20,
         stack = true,
         close = true,
@@ -2285,8 +2050,7 @@ return {
         description = "卡片上寫著一行字：隨機特殊微型晶片卡"
     },
     ["s122-2"] = {
-        label = " ",
-         --'隨機能力晶片卡',
+        label = "隨機能力晶片卡",
         weight = 20,
         stack = true,
         close = true,
@@ -2294,8 +2058,7 @@ return {
         description = "卡片上寫著一行字：隨機能力微型晶片卡"
     },
     ["s122-3"] = {
-        label = " ",
-         --'隨機效果晶片卡',
+        label = "隨機效果晶片卡",
         weight = 20,
         stack = true,
         close = true,
@@ -2303,8 +2066,7 @@ return {
         description = "卡片上寫著一行字：隨機效果微型晶片卡"
     },
     ["s122-4"] = {
-        label = " ",
-         --'隨機特效晶片卡',
+        label = "隨機特效晶片卡",
         weight = 20,
         stack = true,
         close = true,
@@ -2312,8 +2074,7 @@ return {
         description = "卡片上寫著一行字：隨機特效微型晶片卡"
     },
     ["s122-7"] = {
-        label = " ",
-         --'效果晶片卡',
+        label = "效果晶片卡",
         weight = 20,
         stack = true,
         close = true,
@@ -2321,8 +2082,7 @@ return {
         description = "卡片上寫著一行字：效果微型晶片卡"
     },
     ["s123-1"] = {
-        label = " ",
-         --'豐饒護符',
+        label = "豐饒護符",
         weight = 200,
         stack = true,
         close = true,
@@ -2330,8 +2090,7 @@ return {
         description = "當心靈豐饒會帶來無限的好運"
     },
     ["s123-2"] = {
-        label = " ",
-         --'平安護符',
+        label = "平安護符",
         weight = 200,
         stack = true,
         close = true,
@@ -2339,8 +2098,7 @@ return {
         description = "想起了期望你平安歸來的人們"
     },
     ["s123-3"] = {
-        label = " ",
-         --'勇氣護符',
+        label = "勇氣護符",
         weight = 200,
         stack = true,
         close = true,
@@ -2349,8 +2107,7 @@ return {
         client = {}
     },
     ["s124-1"] = {
-        label = " ",
-         --'地道許可權',
+        label = "地道許可權",
         weight = 20,
         stack = false,
         close = true,
@@ -2359,8 +2116,7 @@ return {
         client = {}
     },
     ["s125-1"] = {
-        label = " ",
-         -- '阿爾的祝福卡',
+        label = "阿爾的祝福卡",
         weight = 100,
         stack = true,
         close = true,
@@ -2369,8 +2125,7 @@ return {
         client = {}
     },
     ["s125-2"] = {
-        label = " ",
-         -- '吳子祈簽名小卡',
+        label = "吳子祈簽名小卡",
         weight = 100,
         stack = true,
         close = true,
@@ -2379,8 +2134,7 @@ return {
         client = {}
     },
     ["s126-1"] = {
-        label = " ",
-         -- '紙鶴',
+        label = "紙鶴",
         weight = 50,
         stack = true,
         close = true,
@@ -2392,8 +2146,7 @@ return {
         }
     },
     ["s127-1"] = {
-        label = " ",
-         -- '博美風鈴',
+        label = "博美風鈴",
         weight = 300,
         stack = true,
         close = true,
@@ -2404,8 +2157,7 @@ return {
         }
     },
     ["s128-1"] = {
-        label = " ",
-         -- '凝膠髮夾',
+        label = "凝膠髮夾",
         weight = 70,
         stack = true,
         close = true,
@@ -2414,8 +2166,7 @@ return {
         client = {}
     },
     ["s129-1"] = {
-        label = " ",
-         -- '權嘉娃娃',
+        label = "權嘉娃娃",
         weight = 250,
         stack = true,
         close = true,
@@ -2424,8 +2175,7 @@ return {
         client = {}
     },
     ["s130-1"] = {
-        label = " ",
-         -- '白鹿絲肖像畫',
+        label = "白鹿絲肖像畫",
         weight = 250,
         stack = true,
         close = true,
@@ -2434,8 +2184,7 @@ return {
         client = {}
     },
     ["s131-1"] = {
-        label = " ",
-         -- '高科技手套(火焰)',
+        label = "高科技手套(火焰)",
         weight = 300,
         stack = true,
         close = true,
@@ -2446,8 +2195,7 @@ return {
         }
     },
     ["s131-2"] = {
-        label = " ",
-         -- '火焰投影手套',
+        label = "火焰投影手套",
         weight = 300,
         stack = true,
         close = true,
@@ -2458,8 +2206,7 @@ return {
         }
     },
     ["s132-1"] = {
-        label = " ",
-         -- '玖楓生日卡片',
+        label = "玖楓生日卡片",
         weight = 100,
         stack = true,
         close = true,
@@ -2470,8 +2217,7 @@ return {
         }
     },
     ["s133-1"] = {
-        label = " ",
-         -- 'NC156-74試劑',
+        label = "NC156-74試劑",
         weight = 120,
         stack = true,
         close = true,
@@ -2482,8 +2228,7 @@ return {
         }
     },
     ["s134-1"] = {
-        label = " ",
-         -- 'pururu演唱會門票',
+        label = "pururu演唱會門票",
         weight = 20,
         stack = true,
         close = true,
@@ -2492,8 +2237,7 @@ return {
         client = {}
     },
     ["s135-1"] = {
-        label = " ",
-         -- '吳朗豪的軍籍牌',
+        label = "吳朗豪的軍籍牌",
         weight = 50,
         stack = true,
         close = true,
@@ -2502,8 +2246,7 @@ return {
         client = {}
     },
     ["s136-1"] = {
-        label = " ",
-         -- '莎莉沙發',
+        label = "莎莉沙發",
         weight = 350,
         stack = true,
         close = true,
@@ -2522,8 +2265,7 @@ return {
         }
     },
     ["s137-1"] = {
-        label = " ",
-         --'玖菜喵喵豪華升級版',
+        label = "玖菜喵喵豪華升級版",
         weight = 200,
         stack = true,
         close = true,
@@ -2532,8 +2274,7 @@ return {
         client = {}
     },
     ["s138-1"] = {
-        label = " ",
-         -- '細胞營養劑',
+        label = "細胞營養劑",
         weight = 60,
         stack = true,
         close = true,
@@ -2542,8 +2283,7 @@ return {
         client = {}
     },
     ["s138-2"] = {
-        label = " ",
-         -- '細胞修復再生劑',
+        label = "細胞修復再生劑",
         weight = 10,
         stack = true,
         close = true,
@@ -2554,8 +2294,7 @@ return {
         }
     },
     ["s138-3"] = {
-        label = " ",
-         -- '第一階段免疫力',
+        label = "第一階段免疫力",
         weight = 60,
         stack = true,
         close = true,
@@ -2564,8 +2303,7 @@ return {
         client = {}
     },
     ["s138-4"] = {
-        label = " ",
-         -- '第一階段免疫力稀釋劑+',
+        label = "第一階段免疫力稀釋劑+",
         weight = 60,
         stack = true,
         close = true,
@@ -2576,8 +2314,7 @@ return {
         }
     },
     ["s138-5"] = {
-        label = " ",
-         -- '焦三仙',
+        label = "焦三仙",
         weight = 10,
         stack = true,
         close = true,
@@ -2588,8 +2325,7 @@ return {
         }
     },
     ["s139-1"] = {
-        label = " ",
-         -- '第一駝校草選拔冠軍肖像畫',
+        label = "第一駝校草選拔冠軍肖像畫",
         weight = 250,
         stack = true,
         close = true,
@@ -2598,8 +2334,7 @@ return {
         client = {}
     },
     ["s140-1"] = {
-        label = " ",
-         -- '櫻花盆栽',
+        label = "櫻花盆栽",
         weight = 150,
         stack = true,
         close = true,
@@ -2608,8 +2343,7 @@ return {
         client = {}
     },
     ["s141-1"] = {
-        label = " ",
-         -- '航海家金唱片',
+        label = "航海家金唱片",
         weight = 150,
         stack = true,
         close = true,
@@ -2618,8 +2352,7 @@ return {
         client = {}
     },
     ["s142-1"] = {
-        label = " ",
-         -- '迪雅瑪贊之淚',
+        label = "迪雅瑪贊之淚",
         weight = 150,
         stack = true,
         close = true,
@@ -2628,8 +2361,7 @@ return {
         client = {}
     },
     ["s143-1"] = {
-        label = " ",
-         -- '驅邪薑',
+        label = "驅邪薑",
         weight = 150,
         stack = true,
         close = true,
@@ -2638,8 +2370,7 @@ return {
         client = {}
     },
     ["s144-1"] = {
-        label = " ",
-         -- '白日之鍊',
+        label = "白日之鍊",
         weight = 100,
         stack = true,
         close = true,
@@ -2648,8 +2379,7 @@ return {
         client = {}
     },
     ["s145-1"] = {
-        label = " ",
-         -- '炎蛋',
+        label = "炎蛋",
         weight = 250,
         stack = true,
         close = true,
@@ -2658,8 +2388,7 @@ return {
         client = {}
     },
     ["s146-1"] = {
-        label = " ",
-         -- '笑容鑰匙圈',
+        label = "笑容鑰匙圈",
         weight = 40,
         stack = true,
         close = true,
@@ -2668,8 +2397,7 @@ return {
         client = {}
     },
     ["s146-2"] = {
-        label = " ",
-         -- '媤念鑰匙圈',
+        label = "媤念鑰匙圈",
         weight = 40,
         stack = true,
         close = true,
@@ -2678,8 +2406,7 @@ return {
         client = {}
     },
     ["s146-3"] = {
-        label = " ",
-         -- '祈福鑰匙圈',
+        label = "祈福鑰匙圈",
         weight = 40,
         stack = true,
         close = true,
@@ -2688,8 +2415,7 @@ return {
         client = {}
     },
     ["s146-4"] = {
-        label = " ",
-         -- '誓約鑰匙圈',
+        label = "誓約鑰匙圈",
         weight = 40,
         stack = true,
         close = true,
@@ -2698,8 +2424,7 @@ return {
         client = {}
     },
     ["s146-5"] = {
-        label = " ",
-         -- '心跳鑰匙圈',
+        label = "心跳鑰匙圈",
         weight = 40,
         stack = true,
         close = true,
@@ -2708,8 +2433,7 @@ return {
         client = {}
     },
     ["s146-6"] = {
-        label = " ",
-         -- '好夢鑰匙圈',
+        label = "好夢鑰匙圈",
         weight = 40,
         stack = true,
         close = true,
@@ -2718,8 +2442,7 @@ return {
         client = {}
     },
     ["s146-7"] = {
-        label = " ",
-         -- '鈴鈴鑰匙圈',
+        label = "鈴鈴鑰匙圈",
         weight = 40,
         stack = true,
         close = true,
@@ -2728,8 +2451,7 @@ return {
         client = {}
     },
     ["s146-8"] = {
-        label = " ",
-         -- '暖笑鑰匙圈',
+        label = "暖笑鑰匙圈",
         weight = 40,
         stack = true,
         close = true,
@@ -2738,8 +2460,7 @@ return {
         client = {}
     },
     ["s146-9"] = {
-        label = " ",
-         -- '閃耀鑰匙圈',
+        label = "閃耀鑰匙圈",
         weight = 40,
         stack = true,
         close = true,
@@ -2748,8 +2469,7 @@ return {
         client = {}
     },
     ["s147-1"] = {
-        label = " ",
-         --'報紙0303-0307',
+        label = "報紙0303-0307",
         weight = 50,
         stack = true,
         close = true,
@@ -2758,8 +2478,7 @@ return {
         client = {}
     },
     ["s147-2"] = {
-        label = " ",
-         --'報紙0214-0302',
+        label = "報紙0214-0302",
         weight = 50,
         stack = true,
         close = true,
@@ -2768,8 +2487,7 @@ return {
         client = {}
     },
     ["s147-3"] = {
-        label = " ",
-         --'報紙0206-0210',
+        label = "報紙0206-0210",
         weight = 50,
         stack = true,
         close = true,
@@ -2778,8 +2496,7 @@ return {
         client = {}
     },
     ["s147-4"] = {
-        label = " ",
-         --'報紙0201-0205',
+        label = "報紙0201-0205",
         weight = 50,
         stack = true,
         close = true,
@@ -2788,8 +2505,7 @@ return {
         client = {}
     },
     ["s148-1"] = {
-        label = " ",
-         -- '笑容娃娃',
+        label = "笑容娃娃",
         weight = 150,
         stack = true,
         close = true,
@@ -2800,8 +2516,7 @@ return {
         }
     },
     ["s148-2"] = {
-        label = " ",
-         -- '媤念娃娃',
+        label = "媤念娃娃",
         weight = 150,
         stack = true,
         close = true,
@@ -2812,8 +2527,7 @@ return {
         }
     },
     ["s148-3"] = {
-        label = " ",
-         -- '祈福娃娃',
+        label = "祈福娃娃",
         weight = 150,
         stack = true,
         close = true,
@@ -2824,8 +2538,7 @@ return {
         }
     },
     ["s148-4"] = {
-        label = " ",
-         -- '誓約娃娃',
+        label = "誓約娃娃",
         weight = 150,
         stack = true,
         close = true,
@@ -2836,8 +2549,7 @@ return {
         }
     },
     ["s148-5"] = {
-        label = " ",
-         -- '心跳娃娃',
+        label = "心跳娃娃",
         weight = 150,
         stack = true,
         close = true,
@@ -2848,8 +2560,7 @@ return {
         }
     },
     ["s148-6"] = {
-        label = " ",
-         -- '好夢娃娃',
+        label = "好夢娃娃",
         weight = 150,
         stack = true,
         close = true,
@@ -2860,8 +2571,7 @@ return {
         }
     },
     ["s148-7"] = {
-        label = " ",
-         -- '鈴鈴娃娃',
+        label = "鈴鈴娃娃",
         weight = 150,
         stack = true,
         close = true,
@@ -2872,8 +2582,7 @@ return {
         }
     },
     ["s148-8"] = {
-        label = " ",
-         -- '暖笑娃娃',
+        label = "暖笑娃娃",
         weight = 150,
         stack = true,
         close = true,
@@ -2884,8 +2593,7 @@ return {
         }
     },
     ["s148-9"] = {
-        label = " ",
-         -- '閃耀娃娃',
+        label = "閃耀娃娃",
         weight = 150,
         stack = true,
         close = true,
@@ -2896,8 +2604,7 @@ return {
         }
     },
     ["s149-1"] = {
-        label = " ",
-         -- '傳說中的三叉戟',
+        label = "傳說中的三叉戟",
         weight = 5000,
         stack = true,
         close = true,
@@ -2906,8 +2613,7 @@ return {
         client = {}
     },
     ["s149-2"] = {
-        label = " ",
-         -- '純金雕像',
+        label = "純金雕像",
         weight = 75000,
         stack = false,
         close = true,
@@ -2916,8 +2622,7 @@ return {
         client = {}
     },
     ["s150-1"] = {
-        label = " ",
-         -- 'GOCR實驗報告',
+        label = "GOCR實驗報告",
         weight = 70,
         stack = true,
         close = true,
@@ -2926,8 +2631,7 @@ return {
         client = {}
     },
     ["s150-2"] = {
-        label = " ",
-         -- '樣本結晶粉末',
+        label = "樣本結晶粉末",
         weight = 10,
         stack = true,
         close = true,
@@ -2936,8 +2640,7 @@ return {
         client = {}
     },
     ["s150-3"] = {
-        label = " ",
-         -- '樣本結晶',
+        label = "樣本結晶",
         weight = 50,
         stack = true,
         close = true,
@@ -2948,8 +2651,7 @@ return {
         }
     },
     ["s150-4"] = {
-        label = " ",
-         -- '櫻花樹酯',
+        label = "櫻花樹酯",
         weight = 80,
         stack = true,
         close = true,
@@ -2958,8 +2660,7 @@ return {
         client = {}
     },
     ["s151-1"] = {
-        label = " ",
-         -- '邀請函',
+        label = "邀請函",
         weight = 50,
         stack = true,
         close = true,
@@ -2970,8 +2671,7 @@ return {
         }
     },
     ["s152-1"] = {
-        label = " ",
-         -- '全能營養劑',
+        label = "全能營養劑",
         weight = 80,
         stack = true,
         close = true,
@@ -2983,8 +2683,7 @@ return {
         }
     },
     ["s153-1"] = {
-        label = " ",
-         -- '訊號干擾器',
+        label = "訊號干擾器",
         weight = 120,
         stack = true,
         close = true,
@@ -2993,8 +2692,7 @@ return {
         client = {}
     },
     ["s154-1"] = {
-        label = " ",
-         -- 'E.R微型飛行無人機',
+        label = "E.R微型飛行無人機",
         weight = 100,
         stack = true,
         close = true,
@@ -3003,8 +2701,7 @@ return {
         client = {}
     },
     ["s155-1"] = {
-        label = " ",
-         --'海豚紀念幣',
+        label = "海豚紀念幣",
         weight = 30,
         stack = true,
         close = true,
@@ -3013,8 +2710,7 @@ return {
         client = {}
     },
     ["s156-1"] = {
-        label = " ",
-         --'玖菜喵喵',
+        label = "玖菜喵喵",
         weight = 150,
         stack = true,
         close = true,
@@ -3023,8 +2719,7 @@ return {
         client = {}
     },
     ["s157-1"] = {
-        label = " ",
-         --'康x管同人本_不知名的陌生人',
+        label = "康x管同人本_不知名的陌生人",
         weight = 100,
         stack = true,
         close = true,
@@ -3033,8 +2728,7 @@ return {
         client = {}
     },
     ["s158-1"] = {
-        label = " ",
-         --'回憶燈瓶',
+        label = "回憶燈瓶",
         weight = 180,
         stack = true,
         close = true,
@@ -3043,8 +2737,7 @@ return {
         client = {}
     },
     ["s159-1"] = {
-        label = " ",
-         --'雅典娜機密文件2',
+        label = "雅典娜機密文件2",
         weight = 30,
         stack = true,
         close = true,
@@ -3053,8 +2746,7 @@ return {
         client = {}
     },
     ["s159-2"] = {
-        label = " ",
-         --'雅典娜機密文件1',
+        label = "雅典娜機密文件1",
         weight = 30,
         stack = true,
         close = true,
@@ -3063,8 +2755,7 @@ return {
         client = {}
     },
     ["s159-3"] = {
-        label = " ",
-         --'雅典娜文件',
+        label = "雅典娜文件",
         weight = 60,
         stack = true,
         close = true,
@@ -3075,8 +2766,7 @@ return {
         }
     },
     ["s160-1"] = {
-        label = " ",
-         --'寫著什麼的便條紙',
+        label = "寫著什麼的便條紙",
         weight = 10,
         stack = true,
         close = true,
@@ -3085,8 +2775,7 @@ return {
         client = {}
     },
     ["s161-1"] = {
-        label = " ",
-         --'卡通機器貓布偶',
+        label = "卡通機器貓布偶",
         weight = 150,
         stack = true,
         close = true,
@@ -3095,8 +2784,7 @@ return {
         client = {}
     },
     ["s162-1"] = {
-        label = " ",
-         --'小亞祝福幸運卡片',
+        label = "小亞祝福幸運卡片",
         weight = 80,
         stack = true,
         close = true,
@@ -3105,8 +2793,7 @@ return {
         client = {}
     },
     ["s162-2"] = {
-        label = " ",
-         --'小亞藝術乾花擺件',
+        label = "小亞藝術乾花擺件",
         weight = 520,
         stack = true,
         close = true,
@@ -3115,8 +2802,7 @@ return {
         client = {}
     },
     ["s163-1"] = {
-        label = " ",
-         --'塑膠紫水晶寶石',
+        label = "塑膠紫水晶寶石",
         weight = 50,
         stack = true,
         close = true,
@@ -3125,8 +2811,7 @@ return {
         client = {}
     },
     ["s163-2"] = {
-        label = " ",
-         --'塑膠紅愛心寶石',
+        label = "塑膠紅愛心寶石",
         weight = 50,
         stack = true,
         close = true,
@@ -3135,8 +2820,7 @@ return {
         client = {}
     },
     ["s163-3"] = {
-        label = " ",
-         --'塑膠藍星寶石',
+        label = "塑膠藍星寶石",
         weight = 50,
         stack = true,
         close = true,
@@ -3145,8 +2829,7 @@ return {
         client = {}
     },
     ["s163-4"] = {
-        label = " ",
-         --'塑膠黃寶石',
+        label = "塑膠黃寶石",
         weight = 50,
         stack = true,
         close = true,
@@ -3155,8 +2838,7 @@ return {
         client = {}
     },
     ["s163-5"] = {
-        label = " ",
-         --'塑膠藍寶石',
+        label = "塑膠藍寶石",
         weight = 50,
         stack = true,
         close = true,
@@ -3165,8 +2847,7 @@ return {
         client = {}
     },
     ["s164-1"] = {
-        label = " ",
-         --'城堡賽道通行證',
+        label = "城堡賽道通行證",
         weight = 100,
         stack = true,
         close = true,
@@ -3175,8 +2856,7 @@ return {
         client = {}
     },
     ["s165-1"] = {
-        label = " ",
-         --'破碎的手指虎碎片',
+        label = "破碎的手指虎碎片",
         weight = 70,
         stack = true,
         close = true,
@@ -3185,8 +2865,7 @@ return {
         client = {}
     },
     ["s165-2"] = {
-        label = " ",
-         --'破爛的繃帶',
+        label = "破爛的繃帶",
         weight = 30,
         stack = true,
         close = true,
@@ -3200,8 +2879,7 @@ return {
         }
     },
     ["s165-3"] = {
-        label = " ",
-         --'斷掉的鉛筆',
+        label = "斷掉的鉛筆",
         weight = 30,
         stack = true,
         close = true,
@@ -3210,8 +2888,7 @@ return {
         client = {}
     },
     ["s165-4"] = {
-        label = " ",
-         --'泛黃的照片',
+        label = "泛黃的照片",
         weight = 30,
         stack = true,
         close = true,
@@ -3220,8 +2897,7 @@ return {
         client = {}
     },
     ["s165-5"] = {
-        label = " ",
-         --'H.F集團徽章',
+        label = "H.F集團徽章",
         weight = 30,
         stack = true,
         close = true,
@@ -3230,8 +2906,7 @@ return {
         client = {}
     },
     ["s165-6"] = {
-        label = " ",
-         --'破舊小袋子',
+        label = "破舊小袋子",
         weight = 30,
         stack = true,
         close = true,
@@ -3240,8 +2915,7 @@ return {
         client = {}
     },
     ["s166-1"] = {
-        label = " ",
-         --'eternal memory',
+        label = "eternal memory",
         weight = 80,
         stack = true,
         close = true,
@@ -3250,8 +2924,7 @@ return {
         client = {}
     },
     ["s167-1"] = {
-        label = " ",
-         --'JGZ-9576',
+        label = "JGZ-9576",
         weight = 30,
         stack = true,
         close = true,
@@ -3270,15 +2943,13 @@ return {
         }
     },
     ["s168-1"] = {
-        label = " ",
-         --'懶人萬用料理包',
+        label = "懶人萬用料理包",
         weight = 30,
         stack = 1,
         description = "懶人萬用料理包"
     },
     ["s169-1"] = {
-        label = " ",
-         --'白色熊玩偶',
+        label = "白色熊玩偶",
         weight = 150,
         stack = true,
         close = true,
@@ -3287,23 +2958,20 @@ return {
         client = {}
     },
     ["s170-1"] = {
-        label = " ",
-         --'幸運手環',
+        label = "幸運手環",
         weight = 20,
         stack = true,
         close = true,
         description = "手工編織而成的手環"
     },
     ["s171-1"] = {
-        label = " ",
-         --'研究院識別證',
+        label = "研究院識別證",
         weight = 30,
         stack = true,
         close = true
     },
     ["s172-1"] = {
-        label = " ",
-         --'陶&棠a結婚戒指',
+        label = "陶&棠a結婚戒指",
         weight = 50,
         stack = true,
         close = true,
@@ -3311,8 +2979,7 @@ return {
         client = {}
     },
     ["s173-1"] = {
-        label = " ",
-         --'花花熊熊',
+        label = "花花熊熊",
         weight = 150,
         stack = true,
         close = true,
@@ -3322,23 +2989,20 @@ return {
         }
     },
     ["s174-1"] = {
-        label = " ",
-         --'粉色枕頭包',
+        label = "粉色枕頭包",
         weight = 150,
         stack = false,
         close = false,
         consume = 0
     },
     ["s175-1"] = {
-        label = " ",
-         --'遠端微型攝影機',
+        label = "遠端微型攝影機",
         weight = 20,
         stack = 1,
         description = "微小到非常難以注意到的攝影機"
     },
     ["s176-1"] = {
-        label = " ",
-         --'虹細胞針劑',
+        label = "虹細胞針劑",
         weight = 50,
         stack = 1,
         description = "虹細胞針劑",
@@ -3348,15 +3012,13 @@ return {
         }
     },
     ["s178-1"] = {
-        label = " ",
-         --'罐頭拉環',
+        label = "罐頭拉環",
         weight = 200,
         stack = 1,
         description = ""
     },
     ["s179-1"] = {
-        label = " ",
-         --'雷電投影手套',
+        label = "雷電投影手套",
         weight = 300,
         stack = true,
         close = true,
@@ -3367,38 +3029,33 @@ return {
         }
     },
     ["s180-1"] = {
-        label = " ",
-         --'濕潤的沙',
+        label = "濕潤的沙",
         weight = 100,
         stack = true,
         close = true,
         description = ""
     },
     ["s180-2"] = {
-        label = " ",
-         --'血腳印',
+        label = "血腳印",
         weight = 100,
         stack = true,
         close = true,
         description = ""
     },
     ["s180-3"] = {
-        label = " ",
-         --'一堆濕潤的獸毛',
+        label = "一堆濕潤的獸毛",
         weight = 150,
         stack = true,
         close = true
     },
     ["s180-4"] = {
-        label = " ",
-         --'一堆怪怪的獸毛',
+        label = "一堆怪怪的獸毛",
         weight = 100,
         stack = true,
         close = true
     },
     ["s181-1"] = {
-        label = " ",
-         --'黑色髮圈',
+        label = "黑色髮圈",
         weight = 100,
         consume = 0,
         stack = true,
@@ -3408,8 +3065,7 @@ return {
         }
     },
     ["s182-1"] = {
-        label = " ",
-         --'靈魂的眼鏡',
+        label = "靈魂的眼鏡",
         weight = 100,
         stack = 1,
         close = 1,
@@ -3420,8 +3076,7 @@ return {
         }
     },
     ["s184-1"] = {
-        label = " ",
-         --'塔羅牌(數字)',
+        label = "塔羅牌(數字)",
         weight = 50,
         stack = true,
         close = true,
@@ -3429,8 +3084,7 @@ return {
         description = "使用後會抽出數字"
     },
     ["s185-1"] = {
-        label = " ",
-         --'櫻花色熊玩偶',
+        label = "櫻花色熊玩偶",
         weight = 110,
         stack = true,
         close = true,
@@ -3438,8 +3092,7 @@ return {
         description = "以櫻花色做為基底縫製成熊玩偶"
     },
     ["s186-1"] = {
-        label = " ",
-         --'兔子耳朵熊玩偶',
+        label = "兔子耳朵熊玩偶",
         weight = 110,
         stack = true,
         close = true,
@@ -3447,8 +3100,7 @@ return {
         description = "一支有著兔子耳朵的熊玩偶"
     },
     ["s187-1"] = {
-        label = " ",
-         --'ZTB-9487',
+        label = "ZTB-9487",
         weight = 12,
         stack = true,
         close = true,
@@ -3459,8 +3111,7 @@ return {
         }
     },
     ["s188-1"] = {
-        label = " ",
-         --'0909趴娃',
+        label = "0909趴娃",
         weight = 100,
         stack = false,
         close = true,
@@ -3471,8 +3122,7 @@ return {
         }
     },
     ["s189-1"] = {
-        label = " ",
-         --'管理者趴娃',
+        label = "管理者趴娃",
         weight = 100,
         stack = false,
         close = true,
@@ -3483,8 +3133,7 @@ return {
         }
     },
     ["s190-1"] = {
-        label = " ",
-         --'祈子娃娃',
+        label = "祈子娃娃",
         weight = 100,
         stack = false,
         close = true,
@@ -3495,66 +3144,56 @@ return {
         }
     },
     ["s191-1"] = {
-        label = " ",
-         --'高杏假髮水餃偽裝組',
+        label = "高杏假髮水餃偽裝組",
         weight = 100,
         stack = 1,
         close = 0,
         description = ""
     },
     ["s192-1"] = {
-        label = " ",
-         --'bowlingreceipt',
+        label = "bowlingreceipt",
         weight = 0,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s193-1"] = {
-        label = " ",
-         --'分數一',
+        label = "分數一",
         weight = 0,
         stack = true
     },
     ["s193-2"] = {
-        label = " ",
-         --'分數二',
+        label = "分數二",
         weight = 0,
         stack = true
     },
     ["s193-3"] = {
-        label = " ",
-         --'分數三',
+        label = "分數三",
         weight = 0,
         stack = true
     },
     ["s193-4"] = {
-        label = " ",
-         --'分數四',
+        label = "分數四",
         weight = 0,
         stack = true
     },
     ["s193-5"] = {
-        label = " ",
-         --'分數五',
+        label = "分數五",
         weight = 0,
         stack = true
     },
     ["s193-6"] = {
-        label = " ",
-         --'分數六',
+        label = "分數六",
         weight = 0,
         stack = true
     },
     ["s193-7"] = {
-        label = " ",
-         --'分數七',
+        label = "分數七",
         weight = 0,
         stack = true
     },
     ["s194-1"] = {
-        label = " ",
-         --'曦菸',
+        label = "曦菸",
         weight = 20,
         stack = true,
         close = true,
@@ -3564,8 +3203,7 @@ return {
         }
     },
     ["s194-2"] = {
-        label = " ",
-         --'曦菸盒',
+        label = "曦菸盒",
         weight = 200,
         stack = true,
         close = true,
@@ -3575,8 +3213,7 @@ return {
         }
     },
     ["s195-1"] = {
-        label = " ",
-         --'編號12030407',
+        label = "編號12030407",
         weight = 200,
         stack = true,
         close = true,
@@ -3585,8 +3222,7 @@ return {
         }
     },
     ["s196-1"] = {
-        label = " ",
-         --'禮物盒',
+        label = "禮物盒",
         weight = 0,
         stack = true,
         close = true,
@@ -3596,8 +3232,7 @@ return {
         }
     },
     ["s197-1"] = {
-        label = " ",
-         --'熊熊玩偶',
+        label = "熊熊玩偶",
         weight = 0,
         stack = true,
         close = true,
@@ -3607,8 +3242,7 @@ return {
         }
     },
     ["s197-2"] = {
-        label = " ",
-         --'熊寶寶玩偶',
+        label = "熊寶寶玩偶",
         weight = 300,
         stack = true,
         close = true,
@@ -3618,8 +3252,7 @@ return {
         }
     },
     ["s198-1"] = {
-        label = " ",
-         --'安瑟西的盒裝薛爾錠',
+        label = "安瑟西的盒裝薛爾錠",
         weight = 42,
         stack = true,
         close = true,
@@ -3629,8 +3262,7 @@ return {
         }
     },
     ["s199-1"] = {
-        label = " ",
-         --'愛情海海酒吧菜單',
+        label = "愛情海海酒吧菜單",
         weight = 10,
         stack = true,
         close = true,
@@ -3640,89 +3272,77 @@ return {
         }
     },
     ["s200-1"] = {
-        label = " ",
-         --'白祈禱',
+        label = "白祈禱",
         weight = 0,
         stack = true,
         close = true
     },
     ["s200-2"] = {
-        label = " ",
-         --'黑祈禱',
+        label = "黑祈禱",
         weight = 0,
         stack = true,
         close = true
     },
     ["s200-3"] = {
-        label = " ",
-         --'綠祈禱',
+        label = "綠祈禱",
         weight = 0,
         stack = true,
         close = true
     },
     ["s200-4"] = {
-        label = " ",
-         --'藍祈禱',
+        label = "藍祈禱",
         weight = 100,
         stack = true,
         close = true
     },
     ["s200-5"] = {
-        label = " ",
-         --'紅祈禱',
+        label = "紅祈禱",
         weight = 0,
         stack = true,
         close = true
     },
     ["s201-1"] = {
-        label = " ",
-         --'白鍊',
+        label = "白鍊",
         weight = 666,
         stack = true,
         close = true
     },
     ["s202-1"] = {
-        label = " ",
-         --'管理者日誌',
+        label = "管理者日誌",
         weight = 100,
         description = "紀載著管理者日誌。",
         stack = true,
         close = true
     },
     ["s202-2"] = {
-        label = " ",
-         --'拉瑪文史',
+        label = "拉瑪文史",
         weight = 100,
         description = "紀載著拉瑪歷史。",
         stack = true,
         close = true
     },
     ["s202-3"] = {
-        label = " ",
-         --'白鯨文史',
+        label = "白鯨文史",
         weight = 100,
         description = "紀載著白鯨歷史。",
         stack = true,
         close = true
     },
     ["s202-4"] = {
-        label = " ",
-         --'灰鱷文史',
+        label = "灰鱷文史",
         weight = 100,
         description = "紀載著灰鱷歷史。",
         stack = true,
         close = true
     },
     ["s203-1"] = {
-        label = " ",
-         --'雪鴞吊飾',
+        label = "雪鴞吊飾",
         weight = 50,
         stack = true,
         close = true
     },
     ["s204-1"] = {
-        label = " ",
-         --'果醬麵包塔設計圖',
+        label = "果醬麵包塔設計圖",
         weight = 10,
         stack = true,
         close = true,
@@ -3731,8 +3351,7 @@ return {
         }
     },
     ["s205-1"] = {
-        label = " ",
-         --'染血的紙條',
+        label = "染血的紙條",
         weight = 10,
         stack = true,
         close = true,
@@ -3741,8 +3360,7 @@ return {
         }
     },
     ["s206-1"] = {
-        label = " ",
-         --'茵草香水',
+        label = "茵草香水",
         weight = 47,
         stack = true,
         close = true,
@@ -3752,8 +3370,7 @@ return {
         }
     },
     ["s207-1"] = {
-        label = " ",
-         --'家人合照',
+        label = "家人合照",
         weight = 10,
         stack = true,
         close = true,
@@ -3763,8 +3380,7 @@ return {
         }
     },
     ["s208-1"] = {
-        label = " ",
-         --'筆記',
+        label = "筆記",
         weight = 10,
         stack = true,
         close = true,
@@ -3774,8 +3390,7 @@ return {
         }
     },
     ["s209-1"] = {
-        label = " ",
-         --'滿天星菜單B版',
+        label = "滿天星菜單B版",
         weight = 10,
         stack = true,
         close = true,
@@ -3785,8 +3400,7 @@ return {
         }
     },
     ["s209-2"] = {
-        label = " ",
-         --'滿天星菜單A版',
+        label = "滿天星菜單A版",
         weight = 10,
         stack = true,
         close = true,
@@ -3796,8 +3410,7 @@ return {
         }
     },
     ["s210-1"] = {
-        label = " ",
-         --'流星香包',
+        label = "流星香包",
         weight = 122,
         stack = true,
         close = true,
@@ -3807,8 +3420,7 @@ return {
         }
     },
     ["s210-2"] = {
-        label = " ",
-         --'精靈軟糖',
+        label = "精靈軟糖",
         weight = 89,
         stack = true,
         close = true,
@@ -3818,8 +3430,7 @@ return {
         }
     },
     ["s211-1"] = {
-        label = " ",
-         --'信',
+        label = "信",
         weight = 10,
         stack = true,
         close = true,
@@ -3829,8 +3440,7 @@ return {
         }
     },
     ["s211-2"] = {
-        label = " ",
-         --'信件',
+        label = "信件",
         weight = 10,
         stack = true,
         close = true,
@@ -3840,8 +3450,7 @@ return {
         }
     },
     ["s212-1"] = {
-        label = " ",
-         --'腦部X光片2',
+        label = "腦部X光片2",
         weight = 10,
         stack = true,
         close = true,
@@ -3851,8 +3460,7 @@ return {
         }
     },
     ["s212-2"] = {
-        label = " ",
-         --'腦部X光片',
+        label = "腦部X光片",
         weight = 10,
         stack = true,
         close = true,
@@ -3862,8 +3470,7 @@ return {
         }
     },
     ["s213-1"] = {
-        label = " ",
-         --'日記1-2頁',
+        label = "日記1-2頁",
         weight = 10,
         stack = true,
         close = true,
@@ -3873,8 +3480,7 @@ return {
         }
     },
     ["s213-2"] = {
-        label = " ",
-         --'日記3-4頁',
+        label = "日記3-4頁",
         weight = 10,
         stack = true,
         close = true,
@@ -3884,8 +3490,7 @@ return {
         }
     },
     ["s213-3"] = {
-        label = " ",
-         --'日記5-6頁',
+        label = "日記5-6頁",
         weight = 10,
         stack = true,
         close = true,
@@ -3895,8 +3500,7 @@ return {
         }
     },
     ["s213-4"] = {
-        label = " ",
-         --'日記7-8頁',
+        label = "日記7-8頁",
         weight = 10,
         stack = true,
         close = true,
@@ -3906,8 +3510,7 @@ return {
         }
     },
     ["s213-5"] = {
-        label = " ",
-         --'日記9-10頁',
+        label = "日記9-10頁",
         weight = 10,
         stack = true,
         close = true,
@@ -3917,8 +3520,7 @@ return {
         }
     },
     ["s213-6"] = {
-        label = " ",
-         --'日記11頁',
+        label = "日記11頁",
         weight = 10,
         stack = true,
         close = true,
@@ -3928,8 +3530,7 @@ return {
         }
     },
     ["s214-1"] = {
-        label = " ",
-         --'給小雅',
+        label = "給小雅",
         weight = 10,
         stack = true,
         close = true,
@@ -3939,8 +3540,7 @@ return {
         }
     },
     ["s214-2"] = {
-        label = " ",
-         --'給那堤',
+        label = "給那堤",
         weight = 10,
         stack = true,
         close = true,
@@ -3950,8 +3550,7 @@ return {
         }
     },
     ["s214-3"] = {
-        label = " ",
-         --'老照片',
+        label = "老照片",
         weight = 10,
         stack = true,
         close = true,
@@ -3961,8 +3560,7 @@ return {
         }
     },
     ["s215-1"] = {
-        label = " ",
-         --'老舊的圓型墜飾',
+        label = "老舊的圓型墜飾",
         weight = 174,
         stack = true,
         close = true,
@@ -3972,85 +3570,73 @@ return {
         }
     },
     ["s216-1"] = {
-        label = " ",
-         --'鱷克朗',
+        label = "鱷克朗",
         weight = 0,
         stack = true,
         close = true
     },
     ["s217-1"] = {
-        label = " ",
-         --'亮鯨金',
+        label = "亮鯨金",
         weight = 0,
         stack = true,
         close = true
     },
     ["s220-1"] = {
-        label = " ",
-         --'泰迪硬幣',
+        label = "泰迪硬幣",
         weight = 10,
         stack = true,
         close = true
     },
     ["s221-1"] = {
-        label = " ",
-         --'卡倫家祖傳笛子',
+        label = "卡倫家祖傳笛子",
         weight = 120,
         stack = true,
         close = true
     },
     ["s222-1"] = {
-        label = " ",
-         --'迪達斯的警徽',
+        label = "迪達斯的警徽",
         weight = 100,
         stack = true,
         close = true
     },
     ["s223-1"] = {
-        label = " ",
-         --'契拉信物',
+        label = "契拉信物",
         weight = 110,
         stack = true,
         close = true
     },
     ["s223-2"] = {
-        label = " ",
-         --'芬爾信物',
+        label = "芬爾信物",
         weight = 110,
         stack = true,
         close = true
     },
     ["s223-3"] = {
-        label = " ",
-         --'哈柏信物',
+        label = "哈柏信物",
         weight = 110,
         stack = true,
         close = true
     },
     ["s223-4"] = {
-        label = " ",
-         --'莉可莉絲信物',
+        label = "莉可莉絲信物",
         weight = 110,
         stack = true,
         close = true
     },
     ["s223-5"] = {
-        label = " ",
-         --'歇爾桑信物',
+        label = "歇爾桑信物",
         weight = 110,
         stack = true,
         close = true
     },
     ["s223-6"] = {
-        label = " ",
-         --'賽夫信物',
+        label = "賽夫信物",
         weight = 110,
         stack = true,
         close = true
     },
     ["s223-7"] = {
-        label = " ",
-         --'威爾信物',
+        label = "威爾信物",
         weight = 110,
         stack = true,
         close = true
@@ -4064,157 +3650,135 @@ return {
         close = true
     },
     ["s223-9"] = {
-        label = " ",
-         --'成年禮墜飾',
+        label = "成年禮墜飾",
         weight = 121,
         stack = true,
         close = true
     },
     ["s224-1"] = {
-        label = " ",
-         --'門之鑰',
+        label = "門之鑰",
         weight = 250,
         stack = true,
         close = true
     },
     ["s226-1"] = {
-        label = " ",
-         --'編草香包',
+        label = "編草香包",
         weight = 100,
         stack = true,
         close = true,
         description = "驅蚊蟲、減輕焦慮、提神、獨特香氣。"
     },
     ["s227-1"] = {
-        label = " ",
-         --'病毒',
+        label = "病毒",
         weight = 1,
         stack = true,
         close = true
     },
     ["s228-1"] = {
-        label = " ",
-         --'幸福鑰匙',
+        label = "幸福鑰匙",
         weight = 150,
         stack = true,
         close = true
     },
     ["s229-1"] = {
-        label = " ",
-         --'木製鑰匙',
+        label = "木製鑰匙",
         weight = 150,
         stack = true,
         close = true
     },
     ["s230-1"] = {
-        label = " ",
-         --'喚惡風鈴',
+        label = "喚惡風鈴",
         weight = 6000,
         stack = true,
         close = true
     },
     ["s230-1"] = {
-        label = " ",
-         --'喚惡風鈴',
+        label = "喚惡風鈴",
         weight = 3000,
         stack = true,
         close = true
     },
     ["s231-1"] = {
-        label = " ",
-         --'寫好的筆記',
+        label = "寫好的筆記",
         weight = 0,
         stack = true,
         close = true
     },
     ["s232-1"] = {
-        label = " ",
-         --'口口口',
+        label = "口口口",
         weight = 0,
         stack = true,
         close = true
     },
     ["s233-1"] = {
-        label = " ",
-         --'左腿義肢',
+        label = "左腿義肢",
         weight = 100,
         stack = true,
         close = true
     },
     ["s233-2"] = {
-        label = " ",
-         --'右腿義肢',
+        label = "右腿義肢",
         weight = 100,
         stack = true,
         close = true
     },
     ["s233-3"] = {
-        label = " ",
-         --'左掌義肢',
+        label = "左掌義肢",
         weight = 40,
         stack = true,
         close = true
     },
     ["s233-4"] = {
-        label = " ",
-         --'右掌義肢',
+        label = "右掌義肢",
         weight = 40,
         stack = true,
         close = true
     },
     ["s233-5"] = {
-        label = " ",
-         --'右手義肢',
+        label = "右手義肢",
         weight = 80,
         stack = true,
         close = true
     },
     ["s233-6"] = {
-        label = " ",
-         --'左手義肢',
+        label = "左手義肢",
         weight = 80,
         stack = true,
         close = true
     },
     ["s233-7"] = {
-        label = " ",
-         --'義眼',
+        label = "義眼",
         weight = 55,
         stack = true,
         close = true
     },
     ["s233-8"] = {
-        label = " ",
-         --'藍色的義眼',
+        label = "藍色的義眼",
         weight = 58,
         stack = true,
         close = true
     },
     ["s234-1"] = {
-        label = " ",
-         --'代幣',
+        label = "代幣",
         weight = 0,
         stack = true,
         close = true,
         description = "鯨落國政府發行之鯨幣。"
     },
     ["s235-1"] = {
-        label = " ",
-         --'垃圾',
+        label = "垃圾",
         weight = 50,
         stack = true,
         close = true
     },
     ["s236-1"] = {
-        label = " ",
-         --'幸運鹿角',
+        label = "幸運鹿角",
         weight = 123,
         stack = true,
         close = true
     },
     ["s237-1"] = {
-        label = " ",
-         --'夜庭膠囊',
+        label = "夜庭膠囊",
         weight = 42,
         stack = true,
         close = true,
@@ -4230,8 +3794,7 @@ return {
         }
     },
     ["s238-1"] = {
-        label = " ",
-         --'草包',
+        label = "草包",
         weight = 142,
         stack = true,
         close = true,
@@ -4248,190 +3811,163 @@ return {
         }
     },
     ["s239-1"] = {
-        label = " ",
-         --'不穩定爆裂物',
+        label = "不穩定爆裂物",
         weight = 140,
         stack = true,
         close = true
     },
     ["s240-1"] = {
-        label = " ",
-         --'手繪食譜',
+        label = "手繪食譜",
         weight = 10,
         stack = true,
         close = true
     },
     ["s241-1"] = {
-        label = " ",
-         --'手製可愛熊熊',
+        label = "手製可愛熊熊",
         weight = 350,
         stack = true,
         close = true
     },
     ["s241-2"] = {
-        label = " ",
-         --'手製可愛大熊熊',
+        label = "手製可愛大熊熊",
         weight = 450,
         stack = true,
         close = true
     },
     ["s242-1"] = {
-        label = " ",
-         --'馬多夫的遺物',
+        label = "馬多夫的遺物",
         weight = 350,
         stack = true,
         close = true
     },
     ["s243-1"] = {
-        label = " ",
-         --'鱷魚娃娃',
+        label = "鱷魚娃娃",
         weight = 300,
         stack = true,
         close = true
     },
     ["s244-2"] = {
-        label = " ",
-         --'巴洛族長信物',
+        label = "巴洛族長信物",
         weight = 30,
         stack = true,
         close = true
     },
     ["s245-1"] = {
-        label = " ",
-         --'骨灰罈',
+        label = "骨灰罈",
         weight = 180,
         stack = true,
         close = true
     },
     ["s246-1"] = {
-        label = " ",
-         --'櫻花壓花',
+        label = "櫻花壓花",
         weight = 60,
         stack = true,
         close = true
     },
     ["s247-1"] = {
-        label = " ",
-         --'附有隕石的極樂之證',
+        label = "附有隕石的極樂之證",
         weight = 120,
         stack = true,
         close = true
     },
     ["s248-1"] = {
-        label = " ",
-         --'天湖隕石',
+        label = "天湖隕石",
         weight = 400,
         stack = true,
         close = true
     },
     ["s249-1"] = {
-        label = " ",
-         --'乾燥鈴蘭花',
+        label = "乾燥鈴蘭花",
         weight = 60,
         stack = true,
         close = true
     },
     ["s249-2"] = {
-        label = " ",
-         --'星眠棠壓花',
+        label = "星眠棠壓花",
         weight = 60,
         stack = true,
         close = true
     },
     ["s249-3"] = {
-        label = " ",
-         --'玫瑰壓花',
+        label = "玫瑰壓花",
         weight = 60,
         stack = true,
         close = true
     },
     ["s249-4"] = {
-        label = " ",
-         --'乾燥花相框',
+        label = "乾燥花相框",
         weight = 200,
         stack = true,
         close = true
     },
     ["s249-5"] = {
-        label = " ",
-         --'黑百合乾燥花',
+        label = "黑百合乾燥花",
         weight = 60,
         stack = true,
         close = true
     },
     ["s249-6"] = {
-        label = " ",
-         --'海沙花瓶',
+        label = "海沙花瓶",
         weight = 150,
         stack = true,
         close = true
     },
     ["s249-7"] = {
-        label = " ",
-         --'乾燥花瓶',
+        label = "乾燥花瓶",
         weight = 150,
         stack = true,
         close = true
     },
     ["s249-8"] = {
-        label = " ",
-         --'瓶中花',
+        label = "瓶中花",
         weight = 150,
         stack = true,
         close = true
     },
     ["s251-1"] = {
-        label = " ",
-         --'精元蟲培養皿',
+        label = "精元蟲培養皿",
         weight = 20,
         stack = true,
         close = true
     },
     ["s252-1"] = {
-        label = " ",
-         --'琪娜的骨灰罈',
+        label = "琪娜的骨灰罈",
         weight = 147,
         stack = true,
         close = true
     },
     ["s253-1"] = {
-        label = " ",
-         --'手作哈祈玩偶',
+        label = "手作哈祈玩偶",
         weight = 100,
         stack = true,
         close = true
     },
     ["s254-1"] = {
-        label = " ",
-         --'白色泰迪熊',
+        label = "白色泰迪熊",
         weight = 100,
         stack = true,
         close = true
     },
     ["s255-1"] = {
-        label = " ",
-         --'CUTE白鯨娃娃',
+        label = "CUTE白鯨娃娃",
         weight = 100,
         stack = true,
         close = true
     },
     ["s256-1"] = {
-        label = " ",
-         --'牧戀的眼藥水',
+        label = "牧戀的眼藥水",
         weight = 23,
         stack = true,
         close = true
     },
     ["s257-1"] = {
-        label = " ",
-         --'阿基．羅杰',
+        label = "阿基．羅杰",
         weight = 147,
         stack = true,
         close = true
     },
     ["s258-1"] = {
-        label = " ",
-         -- '迴滅包包',
+        label = "迴滅包包",
         weight = 35,
         stack = false,
         close = true,
@@ -4442,8 +3978,7 @@ return {
         }
     },
     ["s258-2"] = {
-        label = " ",
-         --'藥膏貼布(感染)',
+        label = "藥膏貼布(感染)",
         weight = 500,
         stack = true,
         close = true,
@@ -4453,8 +3988,7 @@ return {
         }
     },
     ["s258-3"] = {
-        label = " ",
-         -- '迴滅包包',
+        label = "迴滅包包",
         weight = 35,
         stack = true,
         close = true,
@@ -4465,8 +3999,7 @@ return {
         }
     },
     ["s258-4"] = {
-        label = " ",
-         -- '迴滅包包',
+        label = "迴滅包包",
         weight = 35,
         stack = true,
         close = true,
@@ -4477,8 +4010,7 @@ return {
         }
     },
     ["s258-5"] = {
-        label = " ",
-         -- '迴滅包包',
+        label = "迴滅包包",
         weight = 35,
         stack = true,
         close = true,
@@ -4489,8 +4021,7 @@ return {
         }
     },
     ["s258-6"] = {
-        label = " ",
-         -- '迴滅包包',
+        label = "迴滅包包",
         weight = 35,
         stack = true,
         close = true,
@@ -4501,8 +4032,7 @@ return {
         }
     },
     ["s258-7"] = {
-        label = " ",
-         -- '迴滅包包',
+        label = "迴滅包包",
         weight = 35,
         stack = true,
         close = true,
@@ -4513,8 +4043,7 @@ return {
         }
     },
     ["s258-8"] = {
-        label = " ",
-         -- '迴滅包包',
+        label = "迴滅包包",
         weight = 35,
         stack = true,
         close = true,
@@ -4525,8 +4054,7 @@ return {
         }
     },
     ["s258-9"] = {
-        label = " ",
-         -- '迴滅包包',
+        label = "迴滅包包",
         weight = 35,
         stack = true,
         close = true,
@@ -4537,8 +4065,7 @@ return {
         }
     },
     ["s258-10"] = {
-        label = " ",
-         -- '迴滅包包',
+        label = "迴滅包包",
         weight = 35,
         stack = true,
         close = true,
@@ -4549,8 +4076,7 @@ return {
         }
     },
     ["s258-11"] = {
-        label = " ",
-         -- '迴滅包包',
+        label = "迴滅包包",
         weight = 35,
         stack = true,
         close = true,
@@ -4561,8 +4087,7 @@ return {
         }
     },
     ["s259-1"] = {
-        label = " ",
-         -- '照片',
+        label = "照片",
         weight = 6,
         stack = true,
         close = true,
@@ -4573,8 +4098,7 @@ return {
         }
     },
     ["s259-2"] = {
-        label = " ",
-         -- '照片',
+        label = "照片",
         weight = 6,
         stack = true,
         close = true,
@@ -4585,8 +4109,7 @@ return {
         }
     },
     ["s260-1"] = {
-        label = " ",
-         -- '照片',
+        label = "照片",
         weight = 8,
         stack = true,
         close = true,
@@ -4595,8 +4118,7 @@ return {
         client = {}
     },
     ["s260-2"] = {
-        label = " ",
-         -- '爪爪羊毛氈吊飾',
+        label = "爪爪羊毛氈吊飾",
         weight = 30,
         stack = true,
         close = true,
@@ -4605,8 +4127,7 @@ return {
         client = {}
     },
     ["s260-3"] = {
-        label = " ",
-         -- '鑰匙:家&蒔光',
+        label = "鑰匙:家&蒔光",
         weight = 60,
         stack = true,
         close = true,
@@ -4615,8 +4136,7 @@ return {
         client = {}
     },
     ["s260-4"] = {
-        label = " ",
-         -- '爪爪項圈',
+        label = "爪爪項圈",
         weight = 52,
         stack = true,
         close = true,
@@ -4625,8 +4145,7 @@ return {
         client = {}
     },
     ["s260-5"] = {
-        label = " ",
-         -- '鑰匙:家&蒔光',
+        label = "鑰匙:家&蒔光",
         weight = 130,
         stack = true,
         close = true,
@@ -4635,8 +4154,7 @@ return {
         client = {}
     },
     ["s260-6"] = {
-        label = " ",
-         -- '睡袋',
+        label = "睡袋",
         weight = 580,
         stack = false,
         close = true,
@@ -4645,8 +4163,7 @@ return {
         client = {}
     },
     ["s260-7"] = {
-        label = " ",
-         -- '機車面罩',
+        label = "機車面罩",
         weight = 230,
         stack = false,
         close = true,
@@ -4657,8 +4174,7 @@ return {
         }
     },
     ["s261-1"] = {
-        label = " ",
-         -- '3045區門鎖鑰匙',
+        label = "3045區門鎖鑰匙",
         weight = 130,
         stack = true,
         close = true,
@@ -4667,8 +4183,7 @@ return {
         client = {}
     },
     ["s261-2"] = {
-        label = " ",
-         -- '3061區門鎖鑰匙',
+        label = "3061區門鎖鑰匙",
         weight = 130,
         stack = true,
         close = true,
@@ -4677,8 +4192,7 @@ return {
         client = {}
     },
     ["s261-3"] = {
-        label = " ",
-         -- '3061倉庫鎖鑰匙',
+        label = "3061倉庫鎖鑰匙",
         weight = 80,
         stack = true,
         close = true,
@@ -4687,8 +4201,7 @@ return {
         client = {}
     },
     ["s262-1"] = {
-        label = " ",
-         -- '錄音帶',
+        label = "錄音帶",
         weight = 300,
         stack = true,
         close = true,
@@ -4699,8 +4212,7 @@ return {
         }
     },
     ["s262-2"] = {
-        label = " ",
-         -- '錄音帶',
+        label = "錄音帶",
         weight = 300,
         stack = false,
         close = true,
@@ -4711,8 +4223,7 @@ return {
         }
     },
     ["s263-1"] = {
-        label = " ",
-         -- '裝滿水的瓶子',
+        label = "裝滿水的瓶子",
         weight = 500,
         stack = true,
         close = true,
@@ -4726,8 +4237,7 @@ return {
         }
     },
     ["s263-2"] = {
-        label = " ",
-         -- '裝滿水的桶子',
+        label = "裝滿水的桶子",
         weight = 8000,
         stack = false,
         close = true,
@@ -4742,8 +4252,7 @@ return {
         }
     },
     ["s263-3"] = {
-        label = " ",
-         -- '裝滿水的桶子',
+        label = "裝滿水的桶子",
         weight = 8000,
         stack = false,
         close = true,
@@ -4758,8 +4267,7 @@ return {
         }
     },
     ["s263-4"] = {
-        label = " ",
-         -- '桶子',
+        label = "桶子",
         weight = 500,
         stack = true,
         close = true,
@@ -4768,8 +4276,7 @@ return {
         client = {}
     },
     ["s263-5"] = {
-        label = " ",
-         -- '宇田家徽',
+        label = "宇田家徽",
         weight = 500,
         stack = true,
         close = true,
@@ -4778,8 +4285,7 @@ return {
         client = {}
     },
     ["s263-6"] = {
-        label = " ",
-         -- 'TYPEC',
+        label = "TYPEC",
         weight = 80,
         stack = true,
         close = true,
@@ -4791,8 +4297,7 @@ return {
         }
     },
     ["s263-7"] = {
-        label = " ",
-         -- '摺疊太陽能充電板',
+        label = "摺疊太陽能充電板",
         weight = 346,
         stack = false,
         close = true,
@@ -4812,8 +4317,7 @@ return {
         description = "明顯的沒有反應",
     },
     ["s263-9"] = {
-        label = " ",
-         -- '宇田家徽',
+        label = "宇田家徽",
         weight = 500,
         stack = true,
         close = true,
@@ -4822,8 +4326,7 @@ return {
         client = {}
     },
     ["s264-1"] = {
-        label = " ",
-         -- '藍鯨國-希塔分局-警察證件',
+        label = "藍鯨國-希塔分局-警察證件",
         weight = 10,
         stack = true,
         close = true,
@@ -4832,8 +4335,7 @@ return {
         client = {}
     },
     ["s264-2"] = {
-        label = " ",
-         -- '藍鯨國-希塔分局-警察證件',
+        label = "藍鯨國-希塔分局-警察證件",
         weight = 10,
         stack = true,
         close = true,
@@ -4842,8 +4344,7 @@ return {
         client = {}
     },
     ["s265-1"] = {
-        label = " ",
-         -- 'EDEN研究報告',
+        label = "EDEN研究報告",
         weight = 3,
         stack = true,
         close = true,
@@ -4854,8 +4355,7 @@ return {
         }
     },
     ["s265-2"] = {
-        label = " ",
-         -- 'EDEN研究報告',
+        label = "EDEN研究報告",
         weight = 3,
         stack = true,
         close = true,
@@ -4866,8 +4366,7 @@ return {
         }
     },
     ["s265-3"] = {
-        label = " ",
-         -- 'EDEN研究報告',
+        label = "EDEN研究報告",
         weight = 3,
         stack = true,
         close = true,
@@ -4878,8 +4377,7 @@ return {
         }
     },
     ["s265-4"] = {
-        label = " ",
-         -- 'EDEN研究報告',
+        label = "EDEN研究報告",
         weight = 3,
         stack = true,
         close = true,
@@ -4890,8 +4388,7 @@ return {
         }
     },
     ["s265-5"] = {
-        label = " ",
-         -- 'EDEN研究報告',
+        label = "EDEN研究報告",
         weight = 3,
         stack = true,
         close = true,
@@ -4902,8 +4399,7 @@ return {
         }
     },
     ["s265-6"] = {
-        label = " ",
-         -- 'EDEN研究報告',
+        label = "EDEN研究報告",
         weight = 3,
         stack = true,
         close = true,
@@ -4914,8 +4410,7 @@ return {
         }
     },
     ["s265-7"] = {
-        label = " ",
-         -- 'EDEN研究報告',
+        label = "EDEN研究報告",
         weight = 3,
         stack = true,
         close = true,
@@ -4926,8 +4421,7 @@ return {
         }
     },
     ["s265-8"] = {
-        label = " ",
-         -- 'EDEN研究報告',
+        label = "EDEN研究報告",
         weight = 3,
         stack = true,
         close = true,
@@ -4938,8 +4432,7 @@ return {
         }
     },
     ["s265-9"] = {
-        label = " ",
-         -- 'EDEN研究報告',
+        label = "EDEN研究報告",
         weight = 3,
         stack = true,
         close = true,
@@ -4950,8 +4443,7 @@ return {
         }
     },
     ["s265-10"] = {
-        label = " ",
-         -- 'EDEN研究報告',
+        label = "EDEN研究報告",
         weight = 3,
         stack = true,
         close = true,
@@ -4962,8 +4454,7 @@ return {
         }
     },
     ["s265-11"] = {
-        label = " ",
-         -- 'EDEN研究報告',
+        label = "EDEN研究報告",
         weight = 3,
         stack = true,
         close = true,
@@ -4974,8 +4465,7 @@ return {
         }
     },
     ["s265-12"] = {
-        label = " ",
-         -- 'EDEN研究報告',
+        label = "EDEN研究報告",
         weight = 3,
         stack = true,
         close = true,
@@ -4986,8 +4476,7 @@ return {
         }
     },
     ["s265-13"] = {
-        label = " ",
-         -- 'EDEN研究報告',
+        label = "EDEN研究報告",
         weight = 3,
         stack = true,
         close = true,
@@ -4998,8 +4487,7 @@ return {
         }
     },
     ["s265-14"] = {
-        label = " ",
-         -- 'EDEN研究報告',
+        label = "EDEN研究報告",
         weight = 3,
         stack = true,
         close = true,
@@ -5010,8 +4498,7 @@ return {
         }
     },
     ["s265-15"] = {
-        label = " ",
-         -- 'EDEN研究報告',
+        label = "EDEN研究報告",
         weight = 3,
         stack = true,
         close = true,
@@ -5022,248 +4509,217 @@ return {
         }
     },
     ["s266-1"] = {
-        label = " ",
-         -- '鑰匙1',
+        label = "鑰匙1",
         weight = 100,
         stack = false,
         close = true,
         consume = 0
     },
     ["s266-2"] = {
-        label = " ",
-         -- '鑰匙1',
+        label = "鑰匙1",
         weight = 100,
         stack = false,
         close = true,
         consume = 0
     },
     ["s266-3"] = {
-        label = " ",
-         -- '鑰匙1',
+        label = "鑰匙1",
         weight = 100,
         stack = false,
         close = true,
         consume = 0
     },
     ["s266-4"] = {
-        label = " ",
-         -- '鑰匙1',
+        label = "鑰匙1",
         weight = 100,
         stack = false,
         close = true,
         consume = 0
     },
     ["s266-5"] = {
-        label = " ",
-         -- '鑰匙1',
+        label = "鑰匙1",
         weight = 100,
         stack = false,
         close = true,
         consume = 0
     },
     ["s266-6"] = {
-        label = " ",
-         -- '鑰匙1',
+        label = "鑰匙1",
         weight = 100,
         stack = false,
         close = true,
         consume = 0
     },
     ["s266-7"] = {
-        label = " ",
-         -- '鑰匙1',
+        label = "鑰匙1",
         weight = 100,
         stack = false,
         close = true,
         consume = 0
     },
     ["s266-8"] = {
-        label = " ",
-         -- '鑰匙1',
+        label = "鑰匙1",
         weight = 100,
         stack = false,
         close = true,
         consume = 0
     },
     ["s266-9"] = {
-        label = " ",
-         -- '鑰匙1',
+        label = "鑰匙1",
         weight = 100,
         stack = false,
         close = true,
         consume = 0
     },
     ["s266-10"] = {
-        label = " ",
-         -- '鑰匙1',
+        label = "鑰匙1",
         weight = 100,
         stack = false,
         close = true,
         consume = 0
     },
     ["s266-11"] = {
-        label = " ",
-         -- '鑰匙1',
+        label = "鑰匙1",
         weight = 100,
         stack = false,
         close = true,
         consume = 0
     },
     ["s266-12"] = {
-        label = " ",
-         -- '鑰匙1',
+        label = "鑰匙1",
         weight = 100,
         stack = false,
         close = true,
         consume = 0
     },
     ["s266-12"] = {
-        label = " ",
-         -- '鑰匙1',
+        label = "鑰匙1",
         weight = 100,
         stack = false,
         close = true,
         consume = 0
     },
     ["s266-13"] = {
-        label = " ",
-         -- '鑰匙1',
+        label = "鑰匙1",
         weight = 100,
         stack = false,
         close = true,
         consume = 0
     },
     ["s266-14"] = {
-        label = " ",
-         -- '鑰匙1',
+        label = "鑰匙1",
         weight = 100,
         stack = false,
         close = true,
         consume = 0
     },
     ["s266-15"] = {
-        label = " ",
-         -- '鑰匙1',
+        label = "鑰匙1",
         weight = 100,
         stack = false,
         close = true,
         consume = 0
     },
     ["s266-16"] = {
-        label = " ",
-         -- '鑰匙1',
+        label = "鑰匙1",
         weight = 100,
         stack = false,
         close = true,
         consume = 0
     },
     ["s266-17"] = {
-        label = " ",
-         -- '鑰匙1',
+        label = "鑰匙1",
         weight = 100,
         stack = false,
         close = true,
         consume = 0
     },
     ["s266-18"] = {
-        label = " ",
-         -- '鑰匙1',
+        label = "鑰匙1",
         weight = 100,
         stack = false,
         close = true,
         consume = 0
     },
     ["s266-19"] = {
-        label = " ",
-         -- '鑰匙1',
+        label = "鑰匙1",
         weight = 100,
         stack = false,
         close = true,
         consume = 0
     },
     ["s266-20"] = {
-        label = " ",
-         -- '鑰匙1',
+        label = "鑰匙1",
         weight = 100,
         stack = false,
         close = true,
         consume = 0
     },
     ["s267-1"] = {
-        label = " ",
-         -- 'logo',
+        label = "logo",
         weight = 5,
         stack = true,
         close = true,
         consume = 0
     },
     ["s267-2"] = {
-        label = " ",
-         -- 'logo',
+        label = "logo",
         weight = 5,
         stack = true,
         close = true,
         consume = 0
     },
     ["s267-3"] = {
-        label = " ",
-         -- 'logo',
+        label = "logo",
         weight = 5,
         stack = true,
         close = true,
         consume = 0
     },
     ["s267-4"] = {
-        label = " ",
-         -- 'logo',
+        label = "logo",
         weight = 5,
         stack = true,
         close = true,
         consume = 0
     },
     ["s267-5"] = {
-        label = " ",
-         -- 'logo',
+        label = "logo",
         weight = 5,
         stack = true,
         close = true,
         consume = 0
     },
     ["s267-6"] = {
-        label = " ",
-         -- 'logo',
+        label = "logo",
         weight = 5,
         stack = true,
         close = true,
         consume = 0
     },
     ["s267-7"] = {
-        label = " ",
-         -- 'logo',
+        label = "logo",
         weight = 5,
         stack = true,
         close = true,
         consume = 0
     },
     ["s267-8"] = {
-        label = " ",
-         -- 'logo',
+        label = "logo",
         weight = 5,
         stack = true,
         close = true,
         consume = 0
     },
     ["s267-9"] = {
-        label = " ",
-         -- 'logo',
+        label = "logo",
         weight = 5,
         stack = true,
         close = true,
         consume = 0
     },
     ["s268-1"] = {
-        label = " ",
-         --'許可權Type1',
+        label = "許可權Type1",
         weight = 20,
         stack = false,
         close = true,
@@ -5272,8 +4728,7 @@ return {
         client = {}
     },
     ["s268-2"] = {
-        label = " ",
-         --'許可權Type2',
+        label = "許可權Type2",
         weight = 20,
         stack = false,
         close = true,
@@ -5282,8 +4737,7 @@ return {
         client = {}
     },
     ["s268-3"] = {
-        label = " ",
-         --'許可權Type3',
+        label = "許可權Type3",
         weight = 20,
         stack = false,
         close = true,
@@ -5292,8 +4746,7 @@ return {
         client = {}
     },
     ["s268-4"] = {
-        label = " ",
-         --'許可權Type4',
+        label = "許可權Type4",
         weight = 20,
         stack = false,
         close = true,
@@ -5302,8 +4755,7 @@ return {
         client = {}
     },
     ["s268-5"] = {
-        label = " ",
-         --'許可權Type5',
+        label = "許可權Type5",
         weight = 20,
         stack = false,
         close = true,
@@ -5312,8 +4764,7 @@ return {
         client = {}
     },
     ["s268-6"] = {
-        label = " ",
-         --'許可權Type6',
+        label = "許可權Type6",
         weight = 20,
         stack = false,
         close = true,
@@ -5322,8 +4773,7 @@ return {
         client = {}
     },
     ["s268-7"] = {
-        label = " ",
-         --'許可權Type7',
+        label = "許可權Type7",
         weight = 20,
         stack = false,
         close = true,
@@ -5332,8 +4782,7 @@ return {
         client = {}
     },
     ["s268-8"] = {
-        label = " ",
-         --'許可權Type8',
+        label = "許可權Type8",
         weight = 20,
         stack = false,
         close = true,
@@ -5342,8 +4791,7 @@ return {
         client = {}
     },
     ["s268-9"] = {
-        label = " ",
-         --'許可權Type9',
+        label = "許可權Type9",
         weight = 20,
         stack = false,
         close = true,
@@ -5352,8 +4800,7 @@ return {
         client = {}
     },
     ["s268-10"] = {
-        label = " ",
-         --'許可權Type10',
+        label = "許可權Type10",
         weight = 20,
         stack = false,
         close = true,
@@ -5362,8 +4809,7 @@ return {
         client = {}
     },
     ["s268-11"] = {
-        label = " ",
-         --'許可權Type11',
+        label = "許可權Type11",
         weight = 0,
         stack = false,
         close = true,
@@ -5372,8 +4818,7 @@ return {
         client = {}
     },
     ["s268-12"] = {
-        label = " ",
-         --'許可權Type12',
+        label = "許可權Type12",
         weight = 0,
         stack = false,
         close = true,
@@ -5382,8 +4827,7 @@ return {
         client = {}
     },
     ["s268-13"] = {
-        label = " ",
-         --'許可權Type13',
+        label = "許可權Type13",
         weight = 0,
         stack = false,
         close = true,
@@ -5392,8 +4836,7 @@ return {
         client = {}
     },
     ["s268-14"] = {
-        label = " ",
-         --'許可權Type14',
+        label = "許可權Type14",
         weight = 20,
         stack = false,
         close = true,
@@ -5402,8 +4845,7 @@ return {
         client = {}
     },
     ["s268-15"] = {
-        label = " ",
-         --'許可權Type15',
+        label = "許可權Type15",
         weight = 20,
         stack = false,
         close = true,
@@ -5412,8 +4854,7 @@ return {
         client = {}
     },
     ["s268-16"] = {
-        label = " ",
-         --'許可權Type16',
+        label = "許可權Type16",
         weight = 0,
         stack = false,
         close = true,
@@ -5422,8 +4863,7 @@ return {
         client = {}
     },
     ["s268-17"] = {
-        label = " ",
-         --'許可權Type17',
+        label = "許可權Type17",
         weight = 0,
         stack = false,
         close = true,
@@ -5432,8 +4872,7 @@ return {
         client = {}
     },
     ["s268-18"] = {
-        label = " ",
-         --'許可權Type18',
+        label = "許可權Type18",
         weight = 0,
         stack = false,
         close = true,
@@ -5442,8 +4881,7 @@ return {
         client = {}
     },
     ["s268-19"] = {
-        label = " ",
-         --'許可權Type19',
+        label = "許可權Type19",
         weight = 0,
         stack = false,
         close = true,
@@ -5452,8 +4890,7 @@ return {
         client = {}
     },
     ["s268-20"] = {
-        label = " ",
-         --'許可權Typ20',
+        label = "許可權Typ20",
         weight = 0,
         stack = false,
         close = true,
@@ -5462,8 +4899,7 @@ return {
         client = {}
     },
     ["s268-21"] = {
-        label = " ",
-         --'許可權Type21',
+        label = "許可權Type21",
         weight = 0,
         stack = false,
         close = true,
@@ -5472,8 +4908,7 @@ return {
         client = {}
     },
     ["s268-22"] = {
-        label = " ",
-         --'許可權Type22',
+        label = "許可權Type22",
         weight = 0,
         stack = false,
         close = true,
@@ -5482,8 +4917,7 @@ return {
         client = {}
     },
     ["s268-23"] = {
-        label = " ",
-         --'許可權Type23',
+        label = "許可權Type23",
         weight = 0,
         stack = false,
         close = true,
@@ -5492,8 +4926,7 @@ return {
         client = {}
     },
     ["s268-24"] = {
-        label = " ",
-         --'許可權Type24',
+        label = "許可權Type24",
         weight = 0,
         stack = false,
         close = true,
@@ -5502,8 +4935,7 @@ return {
         client = {}
     },
     ["s268-25"] = {
-        label = " ",
-         --'許可權Type25',
+        label = "許可權Type25",
         weight = 0,
         stack = false,
         close = true,
@@ -5512,8 +4944,7 @@ return {
         client = {}
     },
     ["s268-26"] = {
-        label = " ",
-         --'許可權Type26',
+        label = "許可權Type26",
         weight = 0,
         stack = false,
         close = true,
@@ -5522,8 +4953,7 @@ return {
         client = {}
     },
     ["s268-27"] = {
-        label = " ",
-         --'許可權Type27',
+        label = "許可權Type27",
         weight = 0,
         stack = false,
         close = true,
@@ -5532,8 +4962,7 @@ return {
         client = {}
     },
     ["s268-28"] = {
-        label = " ",
-         --'許可權Type28',
+        label = "許可權Type28",
         weight = 0,
         stack = false,
         close = true,
@@ -5542,8 +4971,7 @@ return {
         client = {}
     },
     ["s268-29"] = {
-        label = " ",
-         --'許可權Type29',
+        label = "許可權Type29",
         weight = 0,
         stack = false,
         close = true,
@@ -5552,8 +4980,7 @@ return {
         client = {}
     },
     ["s268-30"] = {
-        label = " ",
-         --'許可權Type30',
+        label = "許可權Type30",
         weight = 0,
         stack = false,
         close = true,
@@ -5823,8 +5250,7 @@ return {
         client = {}
     },
     ["s269-1"] = {
-        label = " ",
-         --'神奇駝丸',
+        label = "神奇駝丸",
         weight = 2,
         stack = 1,
         close = 1,
@@ -5836,8 +5262,7 @@ return {
         }
     },
     ["s269-2"] = {
-        label = " ",
-         --'神秘駝丸',
+        label = "神秘駝丸",
         weight = 2,
         stack = 1,
         close = 1,
@@ -5849,8 +5274,7 @@ return {
         }
     },
     ["s269-3"] = {
-        label = " ",
-         --'駝駝丸丸',
+        label = "駝駝丸丸",
         weight = 2,
         stack = 1,
         close = 1,
@@ -5862,8 +5286,7 @@ return {
         }
     },
     ["s269-4"] = {
-        label = " ",
-         --'神力駝丸',
+        label = "神力駝丸",
         weight = 2,
         stack = 1,
         close = 1,
@@ -5875,8 +5298,7 @@ return {
         }
     },
     ["s269-5"] = {
-        label = " ",
-         --'神化駝丸',
+        label = "神化駝丸",
         weight = 2,
         stack = 1,
         close = 1,
@@ -6059,8 +5481,7 @@ return {
         client = {}
     },
     ["s271-1"] = {
-        label = " ",
-         -- '藍1殺青圖',
+        label = "藍1殺青圖",
         weight = 15,
         stack = true,
         close = true,
@@ -6069,8 +5490,7 @@ return {
         client = {}
     },
     ["s271-2"] = {
-        label = " ",
-         -- '迴滅棺材',
+        label = "迴滅棺材",
         weight = 55,
         stack = true,
         close = true,
@@ -6079,8 +5499,7 @@ return {
         client = {}
     },
     ["s271-3"] = {
-        label = " ",
-         -- '迴滅桌巾',
+        label = "迴滅桌巾",
         weight = 40,
         stack = true,
         close = true,
@@ -6089,8 +5508,7 @@ return {
         client = {}
     },
     ["s271-4"] = {
-        label = " ",
-         -- '李陽坨與現實',
+        label = "李陽坨與現實",
         weight = 15,
         stack = true,
         close = true,
@@ -6099,8 +5517,7 @@ return {
         client = {}
     },
     ["s271-5"] = {
-        label = " ",
-         -- '迴滅沙漏0%',
+        label = "迴滅沙漏0%",
         weight = 40,
         stack = false,
         close = true,
@@ -6111,8 +5528,7 @@ return {
         }
     },
     ["s271-6"] = {
-        label = " ",
-         -- '迴滅沙漏20%',
+        label = "迴滅沙漏20%",
         weight = 35,
         stack = false,
         close = true,
@@ -6123,8 +5539,7 @@ return {
         }
     },
     ["s271-7"] = {
-        label = " ",
-         -- '迴滅沙漏40%',
+        label = "迴滅沙漏40%",
         weight = 35,
         stack = false,
         close = true,
@@ -6135,8 +5550,7 @@ return {
         }
     },
     ["s271-8"] = {
-        label = " ",
-         -- '迴滅沙漏60%',
+        label = "迴滅沙漏60%",
         weight = 35,
         stack = false,
         close = true,
@@ -6147,8 +5561,7 @@ return {
         }
     },
     ["s271-9"] = {
-        label = " ",
-         -- '迴滅沙漏80%',
+        label = "迴滅沙漏80%",
         weight = 35,
         stack = false,
         close = true,
@@ -6159,8 +5572,7 @@ return {
         }
     },
     ["s271-10"] = {
-        label = " ",
-         -- '迴滅沙漏100%',
+        label = "迴滅沙漏100%",
         weight = 35,
         stack = false,
         close = true,
@@ -6171,8 +5583,7 @@ return {
         }
     },
     ["s271-11"] = {
-        label = " ",
-         -- '迴滅沙漏碎裂',
+        label = "迴滅沙漏碎裂",
         weight = 35,
         stack = false,
         close = true,
@@ -6183,8 +5594,7 @@ return {
         }
     },
     ["s271-12"] = {
-        label = " ",
-         -- '迴滅沙漏崩解',
+        label = "迴滅沙漏崩解",
         weight = 35,
         stack = false,
         close = true,
@@ -6195,8 +5605,7 @@ return {
         }
     },
     ["s272-1"] = {
-        label = " ",
-         -- '各國疫情爆發圖',
+        label = "各國疫情爆發圖",
         weight = 15,
         stack = true,
         close = true,
@@ -6205,8 +5614,7 @@ return {
         client = {}
     },
     ["s272-2"] = {
-        label = " ",
-         -- '人道實驗室爆炸圖',
+        label = "人道實驗室爆炸圖",
         weight = 15,
         stack = true,
         close = true,
@@ -6215,8 +5623,7 @@ return {
         client = {}
     },
     ["s272-3"] = {
-        label = " ",
-         -- 'CN國疫情爆發圖',
+        label = "CN國疫情爆發圖",
         weight = 15,
         stack = true,
         close = true,
@@ -6225,8 +5632,7 @@ return {
         client = {}
     },
     ["s272-4"] = {
-        label = " ",
-         -- '列車疫情爆發圖',
+        label = "列車疫情爆發圖",
         weight = 15,
         stack = true,
         close = true,
@@ -6235,8 +5641,7 @@ return {
         client = {}
     },
     ["s272-5"] = {
-        label = " ",
-         -- 'US國疫情爆發圖',
+        label = "US國疫情爆發圖",
         weight = 15,
         stack = true,
         close = true,
@@ -6245,8 +5650,7 @@ return {
         client = {}
     },
     ["s272-6"] = {
-        label = " ",
-         -- '政府研究ZEM圖',
+        label = "政府研究ZEM圖",
         weight = 15,
         stack = true,
         close = true,
@@ -6255,8 +5659,7 @@ return {
         client = {}
     },
     ["s273-1"] = {
-        label = " ",
-         -- '極光圖',
+        label = "極光圖",
         weight = 15,
         stack = false,
         close = true,
@@ -6265,8 +5668,7 @@ return {
         client = {}
     },
     ["s273-2"] = {
-        label = " ",
-         -- '黑環角玉',
+        label = "黑環角玉",
         weight = 35,
         stack = false,
         close = true,
@@ -6277,8 +5679,7 @@ return {
         }
     },
     ["s273-3"] = {
-        label = " ",
-         -- '白雲玉',
+        label = "白雲玉",
         weight = 35,
         stack = false,
         close = true,
@@ -6289,8 +5690,7 @@ return {
         }
     },
     ["s273-4"] = {
-        label = " ",
-         -- '血紅鑽玉',
+        label = "血紅鑽玉",
         weight = 35,
         stack = false,
         close = true,
@@ -6301,8 +5701,7 @@ return {
         }
     },
     ["s273-5"] = {
-        label = " ",
-         -- '藍三角玉',
+        label = "藍三角玉",
         weight = 35,
         stack = false,
         close = true,
@@ -6313,8 +5712,7 @@ return {
         }
     },
     ["s273-6"] = {
-        label = " ",
-         -- '綠圓玉',
+        label = "綠圓玉",
         weight = 35,
         stack = false,
         close = true,
@@ -6325,8 +5723,7 @@ return {
         }
     },
     ["s273-7"] = {
-        label = " ",
-         -- '紅四角玉',
+        label = "紅四角玉",
         weight = 35,
         stack = false,
         close = true,
@@ -6337,8 +5734,7 @@ return {
         }
     },
     ["s273-8"] = {
-        label = " ",
-         -- '靈魂沙子',
+        label = "靈魂沙子",
         weight = 35,
         stack = false,
         close = true,
@@ -6347,8 +5743,7 @@ return {
         client = {}
     },
     ["s274-1"] = {
-        label = " ",
-         -- '速Call',
+        label = "速Call",
         weight = 135,
         stack = false,
         close = true,
@@ -6357,8 +5752,7 @@ return {
         client = {}
     },
     ["s275-1"] = {
-        label = " ",
-         -- 'AI-2急救組合',
+        label = "AI-2急救組合",
         weight = 350,
         stack = false,
         close = true,
@@ -6367,8 +5761,7 @@ return {
         client = {}
     },
     ["s276-1"] = {
-        label = " ",
-         -- '乙型阻斷器',
+        label = "乙型阻斷器",
         weight = 150,
         stack = true,
         close = true,
@@ -6381,8 +5774,7 @@ return {
         }
     },
     ["s277-1"] = {
-        label = " ",
-         -- '用過的保險套',
+        label = "用過的保險套",
         weight = 50,
         stack = true,
         close = true,
@@ -6391,8 +5783,7 @@ return {
         client = {}
     },
     ["s278-1"] = {
-        label = " ",
-         -- '溜溜球',
+        label = "溜溜球",
         weight = 150,
         stack = false,
         close = true,
@@ -6401,8 +5792,7 @@ return {
         client = {}
     },
     ["s279-1"] = {
-        label = " ",
-         -- '魔術方塊',
+        label = "魔術方塊",
         weight = 69,
         stack = false,
         close = true,
@@ -6420,8 +5810,7 @@ return {
         client = {}
     },
     ["s281-1"] = {
-        label = " ",
-         -- '撲克牌',
+        label = "撲克牌",
         weight = 150,
         stack = true,
         close = true,
@@ -6438,8 +5827,7 @@ return {
         client = {}
     },
     ["s283-1"] = {
-        label = " ",
-         -- '骰子',
+        label = "骰子",
         weight = 5,
         stack = true,
         close = true,
@@ -6448,8 +5836,7 @@ return {
         client = {}
     },
     ["s284-1"] = {
-        label = " ",
-         -- '積木',
+        label = "積木",
         weight = 350,
         stack = true,
         close = true,
@@ -6458,8 +5845,7 @@ return {
         client = {}
     },
     ["s285-1"] = {
-        label = " ",
-         -- '咖波',
+        label = "咖波",
         weight = 250,
         stack = false,
         close = true,
@@ -6468,8 +5854,7 @@ return {
         client = {}
     },
     ["s286-1"] = {
-        label = " ",
-         -- '駝客洋芋片',
+        label = "駝客洋芋片",
         weight = 350,
         stack = false,
         close = true,
@@ -6484,8 +5869,7 @@ return {
         }
     },
     ["s287-1"] = {
-        label = " ",
-         -- '意麵玩偶',
+        label = "意麵玩偶",
         weight = 318,
         stack = false,
         close = true,
@@ -6496,8 +5880,7 @@ return {
         }
     },
     ["s288-1"] = {
-        label = " ",
-         -- '蓉子與喬萱合照',
+        label = "蓉子與喬萱合照",
         weight = 5,
         stack = false,
         close = true,
@@ -6508,8 +5891,7 @@ return {
         }
     },
     ["s289-1"] = {
-        label = " ",
-         -- '藍寶石項鍊',
+        label = "藍寶石項鍊",
         weight = 200,
         stack = false,
         close = true,
@@ -6518,8 +5900,7 @@ return {
         client = {}
     },
     ["s290-1"] = {
-        label = " ",
-         -- '給國臨的信',
+        label = "給國臨的信",
         weight = 200,
         stack = false,
         close = true,
@@ -6530,8 +5911,7 @@ return {
         }
     },
     ["s290-2"] = {
-        label = " ",
-         -- '邪靈教傳單',
+        label = "邪靈教傳單",
         weight = 1,
         stack = true,
         close = true,
@@ -6542,8 +5922,7 @@ return {
         }
     },
     ["s290-3"] = {
-        label = " ",
-         -- '驅邪禮包',
+        label = "驅邪禮包",
         weight = 9,
         stack = false,
         close = true,
@@ -6552,8 +5931,7 @@ return {
         client = {}
     },
     ["s290-4"] = {
-        label = " ",
-         -- '邪靈神像',
+        label = "邪靈神像",
         weight = 1500,
         stack = false,
         close = true,
@@ -6562,8 +5940,7 @@ return {
         client = {}
     },
     ["s290-5"] = {
-        label = " ",
-         -- '邪靈吊飾',
+        label = "邪靈吊飾",
         weight = 10,
         stack = true,
         close = true,
@@ -6574,8 +5951,7 @@ return {
         }
     },
     ["s290-6"] = {
-        label = " ",
-         -- '邪靈教驅邪液',
+        label = "邪靈教驅邪液",
         weight = 500,
         stack = false,
         close = true,
@@ -6591,8 +5967,7 @@ return {
         }
     },
     ["s291-1"] = {
-        label = " ",
-         -- '水水玩偶',
+        label = "水水玩偶",
         weight = 450,
         stack = false,
         close = true,
@@ -6601,8 +5976,7 @@ return {
         client = {}
     },
     ["s292-1"] = {
-        label = " ",
-         -- '森栗鑰匙圈',
+        label = "森栗鑰匙圈",
         weight = 20,
         stack = true,
         close = true,
@@ -6611,8 +5985,7 @@ return {
         client = {}
     },
     ["s293-1"] = {
-        label = " ",
-         -- '淺藍色絲帶',
+        label = "淺藍色絲帶",
         weight = 10,
         stack = true,
         close = true,
@@ -6621,8 +5994,7 @@ return {
         client = {}
     },
     ["s294-1"] = {
-        label = " ",
-         -- '邪靈教專屬聖槌',
+        label = "邪靈教專屬聖槌",
         weight = 1600,
         stack = false,
         close = true,
@@ -6633,8 +6005,7 @@ return {
         }
     },
     ["s295-1"] = {
-        label = " ",
-         -- '裝有骨灰的小瓶子',
+        label = "裝有骨灰的小瓶子",
         weight = 100,
         stack = true,
         close = true,
@@ -6643,8 +6014,7 @@ return {
         client = {}
     },
     ["s296-1"] = {
-        label = " ",
-         -- '相誠的相機',
+        label = "相誠的相機",
         weight = 1500,
         stack = false,
         close = true,
@@ -6653,8 +6023,7 @@ return {
         client = {}
     },
     ["s297-1"] = {
-        label = " ",
-         -- '蕾妮的照片',
+        label = "蕾妮的照片",
         weight = 3,
         stack = true,
         close = true,
@@ -6663,8 +6032,7 @@ return {
         client = {}
     },
     ["s298-1"] = {
-        label = " ",
-         -- '安穗的髮圈',
+        label = "安穗的髮圈",
         weight = 10,
         stack = true,
         close = true,
@@ -6675,8 +6043,7 @@ return {
         }
     },
     ["s299-1"] = {
-        label = " ",
-         -- '豐收戒指',
+        label = "豐收戒指",
         weight = 150,
         stack = false,
         close = true,
@@ -6688,8 +6055,7 @@ return {
         }
     },
     ["s299-2"] = {
-        label = " ",
-         -- '望梅戒指',
+        label = "望梅戒指",
         weight = 150,
         stack = false,
         close = true,
@@ -6701,8 +6067,7 @@ return {
         }
     },
     ["s299-3"] = {
-        label = " ",
-         -- '飽滿戒指',
+        label = "飽滿戒指",
         weight = 150,
         stack = false,
         close = true,
@@ -6714,8 +6079,7 @@ return {
         }
     },
     ["s300-1"] = {
-        label = " ",
-         -- '蕾妮的吉他',
+        label = "蕾妮的吉他",
         weight = 3000,
         stack = false,
         close = true,
@@ -6724,8 +6088,7 @@ return {
         client = {}
     },
     ["s301-1"] = {
-        label = " ",
-         -- '藍水晶項鍊',
+        label = "藍水晶項鍊",
         weight = 150,
         stack = false,
         close = true,
@@ -6734,8 +6097,7 @@ return {
         client = {}
     },
     ["s302-1"] = {
-        label = " ",
-         -- '驅邪符咒',
+        label = "驅邪符咒",
         weight = 1,
         stack = true,
         close = true,
@@ -6747,8 +6109,7 @@ return {
         }
     },
     ["s302-2"] = {
-        label = " ",
-         -- '驅邪聖典',
+        label = "驅邪聖典",
         weight = 500,
         stack = false,
         close = true,
@@ -6759,8 +6120,7 @@ return {
         }
     },
     ["s302-3"] = {
-        label = " ",
-         -- '驅邪聖典(開)',
+        label = "驅邪聖典(開)",
         weight = 500,
         stack = false,
         close = true,
@@ -6771,8 +6131,7 @@ return {
         }
     },
     ["s302-4"] = {
-        label = " ",
-         -- '吊飾',
+        label = "吊飾",
         weight = 25,
         stack = true,
         close = true,
@@ -6783,8 +6142,7 @@ return {
         }
     },
     ["s302-5"] = {
-        label = " ",
-         -- '娃娃',
+        label = "娃娃",
         weight = 100,
         stack = false,
         close = true,
@@ -6795,8 +6153,7 @@ return {
         }
     },
     ["s303-1"] = {
-        label = " ",
-         -- '7317房產鑰匙',
+        label = "7317房產鑰匙",
         weight = 5,
         stack = false,
         close = true,
@@ -6807,8 +6164,7 @@ return {
         }
     },
     ["s304-1"] = {
-        label = " ",
-         -- '柴犬水壺',
+        label = "柴犬水壺",
         weight = 200,
         stack = false,
         close = true,
@@ -6828,8 +6184,7 @@ return {
         }
     },
     ["s304-2"] = {
-        label = " ",
-         -- '柴犬水壺(空)',
+        label = "柴犬水壺(空)",
         weight = 10,
         stack = false,
         close = true,
@@ -6838,8 +6193,7 @@ return {
         client = {}
     },
     ["s304-3"] = {
-        label = " ",
-         -- 'Reiko水壺',
+        label = "Reiko水壺",
         weight = 200,
         stack = false,
         close = true,
@@ -6859,8 +6213,7 @@ return {
         }
     },
     ["s304-4"] = {
-        label = " ",
-         -- 'Reiko水壺(空)',
+        label = "Reiko水壺(空)",
         weight = 10,
         stack = false,
         close = true,
@@ -6869,8 +6222,7 @@ return {
         client = {}
     },
     ["s305-1"] = {
-        label = " ",
-         -- '二哥的工具箱',
+        label = "二哥的工具箱",
         weight = 8000,
         stack = false,
         close = true,
@@ -6879,8 +6231,7 @@ return {
         client = {}
     },
     ["s305-2"] = {
-        label = " ",
-         -- 'Tsuki吊飾',
+        label = "Tsuki吊飾",
         weight = 70,
         stack = true,
         close = true,
@@ -6889,8 +6240,7 @@ return {
         client = {}
     },
     ["s305-3"] = {
-        label = " ",
-         -- '幹部遺書1',
+        label = "幹部遺書1",
         weight = 20,
         stack = true,
         close = true,
@@ -6901,8 +6251,7 @@ return {
         }
     },
     ["s305-4"] = {
-        label = " ",
-         -- '幹部遺書2',
+        label = "幹部遺書2",
         weight = 20,
         stack = true,
         close = true,
@@ -6913,8 +6262,7 @@ return {
         }
     },
     ["s305-5"] = {
-        label = " ",
-         -- '幹部遺書3',
+        label = "幹部遺書3",
         weight = 20,
         stack = true,
         close = true,
@@ -6925,8 +6273,7 @@ return {
         }
     },
     ["s305-6"] = {
-        label = " ",
-         -- '狗牌',
+        label = "狗牌",
         weight = 110,
         stack = true,
         close = true,
@@ -6935,8 +6282,7 @@ return {
         client = {}
     },
     ["s306-1"] = {
-        label = " ",
-         -- '塔維爾的筆記本',
+        label = "塔維爾的筆記本",
         weight = 250,
         stack = false,
         close = true,
@@ -6948,8 +6294,7 @@ return {
         }
     },
     ["s307-1"] = {
-        label = " ",
-         -- '李若影特製營養能量棒',
+        label = "李若影特製營養能量棒",
         weight = 20,
         stack = true,
         close = true,
@@ -6964,8 +6309,7 @@ return {
         }
     },
     ["s308-1"] = {
-        label = " ",
-         -- '散靈典',
+        label = "散靈典",
         weight = 250,
         stack = true,
         close = true,
@@ -6978,8 +6322,7 @@ return {
         }
     },
     ["s308-2"] = {
-        label = " ",
-         -- '鯨火大學外圍門鑰匙',
+        label = "鯨火大學外圍門鑰匙",
         weight = 50,
         stack = true,
         close = true,
@@ -6988,8 +6331,7 @@ return {
         client = {}
     },
     ["s308-3"] = {
-        label = " ",
-         -- '蘋果章魚',
+        label = "蘋果章魚",
         weight = 500,
         stack = true,
         close = true,
@@ -7001,8 +6343,7 @@ return {
         }
     },
     ["s308-4"] = {
-        label = " ",
-         -- '濱海教堂外圍門鑰匙',
+        label = "濱海教堂外圍門鑰匙",
         weight = 50,
         stack = true,
         close = true,
@@ -7011,8 +6352,7 @@ return {
         client = {}
     },
     ["s308-5"] = {
-        label = " ",
-         -- '邪靈教大門鑰匙',
+        label = "邪靈教大門鑰匙",
         weight = 50,
         stack = true,
         close = true,
@@ -7021,8 +6361,7 @@ return {
         client = {}
     },
     ["s309-1"] = {
-        label = " ",
-         -- '營地鑰匙',
+        label = "營地鑰匙",
         weight = 150,
         stack = true,
         close = true,
@@ -7031,8 +6370,7 @@ return {
         client = {}
     },
     ["s310-1"] = {
-        label = " ",
-         -- '髒彈',
+        label = "髒彈",
         weight = 5,
         stack = true,
         close = true,
@@ -7041,8 +6379,7 @@ return {
         client = {}
     },
     ["s311-1"] = {
-        label = " ",
-         -- '抗體激素',
+        label = "抗體激素",
         weight = 200,
         stack = false,
         close = true,
@@ -7051,8 +6388,7 @@ return {
         client = {}
     },
     ["s312-1"] = {
-        label = " ",
-         -- '血清激素',
+        label = "血清激素",
         weight = 200,
         stack = false,
         close = true,
@@ -7061,8 +6397,7 @@ return {
         client = {}
     },
     ["s312-2"] = {
-        label = " ",
-         -- '證件',
+        label = "證件",
         weight = 15,
         stack = true,
         close = true,
@@ -7073,8 +6408,7 @@ return {
         }
     },
     ["s313-1"] = {
-        label = " ",
-         -- '灰鱷倉庫鑰匙',
+        label = "灰鱷倉庫鑰匙",
         weight = 20,
         stack = true,
         close = true,
@@ -7083,8 +6417,7 @@ return {
         client = {}
     },
     ["s313-2"] = {
-        label = " ",
-         -- '灰鱷大門鑰匙',
+        label = "灰鱷大門鑰匙",
         weight = 20,
         stack = true,
         close = true,
@@ -7093,8 +6426,7 @@ return {
         client = {}
     },
     ["s314-1"] = {
-        label = " ",
-         -- '月球病毒株試管',
+        label = "月球病毒株試管",
         weight = 40,
         stack = true,
         close = true,
@@ -7103,8 +6435,7 @@ return {
         client = {}
     },
     ["s314-2"] = {
-        label = " ",
-         -- '不明紅色藥劑',
+        label = "不明紅色藥劑",
         weight = 100,
         stack = true,
         close = true,
@@ -7113,8 +6444,7 @@ return {
         client = {}
     },
     ["s314-3"] = {
-        label = " ",
-         -- '測試階段疫苗',
+        label = "測試階段疫苗",
         weight = 100,
         stack = true,
         close = true,
@@ -7123,8 +6453,7 @@ return {
         client = {}
     },
     ["s314-4"] = {
-        label = " ",
-         -- '實驗報告1211/08/03',
+        label = "實驗報告1211/08/03",
         weight = 3,
         stack = true,
         close = true,
@@ -7133,8 +6462,7 @@ return {
         client = {}
     },
     ["s314-5"] = {
-        label = " ",
-         -- '實驗報告1213/01/11',
+        label = "實驗報告1213/01/11",
         weight = 3,
         stack = true,
         close = true,
@@ -7143,8 +6471,7 @@ return {
         client = {}
     },
     ["s314-6"] = {
-        label = " ",
-         -- '實驗報告1213/04/03',
+        label = "實驗報告1213/04/03",
         weight = 3,
         stack = true,
         close = true,
@@ -7153,8 +6480,7 @@ return {
         client = {}
     },
     ["s314-7"] = {
-        label = " ",
-         -- '實驗報告1213/11/16',
+        label = "實驗報告1213/11/16",
         weight = 3,
         stack = true,
         close = true,
@@ -7163,8 +6489,7 @@ return {
         client = {}
     },
     ["s314-8"] = {
-        label = " ",
-         -- '伊甸倉庫鑰匙',
+        label = "伊甸倉庫鑰匙",
         weight = 50,
         stack = false,
         close = true,
@@ -7173,8 +6498,7 @@ return {
         client = {}
     },
     ["s315-1"] = {
-        label = " ",
-         -- 'JP班Cake',
+        label = "JP班Cake",
         weight = 110,
         stack = false,
         close = true,
@@ -7189,8 +6513,7 @@ return {
         }
     },
     ["s315-2"] = {
-        label = " ",
-         -- 'JP果醬Cake',
+        label = "JP果醬Cake",
         weight = 120,
         stack = false,
         close = true,
@@ -7205,8 +6528,7 @@ return {
         }
     },
     ["s316-1"] = {
-        label = " ",
-         --'鯨木中醫院鑰匙',
+        label = "鯨木中醫院鑰匙",
         weight = 20,
         stack = true,
         close = true,
@@ -7214,8 +6536,7 @@ return {
         client = {}
     },
     ["s317-1"] = {
-        label = " ",
-         -- '軍械庫鑰匙',
+        label = "軍械庫鑰匙",
         weight = 25,
         stack = true,
         close = true,
@@ -7234,8 +6555,7 @@ return {
         client = {}
     },
     ["s319-1"] = {
-        label = " ",
-         -- '抽了血的汙染針筒',
+        label = "抽了血的汙染針筒",
         weight = 15,
         stack = true,
         close = true,
@@ -7244,8 +6564,7 @@ return {
         client = {}
     },
     ["s320-1"] = {
-        label = " ",
-         -- '友達名片',
+        label = "友達名片",
         weight = 5,
         stack = true,
         close = true,
@@ -7254,8 +6573,7 @@ return {
         client = {}
     },
     ["s321-1"] = {
-        label = " ",
-         -- 'uda名片',
+        label = "uda名片",
         weight = 5,
         stack = true,
         close = true,
@@ -7264,8 +6582,7 @@ return {
         client = {}
     },
     ["s321-2"] = {
-        label = " ",
-         -- 'SAW濾水器',
+        label = "SAW濾水器",
         weight = 85,
         stack = true,
         close = true,
@@ -7274,8 +6591,7 @@ return {
         client = {}
     },
     ["s321-3"] = {
-        label = " ",
-         -- 'SAW水袋(空)',
+        label = "SAW水袋(空)",
         weight = 15,
         stack = true,
         close = true,
@@ -7284,8 +6600,7 @@ return {
         client = {}
     },
     ["s321-4"] = {
-        label = " ",
-         -- 'SAW水袋(滿)',
+        label = "SAW水袋(滿)",
         weight = 2015,
         stack = false,
         close = true,
@@ -7294,8 +6609,7 @@ return {
         client = {}
     },
     ["s321-5"] = {
-        label = " ",
-         -- 'SAW水袋(組)',
+        label = "SAW水袋(組)",
         weight = 2100,
         stack = false,
         close = true,
@@ -7306,8 +6620,7 @@ return {
         }
     },
     ["s322-1"] = {
-        label = " ",
-         -- 'zootopia倉庫鑰匙',
+        label = "zootopia倉庫鑰匙",
         weight = 60,
         stack = false,
         close = true,
@@ -7316,8 +6629,7 @@ return {
         client = {}
     },
     ["s322-2"] = {
-        label = " ",
-         -- 'zootopia地道鑰匙',
+        label = "zootopia地道鑰匙",
         weight = 60,
         stack = false,
         close = true,
@@ -7326,8 +6638,7 @@ return {
         client = {}
     },
     ["s322-3"] = {
-        label = " ",
-         -- 'zootopia髒彈',
+        label = "zootopia髒彈",
         weight = 10,
         stack = true,
         close = true,
@@ -7339,8 +6650,7 @@ return {
         }
     },
     ["s323-1"] = {
-        label = " ",
-         -- '灰鱷卡片',
+        label = "灰鱷卡片",
         weight = 5,
         stack = true,
         close = true,
@@ -7349,8 +6659,7 @@ return {
         client = {}
     },
     ["s324-1"] = {
-        label = " ",
-         -- '南方倉庫鑰匙',
+        label = "南方倉庫鑰匙",
         weight = 200,
         stack = true,
         close = true,
@@ -7359,8 +6668,7 @@ return {
         client = {}
     },
     ["s325-1"] = {
-        label = " ",
-         -- '海之屋鑰匙',
+        label = "海之屋鑰匙",
         weight = 200,
         stack = true,
         close = true,
@@ -7369,8 +6677,7 @@ return {
         client = {}
     },
     ["s326-1"] = {
-        label = " ",
-         -- '灰鱷古代信物',
+        label = "灰鱷古代信物",
         weight = 30,
         stack = true,
         close = true,
@@ -7379,8 +6686,7 @@ return {
         client = {}
     },
     ["s327-1"] = {
-        label = " ",
-         -- '金剛除魔三鈷杵',
+        label = "金剛除魔三鈷杵",
         weight = 500,
         stack = false,
         close = true,
@@ -7391,8 +6697,7 @@ return {
         }
     },
     ["s328-1"] = {
-        label = " ",
-         -- '清心淨氣符咒',
+        label = "清心淨氣符咒",
         weight = 1,
         stack = true,
         close = true,
@@ -7403,8 +6708,7 @@ return {
         }
     },
     ["s329-1"] = {
-        label = " ",
-         -- '聚靈符咒',
+        label = "聚靈符咒",
         weight = 1,
         stack = true,
         close = true,
@@ -7413,8 +6717,7 @@ return {
         client = {}
     },
     ["s330-1"] = {
-        label = " ",
-         -- 'Fubuki造型水',
+        label = "Fubuki造型水",
         weight = 700,
         stack = true,
         close = true,
@@ -7429,8 +6732,7 @@ return {
         }
     },
     ["s331-1"] = {
-        label = " ",
-         -- '9310倉庫鑰匙',
+        label = "9310倉庫鑰匙",
         weight = 60,
         stack = true,
         close = true,
@@ -7439,8 +6741,7 @@ return {
         client = {}
     },
     ["s332-1"] = {
-        label = " ",
-         -- '輕量支架',
+        label = "輕量支架",
         weight = 37,
         stack = true,
         close = true,
@@ -7449,8 +6750,7 @@ return {
         client = {}
     },
     ["s333-1"] = {
-        label = " ",
-         -- 'US國軍糧',
+        label = "US國軍糧",
         weight = 650,
         stack = false,
         close = true,
@@ -7465,8 +6765,7 @@ return {
         }
     },
     ["s334-1"] = {
-        label = " ",
-         -- '黑兔雨傘',
+        label = "黑兔雨傘",
         weight = 500,
         stack = true,
         close = true,
@@ -7475,8 +6774,7 @@ return {
         client = {}
     },
     ["s335-1"] = {
-        label = " ",
-         -- '鯨魚化石',
+        label = "鯨魚化石",
         weight = 300,
         stack = true,
         close = true,
@@ -7485,8 +6783,7 @@ return {
         client = {}
     },
     ["s335-2"] = {
-        label = " ",
-         -- '天湖水',
+        label = "天湖水",
         weight = 700,
         stack = true,
         close = true,
@@ -7501,8 +6798,7 @@ return {
         }
     },
     ["s335-3"] = {
-        label = " ",
-         -- '骨血隨',
+        label = "骨血隨",
         weight = 500,
         stack = true,
         close = true,
@@ -7513,8 +6809,7 @@ return {
         }
     },
     ["s335-4"] = {
-        label = " ",
-         -- '聖骨血隨',
+        label = "聖骨血隨",
         weight = 500,
         stack = true,
         close = true,
@@ -7525,8 +6820,7 @@ return {
         }
     },
     ["s335-5"] = {
-        label = " ",
-         -- '二代疫苗改良',
+        label = "二代疫苗改良",
         weight = 200,
         stack = true,
         close = true,
@@ -7535,8 +6829,7 @@ return {
         client = {}
     },
     ["s335-6"] = {
-        label = " ",
-         -- '三代疫苗',
+        label = "三代疫苗",
         weight = 200,
         stack = true,
         close = true,
@@ -7545,8 +6838,7 @@ return {
         client = {}
     },
     ["s335-7"] = {
-        label = " ",
-         -- '三代改良疫苗',
+        label = "三代改良疫苗",
         weight = 200,
         stack = true,
         close = true,
@@ -7555,8 +6847,7 @@ return {
         client = {}
     },
     ["s336-1"] = {
-        label = " ",
-         -- '巴克的軍牌',
+        label = "巴克的軍牌",
         weight = 400,
         stack = true,
         close = true,
@@ -7565,8 +6856,7 @@ return {
         client = {}
     },
     ["s337-1"] = {
-        label = " ",
-         -- 'Fubuki木雕',
+        label = "Fubuki木雕",
         weight = 200,
         stack = true,
         close = true,
@@ -7578,8 +6868,7 @@ return {
         }
     },
     ["s338-1"] = {
-        label = " ",
-         -- '邪靈教徒藝術照',
+        label = "邪靈教徒藝術照",
         weight = 5,
         stack = true,
         close = true,
@@ -7588,8 +6877,7 @@ return {
         client = {}
     },
     ["s339-1"] = {
-        label = " ",
-         -- '徐小霓的卡片(僅有簽名版)',
+        label = "徐小霓的卡片(僅有簽名版)",
         weight = 5,
         stack = true,
         close = true,
@@ -7598,8 +6886,7 @@ return {
         client = {}
     },
     ["s340-1"] = {
-        label = " ",
-         -- '豁然鳳梨',
+        label = "豁然鳳梨",
         weight = 1000,
         stack = false,
         close = true,
@@ -7614,8 +6901,7 @@ return {
         }
     },
     ["s341-1"] = {
-        label = " ",
-         -- '拉瑪鳳梨蝦球',
+        label = "拉瑪鳳梨蝦球",
         weight = 100,
         stack = true,
         close = true,
@@ -7630,8 +6916,7 @@ return {
         }
     },
     ["s342-1"] = {
-        label = " ",
-         -- '校長海盜捅',
+        label = "校長海盜捅",
         weight = 100,
         stack = true,
         close = true,
@@ -7640,8 +6925,7 @@ return {
         client = {}
     },
     ["s343-1"] = {
-        label = " ",
-         -- '酥酥',
+        label = "酥酥",
         weight = 3000,
         stack = false,
         close = true,
@@ -7650,8 +6934,7 @@ return {
         client = {}
     },
     ["s344-1"] = {
-        label = " ",
-         -- '',
+        label = "",
         weight = 350,
         stack = false,
         close = true,
@@ -7660,8 +6943,7 @@ return {
         client = {}
     },
     ["s345-1"] = {
-        label = " ",
-         -- 'SS0411膠囊',
+        label = "SS0411膠囊",
         weight = 50,
         stack = true,
         close = true,
@@ -7673,8 +6955,7 @@ return {
         }
     },
     ["s346-1"] = {
-        label = " ",
-         -- '高中合照',
+        label = "高中合照",
         weight = 50,
         stack = true,
         close = true,
@@ -7683,8 +6964,7 @@ return {
         client = {}
     },
     ["s347-1"] = {
-        label = " ",
-         -- '刻有Faith的瑞士刀',
+        label = "刻有Faith的瑞士刀",
         weight = 350,
         stack = false,
         close = true,
@@ -7693,8 +6973,7 @@ return {
         client = {}
     },
     ["s347-2"] = {
-        label = " ",
-         -- '軍牌懷錶項鍊',
+        label = "軍牌懷錶項鍊",
         weight = 450,
         stack = false,
         close = true,
@@ -7703,8 +6982,7 @@ return {
         client = {}
     },
     ["s348-1"] = {
-        label = " ",
-         -- '觸手',
+        label = "觸手",
         weight = 10,
         stack = false,
         close = true,
@@ -7723,8 +7001,7 @@ return {
         }
     },
     ["s349-1"] = {
-        label = " ",
-         -- '紅色試管',
+        label = "紅色試管",
         weight = 450,
         stack = false,
         close = true,
@@ -7743,8 +7020,7 @@ return {
         }
     },
     ["s350-1"] = {
-        label = " ",
-         -- '樂樂的吸入器',
+        label = "樂樂的吸入器",
         weight = 190,
         stack = false,
         close = true,
@@ -7756,8 +7032,7 @@ return {
         }
     },
     ["s351-1"] = {
-        label = " ",
-         -- '陸槿的日記本',
+        label = "陸槿的日記本",
         weight = 390,
         stack = false,
         close = true,
@@ -7766,8 +7041,7 @@ return {
         client = {}
     },
     ["s352-1"] = {
-        label = " ",
-         -- '黃朱蛛',
+        label = "黃朱蛛",
         weight = 10,
         stack = true,
         close = true,
@@ -7786,8 +7060,7 @@ return {
         }
     },
     ["s352-2"] = {
-        label = " ",
-         -- '藍朱蛛',
+        label = "藍朱蛛",
         weight = 10,
         stack = true,
         close = true,
@@ -7806,8 +7079,7 @@ return {
         }
     },
     ["s353-1"] = {
-        label = " ",
-         -- '狼人殺白癡卡',
+        label = "狼人殺白癡卡",
         weight = 30,
         stack = true,
         close = true,
@@ -7818,8 +7090,7 @@ return {
         }
     },
     ["s353-2"] = {
-        label = " ",
-         -- '狼人殺守衛卡',
+        label = "狼人殺守衛卡",
         weight = 30,
         stack = true,
         close = true,
@@ -7830,8 +7101,7 @@ return {
         }
     },
     ["s353-3"] = {
-        label = " ",
-         -- '狼人殺獵人卡',
+        label = "狼人殺獵人卡",
         weight = 30,
         stack = true,
         close = true,
@@ -7842,8 +7112,7 @@ return {
         }
     },
     ["s353-4"] = {
-        label = " ",
-         -- '狼人殺預言家',
+        label = "狼人殺預言家",
         weight = 30,
         stack = true,
         close = true,
@@ -7854,8 +7123,7 @@ return {
         }
     },
     ["s353-5"] = {
-        label = " ",
-         -- '狼人殺流程卡',
+        label = "狼人殺流程卡",
         weight = 30,
         stack = true,
         close = true,
@@ -7866,8 +7134,7 @@ return {
         }
     },
     ["s353-6"] = {
-        label = " ",
-         -- '狼人殺村民卡',
+        label = "狼人殺村民卡",
         weight = 30,
         stack = true,
         close = true,
@@ -7878,8 +7145,7 @@ return {
         }
     },
     ["s353-7"] = {
-        label = " ",
-         -- '狼人殺女巫卡',
+        label = "狼人殺女巫卡",
         weight = 30,
         stack = true,
         close = true,
@@ -7890,8 +7156,7 @@ return {
         }
     },
     ["s353-8"] = {
-        label = " ",
-         -- '狼人殺狼人卡',
+        label = "狼人殺狼人卡",
         weight = 30,
         stack = true,
         close = true,
@@ -7902,8 +7167,7 @@ return {
         }
     },
     ["s353-9"] = {
-        label = " ",
-         -- '狼人殺規則卡',
+        label = "狼人殺規則卡",
         weight = 30,
         stack = true,
         close = true,
@@ -7914,8 +7178,7 @@ return {
         }
     },
     ["s354-1"] = {
-        label = " ",
-         -- 'usbusb',
+        label = "usbusb",
         weight = 50,
         stack = true,
         close = true,
@@ -7924,8 +7187,7 @@ return {
         client = {}
     },
     ["s355-1"] = {
-        label = " ",
-         -- '餽贈校刊第一期owo頁',
+        label = "餽贈校刊第一期owo頁",
         weight = 5,
         stack = true,
         close = true,
@@ -7934,8 +7196,7 @@ return {
         client = {}
     },
     ["s355-2"] = {
-        label = " ",
-         -- '餽贈校刊第一期p1-2',
+        label = "餽贈校刊第一期p1-2",
         weight = 10,
         stack = true,
         close = true,
@@ -7944,8 +7205,7 @@ return {
         client = {}
     },
     ["s355-3"] = {
-        label = " ",
-         -- '餽贈校刊第一期p3-4',
+        label = "餽贈校刊第一期p3-4",
         weight = 10,
         stack = true,
         close = true,
@@ -7954,8 +7214,7 @@ return {
         client = {}
     },
     ["s356-1"] = {
-        label = " ",
-         -- '特製水晶荔枝丸',
+        label = "特製水晶荔枝丸",
         weight = 10,
         stack = true,
         close = true,
@@ -7974,8 +7233,7 @@ return {
         }
     },
     ["s357-1"] = {
-        label = " ",
-         -- '阿吾的筆記本',
+        label = "阿吾的筆記本",
         weight = 300,
         stack = false,
         close = true,
@@ -7984,8 +7242,7 @@ return {
         client = {}
     },
     ["s357-2"] = {
-        label = " ",
-         -- '裘蒔的夾鏈袋',
+        label = "裘蒔的夾鏈袋",
         weight = 300,
         stack = false,
         close = true,
@@ -7994,8 +7251,7 @@ return {
         client = {}
     },
     ["s358-1"] = {
-        label = " ",
-         -- '小亞Godspeed卡片',
+        label = "小亞Godspeed卡片",
         weight = 50,
         stack = true,
         close = true,
@@ -8013,8 +7269,7 @@ return {
         client = {}
     },
     ["s360-1"] = {
-        label = " ",
-         -- '帶血的照片',
+        label = "帶血的照片",
         weight = 10,
         stack = true,
         close = true,
@@ -8023,8 +7278,7 @@ return {
         client = {}
     },
     ["s361-1"] = {
-        label = " ",
-         -- '開關按鈕',
+        label = "開關按鈕",
         weight = 200,
         stack = true,
         close = true,
@@ -8033,8 +7287,7 @@ return {
         client = {}
     },
     ["s362-1"] = {
-        label = " ",
-         -- '接收器',
+        label = "接收器",
         weight = 200,
         stack = true,
         close = true,
@@ -8043,8 +7296,7 @@ return {
         client = {}
     },
     ["s363-1"] = {
-        label = " ",
-         -- '餽贈校刊第二期p1-2',
+        label = "餽贈校刊第二期p1-2",
         weight = 10,
         stack = true,
         close = true,
@@ -8053,8 +7305,7 @@ return {
         client = {}
     },
     ["s363-2"] = {
-        label = " ",
-         -- '餽贈校刊第二期powo',
+        label = "餽贈校刊第二期powo",
         weight = 10,
         stack = true,
         close = true,
@@ -8063,8 +7314,7 @@ return {
         client = {}
     },
     ["s363-3"] = {
-        label = " ",
-         -- '網球社紀念娃娃',
+        label = "網球社紀念娃娃",
         weight = 30,
         stack = false,
         close = true,
@@ -8073,8 +7323,7 @@ return {
         client = {}
     },
     ["s364-1"] = {
-        label = " ",
-         -- '權然熊',
+        label = "權然熊",
         weight = 1,
         stack = true,
         close = true,
@@ -8083,8 +7332,7 @@ return {
         client = {}
     },
     ["s364-2"] = {
-        label = " ",
-         -- '金黃熊',
+        label = "金黃熊",
         weight = 1,
         stack = true,
         close = true,
@@ -8093,8 +7341,7 @@ return {
         client = {}
     },
     ["s364-3"] = {
-        label = " ",
-         -- '深色熊',
+        label = "深色熊",
         weight = 1,
         stack = true,
         close = true,
@@ -8103,8 +7350,7 @@ return {
         client = {}
     },
     ["s364-4"] = {
-        label = " ",
-         -- '太陽熊',
+        label = "太陽熊",
         weight = 1,
         stack = true,
         close = true,
@@ -8113,8 +7359,7 @@ return {
         client = {}
     },
     ["s364-5"] = {
-        label = " ",
-         -- '粉色熊',
+        label = "粉色熊",
         weight = 1,
         stack = true,
         close = true,
@@ -8123,8 +7368,7 @@ return {
         client = {}
     },
     ["s365-1"] = {
-        label = " ",
-         -- '康柏抱枕',
+        label = "康柏抱枕",
         weight = 300,
         stack = false,
         close = true,
@@ -8133,8 +7377,7 @@ return {
         client = {}
     },
     ["s365-2"] = {
-        label = " ",
-         -- '康柏抱枕設計圖',
+        label = "康柏抱枕設計圖",
         weight = 10,
         stack = true,
         close = true,
@@ -8143,8 +7386,7 @@ return {
         client = {}
     },
     ["s366-1"] = {
-        label = " ",
-         --'暮之葵',
+        label = "暮之葵",
         weight = 6,
         stack = true,
         close = true,
@@ -8157,8 +7399,7 @@ return {
         }
     },
     ["s366-2"] = {
-        label = " ",
-         --'月之諾',
+        label = "月之諾",
         weight = 6,
         stack = true,
         close = true,
@@ -8171,8 +7412,7 @@ return {
         }
     },
     ["s366-3"] = {
-        label = " ",
-         --'日之恕',
+        label = "日之恕",
         weight = 6,
         stack = true,
         close = true,
@@ -8185,8 +7425,7 @@ return {
         }
     },
     ["s366-4"] = {
-        label = " ",
-         --'初衷',
+        label = "初衷",
         weight = 6,
         stack = true,
         close = true,
@@ -8199,8 +7438,7 @@ return {
         }
     },
     ["s366-5"] = {
-        label = " ",
-         --'白狐',
+        label = "白狐",
         weight = 6,
         stack = true,
         close = true,
@@ -8213,8 +7451,7 @@ return {
         }
     },
     ["s366-6"] = {
-        label = " ",
-         -- '充滿既視感的娃娃',
+        label = "充滿既視感的娃娃",
         weight = 414,
         stack = false,
         close = true,
@@ -8226,8 +7463,7 @@ return {
         }
     },
     ["s367-1"] = {
-        label = " ",
-         -- '管理者抱枕',
+        label = "管理者抱枕",
         weight = 300,
         stack = false,
         close = true,
@@ -8236,8 +7472,7 @@ return {
         client = {}
     },
     ["s367-2"] = {
-        label = " ",
-         -- '管理者抱枕設計圖',
+        label = "管理者抱枕設計圖",
         weight = 10,
         stack = true,
         close = true,
@@ -8246,8 +7481,7 @@ return {
         client = {}
     },
     ["s368-1"] = {
-        label = " ",
-         -- '閃亮亮彩虹泡麵',
+        label = "閃亮亮彩虹泡麵",
         weight = 10,
         stack = true,
         close = true,
@@ -8266,8 +7500,7 @@ return {
         }
     },
     ["s369-1"] = {
-        label = " ",
-         -- '功夫壽司披薩',
+        label = "功夫壽司披薩",
         weight = 10,
         stack = true,
         close = true,
@@ -8286,8 +7519,7 @@ return {
         }
     },
     ["s370-1"] = {
-        label = " ",
-         -- '清晰眼藥水',
+        label = "清晰眼藥水",
         weight = 25,
         stack = true,
         close = true,
@@ -8296,8 +7528,7 @@ return {
         client = {}
     },
     ["s371-1"] = {
-        label = " ",
-         -- '撲克牌碎片',
+        label = "撲克牌碎片",
         weight = 3,
         stack = true,
         close = true,
@@ -8306,15 +7537,13 @@ return {
         client = {}
     },
     ["s372-1"] = {
-        label = " ",
-         --'螢光蕈',
+        label = "螢光蕈",
         weight = 30,
         stack = true,
         close = true
     },
     ["s373-1"] = {
-        label = " ",
-         --'阿天糖',
+        label = "阿天糖",
         weight = 25,
         stack = true,
         close = true,
@@ -8331,8 +7560,7 @@ return {
         }
     },
     ["s375-1"] = {
-        label = " ",
-         --'鈴鈴薯',
+        label = "鈴鈴薯",
         weight = 18,
         stack = true,
         close = true,
@@ -8350,8 +7578,7 @@ return {
         }
     },
     ["s377-1"] = {
-        label = " ",
-         --'妖豔莓莓',
+        label = "妖豔莓莓",
         weight = 214,
         stack = true,
         close = true,
@@ -8368,22 +7595,19 @@ return {
         }
     },
     ["s379-1"] = {
-        label = " ",
-         --'鈴鈴粉',
+        label = "鈴鈴粉",
         weight = 40,
         stack = true,
         close = true
     },
     ["s380-1"] = {
-        label = " ",
-         --'豆豆粉',
+        label = "豆豆粉",
         weight = 40,
         stack = true,
         close = true
     },
     ["s381-1"] = {
-        label = " ",
-         --'圓圓姨特製天果可昔',
+        label = "圓圓姨特製天果可昔",
         weight = 200,
         stack = true,
         close = true,
@@ -8399,8 +7623,7 @@ return {
         }
     },
     ["s382-1"] = {
-        label = " ",
-         --'圓圓姨特製阿天果醬',
+        label = "圓圓姨特製阿天果醬",
         weight = 200,
         stack = true,
         close = true,
@@ -8416,8 +7639,7 @@ return {
         }
     },
     ["s383-1"] = {
-        label = " ",
-         --'羅杰特製泡菜鍋',
+        label = "羅杰特製泡菜鍋",
         weight = 200,
         stack = true,
         close = true,
@@ -8433,8 +7655,7 @@ return {
         }
     },
     ["s384-1"] = {
-        label = " ",
-         --'羅杰特製香煎魚排',
+        label = "羅杰特製香煎魚排",
         weight = 200,
         stack = true,
         close = true,
@@ -8450,8 +7671,7 @@ return {
         }
     },
     ["s385-1"] = {
-        label = " ",
-         --'羅杰特製草包魚',
+        label = "羅杰特製草包魚",
         weight = 200,
         stack = true,
         close = true,
@@ -8467,8 +7687,7 @@ return {
         }
     },
     ["s386-1"] = {
-        label = " ",
-         --'羅杰特製鮮魚派',
+        label = "羅杰特製鮮魚派",
         weight = 650,
         stack = false,
         close = true,
@@ -8484,8 +7703,7 @@ return {
         }
     },
     ["s387-1"] = {
-        label = " ",
-         --'鯨淚果汁',
+        label = "鯨淚果汁",
         weight = 135,
         stack = true,
         close = true,
@@ -8502,8 +7720,7 @@ return {
         }
     },
     ["s388-1"] = {
-        label = " ",
-         --'光苒的鯨淚莓果比薩',
+        label = "光苒的鯨淚莓果比薩",
         weight = 240,
         stack = true,
         close = true,
@@ -8520,8 +7737,7 @@ return {
         }
     },
     ["s389-1"] = {
-        label = " ",
-         --'光苒的仰望星空一口酥',
+        label = "光苒的仰望星空一口酥",
         weight = 240,
         stack = true,
         close = true,
@@ -8538,8 +7754,7 @@ return {
         }
     },
     ["s390-1"] = {
-        label = " ",
-         --'托羅之淚',
+        label = "托羅之淚",
         weight = 250,
         stack = true,
         close = true,
@@ -8556,8 +7771,7 @@ return {
         }
     },
     ["s391-1"] = {
-        label = " ",
-         --'E.R企業緊急用口糧B型',
+        label = "E.R企業緊急用口糧B型",
         weight = 100,
         stack = true,
         close = true,
@@ -8576,8 +7790,7 @@ return {
         }
     },
     ["s391-2"] = {
-        label = " ",
-         --'E.R企業緊急用口糧A型',
+        label = "E.R企業緊急用口糧A型",
         weight = 100,
         stack = true,
         close = true,
@@ -8596,8 +7809,7 @@ return {
         }
     },
     ["s391-3"] = {
-        label = " ",
-         --'E.R緊急口糧C型',
+        label = "E.R緊急口糧C型",
         weight = 10,
         stack = true,
         consume = 1,
@@ -8615,8 +7827,7 @@ return {
         }
     },
     ["s392-1"] = {
-        label = " ",
-         --'定神香',
+        label = "定神香",
         weight = 20,
         stack = true,
         close = true,
@@ -8625,16 +7836,14 @@ return {
         }
     },
     ["s393-1"] = {
-        label = " ",
-         --'陽炎藥布',
+        label = "陽炎藥布",
         weight = 24,
         stack = 1,
         close = 1,
         description = ""
     },
     ["s394-1"] = {
-        label = " ",
-         --'沐森藥水',
+        label = "沐森藥水",
         weight = 120,
         stack = true,
         close = true,
@@ -8651,15 +7860,13 @@ return {
         }
     },
     ["s395-1"] = {
-        label = " ",
-         --'棠翎的愛',
+        label = "棠翎的愛",
         weight = 30,
         stack = 1,
         description = ""
     },
     ["s396-1"] = {
-        label = " ",
-         -- '畫冊',
+        label = "畫冊",
         weight = 1600,
         stack = false,
         close = true,
@@ -8668,8 +7875,7 @@ return {
         client = {}
     },
     ["s397-1"] = {
-        label = " ",
-         -- '疫苗',
+        label = "疫苗",
         weight = 10,
         stack = true,
         close = true,

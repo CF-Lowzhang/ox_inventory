@@ -1,7 +1,6 @@
 return {
     ["c1-1"] = {
-        label = " ",
-         --'葡萄',
+        label = "葡萄",
         weight = 95,
         stack = 1,
         close = 1,
@@ -11,8 +10,7 @@ return {
         }
     },
     ["c1-2"] = {
-        label = " ",
-         --'葡萄',
+        label = "葡萄",
         weight = 21,
         stack = true,
         close = true,
@@ -30,8 +28,7 @@ return {
         }
     },
     ["c2-1"] = {
-        label = " ",
-         --'檸檬',
+        label = "檸檬",
         weight = 86,
         stack = 1,
         close = 1,
@@ -41,16 +38,13 @@ return {
         }
     },
     ["c2-2"] = {
-        label = " ",
-         --'檸檬',
+        label = "檸檬",
         weight = 50,
         stack = true,
         close = true,
-        description = "檸檬"
     },
     ["c2-3"] = {
-        label = " ",
-         --'檸檬',
+        label = "檸檬",
         weight = 81,
         stack = true,
         close = true,
@@ -73,16 +67,14 @@ return {
         }
     },
     ["c3-1"] = {
-        label = " ",
-         --'迷迭香',
+        label = "迷迭香",
         weight = 74,
         stack = true,
         close = true,
         description = "迷迭香"
     },
     ["c3-2"] = {
-        label = " ",
-         --'迷迭香',
+        label = "迷迭香",
         weight = 20,
         stack = 1,
         close = 1,
@@ -100,22 +92,19 @@ return {
         }
     },
     ["c4-2"] = {
-        label = " ",
-         --'石英',
+        label = "石英",
         weight = 50,
         stack = true,
         close = true
     },
     ["c5-2"] = {
-        label = " ",
-         --'骨頭',
+        label = "骨頭",
         weight = 150,
         stack = true,
         close = true
     },
     ["c6-1"] = {
-        label = " ",
-         --'水',
+        label = "水",
         weight = 200,
         consume = 1,
         description = "雨水",
@@ -158,88 +147,77 @@ return {
         }
     },
     ["c8-1"] = {
-        label = " ",
-         --'黑百合',
+        label = "黑百合",
         weight = 22,
         stack = 1,
         close = 1,
         description = ""
     },
     ["c9-1"] = {
-        label = " ",
-         --'黑鈴蘭',
+        label = "黑鈴蘭",
         weight = 21,
         stack = 1,
         close = 1,
         description = ""
     },
     ["c10-1"] = {
-        label = " ",
-         --'海蘭花',
+        label = "海蘭花",
         weight = 42,
         stack = 1,
         close = 1,
         description = "海蘭花"
     },
     ["c11-1"] = {
-        label = " ",
-         --'雜草',
-        weight = 32,
+        label = "雜草",
+        weight = 18,
         stack = 1,
         close = 1,
         description = ""
     },
     ["c12-1"] = {
-        label = " ",
-         --'櫻花',
+        label = "櫻花",
         weight = 60,
         stack = 1,
         close = 1,
         description = "櫻花"
     },
     ["c13-1"] = {
-        label = " ",
-         --'惑心花',
+        label = "惑心花",
         weight = 13,
         stack = 1,
         close = 1,
         description = ""
     },
     ["c14-1"] = {
-        label = " ",
-         --'未知血塊',
+        label = "未知血塊",
         weight = 87,
         stack = 1,
         close = 1,
         description = ""
     },
     ["c15-1"] = {
-        label = " ",
-         --'茵草',
+        label = "茵草",
         weight = 21,
         stack = 1,
         close = 1,
         description = "草本植物，葉子羽狀分裂，有特殊的香味可以驅趕蚊蟲，帶有苦味，葉子有著止咳、止瀉、止吐的功效。"
     },
     ["c16-1"] = {
-        label = " ",
-         --'彼岸花',
+        label = "彼岸花",
         weight = 32,
         stack = 1,
         close = 1,
         description = ""
     },
     ["c17-1"] = {
-        label = " ",
-         --'鳳仙花',
+        label = "鳳仙花",
         weight = 24,
         stack = 1,
         close = 1,
         description = ""
     },
     ["c18-2"] = {
-        label = " ",
-         -- '璟湘花',
+        label = "璟湘花",
         weight = 20,
         stack = true,
         close = true,
@@ -248,8 +226,7 @@ return {
         client = {}
     },
     ["c19-1"] = {
-        label = " ",
-         --'香蕉',
+        label = "香蕉",
         weight = 96,
         stack = 1,
         close = 1,
@@ -259,8 +236,7 @@ return {
         }
     },
     ["c20-1"] = {
-        label = " ",
-         --'幸福櫻桃',
+        label = "幸福櫻桃",
         weight = 86,
         stack = 1,
         close = 1,
@@ -270,8 +246,7 @@ return {
         }
     },
     ["c21-1"] = {
-        label = " ",
-         --'芒果',
+        label = "芒果",
         weight = 87,
         stack = 1,
         close = 1,
@@ -281,8 +256,7 @@ return {
         }
     },
     ["c22-1"] = {
-        label = " ",
-         --'番茄',
+        label = "番茄",
         weight = 85,
         stack = 1,
         close = 1,
@@ -292,8 +266,7 @@ return {
         }
     },
     ["c23-1"] = {
-        label = " ",
-         --'開心番茄',
+        label = "開心番茄",
         weight = 94,
         stack = 1,
         close = 1,
@@ -303,8 +276,7 @@ return {
         }
     },
     ["c24-1"] = {
-        label = " ",
-         --'曼陀羅',
+        label = "曼陀羅",
         weight = 34,
         stack = 1,
         close = 1,
@@ -314,141 +286,122 @@ return {
         }
     },
     ["c25-1"] = {
-        label = " ",
-         --'朝霧玫瑰',
+        label = "朝霧玫瑰",
         weight = 32,
         stack = 1,
         close = 1,
         description = "朝霧玫瑰"
     },
     ["c26-1"] = {
-        label = " ",
-         --'鈴蘭花',
+        label = "鈴蘭花",
         weight = 21,
         stack = 1,
         close = 1,
         description = ""
     },
     ["c27-1"] = {
-        label = " ",
-         --'神秘藥草',
+        label = "神秘藥草",
         weight = 22,
         stack = 1,
         close = 1,
         description = ""
     },
     ["c28-1"] = {
-        label = " ",
-         --'櫻花草',
+        label = "櫻花草",
         weight = 45,
         stack = 1,
         close = 1,
         description = "櫻花草"
     },
     ["c29-1"] = {
-        label = " ",
-         --'八重紅花',
+        label = "八重紅花",
         weight = 21,
         stack = 1,
         close = 1,
         description = "將莖部取下曬乾後磨成粉，有止痛的療效。但直接生用會導致中毒。"
     },
     ["c30-1"] = {
-        label = " ",
-         --'燕尾花',
+        label = "燕尾花",
         weight = 18,
         stack = 1,
         close = 1,
         description = ""
     },
     ["c31-1"] = {
-        label = " ",
-         --'怪異植物',
+        label = "怪異植物",
         weight = 95,
         stack = 1,
         close = 1,
         description = ""
     },
     ["c32-1"] = {
-        label = " ",
-         --'琥珀',
+        label = "琥珀",
         weight = 100,
         stack = true,
         close = true
     },
     ["c33-1"] = {
-        label = " ",
-         --'七彩琥珀',
+        label = "七彩琥珀",
         weight = 100,
         stack = true,
         close = true
     },
     ["c34-1"] = {
-        label = " ",
-         --'荊棘草',
+        label = "荊棘草",
         weight = 100,
         stack = true,
         close = true
     },
     ["c35-1"] = {
-        label = " ",
-         --'樺木',
+        label = "樺木",
         weight = 100,
         stack = true,
         close = true
     },
     ["c36-1"] = {
-        label = " ",
-         --'檜木',
+        label = "檜木",
         weight = 100,
         stack = true,
         close = true
     },
     ["c37-1"] = {
-        label = " ",
-         --'朽木',
+        label = "朽木",
         weight = 100,
         stack = true,
         close = true
     },
     ["c38-1"] = {
-        label = " ",
-         --'白沙',
+        label = "白沙",
         weight = 50,
         stack = true,
         close = true
     },
     ["c39-1"] = {
-        label = " ",
-         --'紅沙',
+        label = "紅沙",
         weight = 50,
         stack = true,
         close = true
     },
     ["c40-1"] = {
-        label = " ",
-         --'黑沙',
+        label = "黑沙",
         weight = 50,
         stack = true,
         close = true
     },
     ["c41-1"] = {
-        label = " ",
-         --'荷葉',
+        label = "荷葉",
         weight = 20,
         stack = true,
         close = true
     },
     ["c42-1"] = {
-        label = " ",
-         --'蓮花',
+        label = "蓮花",
         weight = 20,
         stack = true,
         close = true
     },
     ["c43-1"] = {
-        label = " ",
-         -- '玫瑰花束',
+        label = "玫瑰花束",
         weight = 250,
         stack = true,
         close = true,
@@ -457,8 +410,7 @@ return {
         client = {}
     },
     ["c44-1"] = {
-        label = " ",
-         --'牛肉',
+        label = "牛肉",
         weight = 50,
         stack = true,
         close = true,
@@ -467,16 +419,14 @@ return {
         client = {}
     },
     ["c45-1"] = {
-        label = " ",
-         --'玫瑰',
+        label = "玫瑰",
         weight = 32,
         stack = 1,
         close = 1,
         description = "玫瑰"
     },
     ["c46-1"] = {
-        label = " ",
-         --'紫羅蘭',
+        label = "紫羅蘭",
         weight = 50,
         stack = true,
         close = true,
@@ -485,8 +435,7 @@ return {
         client = {}
     },
     ["c47-1"] = {
-        label = " ",
-         --'藍紫羅蘭',
+        label = "藍紫羅蘭",
         weight = 50,
         stack = true,
         close = true,
@@ -495,8 +444,7 @@ return {
         client = {}
     },
     ["c48-1"] = {
-        label = " ",
-         --'白百合',
+        label = "白百合",
         weight = 50,
         stack = true,
         close = true,
@@ -505,8 +453,7 @@ return {
         client = {}
     },
     ["c49-1"] = {
-        label = " ",
-         --'粉紅玫瑰',
+        label = "粉紅玫瑰",
         weight = 50,
         stack = true,
         close = true,
@@ -515,8 +462,7 @@ return {
         client = {}
     },
     ["c50-1"] = {
-        label = " ",
-         --'滿天星',
+        label = "滿天星",
         weight = 50,
         stack = true,
         close = true,
@@ -525,8 +471,7 @@ return {
         client = {}
     },
     ["c51-1"] = {
-        label = " ",
-         --'鳳梨',
+        label = "鳳梨",
         weight = 200,
         stack = 1,
         consume = 1,
@@ -543,8 +488,7 @@ return {
         }
     },
     ["c52-1"] = {
-        label = " ",
-         --'蘋果',
+        label = "蘋果",
         weight = 30,
         stack = 1,
         close = 1,
@@ -562,8 +506,7 @@ return {
         }
     },
     ["c53-1"] = {
-        label = " ",
-         --'百香果',
+        label = "百香果",
         weight = 30,
         stack = 1,
         close = 1,
@@ -581,8 +524,7 @@ return {
         }
     },
     ["c54-1"] = {
-        label = " ",
-         --'柳橙',
+        label = "柳橙",
         weight = 30,
         stack = 1,
         close = 1,
@@ -600,8 +542,7 @@ return {
         }
     },
     ["c55-1"] = {
-        label = " ",
-         --'藍莓',
+        label = "藍莓",
         weight = 100,
         stack = 1,
         consume = 1,
@@ -618,8 +559,7 @@ return {
         }
     },
     ["c56-1"] = {
-        label = " ",
-         --'杏仁',
+        label = "杏仁",
         weight = 100,
         stack = 1,
         consume = 1,
@@ -636,8 +576,7 @@ return {
         }
     },
     ["c57-1"] = {
-        label = " ",
-         --'章魚',
+        label = "章魚",
         weight = 100,
         stack = 1,
         consume = 1,
@@ -654,11 +593,9 @@ return {
         }
     },
     ["c58-1"] = {
-        label = " ",
-         --'草莓',
+        label = "草莓",
         weight = 100,
         stack = 1,
-        description = "草莓",
         client = {
             status = {hunger = 10000},
             anim = {dict = "mp_player_inteat@burger", clip = "mp_player_int_eat_burger_fp"},
@@ -666,22 +603,19 @@ return {
         }
     },
     ["c59-1"] = {
-        label = " ",
-         --'向日葵花瓣',
+        label = "向日葵花瓣",
         weight = 10,
         stack = 1,
         description = "向日葵花瓣"
     },
     ["c60-1"] = {
-        label = " ",
-         --'棉花',
+        label = "棉花",
         weight = 0,
         stack = true,
         description = "棉花"
     },
     ["c61-1"] = {
-        label = " ",
-         --'麵包蟲',
+        label = "麵包蟲",
         weight = 2,
         stack = true,
         close = true,
@@ -699,8 +633,7 @@ return {
         }
     },
     ["c62-1"] = {
-        label = " ",
-         --'胡蘿蔔',
+        label = "胡蘿蔔",
         weight = 40,
         stack = true,
         close = true,
@@ -712,8 +645,7 @@ return {
         }
     },
     ["c63-1"] = {
-        label = " ",
-         --'聖女番茄',
+        label = "聖女番茄",
         weight = 100,
         stack = true,
         close = true,
@@ -725,8 +657,7 @@ return {
         }
     },
     ["c64-1"] = {
-        label = " ",
-         --'野莓',
+        label = "野莓",
         weight = 74,
         stack = true,
         close = true,
@@ -744,8 +675,7 @@ return {
         }
     },
     ["c64-1"] = {
-        label = " ",
-         --'野莓',
+        label = "野莓",
         weight = 74,
         stack = true,
         close = true,
@@ -763,12 +693,10 @@ return {
         }
     },
     ["c65-1"] = {
-        label = " ",
-         --'小麥',
+        label = "小麥",
         weight = 65,
         stack = true,
         close = true,
-        description = "小麥",
         consume = 1,
         client = {
             status = {hunger = 3000},
@@ -782,8 +710,7 @@ return {
         }
     },
     ["c66-1"] = {
-        label = " ",
-         --'綜合蔬菜',
+        label = "綜合蔬菜",
         weight = 85,
         stack = true,
         close = true,
@@ -801,8 +728,7 @@ return {
         }
     },
     ["c67-1"] = {
-        label = " ",
-         --'梨子',
+        label = "梨子",
         weight = 48,
         stack = true,
         close = true,
@@ -820,8 +746,7 @@ return {
         }
     },
     ["c68-1"] = {
-        label = " ",
-         --'龍蝦',
+        label = "龍蝦",
         weight = 250,
         stack = true,
         close = true,
@@ -839,8 +764,7 @@ return {
         }
     },
     ["c69-1"] = {
-        label = " ",
-         --'小黃瓜',
+        label = "小黃瓜",
         weight = 57,
         stack = true,
         close = true,
@@ -858,8 +782,7 @@ return {
         }
     },
     ["c70-1"] = {
-        label = " ",
-         --'莓果',
+        label = "莓果",
         weight = 66,
         stack = true,
         close = true,
@@ -877,58 +800,50 @@ return {
         }
     },
     ["c71-1"] = {
-        label = " ",
-         --'動物組織',
+        label = "動物組織",
         weight = 53,
         stack = true,
         close = true
     },
     ["c72-1"] = {
-        label = " ",
-         --'藍貝',
+        label = "藍貝",
         weight = 112,
         stack = true,
         close = true,
         description = "可產出「藍珠」的貝類，生長在淺海區。"
     },
     ["c73-1"] = {
-        label = " ",
-         --'煤礦',
+        label = "煤礦",
         weight = 30,
         stack = true,
         close = true
     },
     ["c74-1"] = {
-        label = " ",
-         --'銅礦',
+        label = "銅礦",
         weight = 30,
         stack = true,
         close = true
     },
     ["c75-1"] = {
-        label = " ",
-         --'金礦',
+        label = "金礦",
         weight = 100,
         stack = true,
         close = true
     },
     ["c76-1"] = {
-        label = " ",
-         --'蛇麻',
+        label = "蛇麻",
         weight = 42,
         stack = true,
         close = true
     },
     ["c77-1"] = {
-        label = " ",
-         --'鐵礦',
+        label = "鐵礦",
         weight = 200,
         stack = true,
         close = true
     },
     ["c78-1"] = {
-        label = " ",
-         --'礦鹽',
+        label = "礦鹽",
         weight = 225,
         stack = true,
         close = true
@@ -941,30 +856,25 @@ return {
       close = true,
     },
     ["c80-1"] = {
-        label = " ",
-         --'玫瑰鹽',
-        weight = 17,
+        label = "玫瑰鹽",
+        weight = 15,
         stack = true,
         close = true,
-        description = "玫瑰鹽"
     },
     ["c81-1"] = {
-        label = " ",
-         --'沙子',
+        label = "沙子",
         weight = 20,
         stack = true,
         close = true
     },
     ["c83-1"] = {
-        label = " ",
-         --'銀礦',
+        label = "銀礦",
         weight = 200,
         stack = true,
         close = true
     },
     ["c84-1"] = {
-        label = " ",
-         --'石頭',
+        label = "石頭",
         weight = 40,
         stack = true,
         close = true,
@@ -973,29 +883,25 @@ return {
         }
     },
     ["c85-1"] = {
-        label = " ",
-         --'甘蔗',
+        label = "甘蔗",
         weight = 15,
         stack = true,
         close = true
     },
     ["c86-1"] = {
-        label = " ",
-         --'鯨魚骨頭',
+        label = "鯨魚骨頭",
         weight = 5000,
         stack = true,
         close = true
     },
     ["c87-1"] = {
-        label = " ",
-         --'木頭',
+        label = "木頭",
         weight = 80,
         stack = true,
         close = true
     },
     ["c88-1"] = {
-        label = " ",
-         --'昆蟲',
+        label = "昆蟲",
         weight = 4,
         stack = true,
         close = true,
@@ -1013,44 +919,38 @@ return {
         }
     },
     ["c89-1"] = {
-        label = " ",
-         --'樹脂',
+        label = "樹脂",
         weight = 40,
         stack = true,
         close = true
     },
     ["c90-1"] = {
-        label = " ",
-         --'海鹽',
-        weight = 25,
+        label = "海鹽",
+        weight = 20,
         stack = true,
         close = true
     },
     ["c91-1"] = {
-        label = " ",
-         --'粉色海草',
+        label = "粉色海草",
         weight = 42,
         stack = true,
         close = true,
         description = "粉色海草"
     },
     ["c92-1"] = {
-        label = " ",
-         --'旋果蚊子草',
+        label = "旋果蚊子草",
         weight = 21,
         stack = true,
         close = true
     },
     ["c93-1"] = {
-        label = " ",
-         --'紫鑽',
+        label = "紫鑽",
         weight = 200,
         stack = true,
         close = true
     },
     ["c94-1"] = {
-        label = " ",
-         -- '藥草',
+        label = "藥草",
         weight = 10,
         stack = true,
         close = true,
@@ -1059,8 +959,7 @@ return {
         client = {}
     },
     ["c94-2"] = {
-        label = " ",
-         --'藥草',
+        label = "藥草",
         weight = 20,
         stack = true,
         close = true,
@@ -1074,8 +973,7 @@ return {
         }
     },
     ["c95-1"] = {
-        label = " ",
-         -- '玉米種子',
+        label = "玉米種子",
         weight = 5,
         stack = true,
         close = true,
@@ -1084,8 +982,7 @@ return {
         client = {}
     },
     ["c95-2"] = {
-        label = " ",
-         -- '玉米種子',
+        label = "玉米種子",
         weight = 15,
         stack = true,
         close = true,
@@ -1094,8 +991,7 @@ return {
         client = {}
     },
     ["c96-1"] = {
-        label = " ",
-         -- '蔬菜',
+        label = "蔬菜",
         weight = 150,
         stack = true,
         close = true,
@@ -1110,8 +1006,7 @@ return {
         }
     },
     ["c97-1"] = {
-        label = " ",
-         -- '水果',
+        label = "水果",
         weight = 450,
         stack = false,
         close = true,
@@ -1126,8 +1021,7 @@ return {
         }
     },
     ["c98-1"] = {
-        label = " ",
-         -- '動物肉',
+        label = "動物肉",
         weight = 350,
         stack = true,
         close = true,
@@ -1142,8 +1036,7 @@ return {
         }
     },
     ["c99-1"] = {
-        label = " ",
-         -- '人肉',
+        label = "人肉",
         weight = 350,
         stack = true,
         close = true,
@@ -1158,8 +1051,7 @@ return {
         }
     },
     ["c100-1"] = {
-        label = " ",
-         -- '海鮮',
+        label = "海鮮",
         weight = 450,
         stack = false,
         close = true,
@@ -1174,8 +1066,7 @@ return {
         }
     },
     ["c102-1"] = {
-        label = " ",
-         -- '穀物',
+        label = "穀物",
         weight = 350,
         stack = true,
         close = true,
@@ -1190,8 +1081,7 @@ return {
         }
     },
     ["c103-1"] = {
-        label = " ",
-         -- '髒水',
+        label = "髒水",
         weight = 650,
         stack = false,
         close = true,
@@ -1206,8 +1096,7 @@ return {
         }
     },
     ["c104-1"] = {
-        label = " ",
-         -- '斷肢1',
+        label = "斷肢1",
         weight = 50,
         stack = true,
         close = true,
@@ -1216,8 +1105,7 @@ return {
         client = {}
     },
     ["c104-2"] = {
-        label = " ",
-         -- '斷肢2',
+        label = "斷肢2",
         weight = 100,
         stack = true,
         close = true,
@@ -1226,8 +1114,7 @@ return {
         client = {}
     },
     ["c104-3"] = {
-        label = " ",
-         -- '斷肢3',
+        label = "斷肢3",
         weight = 350,
         stack = false,
         close = true,
@@ -1236,8 +1123,7 @@ return {
         client = {}
     },
     ["c104-4"] = {
-        label = " ",
-         -- '斷肢4',
+        label = "斷肢4",
         weight = 450,
         stack = false,
         close = true,
@@ -1246,8 +1132,7 @@ return {
         client = {}
     },
     ["c104-5"] = {
-        label = " ",
-         -- '斷肢5',
+        label = "斷肢5",
         weight = 350,
         stack = false,
         close = true,
@@ -1256,8 +1141,7 @@ return {
         client = {}
     },
     ["c109-1"] = {
-        label = " ",
-         -- '鳳梨種子',
+        label = "鳳梨種子",
         weight = 10,
         stack = true,
         close = true,
@@ -1266,8 +1150,7 @@ return {
         client = {}
     },
     ["c110-1"] = {
-        label = " ",
-         -- '蘋果種子',
+        label = "蘋果種子",
         weight = 10,
         stack = true,
         close = true,
@@ -1276,8 +1159,7 @@ return {
         client = {}
     },
     ["c111-1"] = {
-        label = " ",
-         -- '橘子種子',
+        label = "橘子種子",
         weight = 10,
         stack = true,
         close = true,
@@ -1286,8 +1168,7 @@ return {
         client = {}
     },
     ["c112-1"] = {
-        label = " ",
-         -- '草莓種子',
+        label = "草莓種子",
         weight = 10,
         stack = true,
         close = true,
@@ -1296,8 +1177,7 @@ return {
         client = {}
     },
     ["c114-1"] = {
-        label = " ",
-         -- '南瓜',
+        label = "南瓜",
         weight = 350,
         stack = false,
         close = true,
@@ -1306,8 +1186,7 @@ return {
         client = {}
     },
     ["c115-1"] = {
-        label = " ",
-         -- '地瓜葉',
+        label = "地瓜葉",
         weight = 100,
         stack = true,
         close = true,
@@ -1316,8 +1195,7 @@ return {
         client = {}
     },
     ["c116-1"] = {
-        label = " ",
-         -- '豆芽',
+        label = "豆芽",
         weight = 100,
         stack = true,
         close = true,
@@ -1326,8 +1204,7 @@ return {
         client = {}
     },
     ["c117-1"] = {
-        label = " ",
-         -- '樹葉',
+        label = "樹葉",
         weight = 100,
         stack = true,
         close = true,
@@ -1336,8 +1213,7 @@ return {
         client = {}
     },
     ["c118-1"] = {
-        label = " ",
-         -- '獨角仙幼蟲',
+        label = "獨角仙幼蟲",
         weight = 30,
         stack = true,
         close = true,
@@ -1352,8 +1228,7 @@ return {
         }
     },
     ["c119-1"] = {
-        label = " ",
-         -- '南瓜種子',
+        label = "南瓜種子",
         weight = 5,
         stack = true,
         close = true,
@@ -1362,8 +1237,7 @@ return {
         client = {}
     },
     ["c120-1"] = {
-        label = " ",
-         -- '高麗菜種子',
+        label = "高麗菜種子",
         weight = 5,
         stack = true,
         close = true,
@@ -1372,8 +1246,7 @@ return {
         client = {}
     },
     ["c121-1"] = {
-        label = " ",
-         -- '橘子',
+        label = "橘子",
         weight = 100,
         stack = true,
         close = true,
@@ -1388,8 +1261,7 @@ return {
         }
     },
     ["c122-1"] = {
-        label = " ",
-         -- '一般化石',
+        label = "一般化石",
         weight = 1200,
         stack = true,
         close = true,
@@ -1398,8 +1270,7 @@ return {
         client = {}
     },
     ["c123-1"] = {
-        label = " ",
-         -- '眼珠',
+        label = "眼珠",
         weight = 10,
         stack = true,
         close = true,
@@ -1412,8 +1283,7 @@ return {
         }
     },
     ["c124-1"] = {
-        label = " ",
-         -- '荼蘼',
+        label = "荼蘼",
         weight = 150,
         stack = true,
         close = true,
@@ -1422,8 +1292,7 @@ return {
         client = {}
     },
     ["c125-1"] = {
-        label = " ",
-         -- '鳶尾',
+        label = "鳶尾",
         weight = 150,
         stack = true,
         close = true,
@@ -1432,8 +1301,7 @@ return {
         client = {}
     },
     ["c126-1"] = {
-        label = " ",
-         -- '空鳳',
+        label = "空鳳",
         weight = 150,
         stack = true,
         close = true,
@@ -1442,8 +1310,7 @@ return {
         client = {}
     },
     ["c127-1"] = {
-        label = " ",
-         -- '青椒',
+        label = "青椒",
         weight = 100,
         stack = true,
         close = true,
@@ -1452,8 +1319,7 @@ return {
         client = {}
     },
     ["c128-1"] = {
-        label = " ",
-         -- '荔枝',
+        label = "荔枝",
         weight = 30,
         stack = true,
         close = true,
@@ -1462,8 +1328,7 @@ return {
         client = {}
     },
     ["c129-1"] = {
-        label = " ",
-         -- '茶葉',
+        label = "茶葉",
         weight = 150,
         stack = true,
         close = true,
@@ -1472,8 +1337,7 @@ return {
         client = {}
     },
     ["c130-1"] = {
-        label = " ",
-         --'芹菜',
+        label = "芹菜",
         weight = 30,
         stack = true,
         close = true,
@@ -1481,8 +1345,7 @@ return {
         description = "芹菜"
     },
     ["c131-1"] = {
-        label = " ",
-         --'苦瓜',
+        label = "苦瓜",
         weight = 150,
         stack = true,
         close = true,
@@ -1490,8 +1353,7 @@ return {
         description = "苦瓜"
     },
     ["c132-1"] = {
-        label = " ",
-         -- '水晶蘭',
+        label = "水晶蘭",
         weight = 20,
         stack = true,
         close = true,
@@ -1500,8 +1362,7 @@ return {
         client = {}
     },
     ["c133-1"] = {
-        label = " ",
-         -- '白色水仙花',
+        label = "白色水仙花",
         weight = 20,
         stack = true,
         close = true,
@@ -1510,8 +1371,7 @@ return {
         client = {}
     },
     ["c134-1"] = {
-        label = " ",
-         -- '阿里山龍膽',
+        label = "阿里山龍膽",
         weight = 20,
         stack = true,
         close = true,
@@ -1520,8 +1380,7 @@ return {
         client = {}
     },
     ["c135-1"] = {
-        label = " ",
-         -- '星辰花',
+        label = "星辰花",
         weight = 20,
         stack = true,
         close = true,
@@ -1530,8 +1389,7 @@ return {
         client = {}
     },
     ["c136-1"] = {
-        label = " ",
-         -- '洋甘菊',
+        label = "洋甘菊",
         weight = 20,
         stack = true,
         close = true,
@@ -1540,8 +1398,7 @@ return {
         client = {}
     },
     ["c137-1"] = {
-        label = " ",
-         -- '蒲公英',
+        label = "蒲公英",
         weight = 20,
         stack = true,
         close = true,
@@ -1550,8 +1407,7 @@ return {
         client = {}
     },
     ["c138-1"] = {
-        label = " ",
-         -- '葡萄柚',
+        label = "葡萄柚",
         weight = 150,
         stack = true,
         close = true,
@@ -1570,8 +1426,7 @@ return {
         }
     },
     ["c139-1"] = {
-        label = " ",
-         -- '花生',
+        label = "花生",
         weight = 50,
         stack = true,
         close = true,
@@ -1580,8 +1435,7 @@ return {
         client = {}
     },
     ["c140-1"] = {
-        label = " ",
-         -- '水蓮',
+        label = "水蓮",
         weight = 50,
         stack = true,
         close = true,
@@ -1590,8 +1444,7 @@ return {
         client = {}
     },
     ["c141-1"] = {
-        label = " ",
-         -- '芋頭',
+        label = "芋頭",
         weight = 200,
         stack = true,
         close = true,
@@ -1605,8 +1458,7 @@ return {
         }
     },
     ["c141-2"] = {
-        label = " ",
-         -- '芋頭',
+        label = "芋頭",
         weight = 200,
         stack = true,
         close = true,
@@ -1620,8 +1472,7 @@ return {
         }
     },
     ["c141-3"] = {
-        label = " ",
-         -- '芋頭',
+        label = "芋頭",
         weight = 200,
         stack = true,
         close = true,
@@ -1635,8 +1486,7 @@ return {
         }
     },
     ["c141-4"] = {
-        label = " ",
-         -- '芋頭',
+        label = "芋頭",
         weight = 0,
         stack = true,
         close = true,
@@ -1650,8 +1500,7 @@ return {
         }
     },
     ["c141-5"] = {
-        label = " ",
-         -- '芋頭',
+        label = "芋頭",
         weight = 0,
         stack = true,
         close = true,
@@ -1665,8 +1514,7 @@ return {
         }
     },
     ["c141-7"] = {
-        label = " ",
-         --'芋頭',
+        label = "芋頭",
         weight = 200,
         stack = true,
         close = true,
@@ -1681,8 +1529,7 @@ return {
         }
     },
     ["c142-1"] = {
-        label = " ",
-         --'辣椒',
+        label = "辣椒",
         weight = 17,
         stack = true,
         close = true,
@@ -1700,8 +1547,7 @@ return {
         }
     },
     ["c143-1"] = {
-        label = " ",
-         --'蝦',
+        label = "蝦",
         weight = 250,
         stack = true,
         close = true,
@@ -1719,16 +1565,14 @@ return {
         }
     },
     ["c144-1"] = {
-        label = " ",
-         --'蔥',
+        label = "蔥",
         weight = 100,
         stack = true,
         close = true,
         description = "蔥"
     },
     ["c145-1"] = {
-        label = " ",
-         --'馬鈴薯',
+        label = "馬鈴薯",
         weight = 72,
         stack = true,
         close = true,
@@ -1746,8 +1590,7 @@ return {
         }
     },
     ["c146-1"] = {
-        label = " ",
-         --'肉',
+        label = "肉",
         weight = 100,
         stack = true,
         close = true,
@@ -1765,24 +1608,21 @@ return {
         }
     },
     ["c147-1"] = {
-        label = " ",
-         --'橄欖',
+        label = "橄欖",
         weight = 100,
         stack = true,
         close = true,
         description = "橄欖"
     },
     ["c148-1"] = {
-        label = " ",
-         --'洋蔥',
+        label = "洋蔥",
         weight = 20,
         stack = true,
         close = true,
         description = "洋蔥"
     },
     ["c149-1"] = {
-        label = " ",
-         --'蒜頭',
+        label = "蒜頭",
         weight = 50,
         stack = true,
         close = true,
@@ -1791,8 +1631,7 @@ return {
         client = {}
     },
     ["c150-1"] = {
-        label = " ",
-         --'花椰菜',
+        label = "花椰菜",
         weight = 30,
         stack = true,
         close = true,
@@ -1801,8 +1640,7 @@ return {
         client = {}
     },
     ["c151-1"] = {
-        label = " ",
-         --'綠豆',
+        label = "綠豆",
         weight = 30,
         stack = true,
         close = true,
@@ -1811,52 +1649,45 @@ return {
         client = {}
     },
     ["c152-1"] = {
-        label = " ",
-         --'紅豆',
+        label = "紅豆",
         weight = 30,
         stack = 1,
         description = "紅豆"
     },
     ["c153-1"] = {
-        label = " ",
-         --'桂圓',
+        label = "桂圓",
         weight = 30,
         stack = 1,
         description = "桂圓"
     },
     ["c154-1"] = {
-        label = " ",
-         --'地瓜',
+        label = "地瓜",
         weight = 30,
         stack = 1,
         description = "地瓜"
     },
     ["c155-1"] = {
-        label = " ",
-         --'雞肉',
+        label = "雞肉",
         weight = 200,
         stack = 1,
         description = "雞肉"
     },
     ["c156-1"] = {
-        label = " ",
-         --'香菇',
+        label = "香菇",
         weight = 100,
         stack = true,
         close = true,
         description = "香菇"
     },
     ["c157-1"] = {
-        label = " ",
-         --'覆盆莓',
+        label = "覆盆莓",
         weight = 100,
         stack = true,
         close = true,
         description = "覆盆莓"
     },
     ["c158-1"] = {
-        label = " ",
-         --'馬鞭草',
+        label = "馬鞭草",
         weight = 20,
         stack = 1,
         close = 1,
@@ -1874,8 +1705,7 @@ return {
         }
     },
     ["c159-1"] = {
-        label = " ",
-         --'仙人掌果',
+        label = "仙人掌果",
         weight = 20,
         stack = 1,
         close = 1,
@@ -1893,8 +1723,7 @@ return {
         }
     },
     ["c160-1"] = {
-        label = " ",
-         --'百合球莖',
+        label = "百合球莖",
         weight = 20,
         stack = 1,
         close = 1,
@@ -1912,8 +1741,7 @@ return {
         }
     },
     ["c161-1"] = {
-        label = " ",
-         --'蘆薈',
+        label = "蘆薈",
         weight = 20,
         stack = 1,
         close = 1,
@@ -1931,8 +1759,7 @@ return {
         }
     },
     ["c162-1"] = {
-        label = " ",
-         --'生薑',
+        label = "生薑",
         weight = 20,
         stack = 1,
         close = 1,
@@ -1950,8 +1777,7 @@ return {
         }
     },
     ["c163-1"] = {
-        label = " ",
-         --'紫蘇',
+        label = "紫蘇",
         weight = 20,
         stack = 1,
         close = 1,
@@ -1969,8 +1795,7 @@ return {
         }
     },
     ["c164-1"] = {
-        label = " ",
-         --'靈芝',
+        label = "靈芝",
         weight = 20,
         stack = 1,
         close = 1,
@@ -1988,8 +1813,7 @@ return {
         }
     },
     ["c165-1"] = {
-        label = " ",
-         --'薄荷葉',
+        label = "薄荷葉",
         weight = 20,
         stack = 1,
         close = 1,
@@ -2007,8 +1831,7 @@ return {
         }
     },
     ["c166-1"] = {
-        label = " ",
-         --'艾草',
+        label = "艾草",
         weight = 30,
         stack = 1,
         close = 1,
@@ -2026,15 +1849,13 @@ return {
         }
     },
     ["c167-1"] = {
-        label = " ",
-         --'矽石',
+        label = "矽石",
         weight = 50,
         stack = true,
         close = true
     },
     ["c168-1"] = {
-        label = " ",
-         --'茶葉',
+        label = "茶葉",
         weight = 11,
         stack = true,
         close = true,
@@ -2052,8 +1873,7 @@ return {
         }
     },
     ["c169-1"] = {
-        label = " ",
-         --'大豆',
+        label = "大豆",
         weight = 75,
         stack = true,
         close = true,
@@ -2071,8 +1891,7 @@ return {
         }
     },
     ["c170-1"] = {
-        label = " ",
-         --'高粱',
+        label = "高粱",
         weight = 60,
         stack = true,
         close = true,
@@ -2090,8 +1909,7 @@ return {
         }
     },
     ["c171-1"] = {
-        label = " ",
-         --'松茸',
+        label = "松茸",
         weight = 47,
         stack = true,
         close = true,
@@ -2108,8 +1926,7 @@ return {
         }
     },
     ["c172-1"] = {
-        label = " ",
-         --'水母',
+        label = "水母",
         weight = 250,
         stack = true,
         close = true,
@@ -2126,8 +1943,7 @@ return {
         }
     },
     ["c173-1"] = {
-        label = " ",
-         --'冰',
+        label = "冰",
         weight = 24,
         stack = true,
         close = true,
@@ -2138,8 +1954,7 @@ return {
         }
     },
     ["c174-1"] = {
-        label = " ",
-         --'蜂蜜',
+        label = "蜂蜜",
         weight = 100,
         stack = true,
         close = true,
@@ -2157,27 +1972,19 @@ return {
         }
     },
     ["c175-1"] = {
-        label = " ",
-         --'魚',
+        label = "魚",
         weight = 200,
         stack = true,
         close = true,
-        description = "魚",
         consume = 1,
         client = {
-            status = {hunger = 7400},
+            status = {hunger = 20000},
             anim = {dict = "mp_player_inteat@burger", clip = "mp_player_int_eat_burger_fp"},
-            prop = {
-                model = "prop_cs_burger_01",
-                pos = {x = 0.02, y = 0.02, z = -0.02},
-                rot = {x = 0.0, y = 0.0, z = 0.0}
-            },
-            usetime = 2500
+            usetime = 2000
         }
     },
     ["c177-1"] = {
-        label = " ",
-         --'海鰻',
+        label = "海鰻",
         weight = 250,
         stack = true,
         close = true,
@@ -2195,8 +2002,7 @@ return {
         }
     },
     ["c178-1"] = {
-        label = " ",
-         --'螃蟹',
+        label = "螃蟹",
         weight = 250,
         stack = true,
         close = true,
@@ -2214,8 +2020,7 @@ return {
         }
     },
     ["c179-1"] = {
-        label = " ",
-         --'墨魚',
+        label = "墨魚",
         weight = 250,
         stack = true,
         close = true,
@@ -2233,39 +2038,34 @@ return {
         }
     },
     ["c180-1"] = {
-        label = " ",
-         --'蜀葵',
+        label = "蜀葵",
         weight = 50,
         stack = true,
         close = true
     },
     ["c181-1"] = {
-        label = " ",
-         --'羅勒',
+        label = "羅勒",
         weight = 20,
         stack = true,
         close = true,
         description = "羅勒"
     },
     ["c182-1"] = {
-        label = " ",
-         --'玉米',
+        label = "玉米",
         weight = 27,
         stack = true,
         close = true,
         description = "玉米"
     },
     ["c183-1"] = {
-        label = " ",
-         --'蛋',
+        label = "雞蛋",
         weight = 20,
         stack = true,
         close = true,
         description = "蛋"
     },
     ["c183-2"] = {
-        label = " ",
-         -- '蛋',
+        label = "雞蛋",
         weight = 50,
         stack = true,
         close = true,
@@ -2275,20 +2075,18 @@ return {
             status = {hunger = 50000},
             anim = "eating",
             prop = "burger",
-            usetime = 1500,
+            usetime = 500,
             notification = ""
         }
     },
     ["c184-1"] = {
-        label = " ",
-         --'灰鐵石',
+        label = "灰鐵石",
         weight = 70,
         stack = true,
         close = true
     },
     ["c185-1"] = {
-        label = " ",
-         -- '冬瓜',
+        label = "冬瓜",
         weight = 300,
         stack = false,
         close = true,
@@ -2303,8 +2101,7 @@ return {
         }
     },
     ["c186-1"] = {
-        label = " ",
-         --'奇異果',
+        label = "奇異果",
         weight = 20,
         stack = 1,
         consume = 1,
@@ -2321,34 +2118,30 @@ return {
         }
     },
     ["c187-1"] = {
-        label = " ",
-         --'卡塔亞瑪石',
+        label = "卡塔亞瑪石",
         weight = 70,
         stack = true,
         close = true
     },
     ["c188-1"] = {
-        label = " ",
-         --'牛奶',
+        label = "牛奶",
         weight = 100,
         stack = true,
         close = true,
-        description = "牛奶",
         consume = 1,
         client = {
-            status = {thirst = 80000},
+            status = {thirst = 10000},
             anim = {dict = "mp_player_intdrink", clip = "loop_bottle"},
             prop = {
                 model = "prop_ld_flow_bottle",
                 pos = {x = 0.03, y = 0.03, z = 0.02},
                 rot = {x = 0.0, y = 0.0, z = -1.5}
             },
-            usetime = 2500
+            usetime = 1000
         }
     },
     ["c189-1"] = {
-        label = " ",
-         --'蔓越莓',
+        label = "蔓越莓",
         weight = 20,
         stack = 1,
         consume = 1,
@@ -2365,8 +2158,7 @@ return {
         }
     },
     ["c190-1"] = {
-        label = " ",
-         -- '大腦',
+        label = "大腦",
         weight = 235,
         stack = false,
         close = true,

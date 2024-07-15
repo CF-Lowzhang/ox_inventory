@@ -180,7 +180,7 @@ function Utils.nearbyMarker(point)
     if point.isClosest and point.currentDistance < 1.2 then
         if not hasTextUi then
             hasTextUi = point
-            lib.showTextUI(point.prompt.message, point.prompt.options)
+            --lib.showTextUI(point.prompt.message, point.prompt.options)
         end
 
         if IsControlJustReleased(0, 38) then
@@ -196,7 +196,7 @@ function Utils.nearbyMarker(point)
         end
     elseif hasTextUi == point then
         hasTextUi = nil
-        lib.hideTextUI()
+        --lib.hideTextUI()
     end
 end
 

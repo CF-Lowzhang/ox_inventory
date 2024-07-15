@@ -398,6 +398,17 @@ lib.callback.register('ox_inventory:usingItem', function(data)
 
 			if item.status then
 				if client.setPlayerStatus then
+					local ChangeStatus = 1.0
+					if data.metadata.type == nil then 		ChangeStatus = 1.0
+					elseif data.metadata.type == 'Poor' then ChangeStatus = 0.6
+					elseif data.metadata.type == 'Common' then ChangeStatus = 0.8 
+					elseif data.metadata.type == 'Uncommon' then ChangeStatus = 1.0
+					elseif data.metadata.type == 'Rare' then ChangeStatus = 1.2
+					elseif data.metadata.type == 'Epic' then ChangeStatus = 1.6
+					elseif data.metadata.type == 'Legendary' then ChangeStatus = 2.0
+					elseif data.metadata.type == 'Mythic' then ChangeStatus = 5.0 
+					end
+					for name, value in pairs(item.status) do	item.status[name] = item.status[name]*ChangeStatus	end
 					client.setPlayerStatus(item.status)
 				end
 			end
@@ -1774,7 +1785,7 @@ RegisterNUICallback('giveItem', function(data, cb)
 	cb(1)
 
 	if client.giveplayerlist then
-		local nearbyPlayers = lib.getNearbyPlayers(GetEntityCoords(playerPed), 5.0)
+		local nearbyPlayers = lib.getNearbyPlayers(GetEntityCoords(playerPed), 3.0)
         local nearbyCount = #nearbyPlayers
 
 		if nearbyCount == 0 then return end
@@ -1829,7 +1840,7 @@ RegisterNUICallback('giveItem', function(data, cb)
 
     local entity = Utils.Raycast(1|2|4|8|16, GetOffsetFromEntityInWorldCoords(cache.ped, 0.0, 3.0, 0.5), 0.2)
 
-    if entity and IsPedAPlayer(entity) and IsEntityVisible(entity) and #(GetEntityCoords(playerPed, true) - GetEntityCoords(entity, true)) < 5.0 then
+    if entity and IsPedAPlayer(entity) and IsEntityVisible(entity) and #(GetEntityCoords(playerPed, true) - GetEntityCoords(entity, true)) < 3.0 then
         return giveItemToTarget(GetPlayerServerId(NetworkGetPlayerIndexFromPed(entity)), data.slot, data.count)
     end
 end)

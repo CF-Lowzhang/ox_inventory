@@ -1,7 +1,6 @@
 return {
     ["f1-1"] = {
-        label = " ",
-         -- '肉桂捲',
+        label = "肉桂捲",
         weight = 80,
         stack = true,
         close = true,
@@ -20,8 +19,7 @@ return {
         }
     },
     ["f1-2"] = {
-        label = " ",
-         --'肉桂捲',
+        label = "肉桂捲",
         weight = 165,
         stack = true,
         close = true,
@@ -38,31 +36,12 @@ return {
         }
     },
     ["f2-2"] = {
-        label = " ",
+        label = "麦香紅茶",
          --'紅茶',
         weight = 164,
         stack = true,
         close = true,
         consume = 1,
-        client = {
-            status = {thirst = 85000},
-            anim = {dict = "mp_player_intdrink", clip = "loop_bottle"},
-            prop = {
-                model = "prop_ld_flow_bottle",
-                pos = {x = 0.03, y = 0.03, z = 0.02},
-                rot = {x = 0.0, y = 0.0, z = -1.5}
-            },
-            usetime = 2500
-        }
-    },
-    ["f2-2"] = {
-        label = " ",
-         --'紅茶',
-        weight = 164,
-        stack = true,
-        close = true,
-        consume = 1,
-        description = "紅茶",
         client = {
             status = {thirst = 85000},
             anim = {dict = "mp_player_intdrink", clip = "loop_bottle"},
@@ -75,8 +54,7 @@ return {
         }
     },
     ["f2-3"] = {
-        label = " ",
-         --'紅茶',
+        label = "紅茶",
         weight = 150,
         stack = true,
         close = true,
@@ -93,8 +71,7 @@ return {
         }
     },
     ["f2-4"] = {
-        label = " ",
-         -- '紅茶',
+        label = "紅茶",
         weight = 250,
         stack = false,
         close = true,
@@ -108,9 +85,26 @@ return {
             notification = ""
         }
     },
+    ["f2-5"] = {
+        label = "麦香奶茶",
+         --'紅茶',
+        weight = 164,
+        stack = 1,
+        close = true,
+        consume = 1,
+        client = {
+            status = {thirst = 85000},
+            anim = {dict = "mp_player_intdrink", clip = "loop_bottle"},
+            prop = {
+                model = "prop_ld_flow_bottle",
+                pos = {x = 0.03, y = 0.03, z = 0.02},
+                rot = {x = 0.0, y = 0.0, z = -1.5}
+            },
+            usetime = 2500
+        }
+    },
     ["f3-1"] = {
-        label = " ",
-         --'螢光霜淇淋',
+        label = "螢光霜淇淋",
         weight = 60,
         stack = true,
         close = true,
@@ -128,8 +122,7 @@ return {
         }
     },
     ["f3-2"] = {
-        label = " ",
-         --'螢光霜淇淋',
+        label = "螢光霜淇淋",
         weight = 60,
         stack = true,
         close = true,
@@ -147,8 +140,7 @@ return {
         }
     },
     ["f4-1"] = {
-        label = " ",
-         --'生魚片',
+        label = "生魚片",
         weight = 80,
         stack = true,
         close = true,
@@ -165,8 +157,7 @@ return {
         }
     },
     ["f4-2"] = {
-        label = " ",
-         --'生魚片',
+        label = "生魚片",
         weight = 250,
         stack = true,
         close = true,
@@ -183,8 +174,7 @@ return {
         }
     },
     ["f5-1"] = {
-        label = " ",
-         --'星之特調(特別版)',
+        label = "星之特調(特別版)",
         weight = 10,
         stack = true,
         close = true,
@@ -201,8 +191,7 @@ return {
         }
     },
     ["f5-2"] = {
-        label = " ",
-         --'星之特調',
+        label = "星之特調",
         weight = 120,
         stack = true,
         close = true,
@@ -219,8 +208,7 @@ return {
         }
     },
     ["f6-1"] = {
-        label = " ",
-         --'烤魚',
+        label = "烤魚",
         weight = 100,
         stack = 1,
         consume = 1,
@@ -238,8 +226,7 @@ return {
         }
     },
     ["f6-2"] = {
-        label = " ",
-         --'烤魚',
+        label = "烤魚",
         weight = 157,
         stack = true,
         close = true,
@@ -256,8 +243,7 @@ return {
         }
     },
     ["f6-3"] = {
-        label = " ",
-         --'烤魚',
+        label = "烤魚",
         weight = 255,
         stack = true,
         close = true,
@@ -274,8 +260,7 @@ return {
         }
     },
     ["f6-4"] = {
-        label = " ",
-         -- '烤魚',
+        label = "烤魚",
         weight = 200,
         stack = true,
         close = true,
@@ -290,8 +275,7 @@ return {
         }
     },
     ["f7-2"] = {
-        label = " ",
-         --'檸檬汁',
+        label = "檸檬汁",
         weight = 300,
         stack = true,
         close = true,
@@ -308,8 +292,7 @@ return {
         }
     },
     ["f8-1"] = {
-        label = " ",
-         --'餉當當甜入你歆(改良版)',
+        label = "餉當當甜入你歆(改良版)",
         weight = 114,
         stack = true,
         close = true,
@@ -326,8 +309,7 @@ return {
         }
     },
     ["f8-2"] = {
-        label = " ",
-         --'餉當當甜入你歆',
+        label = "餉當當甜入你歆",
         weight = 10,
         stack = true,
         close = true,
@@ -344,8 +326,7 @@ return {
         }
     },
     ["f9-1"] = {
-        label = " ",
-         --'充沛團圓飯(改良版)',
+        label = "充沛團圓飯(改良版)",
         weight = 120,
         stack = true,
         close = true,
@@ -362,8 +343,7 @@ return {
         }
     },
     ["f9-2"] = {
-        label = " ",
-         --'充沛團圓飯',
+        label = "充沛團圓飯",
         weight = 10,
         stack = true,
         close = true,
@@ -380,8 +360,7 @@ return {
         }
     },
     ["f10-1"] = {
-        label = " ",
-         --'初戀',
+        label = "初戀",
         weight = 300,
         stack = true,
         close = true,
@@ -398,8 +377,7 @@ return {
         }
     },
     ["f10-2"] = {
-        label = " ",
-         --'初戀',
+        label = "初戀",
         weight = 300,
         stack = true,
         close = true,
@@ -416,8 +394,7 @@ return {
         }
     },
     ["f11-1"] = {
-        label = " ",
-         --'奶酒',
+        label = "奶酒",
         weight = 100,
         stack = true,
         close = true,
@@ -434,8 +411,7 @@ return {
         }
     },
     ["f11-2"] = {
-        label = " ",
-         --'奶酒',
+        label = "奶酒",
         weight = 110,
         stack = true,
         close = true,
@@ -452,8 +428,7 @@ return {
         }
     },
     ["f12-1"] = {
-        label = " ",
-         --'琴通寧',
+        label = "琴通寧",
         weight = 300,
         stack = true,
         close = true,
@@ -470,8 +445,7 @@ return {
         }
     },
     ["f12-2"] = {
-        label = " ",
-         --'琴通寧',
+        label = "琴通寧",
         weight = 300,
         stack = true,
         close = true,
@@ -524,8 +498,7 @@ return {
         }
     },
     ["f14-1"] = {
-        label = " ",
-         --'橙酒shot',
+        label = "橙酒shot",
         weight = 100,
         stack = true,
         close = true,
@@ -542,8 +515,7 @@ return {
         }
     },
     ["f14-2"] = {
-        label = " ",
-         --'橙酒',
+        label = "橙酒",
         weight = 500,
         stack = true,
         close = true,
@@ -561,8 +533,7 @@ return {
         }
     },
     ["f15-1"] = {
-        label = " ",
-         --'伏特加',
+        label = "伏特加",
         weight = 110,
         stack = true,
         close = true,
@@ -579,8 +550,7 @@ return {
         }
     },
     ["f15-2"] = {
-        label = " ",
-         --'伏特加shot',
+        label = "伏特加shot",
         weight = 100,
         stack = true,
         close = true,
@@ -597,8 +567,7 @@ return {
         }
     },
     ["f15-3"] = {
-        label = " ",
-         --'伏特加',
+        label = "伏特加",
         weight = 500,
         stack = true,
         close = true,
@@ -616,8 +585,7 @@ return {
         }
     },
     ["f16-1"] = {
-        label = " ",
-         --'馬他木鳳',
+        label = "馬他木鳳",
         weight = 744,
         stack = 1,
         consume = 1,
@@ -634,8 +602,7 @@ return {
         }
     },
     ["f16-2"] = {
-        label = " ",
-         --'馬他木鳳',
+        label = "馬他木鳳",
         weight = 241,
         stack = true,
         close = true,
@@ -652,8 +619,7 @@ return {
         }
     },
     ["f17-1"] = {
-        label = " ",
-         --'麵包捲',
+        label = "麵包捲",
         weight = 175,
         stack = true,
         close = true,
@@ -664,8 +630,7 @@ return {
         }
     },
     ["f17-2"] = {
-        label = " ",
-         --'麵包捲',
+        label = "麵包捲",
         weight = 175,
         stack = true,
         close = true,
@@ -676,8 +641,7 @@ return {
         }
     },
     ["f17-3"] = {
-        label = " ",
-         --'麵包捲',
+        label = "麵包捲",
         weight = 175,
         stack = true,
         close = true,
@@ -722,8 +686,7 @@ return {
         }
     },
     ["f19-1"] = {
-        label = " ",
-         --'果汁',
+        label = "果汁",
         weight = 121,
         stack = true,
         close = true,
@@ -740,8 +703,7 @@ return {
         }
     },
     ["f19-2"] = {
-        label = " ",
-         --'果汁',
+        label = "果汁",
         weight = 200,
         stack = true,
         close = true,
@@ -758,16 +720,14 @@ return {
         }
     },
     ["f20-1"] = {
-        label = " ",
-         --'涼糖',
+        label = "涼糖",
         weight = 15,
         stack = 1,
         close = 1,
         description = ""
     },
     ["f20-2"] = {
-        label = " ",
-         --'涼糖',
+        label = "涼糖",
         weight = 25,
         stack = true,
         close = true,
@@ -784,16 +744,14 @@ return {
         }
     },
     ["f21-1"] = {
-        label = " ",
-         --'堅果',
+        label = "堅果",
         weight = 20,
         stack = 1,
         close = 1,
         description = ""
     },
     ["f21-2"] = {
-        label = " ",
-         --'堅果',
+        label = "堅果",
         weight = 25,
         stack = true,
         close = true,
@@ -810,8 +768,7 @@ return {
         }
     },
     ["f22-1"] = {
-        label = " ",
-         --'乳酪蛋糕',
+        label = "乳酪蛋糕",
         weight = 218,
         stack = true,
         close = true,
@@ -822,8 +779,7 @@ return {
         }
     },
     ["f22-2"] = {
-        label = " ",
-         --'乳酪蛋糕',
+        label = "乳酪蛋糕",
         weight = 100,
         stack = 1,
         consume = 1,
@@ -840,8 +796,7 @@ return {
         }
     },
     ["f23-1"] = {
-        label = " ",
-         -- '萊恩Lion',
+        label = "萊恩Lion",
         weight = 220,
         stack = true,
         close = true,
@@ -860,8 +815,7 @@ return {
         }
     },
     ["f23-2"] = {
-        label = " ",
-         -- '穎Shadow',
+        label = "穎Shadow",
         weight = 120,
         stack = true,
         close = true,
@@ -880,8 +834,7 @@ return {
         }
     },
     ["f23-3"] = {
-        label = " ",
-         -- '樸耀',
+        label = "樸耀",
         weight = 170,
         stack = true,
         close = true,
@@ -900,8 +853,7 @@ return {
         }
     },
     ["f23-4"] = {
-        label = " ",
-         --'可樂',
+        label = "可樂",
         weight = 100,
         stack = true,
         close = true,
@@ -920,8 +872,7 @@ return {
         }
     },
     ["f23-5"] = {
-        label = " ",
-         --'玖菜Spotlight',
+        label = "玖菜Spotlight",
         weight = 100,
         stack = true,
         close = true,
@@ -940,8 +891,7 @@ return {
         }
     },
     ["f23-6"] = {
-        label = " ",
-         --'絲祈',
+        label = "絲祈",
         weight = 120,
         stack = true,
         close = true,
@@ -959,8 +909,7 @@ return {
         }
     },
     ["f23-7"] = {
-        label = " ",
-         --'苡姸之名',
+        label = "苡姸之名",
         weight = 120,
         stack = true,
         close = true,
@@ -978,8 +927,7 @@ return {
         }
     },
     ["f23-8"] = {
-        label = " ",
-         --'親親小鹿',
+        label = "親親小鹿",
         weight = 120,
         stack = true,
         close = true,
@@ -997,8 +945,7 @@ return {
         }
     },
     ["f23-9"] = {
-        label = " ",
-         --'白日夢',
+        label = "白日夢",
         weight = 120,
         stack = true,
         close = true,
@@ -1016,8 +963,7 @@ return {
         }
     },
     ["f23-10"] = {
-        label = " ",
-         --'高杏就好',
+        label = "高杏就好",
         weight = 120,
         stack = true,
         close = true,
@@ -1035,8 +981,7 @@ return {
         }
     },
     ["f23-11"] = {
-        label = " ",
-         --'相媤病',
+        label = "相媤病",
         weight = 120,
         stack = true,
         close = true,
@@ -1054,8 +999,7 @@ return {
         }
     },
     ["f23-12"] = {
-        label = " ",
-         --'霓可霓可霓',
+        label = "霓可霓可霓",
         weight = 120,
         stack = true,
         close = true,
@@ -1073,8 +1017,7 @@ return {
         }
     },
     ["f23-13"] = {
-        label = " ",
-         --'鈴鈴凜',
+        label = "鈴鈴凜",
         weight = 120,
         stack = true,
         close = true,
@@ -1092,8 +1035,7 @@ return {
         }
     },
     ["f23-14"] = {
-        label = " ",
-         --'閃耀',
+        label = "閃耀",
         weight = 120,
         stack = true,
         close = true,
@@ -1111,8 +1053,7 @@ return {
         }
     },
     ["f24-1"] = {
-        label = " ",
-         --'烤蝦',
+        label = "烤蝦",
         weight = 100,
         stack = true,
         close = true,
@@ -1131,8 +1072,7 @@ return {
         }
     },
     ["f24-2"] = {
-        label = " ",
-         --'烤蝦',
+        label = "烤蝦",
         weight = 144,
         stack = true,
         close = true,
@@ -1232,8 +1172,7 @@ return {
         }
     },
     ["f27-2"] = {
-        label = " ",
-         --'蔓越莓司康',
+        label = "蔓越莓司康",
         weight = 30,
         stack = 1,
         description = "",
@@ -1249,8 +1188,7 @@ return {
         }
     },
     ["f28-1"] = {
-        label = " ",
-         --'熊熊餅乾',
+        label = "熊熊餅乾",
         weight = 10,
         stack = true,
         close = true,
@@ -1262,8 +1200,7 @@ return {
         }
     },
     ["f28-2"] = {
-        label = " ",
-         --'熊熊餅乾',
+        label = "熊熊餅乾",
         weight = 134,
         stack = true,
         close = true,
@@ -1280,8 +1217,7 @@ return {
         }
     },
     ["f29-1"] = {
-        label = " ",
-         --'爆米花',
+        label = "爆米花",
         weight = 100,
         stack = true,
         close = true,
@@ -1298,8 +1234,7 @@ return {
         }
     },
     ["f29-2"] = {
-        label = " ",
-         --'爆米花',
+        label = "爆米花",
         weight = 50,
         stack = true,
         close = true,
@@ -1310,8 +1245,7 @@ return {
         }
     },
     ["f30-1"] = {
-        label = " ",
-         --'鹹魚',
+        label = "鹹魚",
         weight = 124,
         stack = true,
         close = true,
@@ -1328,8 +1262,7 @@ return {
         }
     },
     ["f30-2"] = {
-        label = " ",
-         --'鹹魚',
+        label = "鹹魚",
         weight = 124,
         stack = true,
         close = true,
@@ -1346,8 +1279,7 @@ return {
         }
     },
     ["f31-1"] = {
-        label = " ",
-         --'鑽石酒',
+        label = "鑽石酒",
         weight = 180,
         stack = 1,
         close = 1,
@@ -1376,16 +1308,14 @@ return {
         }
     },
     ["f33-1"] = {
-        label = " ",
-         --'糖果屋',
+        label = "糖果屋",
         weight = 200,
         stack = 1,
         close = 1,
         description = ""
     },
     ["f34-1"] = {
-        label = " ",
-         --'狐狸',
+        label = "狐狸",
         weight = 200,
         stack = 1,
         close = 1,
@@ -1429,40 +1359,35 @@ return {
         }
     },
     ["f37-1"] = {
-        label = " ",
-         --'喧嘩',
+        label = "喧嘩",
         weight = 200,
         stack = 1,
         close = 1,
         description = ""
     },
     ["f38-1"] = {
-        label = " ",
-         --'彼岸',
+        label = "彼岸",
         weight = 35,
         stack = 1,
         close = 1,
         description = ""
     },
     ["f39-1"] = {
-        label = " ",
-         --'暮日',
+        label = "暮日",
         weight = 200,
         stack = 1,
         close = 1,
         description = ""
     },
     ["f40-1"] = {
-        label = " ",
-         --'喉糖',
+        label = "喉糖",
         weight = 26,
         stack = 1,
         close = 1,
         description = ""
     },
     ["f41-1"] = {
-        label = " ",
-         --'晴天',
+        label = "晴天",
         weight = 200,
         stack = 1,
         close = 1,
@@ -1485,16 +1410,14 @@ return {
         }
     },
     ["f43-1"] = {
-        label = " ",
-         --'拂柳',
+        label = "拂柳",
         weight = 200,
         stack = 1,
         close = 1,
         description = ""
     },
     ["f44-1"] = {
-        label = " ",
-         --'糰子',
+        label = "糰子",
         weight = 124,
         stack = true,
         close = true,
@@ -1505,8 +1428,7 @@ return {
         }
     },
     ["f45-1"] = {
-        label = " ",
-         -- '吳朗豪的手工草莓聖代',
+        label = "吳朗豪的手工草莓聖代",
         weight = 250,
         stack = true,
         close = true,
@@ -1525,8 +1447,7 @@ return {
         }
     },
     ["f46-1"] = {
-        label = " ",
-         -- '橘子軟心慕斯',
+        label = "橘子軟心慕斯",
         weight = 350,
         degrade = 1,
         stack = true,
@@ -1546,8 +1467,7 @@ return {
         }
     },
     ["f47-1"] = {
-        label = " ",
-         -- '白玫瑰蛋糕',
+        label = "白玫瑰蛋糕",
         weight = 450,
         stack = true,
         close = true,
@@ -1566,8 +1486,7 @@ return {
         }
     },
     ["f48-1"] = {
-        label = " ",
-         -- '緋紅玫瑰拉糖蛋糕',
+        label = "緋紅玫瑰拉糖蛋糕",
         weight = 450,
         stack = true,
         close = true,
@@ -1586,8 +1505,7 @@ return {
         }
     },
     ["f49-1"] = {
-        label = " ",
-         -- '滷肉蛋糕',
+        label = "滷肉蛋糕",
         weight = 450,
         stack = true,
         close = true,
@@ -1606,8 +1524,7 @@ return {
         }
     },
     ["f50-1"] = {
-        label = " ",
-         -- '夜一步廣島燒',
+        label = "夜一步廣島燒",
         weight = 350,
         stack = true,
         close = true,
@@ -1626,8 +1543,7 @@ return {
         }
     },
     ["f51-1"] = {
-        label = " ",
-         -- '安藍可爾必思',
+        label = "安藍可爾必思",
         weight = 10,
         stack = true,
         close = true,
@@ -1646,8 +1562,7 @@ return {
         }
     },
     ["f52-1"] = {
-        label = " ",
-         -- '梨祈可爾必思',
+        label = "梨祈可爾必思",
         weight = 10,
         stack = true,
         close = true,
@@ -1666,8 +1581,7 @@ return {
         }
     },
     ["f53-1"] = {
-        label = " ",
-         -- '蜜鹿可爾必思',
+        label = "蜜鹿可爾必思",
         weight = 250,
         stack = true,
         close = true,
@@ -1686,8 +1600,7 @@ return {
         }
     },
     ["f54-1"] = {
-        label = " ",
-         -- '葡夢網氣泡飲',
+        label = "葡夢網氣泡飲",
         weight = 250,
         stack = true,
         close = true,
@@ -1706,8 +1619,7 @@ return {
         }
     },
     ["f55-1"] = {
-        label = " ",
-         -- '橙杏汽泡飲',
+        label = "橙杏汽泡飲",
         weight = 10,
         stack = true,
         close = true,
@@ -1726,8 +1638,7 @@ return {
         }
     },
     ["f56-1"] = {
-        label = " ",
-         -- '莓媤氣泡飲',
+        label = "莓媤氣泡飲",
         weight = 10,
         stack = true,
         close = true,
@@ -1746,8 +1657,7 @@ return {
         }
     },
     ["f57-1"] = {
-        label = " ",
-         -- 'Rin檬茶可樂',
+        label = "Rin檬茶可樂",
         weight = 250,
         stack = true,
         close = true,
@@ -1766,8 +1676,7 @@ return {
         }
     },
     ["f58-1"] = {
-        label = " ",
-         -- '櫻桃Nico蘇打',
+        label = "櫻桃Nico蘇打",
         weight = 250,
         stack = true,
         close = true,
@@ -1786,8 +1695,7 @@ return {
         }
     },
     ["f59-1"] = {
-        label = " ",
-         -- 'Shiny檸檬蘇打',
+        label = "Shiny檸檬蘇打",
         weight = 10,
         stack = true,
         close = true,
@@ -1806,8 +1714,7 @@ return {
         }
     },
     ["f60-1"] = {
-        label = " ",
-         -- '檸檬冰淇淋蘇打',
+        label = "檸檬冰淇淋蘇打",
         weight = 290,
         stack = true,
         close = true,
@@ -1826,8 +1733,7 @@ return {
         }
     },
     ["f61-1"] = {
-        label = " ",
-         -- '咖啡冰淇淋',
+        label = "咖啡冰淇淋",
         weight = 290,
         stack = true,
         close = true,
@@ -1846,8 +1752,7 @@ return {
         }
     },
     ["f62-1"] = {
-        label = " ",
-         -- '香焦派杏仁海綿蛋糕',
+        label = "香焦派杏仁海綿蛋糕",
         weight = 170,
         stack = true,
         close = true,
@@ -1866,8 +1771,7 @@ return {
         }
     },
     ["f63-1"] = {
-        label = " ",
-         -- '蘋果慕斯',
+        label = "蘋果慕斯",
         weight = 160,
         stack = true,
         close = true,
@@ -1886,8 +1790,7 @@ return {
         }
     },
     ["f64-1"] = {
-        label = " ",
-         -- '青檸磅蛋糕',
+        label = "青檸磅蛋糕",
         weight = 160,
         stack = true,
         close = true,
@@ -1906,8 +1809,7 @@ return {
         }
     },
     ["f65-1"] = {
-        label = " ",
-         -- '霓卡龍蛋糕',
+        label = "霓卡龍蛋糕",
         weight = 150,
         stack = true,
         close = true,
@@ -1926,8 +1828,7 @@ return {
         }
     },
     ["f66-1"] = {
-        label = " ",
-         -- '特製圖片',
+        label = "特製圖片",
         weight = 20,
         stack = true,
         close = true,
@@ -1946,8 +1847,7 @@ return {
         }
     },
     ["f67-1"] = {
-        label = " ",
-         -- '芋頭酥',
+        label = "芋頭酥",
         weight = 50,
         stack = true,
         close = true,
@@ -1966,8 +1866,7 @@ return {
         }
     },
     ["f68-1"] = {
-        label = " ",
-         -- '藍莓水果塔',
+        label = "藍莓水果塔",
         weight = 70,
         stack = true,
         close = true,
@@ -1986,8 +1885,7 @@ return {
         }
     },
     ["f69-1"] = {
-        label = " ",
-         -- '可愛企鵝便當',
+        label = "可愛企鵝便當",
         weight = 120,
         stack = true,
         close = true,
@@ -2006,8 +1904,7 @@ return {
         }
     },
     ["f70-1"] = {
-        label = " ",
-         -- '草莓冰淇淋蘇打',
+        label = "草莓冰淇淋蘇打",
         weight = 100,
         stack = true,
         close = true,
@@ -2026,8 +1923,7 @@ return {
         }
     },
     ["f71-1"] = {
-        label = " ",
-         -- '草莓蘇打水',
+        label = "草莓蘇打水",
         weight = 80,
         stack = true,
         close = true,
@@ -2046,8 +1942,7 @@ return {
         }
     },
     ["f72-1"] = {
-        label = " ",
-         -- '哈密瓜蘇打水',
+        label = "哈密瓜蘇打水",
         weight = 80,
         stack = true,
         close = true,
@@ -2066,8 +1961,7 @@ return {
         }
     },
     ["f73-1"] = {
-        label = " ",
-         -- '哈密瓜冰淇淋蘇打',
+        label = "哈密瓜冰淇淋蘇打",
         weight = 100,
         stack = true,
         close = true,
@@ -2086,8 +1980,7 @@ return {
         }
     },
     ["f74-1"] = {
-        label = " ",
-         -- '牛肉蔬菜可麗餅',
+        label = "牛肉蔬菜可麗餅",
         weight = 130,
         stack = true,
         close = true,
@@ -2106,8 +1999,7 @@ return {
         }
     },
     ["f75-1"] = {
-        label = " ",
-         -- '黑天鵝泡芙',
+        label = "黑天鵝泡芙",
         weight = 70,
         stack = true,
         close = true,
@@ -2126,8 +2018,7 @@ return {
         }
     },
     ["f76-1"] = {
-        label = " ",
-         -- '西式早餐',
+        label = "西式早餐",
         weight = 130,
         stack = true,
         close = true,
@@ -2146,8 +2037,7 @@ return {
         }
     },
     ["f77-1"] = {
-        label = " ",
-         -- '心型法式吐司',
+        label = "心型法式吐司",
         weight = 130,
         stack = true,
         close = true,
@@ -2166,8 +2056,7 @@ return {
         }
     },
     ["f78-1"] = {
-        label = " ",
-         -- '焦腿排',
+        label = "焦腿排",
         weight = 170,
         stack = true,
         close = true,
@@ -2186,8 +2075,7 @@ return {
         }
     },
     ["f79-1"] = {
-        label = " ",
-         -- '熟腿排',
+        label = "熟腿排",
         weight = 170,
         stack = true,
         close = true,
@@ -2206,8 +2094,7 @@ return {
         }
     },
     ["f80-1"] = {
-        label = " ",
-         -- '熟蔥肉串',
+        label = "熟蔥肉串",
         weight = 170,
         stack = true,
         close = true,
@@ -2226,8 +2113,7 @@ return {
         }
     },
     ["f81-1"] = {
-        label = " ",
-         -- '熟烤肉串',
+        label = "熟烤肉串",
         weight = 170,
         stack = true,
         close = true,
@@ -2246,8 +2132,7 @@ return {
         }
     },
     ["f82-1"] = {
-        label = " ",
-         -- '蘋果蛋沙拉',
+        label = "蘋果蛋沙拉",
         weight = 170,
         stack = true,
         close = true,
@@ -2266,8 +2151,7 @@ return {
         }
     },
     ["f83-1"] = {
-        label = " ",
-         -- '草莓脆片惡魔蛋',
+        label = "草莓脆片惡魔蛋",
         weight = 170,
         stack = true,
         close = true,
@@ -2286,8 +2170,7 @@ return {
         }
     },
     ["f84-1"] = {
-        label = " ",
-         --'愛齊雅祖傳美味肉丸',
+        label = "愛齊雅祖傳美味肉丸",
         weight = 80,
         stack = true,
         close = true,
@@ -2306,8 +2189,7 @@ return {
         }
     },
     ["f85-1"] = {
-        label = " ",
-         --'水一步芋曦米露',
+        label = "水一步芋曦米露",
         weight = 120,
         stack = true,
         close = true,
@@ -2326,8 +2208,7 @@ return {
         }
     },
     ["f86-1"] = {
-        label = " ",
-         --'夜一步骰骰牛',
+        label = "夜一步骰骰牛",
         weight = 80,
         stack = true,
         close = true,
@@ -2346,8 +2227,7 @@ return {
         }
     },
     ["f87-1"] = {
-        label = " ",
-         --'日一步牛肉拌飯',
+        label = "日一步牛肉拌飯",
         weight = 120,
         stack = true,
         close = true,
@@ -2366,8 +2246,7 @@ return {
         }
     },
     ["f88-1"] = {
-        label = " ",
-         --'混一步可麗餅餅',
+        label = "混一步可麗餅餅",
         weight = 100,
         stack = true,
         close = true,
@@ -2386,8 +2265,7 @@ return {
         }
     },
     ["f89-1"] = {
-        label = " ",
-         --'混一步豬油拌飯',
+        label = "混一步豬油拌飯",
         weight = 120,
         stack = true,
         close = true,
@@ -2406,8 +2284,7 @@ return {
         }
     },
     ["f90-1"] = {
-        label = " ",
-         --'糖一步檸檬方蘇',
+        label = "糖一步檸檬方蘇",
         weight = 50,
         stack = true,
         close = true,
@@ -2426,8 +2303,7 @@ return {
         }
     },
     ["f91-1"] = {
-        label = " ",
-         --'桂圓紅棗茶',
+        label = "桂圓紅棗茶",
         weight = 180,
         stack = true,
         close = true,
@@ -2446,8 +2322,7 @@ return {
         }
     },
     ["f92-1"] = {
-        label = " ",
-         --'純黑',
+        label = "純黑",
         weight = 75,
         stack = true,
         close = true,
@@ -2466,8 +2341,7 @@ return {
         }
     },
     ["f93-1"] = {
-        label = " ",
-         --'子祈特製蒙布朗',
+        label = "子祈特製蒙布朗",
         weight = 75,
         stack = true,
         close = true,
@@ -2486,8 +2360,7 @@ return {
         }
     },
     ["f94-1"] = {
-        label = " ",
-         --'純白',
+        label = "純白",
         weight = 75,
         stack = true,
         close = true,
@@ -2506,8 +2379,7 @@ return {
         }
     },
     ["f95-1"] = {
-        label = " ",
-         --'霓製熊貓熱壓吐司',
+        label = "霓製熊貓熱壓吐司",
         weight = 75,
         stack = true,
         close = true,
@@ -2526,8 +2398,7 @@ return {
         }
     },
     ["f96-1"] = {
-        label = " ",
-         --'草莓冰拿鐵',
+        label = "草莓冰拿鐵",
         weight = 100,
         stack = true,
         close = true,
@@ -2546,8 +2417,7 @@ return {
         }
     },
     ["f97-1"] = {
-        label = " ",
-         --'大熊熊餅乾',
+        label = "大熊熊餅乾",
         weight = 85,
         stack = true,
         close = true,
@@ -2566,8 +2436,7 @@ return {
         }
     },
     ["f98-1"] = {
-        label = " ",
-         --'奶油燉菜',
+        label = "奶油燉菜",
         weight = 150,
         stack = true,
         close = true,
@@ -2586,8 +2455,7 @@ return {
         }
     },
     ["f98-2"] = {
-        label = " ",
-         -- '奶油燉菜',
+        label = "奶油燉菜",
         weight = 200,
         stack = false,
         close = true,
@@ -2602,8 +2470,7 @@ return {
         }
     },
     ["f99-1"] = {
-        label = " ",
-         --'太陽蛋吐司',
+        label = "太陽蛋吐司",
         weight = 60,
         stack = true,
         close = true,
@@ -2622,8 +2489,7 @@ return {
         }
     },
     ["f100-1"] = {
-        label = " ",
-         --'蘇格蘭蛋',
+        label = "蘇格蘭蛋",
         weight = 70,
         stack = true,
         close = true,
@@ -2642,8 +2508,7 @@ return {
         }
     },
     ["f101-1"] = {
-        label = " ",
-         --'檸檬提拉米蘇',
+        label = "檸檬提拉米蘇",
         weight = 80,
         stack = true,
         close = true,
@@ -2662,8 +2527,7 @@ return {
         }
     },
     ["f102-1"] = {
-        label = " ",
-         --'檸檬奶酪杯',
+        label = "檸檬奶酪杯",
         weight = 80,
         stack = true,
         close = true,
@@ -2682,8 +2546,7 @@ return {
         }
     },
     ["f103-1"] = {
-        label = " ",
-         --'小亞芒果花蟹子沙律',
+        label = "小亞芒果花蟹子沙律",
         weight = 90,
         stack = true,
         close = true,
@@ -2702,8 +2565,7 @@ return {
         }
     },
     ["f104-1"] = {
-        label = " ",
-         --'日玖生情',
+        label = "日玖生情",
         weight = 100,
         stack = true,
         close = true,
@@ -2722,8 +2584,7 @@ return {
         }
     },
     ["f105-1"] = {
-        label = " ",
-         --'檸',
+        label = "檸",
         weight = 60,
         stack = true,
         close = true,
@@ -2742,8 +2603,7 @@ return {
         }
     },
     ["f106-1"] = {
-        label = " ",
-         --'平安喜樂',
+        label = "平安喜樂",
         weight = 60,
         stack = true,
         close = true,
@@ -2762,8 +2622,7 @@ return {
         }
     },
     ["f107-1"] = {
-        label = " ",
-         --'每天都高興',
+        label = "每天都高興",
         weight = 60,
         stack = true,
         close = true,
@@ -2782,8 +2641,7 @@ return {
         }
     },
     ["f108-1"] = {
-        label = " ",
-         --'水一步綠豆沙奶',
+        label = "水一步綠豆沙奶",
         weight = 70,
         stack = true,
         close = true,
@@ -2802,8 +2660,7 @@ return {
         }
     },
     ["f109-1"] = {
-        label = " ",
-         --'糖一步鳩沙包',
+        label = "糖一步鳩沙包",
         weight = 80,
         stack = true,
         close = true,
@@ -2822,8 +2679,7 @@ return {
         }
     },
     ["f110-1"] = {
-        label = " ",
-         --'雙層豪華便當',
+        label = "雙層豪華便當",
         weight = 150,
         stack = true,
         close = true,
@@ -2842,8 +2698,7 @@ return {
         }
     },
     ["f111-1"] = {
-        label = " ",
-         --'巴哥曲奇',
+        label = "巴哥曲奇",
         weight = 50,
         stack = true,
         close = true,
@@ -2862,8 +2717,7 @@ return {
         }
     },
     ["f112-1"] = {
-        label = " ",
-         --'貓掌雞蛋糕',
+        label = "貓掌雞蛋糕",
         weight = 50,
         stack = true,
         close = true,
@@ -2882,8 +2736,7 @@ return {
         }
     },
     ["f113-1"] = {
-        label = " ",
-         --'韓式辣雞湯',
+        label = "韓式辣雞湯",
         weight = 150,
         stack = true,
         close = true,
@@ -2902,8 +2755,7 @@ return {
         }
     },
     ["f114-1"] = {
-        label = " ",
-         --'辣炒年糕',
+        label = "辣炒年糕",
         weight = 100,
         stack = true,
         close = true,
@@ -2922,8 +2774,7 @@ return {
         }
     },
     ["f115-1"] = {
-        label = " ",
-         --'鳳梨蝦球',
+        label = "鳳梨蝦球",
         weight = 90,
         stack = true,
         close = true,
@@ -2942,8 +2793,7 @@ return {
         }
     },
     ["f115-2"] = {
-        label = " ",
-         -- '鳳梨蝦球',
+        label = "鳳梨蝦球",
         weight = 350,
         stack = false,
         close = true,
@@ -2962,8 +2812,7 @@ return {
         }
     },
     ["f116-1"] = {
-        label = " ",
-         --'宮保雞丁',
+        label = "宮保雞丁",
         weight = 120,
         stack = true,
         close = true,
@@ -2982,8 +2831,7 @@ return {
         }
     },
     ["f117-1"] = {
-        label = " ",
-         --'烤肉串',
+        label = "烤肉串",
         weight = 70,
         stack = true,
         close = true,
@@ -3002,8 +2850,7 @@ return {
         }
     },
     ["f117-2"] = {
-        label = " ",
-         -- '烤肉串',
+        label = "烤肉串",
         weight = 200,
         stack = true,
         close = true,
@@ -3018,8 +2865,7 @@ return {
         }
     },
     ["f118-1"] = {
-        label = " ",
-         --'芋霓星空撞奶',
+        label = "芋霓星空撞奶",
         weight = 70,
         stack = true,
         close = true,
@@ -3038,8 +2884,7 @@ return {
         }
     },
     ["f119-1"] = {
-        label = " ",
-         --'霓製熊貓飯糰',
+        label = "霓製熊貓飯糰",
         weight = 70,
         stack = true,
         close = true,
@@ -3058,8 +2903,7 @@ return {
         }
     },
     ["f120-1"] = {
-        label = " ",
-         --'料滿滿芋頭牛奶鍋',
+        label = "料滿滿芋頭牛奶鍋",
         weight = 180,
         stack = true,
         close = true,
@@ -3078,8 +2922,7 @@ return {
         }
     },
     ["f121-1"] = {
-        label = " ",
-         --'芋霓奶凍捲',
+        label = "芋霓奶凍捲",
         weight = 80,
         stack = true,
         close = true,
@@ -3098,8 +2941,7 @@ return {
         }
     },
     ["f122-1"] = {
-        label = " ",
-         --'霓特製造型便當',
+        label = "霓特製造型便當",
         weight = 150,
         stack = true,
         close = true,
@@ -3118,8 +2960,7 @@ return {
         }
     },
     ["f123-1"] = {
-        label = " ",
-         --'湯豆腐',
+        label = "湯豆腐",
         weight = 80,
         stack = true,
         close = true,
@@ -3138,8 +2979,7 @@ return {
         }
     },
     ["f124-1"] = {
-        label = " ",
-         --'蘋果派',
+        label = "蘋果派",
         weight = 80,
         stack = true,
         close = true,
@@ -3158,8 +2998,7 @@ return {
         }
     },
     ["f124-2"] = {
-        label = " ",
-         -- '蘋果派',
+        label = "蘋果派",
         weight = 250,
         stack = false,
         close = true,
@@ -3178,8 +3017,7 @@ return {
         }
     },
     ["f125-1"] = {
-        label = " ",
-         --'花草茶',
+        label = "花草茶",
         weight = 60,
         stack = true,
         close = true,
@@ -3198,8 +3036,7 @@ return {
         }
     },
     ["f126-1"] = {
-        label = " ",
-         --'法式可麗餅',
+        label = "法式可麗餅",
         weight = 90,
         stack = true,
         close = true,
@@ -3218,8 +3055,7 @@ return {
         }
     },
     ["f127-1"] = {
-        label = " ",
-         --'法式烤布蕾',
+        label = "法式烤布蕾",
         weight = 80,
         stack = true,
         close = true,
@@ -3238,8 +3074,7 @@ return {
         }
     },
     ["f128-1"] = {
-        label = " ",
-         --'奶油烤玉米',
+        label = "奶油烤玉米",
         weight = 80,
         stack = true,
         close = true,
@@ -3258,8 +3093,7 @@ return {
         }
     },
     ["f129-1"] = {
-        label = " ",
-         --'燒烤香菇串',
+        label = "燒烤香菇串",
         weight = 70,
         stack = true,
         close = true,
@@ -3278,8 +3112,7 @@ return {
         }
     },
     ["f130-1"] = {
-        label = " ",
-         --'秘製串燒',
+        label = "秘製串燒",
         weight = 80,
         stack = true,
         close = true,
@@ -3298,8 +3131,7 @@ return {
         }
     },
     ["f131-1"] = {
-        label = " ",
-         --'鮮蝦天婦羅',
+        label = "鮮蝦天婦羅",
         weight = 100,
         stack = true,
         close = true,
@@ -3318,8 +3150,7 @@ return {
         }
     },
     ["f132-1"] = {
-        label = " ",
-         --'英式歐姆蛋',
+        label = "英式歐姆蛋",
         weight = 100,
         stack = true,
         close = true,
@@ -3338,8 +3169,7 @@ return {
         }
     },
     ["f133-1"] = {
-        label = " ",
-         --'隨性炸魚薯條',
+        label = "隨性炸魚薯條",
         weight = 100,
         stack = true,
         close = true,
@@ -3358,8 +3188,7 @@ return {
         }
     },
     ["f134-1"] = {
-        label = " ",
-         --'特製蔬菜廣島燒',
+        label = "特製蔬菜廣島燒",
         weight = 110,
         stack = true,
         close = true,
@@ -3378,8 +3207,7 @@ return {
         }
     },
     ["f135-1"] = {
-        label = " ",
-         --'鮮蟹味增湯',
+        label = "鮮蟹味增湯",
         weight = 120,
         stack = true,
         close = true,
@@ -3397,8 +3225,7 @@ return {
         }
     },
     ["f136-1"] = {
-        label = " ",
-         --'Bugnes',
+        label = "Bugnes",
         weight = 20,
         stack = true,
         close = true,
@@ -3417,8 +3244,7 @@ return {
         }
     },
     ["f137-1"] = {
-        label = " ",
-         --'烤乾酪蓋肉',
+        label = "烤乾酪蓋肉",
         weight = 190,
         stack = true,
         close = true,
@@ -3437,8 +3263,7 @@ return {
         }
     },
     ["f138-1"] = {
-        label = " ",
-         --'卡門貝爾乳酪',
+        label = "卡門貝爾乳酪",
         weight = 290,
         stack = true,
         close = true,
@@ -3457,8 +3282,7 @@ return {
         }
     },
     ["f139-1"] = {
-        label = " ",
-         --'幸福甜甜圈',
+        label = "幸福甜甜圈",
         weight = 90,
         stack = true,
         close = true,
@@ -3477,8 +3301,7 @@ return {
         }
     },
     ["f140-1"] = {
-        label = " ",
-         --'莓莓蒟蒻',
+        label = "莓莓蒟蒻",
         weight = 50,
         stack = true,
         close = true,
@@ -3497,8 +3320,7 @@ return {
         }
     },
     ["f141-1"] = {
-        label = " ",
-         --'水一步凍檸茶',
+        label = "水一步凍檸茶",
         weight = 70,
         stack = true,
         close = true,
@@ -3516,8 +3338,7 @@ return {
         }
     },
     ["f142-1"] = {
-        label = " ",
-         --'水一步檸檬紅茶',
+        label = "水一步檸檬紅茶",
         weight = 70,
         stack = true,
         close = true,
@@ -3535,8 +3356,7 @@ return {
         }
     },
     ["f143-1"] = {
-        label = " ",
-         --'水一步抹茶奶蓋',
+        label = "水一步抹茶奶蓋",
         weight = 70,
         stack = true,
         close = true,
@@ -3554,8 +3374,7 @@ return {
         }
     },
     ["f144-1"] = {
-        label = " ",
-         --'水一步葡萄蘇打',
+        label = "水一步葡萄蘇打",
         weight = 70,
         stack = true,
         close = true,
@@ -3573,8 +3392,7 @@ return {
         }
     },
     ["f145-1"] = {
-        label = " ",
-         --'水一步肉吸湯',
+        label = "水一步肉吸湯",
         weight = 70,
         stack = true,
         close = true,
@@ -3592,8 +3410,7 @@ return {
         }
     },
     ["f146-1"] = {
-        label = " ",
-         --'糖一步抹茶泡芙',
+        label = "糖一步抹茶泡芙",
         weight = 100,
         stack = true,
         close = true,
@@ -3612,8 +3429,7 @@ return {
         }
     },
     ["f147-1"] = {
-        label = " ",
-         --'酒一步起司芝麻',
+        label = "酒一步起司芝麻",
         weight = 100,
         stack = true,
         close = true,
@@ -3632,8 +3448,7 @@ return {
         }
     },
     ["f148-1"] = {
-        label = " ",
-         --'酒一步泡菜豆腐',
+        label = "酒一步泡菜豆腐",
         weight = 100,
         stack = true,
         close = true,
@@ -3652,8 +3467,7 @@ return {
         }
     },
     ["f149-1"] = {
-        label = " ",
-         --'酒一步生鮪魚拌',
+        label = "酒一步生鮪魚拌",
         weight = 100,
         stack = true,
         close = true,
@@ -3672,8 +3486,7 @@ return {
         }
     },
     ["f150-1"] = {
-        label = " ",
-         --'酒一步涼拌瓜瓜',
+        label = "酒一步涼拌瓜瓜",
         weight = 100,
         stack = true,
         close = true,
@@ -3692,8 +3505,7 @@ return {
         }
     },
     ["f151-1"] = {
-        label = " ",
-         --'柳橙汁',
+        label = "柳橙汁",
         weight = 70,
         stack = true,
         close = true,
@@ -3799,8 +3611,7 @@ return {
 
 
     ["f153-1"] = {
-        label = " ",
-         --'蒸肉餅',
+        label = "蒸肉餅",
         weight = 90,
         stack = true,
         close = true,
@@ -3819,8 +3630,7 @@ return {
         }
     },
     ["f154-1"] = {
-        label = " ",
-         --'星洲炒米',
+        label = "星洲炒米",
         weight = 90,
         stack = true,
         close = true,
@@ -3839,8 +3649,7 @@ return {
         }
     },
     ["f155-1"] = {
-        label = " ",
-         --'咕咾肉',
+        label = "咕咾肉",
         weight = 60,
         stack = true,
         close = true,
@@ -3859,8 +3668,7 @@ return {
         }
     },
     ["f156-1"] = {
-        label = " ",
-         --'牛奶冰',
+        label = "牛奶冰",
         weight = 60,
         stack = true,
         close = true,
@@ -3879,8 +3687,7 @@ return {
         }
     },
     ["f157-1"] = {
-        label = " ",
-         --'牛肉蓋飯',
+        label = "牛肉蓋飯",
         weight = 100,
         stack = true,
         close = true,
@@ -3899,8 +3706,7 @@ return {
         }
     },
     ["f158-1"] = {
-        label = " ",
-         --'卡士達甜甜圈',
+        label = "卡士達甜甜圈",
         weight = 80,
         stack = true,
         close = true,
@@ -3919,8 +3725,7 @@ return {
         }
     },
     ["f159-1"] = {
-        label = " ",
-         --'炸肉三明治',
+        label = "炸肉三明治",
         weight = 100,
         stack = true,
         close = true,
@@ -3939,8 +3744,7 @@ return {
         }
     },
     ["f160-1"] = {
-        label = " ",
-         --'蝦仁炒飯',
+        label = "蝦仁炒飯",
         weight = 100,
         stack = true,
         close = true,
@@ -3959,8 +3763,7 @@ return {
         }
     },
     ["f161-1"] = {
-        label = " ",
-         --'草莓聖代',
+        label = "草莓聖代",
         weight = 90,
         stack = true,
         close = true,
@@ -3979,8 +3782,7 @@ return {
         }
     },
     ["f162-1"] = {
-        label = " ",
-         --'章魚燒',
+        label = "章魚燒",
         weight = 70,
         stack = true,
         close = true,
@@ -3999,8 +3801,7 @@ return {
         }
     },
     ["f163-1"] = {
-        label = " ",
-         --'玫瑰蘋果派',
+        label = "玫瑰蘋果派",
         weight = 80,
         stack = true,
         close = true,
@@ -4019,8 +3820,7 @@ return {
         }
     },
     ["f163-2"] = {
-        label = " ",
-         -- '玫瑰蘋果派',
+        label = "玫瑰蘋果派",
         weight = 150,
         stack = false,
         close = true,
@@ -4039,8 +3839,7 @@ return {
         }
     },
     ["f164-1"] = {
-        label = " ",
-         --'涼拌雞胸肉',
+        label = "涼拌雞胸肉",
         weight = 120,
         stack = true,
         close = true,
@@ -4059,8 +3858,7 @@ return {
         }
     },
     ["f165-1"] = {
-        label = " ",
-         --'雞肉飯',
+        label = "雞肉飯",
         weight = 120,
         stack = true,
         close = true,
@@ -4079,8 +3877,7 @@ return {
         }
     },
     ["f166-1"] = {
-        label = " ",
-         --'雞胸肉蔬菜捲',
+        label = "雞胸肉蔬菜捲",
         weight = 120,
         stack = true,
         close = true,
@@ -4099,8 +3896,7 @@ return {
         }
     },
     ["f167-1"] = {
-        label = " ",
-         --'檸檬蜂蜜水',
+        label = "檸檬蜂蜜水",
         weight = 80,
         stack = true,
         close = true,
@@ -4118,8 +3914,7 @@ return {
         }
     },
     ["f168-1"] = {
-        label = " ",
-         --'不可以色色',
+        label = "不可以色色",
         weight = 120,
         stack = true,
         close = true,
@@ -4138,8 +3933,7 @@ return {
         }
     },
     ["f169-1"] = {
-        label = " ",
-         --'如蕉似妻',
+        label = "如蕉似妻",
         weight = 100,
         stack = true,
         close = true,
@@ -4158,8 +3952,7 @@ return {
         }
     },
     ["f170-1"] = {
-        label = " ",
-         --'粉海帶魚粥',
+        label = "粉海帶魚粥",
         weight = 100,
         stack = true,
         close = true,
@@ -4178,8 +3971,7 @@ return {
         }
     },
     ["f171-1"] = {
-        label = " ",
-         --'海陸火鍋',
+        label = "海陸火鍋",
         weight = 180,
         stack = true,
         close = true,
@@ -4198,8 +3990,7 @@ return {
         }
     },
     ["f172-1"] = {
-        label = " ",
-         --'鰻魚串',
+        label = "鰻魚串",
         weight = 100,
         stack = true,
         close = true,
@@ -4218,8 +4009,7 @@ return {
         }
     },
     ["f173-1"] = {
-        label = " ",
-         --'蒜香奶油龍蝦',
+        label = "蒜香奶油龍蝦",
         weight = 100,
         stack = true,
         close = true,
@@ -4238,8 +4028,7 @@ return {
         }
     },
     ["f174-1"] = {
-        label = " ",
-         --'焗香蟹',
+        label = "焗香蟹",
         weight = 100,
         stack = true,
         close = true,
@@ -4258,8 +4047,7 @@ return {
         }
     },
     ["f175-1"] = {
-        label = " ",
-         --'煎魚排',
+        label = "煎魚排",
         weight = 90,
         stack = true,
         close = true,
@@ -4278,8 +4066,7 @@ return {
         }
     },
     ["f176-1"] = {
-        label = " ",
-         --'壽司',
+        label = "壽司",
         weight = 170,
         stack = true,
         close = true,
@@ -4298,8 +4085,7 @@ return {
         }
     },
     ["f179-1"] = {
-        label = " ",
-         --'芒果千層蛋糕',
+        label = "芒果千層蛋糕",
         weight = 60,
         stack = true,
         close = true,
@@ -4318,8 +4104,7 @@ return {
         }
     },
     ["f180-1"] = {
-        label = " ",
-         --'抹茶千層蛋糕',
+        label = "抹茶千層蛋糕",
         weight = 60,
         stack = true,
         close = true,
@@ -4338,8 +4123,7 @@ return {
         }
     },
     ["f181-1"] = {
-        label = " ",
-         --'鮮草莓慕斯蛋糕',
+        label = "鮮草莓慕斯蛋糕",
         weight = 70,
         stack = true,
         close = true,
@@ -4358,8 +4142,7 @@ return {
         }
     },
     ["f182-1"] = {
-        label = " ",
-         --'鹿肉雜燴湯',
+        label = "鹿肉雜燴湯",
         weight = 170,
         stack = true,
         close = true,
@@ -4377,8 +4160,7 @@ return {
         }
     },
     ["f183-1"] = {
-        label = " ",
-         --'烤鹿排',
+        label = "烤鹿排",
         weight = 150,
         stack = true,
         close = true,
@@ -4396,8 +4178,7 @@ return {
         }
     },
     ["f184-1"] = {
-        label = " ",
-         --'寶石',
+        label = "寶石",
         weight = 130,
         stack = true,
         close = true,
@@ -4415,8 +4196,7 @@ return {
         }
     },
     ["f185-1"] = {
-        label = " ",
-         --'古輝',
+        label = "古輝",
         weight = 130,
         stack = true,
         close = true,
@@ -4434,8 +4214,7 @@ return {
         }
     },
     ["f186-1"] = {
-        label = " ",
-         --'鱷魚的眼淚',
+        label = "鱷魚的眼淚",
         weight = 130,
         stack = true,
         close = true,
@@ -4453,8 +4232,7 @@ return {
         }
     },
     ["f187-1"] = {
-        label = " ",
-         --'擁抱鯨魚',
+        label = "擁抱鯨魚",
         weight = 130,
         stack = true,
         close = true,
@@ -4472,8 +4250,7 @@ return {
         }
     },
     ["f188-1"] = {
-        label = " ",
-         --'月光之影',
+        label = "月光之影",
         weight = 130,
         stack = true,
         close = true,
@@ -4491,8 +4268,7 @@ return {
         }
     },
     ["f189-1"] = {
-        label = " ",
-         --'超簡單柳橙汁',
+        label = "超簡單柳橙汁",
         weight = 50,
         stack = true,
         close = true,
@@ -4509,8 +4285,7 @@ return {
         }
     },
     ["f190-1"] = {
-        label = " ",
-         --'超簡單奶茶',
+        label = "超簡單奶茶",
         weight = 50,
         stack = true,
         close = true,
@@ -4527,8 +4302,7 @@ return {
         }
     },
     ["f191-1"] = {
-        label = " ",
-         --'超簡單義大利麵',
+        label = "超簡單義大利麵",
         weight = 50,
         stack = true,
         close = true,
@@ -4545,8 +4319,7 @@ return {
         }
     },
     ["f192-1"] = {
-        label = " ",
-         --'超簡單滷肉飯',
+        label = "超簡單滷肉飯",
         weight = 50,
         stack = true,
         close = true,
@@ -4563,8 +4336,7 @@ return {
         }
     },
     ["f193-1"] = {
-        label = " ",
-         --'相撲火鍋',
+        label = "相撲火鍋",
         weight = 50,
         stack = true,
         close = true,
@@ -4581,8 +4353,7 @@ return {
         }
     },
     ["f194-1"] = {
-        label = " ",
-         --'棠翎a特級炒飯',
+        label = "棠翎a特級炒飯",
         weight = 50,
         stack = true,
         close = true,
@@ -4599,8 +4370,7 @@ return {
         }
     },
     ["f195-1"] = {
-        label = " ",
-         --'芝士千層',
+        label = "芝士千層",
         weight = 50,
         stack = true,
         close = true,
@@ -4617,8 +4387,7 @@ return {
         }
     },
     ["f196-1"] = {
-        label = " ",
-         --'巧克力千層',
+        label = "巧克力千層",
         weight = 50,
         stack = true,
         close = true,
@@ -4635,8 +4404,7 @@ return {
         }
     },
     ["f197-1"] = {
-        label = " ",
-         --'玫瑰巧克力塔',
+        label = "玫瑰巧克力塔",
         weight = 50,
         stack = true,
         close = true,
@@ -4653,8 +4421,7 @@ return {
         }
     },
     ["f198-1"] = {
-        label = " ",
-         --'暖你心頭紅豆湯',
+        label = "暖你心頭紅豆湯",
         weight = 50,
         stack = true,
         close = true,
@@ -4671,8 +4438,7 @@ return {
         }
     },
     ["f199-1"] = {
-        label = " ",
-         --'桂圓紅棗湯',
+        label = "桂圓紅棗湯",
         weight = 50,
         stack = true,
         close = true,
@@ -4690,8 +4456,7 @@ return {
         }
     },
     ["f200-1"] = {
-        label = " ",
-         --'水一步草莓牛奶',
+        label = "水一步草莓牛奶",
         weight = 144,
         stack = true,
         close = true,
@@ -4708,8 +4473,7 @@ return {
         }
     },
     ["f201-1"] = {
-        label = " ",
-         --'日一步炙燒鮭丼',
+        label = "日一步炙燒鮭丼",
         weight = 120,
         stack = true,
         close = true,
@@ -4743,8 +4507,7 @@ return {
         }
     },
     ["f203-1"] = {
-        label = " ",
-         --'吉拿夫',
+        label = "吉拿夫",
         weight = 90,
         stack = true,
         close = true,
@@ -4761,8 +4524,7 @@ return {
         }
     },
     ["f204-1"] = {
-        label = " ",
-         --'怪獸電力吐司',
+        label = "怪獸電力吐司",
         weight = 80,
         stack = true,
         close = true,
@@ -4779,8 +4541,7 @@ return {
         }
     },
     ["f205-1"] = {
-        label = " ",
-         --'朗依瑪娜',
+        label = "朗依瑪娜",
         weight = 110,
         stack = true,
         close = true,
@@ -4797,8 +4558,7 @@ return {
         }
     },
     ["f206-1"] = {
-        label = " ",
-         --'迪雅瑪贊',
+        label = "迪雅瑪贊",
         weight = 60,
         stack = true,
         close = true,
@@ -4815,8 +4575,7 @@ return {
         }
     },
     ["f207-1"] = {
-        label = " ",
-         --'蜜糖番茄',
+        label = "蜜糖番茄",
         weight = 60,
         stack = true,
         close = true,
@@ -4833,8 +4592,7 @@ return {
         }
     },
     ["f208-1"] = {
-        label = " ",
-         --'與赫爾提姆的交易',
+        label = "與赫爾提姆的交易",
         weight = 144,
         stack = true,
         close = true,
@@ -4852,8 +4610,7 @@ return {
         }
     },
     ["f209-1"] = {
-        label = " ",
-         --'大地的恩賜',
+        label = "大地的恩賜",
         weight = 104,
         stack = true,
         close = true,
@@ -4870,8 +4627,7 @@ return {
         }
     },
     ["f210-1"] = {
-        label = " ",
-         --'亞特蘭提斯之眼',
+        label = "亞特蘭提斯之眼",
         weight = 104,
         stack = true,
         close = true,
@@ -4888,8 +4644,7 @@ return {
         }
     },
     ["f211-1"] = {
-        label = " ",
-         --'黑糖風味團子',
+        label = "黑糖風味團子",
         weight = 160,
         stack = true,
         close = true,
@@ -4906,8 +4661,7 @@ return {
         }
     },
     ["f212-1"] = {
-        label = " ",
-         --'MOEMOEKARE',
+        label = "MOEMOEKARE",
         weight = 160,
         stack = true,
         close = true,
@@ -4924,8 +4678,7 @@ return {
         }
     },
     ["f213-1"] = {
-        label = " ",
-         --'TOKOYAKI',
+        label = "TOKOYAKI",
         weight = 60,
         stack = true,
         close = true,
@@ -4942,16 +4695,14 @@ return {
         }
     },
     ["f214-1"] = {
-        label = " ",
-         --'醃製雞翅',
+        label = "醃製雞翅",
         weight = 60,
         stack = true,
         close = true,
         description = "醃製雞翅"
     },
     ["f215-1"] = {
-        label = " ",
-         --'代海特製鳳梨牛奶',
+        label = "代海特製鳳梨牛奶",
         weight = 84,
         stack = true,
         close = true,
@@ -4968,8 +4719,7 @@ return {
         }
     },
     ["f216-1"] = {
-        label = " ",
-         --'代海特製辣雞翅',
+        label = "代海特製辣雞翅",
         weight = 120,
         stack = true,
         close = true,
@@ -4986,8 +4736,7 @@ return {
         }
     },
     ["f217-1"] = {
-        label = " ",
-         --'代海特製楓糖鬆餅炸雞',
+        label = "代海特製楓糖鬆餅炸雞",
         weight = 120,
         stack = true,
         close = true,
@@ -5004,8 +4753,7 @@ return {
         }
     },
     ["f218-1"] = {
-        label = " ",
-         --'綜合果汁',
+        label = "綜合果汁",
         weight = 44,
         stack = true,
         close = true,
@@ -5022,8 +4770,7 @@ return {
         }
     },
     ["f219-1"] = {
-        label = " ",
-         --'抹茶冰淇淋',
+        label = "抹茶冰淇淋",
         weight = 120,
         stack = true,
         close = true,
@@ -5040,8 +4787,7 @@ return {
         }
     },
     ["f220-1"] = {
-        label = " ",
-         --'鮮魚味噌湯',
+        label = "鮮魚味噌湯",
         weight = 120,
         stack = true,
         close = true,
@@ -5058,8 +4804,7 @@ return {
         }
     },
     ["f221-1"] = {
-        label = " ",
-         --'味噌拉麵',
+        label = "味噌拉麵",
         weight = 120,
         stack = true,
         close = true,
@@ -5076,8 +4821,7 @@ return {
         }
     },
     ["f222-1"] = {
-        label = " ",
-         --'炸豬排咖哩飯',
+        label = "炸豬排咖哩飯",
         weight = 120,
         stack = true,
         close = true,
@@ -5094,8 +4838,7 @@ return {
         }
     },
     ["f223-1"] = {
-        label = " ",
-         --'氣泡水',
+        label = "氣泡水",
         weight = 94,
         stack = true,
         close = true,
@@ -5113,8 +4856,7 @@ return {
         }
     },
     ["f224-1"] = {
-        label = " ",
-         --'黑麥汁',
+        label = "黑麥汁",
         weight = 94,
         stack = true,
         close = true,
@@ -5132,8 +4874,7 @@ return {
         }
     },
     ["f225-1"] = {
-        label = " ",
-         --'檸檬氣泡麥汁',
+        label = "檸檬氣泡麥汁",
         weight = 94,
         stack = true,
         close = true,
@@ -5150,8 +4891,7 @@ return {
         }
     },
     ["f226-1"] = {
-        label = " ",
-         --'鮮肉包',
+        label = "鮮肉包",
         weight = 120,
         stack = true,
         close = true,
@@ -5168,8 +4908,7 @@ return {
         }
     },
     ["f227-1"] = {
-        label = " ",
-         --'鮮肉貝果',
+        label = "鮮肉貝果",
         weight = 120,
         stack = true,
         close = true,
@@ -5186,8 +4925,7 @@ return {
         }
     },
     ["f228-1"] = {
-        label = " ",
-         --'小飯塔',
+        label = "小飯塔",
         weight = 120,
         stack = true,
         close = true,
@@ -5204,8 +4942,7 @@ return {
         }
     },
     ["f229-1"] = {
-        label = " ",
-         --'起司肉塔',
+        label = "起司肉塔",
         weight = 120,
         stack = true,
         close = true,
@@ -5222,8 +4959,7 @@ return {
         }
     },
     ["f230-1"] = {
-        label = " ",
-         --'星眠花茶',
+        label = "星眠花茶",
         weight = 145,
         stack = true,
         close = true,
@@ -5240,8 +4976,7 @@ return {
         }
     },
     ["f231-1"] = {
-        label = " ",
-         --'惑心花茶',
+        label = "惑心花茶",
         weight = 145,
         stack = true,
         close = true,
@@ -5258,8 +4993,7 @@ return {
         }
     },
     ["f232-1"] = {
-        label = " ",
-         --'拉瑪特調',
+        label = "拉瑪特調",
         weight = 145,
         stack = true,
         close = true,
@@ -5293,8 +5027,7 @@ return {
         }
     },
     ["f234-1"] = {
-        label = " ",
-         --'野格',
+        label = "野格",
         weight = 170,
         stack = true,
         close = true,
@@ -5312,8 +5045,7 @@ return {
         }
     },
     ["f235-1"] = {
-        label = " ",
-         --'能量飲料',
+        label = "能量飲料",
         weight = 70,
         stack = true,
         close = true,
@@ -5331,8 +5063,7 @@ return {
         }
     },
     ["f236-1"] = {
-        label = " ",
-         --'野格炸彈',
+        label = "野格炸彈",
         weight = 50,
         stack = true,
         close = true,
@@ -5349,8 +5080,7 @@ return {
         }
     },
     ["f237-1"] = {
-        label = " ",
-         --'芒果奶酪',
+        label = "芒果奶酪",
         weight = 150,
         stack = true,
         close = true,
@@ -5367,8 +5097,7 @@ return {
         }
     },
     ["f238-1"] = {
-        label = " ",
-         --'檸檬蛋糕',
+        label = "檸檬蛋糕",
         weight = 150,
         stack = true,
         close = true,
@@ -5385,8 +5114,7 @@ return {
         }
     },
     ["f239-1"] = {
-        label = " ",
-         --'珍珠奶茶',
+        label = "珍珠奶茶",
         weight = 150,
         stack = true,
         close = true,
@@ -5403,8 +5131,7 @@ return {
         }
     },
     ["f239-2"] = {
-        label = " ",
-         -- '珍珠奶茶',
+        label = "珍珠奶茶",
         weight = 400,
         stack = false,
         close = true,
@@ -5419,8 +5146,7 @@ return {
         }
     },
     ["f240-1"] = {
-        label = " ",
-         --'多多綠',
+        label = "多多綠",
         weight = 150,
         stack = true,
         close = true,
@@ -5437,8 +5163,7 @@ return {
         }
     },
     ["f240-2"] = {
-        label = " ",
-         -- '多多綠',
+        label = "多多綠",
         weight = 300,
         stack = false,
         close = true,
@@ -5453,8 +5178,7 @@ return {
         }
     },
     ["f241-1"] = {
-        label = " ",
-         --'養樂多',
+        label = "養樂多",
         weight = 50,
         stack = true,
         close = true,
@@ -5472,8 +5196,7 @@ return {
         }
     },
     ["f242-1"] = {
-        label = " ",
-         --'香草蛋糕',
+        label = "香草蛋糕",
         weight = 120,
         stack = true,
         close = true,
@@ -5490,8 +5213,7 @@ return {
         }
     },
     ["f243-1"] = {
-        label = " ",
-         --'晨曦巧克力牛奶',
+        label = "晨曦巧克力牛奶",
         weight = 70,
         stack = true,
         close = true,
@@ -5508,8 +5230,7 @@ return {
         }
     },
     ["f244-1"] = {
-        label = " ",
-         --'可可奶啡',
+        label = "可可奶啡",
         weight = 70,
         stack = true,
         close = true,
@@ -5526,8 +5247,7 @@ return {
         }
     },
     ["f245-1"] = {
-        label = " ",
-         --'香蕉奶油獅',
+        label = "香蕉奶油獅",
         weight = 100,
         stack = true,
         close = true,
@@ -5544,8 +5264,7 @@ return {
         }
     },
     ["f246-1"] = {
-        label = " ",
-         --'熊掌水晶糖',
+        label = "熊掌水晶糖",
         weight = 50,
         stack = true,
         close = true,
@@ -5562,8 +5281,7 @@ return {
         }
     },
     ["f247-1"] = {
-        label = " ",
-         --'宮城凜造型糖霜餅乾',
+        label = "宮城凜造型糖霜餅乾",
         weight = 50,
         stack = true,
         close = true,
@@ -5580,8 +5298,7 @@ return {
         }
     },
     ["f248-1"] = {
-        label = " ",
-         --'夏愛檸造型糖霜餅乾',
+        label = "夏愛檸造型糖霜餅乾",
         weight = 10,
         stack = true,
         close = true,
@@ -5598,8 +5315,7 @@ return {
         }
     },
     ["f249-1"] = {
-        label = " ",
-         --'徐小霓造型糖霜餅乾',
+        label = "徐小霓造型糖霜餅乾",
         weight = 10,
         stack = true,
         close = true,
@@ -5616,8 +5332,7 @@ return {
         }
     },
     ["f250-1"] = {
-        label = " ",
-         --'草一步綜合野菜',
+        label = "草一步綜合野菜",
         weight = 150,
         stack = true,
         close = true,
@@ -5634,8 +5349,7 @@ return {
         }
     },
     ["f251-1"] = {
-        label = " ",
-         --'魚一步烤烤烤魚',
+        label = "魚一步烤烤烤魚",
         weight = 150,
         stack = true,
         close = true,
@@ -5652,16 +5366,14 @@ return {
         }
     },
     ["f252-1"] = {
-        label = " ",
-         --'牛肉漢堡排',
+        label = "牛肉漢堡排",
         weight = 150,
         stack = true,
         close = true,
         description = "牛肉漢堡排"
     },
     ["f253-1"] = {
-        label = " ",
-         --'代海特製涼拌墨魚',
+        label = "代海特製涼拌墨魚",
         weight = 150,
         stack = true,
         close = true,
@@ -5678,8 +5390,7 @@ return {
         }
     },
     ["f254-1"] = {
-        label = " ",
-         --'代海特製沙拉',
+        label = "代海特製沙拉",
         weight = 150,
         stack = true,
         close = true,
@@ -5696,8 +5407,7 @@ return {
         }
     },
     ["f255-1"] = {
-        label = " ",
-         --'代海特製番茄牛奶',
+        label = "代海特製番茄牛奶",
         weight = 100,
         stack = true,
         close = true,
@@ -5714,8 +5424,7 @@ return {
         }
     },
     ["f256-1"] = {
-        label = " ",
-         --'代海特製天婦羅炸蝦',
+        label = "代海特製天婦羅炸蝦",
         weight = 150,
         stack = true,
         close = true,
@@ -5732,8 +5441,7 @@ return {
         }
     },
     ["f257-1"] = {
-        label = " ",
-         --'代海特製花生培根牛肉堡',
+        label = "代海特製花生培根牛肉堡",
         weight = 150,
         stack = true,
         close = true,
@@ -5750,8 +5458,7 @@ return {
         }
     },
     ["f258-1"] = {
-        label = " ",
-         --'帕瑪森番茄肉醬義大利麵',
+        label = "帕瑪森番茄肉醬義大利麵",
         weight = 150,
         stack = true,
         close = true,
@@ -5768,8 +5475,7 @@ return {
         }
     },
     ["f259-1"] = {
-        label = " ",
-         --'莫吉多',
+        label = "莫吉多",
         weight = 100,
         stack = true,
         close = true,
@@ -5786,8 +5492,7 @@ return {
         }
     },
     ["f260-1"] = {
-        label = " ",
-         --'champagne',
+        label = "champagne",
         weight = 100,
         stack = true,
         close = true,
@@ -5804,8 +5509,7 @@ return {
         }
     },
     ["f261-1"] = {
-        label = " ",
-         --'香檳',
+        label = "香檳",
         weight = 500,
         stack = true,
         close = true,
@@ -5823,8 +5527,7 @@ return {
         }
     },
     ["f262-1"] = {
-        label = " ",
-         --'環遊世界',
+        label = "環遊世界",
         weight = 100,
         stack = true,
         close = true,
@@ -5841,8 +5544,7 @@ return {
         }
     },
     ["f263-1"] = {
-        label = " ",
-         --'血鑽石',
+        label = "血鑽石",
         weight = 100,
         stack = true,
         close = true,
@@ -5859,8 +5561,7 @@ return {
         }
     },
     ["f264-1"] = {
-        label = " ",
-         --'小太陽',
+        label = "小太陽",
         weight = 100,
         stack = true,
         close = true,
@@ -5877,8 +5578,7 @@ return {
         }
     },
     ["f265-1"] = {
-        label = " ",
-         --'生命之水shot',
+        label = "生命之水shot",
         weight = 70,
         stack = true,
         close = true,
@@ -5895,8 +5595,7 @@ return {
         }
     },
     ["f266-1"] = {
-        label = " ",
-         --'生命之水',
+        label = "生命之水",
         weight = 10,
         stack = true,
         close = true,
@@ -5914,8 +5613,7 @@ return {
         }
     },
     ["f267-1"] = {
-        label = " ",
-         --'咖哩拌飯',
+        label = "咖哩拌飯",
         weight = 150,
         stack = true,
         close = true,
@@ -5932,8 +5630,7 @@ return {
         }
     },
     ["f268-1"] = {
-        label = " ",
-         --'番茄炒蛋',
+        label = "番茄炒蛋",
         weight = 120,
         stack = true,
         close = true,
@@ -5950,8 +5647,7 @@ return {
         }
     },
     ["f268-2"] = {
-        label = " ",
-         -- '番茄炒蛋',
+        label = "番茄炒蛋",
         weight = 200,
         stack = false,
         close = true,
@@ -5966,8 +5662,7 @@ return {
         }
     },
     ["f269-1"] = {
-        label = " ",
-         --'夏威夷魚飯',
+        label = "夏威夷魚飯",
         weight = 150,
         stack = true,
         close = true,
@@ -5984,8 +5679,7 @@ return {
         }
     },
     ["f270-1"] = {
-        label = " ",
-         --'骰子牛丼飯',
+        label = "骰子牛丼飯",
         weight = 150,
         stack = true,
         close = true,
@@ -6019,8 +5713,7 @@ return {
         }
     },
     ["f272-1"] = {
-        label = " ",
-         --'蔓活咖啡',
+        label = "蔓活咖啡",
         weight = 120,
         stack = true,
         close = true,
@@ -6038,8 +5731,7 @@ return {
         }
     },
     ["f273-1"] = {
-        label = " ",
-         --'關東煮',
+        label = "關東煮",
         weight = 250,
         stack = true,
         close = true,
@@ -6056,8 +5748,7 @@ return {
         }
     },
     ["f274-1"] = {
-        label = " ",
-         --'麵一步特濃啦麵',
+        label = "麵一步特濃啦麵",
         weight = 350,
         stack = true,
         close = true,
@@ -6074,8 +5765,7 @@ return {
         }
     },
     ["f275-1"] = {
-        label = " ",
-         --'眼珠布丁',
+        label = "眼珠布丁",
         weight = 120,
         stack = true,
         close = true,
@@ -6093,8 +5783,7 @@ return {
         }
     },
     ["f276-1"] = {
-        label = " ",
-         --'手指蛋糕',
+        label = "手指蛋糕",
         weight = 120,
         stack = true,
         close = true,
@@ -6112,8 +5801,7 @@ return {
         }
     },
     ["f277-1"] = {
-        label = " ",
-         --'大腦糕',
+        label = "大腦糕",
         weight = 120,
         stack = true,
         close = true,
@@ -6132,8 +5820,7 @@ return {
         }
     },
     ["f278-1"] = {
-        label = " ",
-         --'動物毛皮',
+        label = "動物毛皮",
         weight = 120,
         stack = true,
         close = true,
@@ -6151,8 +5838,7 @@ return {
         }
     },
     ["f279-1"] = {
-        label = " ",
-         --'海豹3D拉花咖啡',
+        label = "海豹3D拉花咖啡",
         weight = 120,
         stack = true,
         close = true,
@@ -6169,8 +5855,7 @@ return {
         }
     },
     ["f280-1"] = {
-        label = " ",
-         --'柴柴3D拉花咖啡',
+        label = "柴柴3D拉花咖啡",
         weight = 120,
         stack = true,
         close = true,
@@ -6187,8 +5872,7 @@ return {
         }
     },
     ["f281-1"] = {
-        label = " ",
-         --'厭世拉花咖啡',
+        label = "厭世拉花咖啡",
         weight = 120,
         stack = true,
         close = true,
@@ -6205,8 +5889,7 @@ return {
         }
     },
     ["f282-1"] = {
-        label = " ",
-         --'POP貓拉花咖啡',
+        label = "POP貓拉花咖啡",
         weight = 120,
         stack = true,
         close = true,
@@ -6223,8 +5906,7 @@ return {
         }
     },
     ["f283-1"] = {
-        label = " ",
-         --'麋鹿拉花咖啡',
+        label = "麋鹿拉花咖啡",
         weight = 120,
         stack = true,
         close = true,
@@ -6241,8 +5923,7 @@ return {
         }
     },
     ["f284-1"] = {
-        label = " ",
-         --'雙心拉花咖啡',
+        label = "雙心拉花咖啡",
         weight = 120,
         stack = true,
         close = true,
@@ -6259,8 +5940,7 @@ return {
         }
     },
     ["f285-1"] = {
-        label = " ",
-         --'愛心拉花咖啡',
+        label = "愛心拉花咖啡",
         weight = 120,
         stack = true,
         close = true,
@@ -6277,8 +5957,7 @@ return {
         }
     },
     ["f286-1"] = {
-        label = " ",
-         --'空氣巧克力',
+        label = "空氣巧克力",
         weight = 100,
         stack = true,
         close = true,
@@ -6296,8 +5975,7 @@ return {
         }
     },
     ["f287-1"] = {
-        label = " ",
-         --'婋婋玉米茶',
+        label = "婋婋玉米茶",
         weight = 120,
         stack = true,
         close = true,
@@ -6315,8 +5993,7 @@ return {
         }
     },
     ["f288-1"] = {
-        label = " ",
-         --'草莓瑪德蓮',
+        label = "草莓瑪德蓮",
         weight = 100,
         stack = true,
         close = true,
@@ -6334,8 +6011,7 @@ return {
         }
     },
     ["f289-1"] = {
-        label = " ",
-         --'玫瑰愛心蛋糕',
+        label = "玫瑰愛心蛋糕",
         weight = 200,
         stack = true,
         close = true,
@@ -6352,8 +6028,7 @@ return {
         }
     },
     ["f290-1"] = {
-        label = " ",
-         --'櫻花大符',
+        label = "櫻花大符",
         weight = 80,
         stack = 1,
         consume = 1,
@@ -6370,8 +6045,7 @@ return {
         }
     },
     ["f291-1"] = {
-        label = " ",
-         --'天使巧克',
+        label = "天使巧克",
         weight = 70,
         stack = 1,
         consume = 1,
@@ -6388,8 +6062,7 @@ return {
         }
     },
     ["f292-1"] = {
-        label = " ",
-         --'檸檬迷迭香磅蛋糕',
+        label = "檸檬迷迭香磅蛋糕",
         weight = 150,
         stack = 1,
         consume = 1,
@@ -6406,8 +6079,7 @@ return {
         }
     },
     ["f293-1"] = {
-        label = " ",
-         --'特製雞湯',
+        label = "特製雞湯",
         weight = 200,
         stack = 1,
         consume = 1,
@@ -6424,8 +6096,7 @@ return {
         }
     },
     ["f294-1"] = {
-        label = " ",
-         --'起司培根蛋黃麵',
+        label = "起司培根蛋黃麵",
         weight = 200,
         stack = 1,
         consume = 1,
@@ -6442,8 +6113,7 @@ return {
         }
     },
     ["f296-1"] = {
-        label = " ",
-         --'輕乳酪蛋糕',
+        label = "輕乳酪蛋糕",
         weight = 100,
         stack = 1,
         consume = 1,
@@ -6460,8 +6130,7 @@ return {
         }
     },
     ["f297-1"] = {
-        label = " ",
-         --'經典Mojito',
+        label = "經典Mojito",
         weight = 150,
         stack = 1,
         consume = 1,
@@ -6478,15 +6147,13 @@ return {
         }
     },
     ["f298-1"] = {
-        label = " ",
-         --'沙拉醬',
+        label = "沙拉醬",
         weight = 30,
         stack = 1,
         description = "沙拉醬"
     },
     ["f299-1"] = {
-        label = " ",
-         --'陶氣的妳不准挑食',
+        label = "陶氣的妳不准挑食",
         weight = 30,
         stack = 1,
         description = "",
@@ -6502,8 +6169,7 @@ return {
         }
     },
     ["f300-1"] = {
-        label = " ",
-         --'今日歆情特調',
+        label = "今日歆情特調",
         weight = 30,
         stack = 1,
         description = "",
@@ -6519,8 +6185,7 @@ return {
         }
     },
     ["f301-1"] = {
-        label = " ",
-         --'歆歆專屬定食',
+        label = "歆歆專屬定食",
         weight = 30,
         stack = 1,
         description = "",
@@ -6536,8 +6201,7 @@ return {
         }
     },
     ["f302-1"] = {
-        label = " ",
-         --'棠棠特調',
+        label = "棠棠特調",
         weight = 10,
         stack = true,
         description = "你更愛棠棠了",
@@ -6549,8 +6213,7 @@ return {
         }
     },
     ["f303-1"] = {
-        label = " ",
-         --'歆歆特調',
+        label = "歆歆特調",
         weight = 30,
         stack = 1,
         description = "你覺得歆情特好,有種愛的衝動",
@@ -6562,8 +6225,7 @@ return {
         }
     },
     ["f304-1"] = {
-        label = " ",
-         --'雲霧之上的浪漫',
+        label = "雲霧之上的浪漫",
         weight = 30,
         stack = 1,
         description = "",
@@ -6575,8 +6237,7 @@ return {
         }
     },
     ["f305-1"] = {
-        label = " ",
-         --'可可歐蕾',
+        label = "可可歐蕾",
         weight = 30,
         stack = 1,
         description = "",
@@ -6588,8 +6249,7 @@ return {
         }
     },
     ["f306-1"] = {
-        label = " ",
-         --'櫻花鮮奶茶',
+        label = "櫻花鮮奶茶",
         weight = 30,
         stack = 1,
         description = "",
@@ -6601,8 +6261,7 @@ return {
         }
     },
     ["f307-1"] = {
-        label = " ",
-         --'QQㄋㄟㄋㄟ好喝到咩噗茶',
+        label = "QQㄋㄟㄋㄟ好喝到咩噗茶",
         weight = 30,
         stack = 1,
         description = "",
@@ -6614,8 +6273,7 @@ return {
         }
     },
     ["f308-1"] = {
-        label = " ",
-         --'童年的快樂',
+        label = "童年的快樂",
         weight = 30,
         stack = 1,
         description = "",
@@ -6627,8 +6285,7 @@ return {
         }
     },
     ["f309-1"] = {
-        label = " ",
-         --'人生短短幾個秋',
+        label = "人生短短幾個秋",
         weight = 30,
         stack = 1,
         description = "",
@@ -6640,8 +6297,7 @@ return {
         }
     },
     ["f310-1"] = {
-        label = " ",
-         --'脆梅冰茶',
+        label = "脆梅冰茶",
         weight = 30,
         stack = 1,
         description = "",
@@ -6653,8 +6309,7 @@ return {
         }
     },
     ["f311-1"] = {
-        label = " ",
-         --'睡前的溫柔',
+        label = "睡前的溫柔",
         weight = 30,
         stack = 1,
         description = "",
@@ -6666,8 +6321,7 @@ return {
         }
     },
     ["f312-1"] = {
-        label = " ",
-         --'鮮魚豆腐味噌湯',
+        label = "鮮魚豆腐味噌湯",
         weight = 30,
         stack = 1,
         description = "",
@@ -6683,8 +6337,7 @@ return {
         }
     },
     ["f313-1"] = {
-        label = " ",
-         --'牛肉雞湯',
+        label = "牛肉雞湯",
         weight = 30,
         stack = 1,
         description = "",
@@ -6700,8 +6353,7 @@ return {
         }
     },
     ["f314-1"] = {
-        label = " ",
-         --'炙燒豚骨拉麵',
+        label = "炙燒豚骨拉麵",
         weight = 30,
         stack = 1,
         description = "",
@@ -6717,8 +6369,7 @@ return {
         }
     },
     ["f315-1"] = {
-        label = " ",
-         --'鍋燒意麵',
+        label = "鍋燒意麵",
         weight = 30,
         stack = 1,
         description = "",
@@ -6734,8 +6385,7 @@ return {
         }
     },
     ["f316-1"] = {
-        label = " ",
-         --'棠心蛋烏龍麵',
+        label = "棠心蛋烏龍麵",
         weight = 30,
         stack = 1,
         description = "",
@@ -6751,8 +6401,7 @@ return {
         }
     },
     ["f317-1"] = {
-        label = " ",
-         --'日式咖哩飯沛上我的愛',
+        label = "日式咖哩飯沛上我的愛",
         weight = 30,
         stack = 1,
         description = "",
@@ -6768,8 +6417,7 @@ return {
         }
     },
     ["f318-1"] = {
-        label = " ",
-         --'可以跟尼在一起',
+        label = "可以跟尼在一起",
         weight = 30,
         stack = 1,
         description = "",
@@ -6785,8 +6433,7 @@ return {
         }
     },
     ["f319-1"] = {
-        label = " ",
-         --'厚厚豬軟Q堡',
+        label = "厚厚豬軟Q堡",
         weight = 30,
         stack = 1,
         description = "",
@@ -6802,8 +6449,7 @@ return {
         }
     },
     ["f320-1"] = {
-        label = " ",
-         --'牛肉捲',
+        label = "牛肉捲",
         weight = 30,
         stack = 1,
         description = "",
@@ -6819,8 +6465,7 @@ return {
         }
     },
     ["f321-1"] = {
-        label = " ",
-         --'棠翎牌炒泡麵加顆想妳的荷包蛋',
+        label = "棠翎牌炒泡麵加顆想妳的荷包蛋",
         weight = 30,
         stack = 1,
         description = "",
@@ -6837,8 +6482,7 @@ return {
         }
     },
     ["f322-1"] = {
-        label = " ",
-         --'棠棠三明治',
+        label = "棠棠三明治",
         weight = 30,
         stack = 1,
         description = "",
@@ -6854,8 +6498,7 @@ return {
         }
     },
     ["f323-1"] = {
-        label = " ",
-         --'薯餅蛋餅',
+        label = "薯餅蛋餅",
         weight = 30,
         stack = 1,
         description = "",
@@ -6871,8 +6514,7 @@ return {
         }
     },
     ["f324-1"] = {
-        label = " ",
-         --'肉鬆飯糰',
+        label = "肉鬆飯糰",
         weight = 30,
         stack = 1,
         description = "",
@@ -6888,8 +6530,7 @@ return {
         }
     },
     ["f325-1"] = {
-        label = " ",
-         --'當頭牛沙拉',
+        label = "當頭牛沙拉",
         weight = 30,
         stack = 1,
         description = "",
@@ -6905,8 +6546,7 @@ return {
         }
     },
     ["f326-1"] = {
-        label = " ",
-         --'法式吐司',
+        label = "法式吐司",
         weight = 30,
         stack = 1,
         description = "",
@@ -6922,8 +6562,7 @@ return {
         }
     },
     ["f327-1"] = {
-        label = " ",
-         --'棠揚雞',
+        label = "棠揚雞",
         weight = 30,
         stack = 1,
         description = "",
@@ -6939,8 +6578,7 @@ return {
         }
     },
     ["f328-1"] = {
-        label = " ",
-         --'草莓吐司',
+        label = "草莓吐司",
         weight = 30,
         stack = 1,
         description = "",
@@ -6956,8 +6594,7 @@ return {
         }
     },
     ["f329-1"] = {
-        label = " ",
-         --'巧克力吐司',
+        label = "巧克力吐司",
         weight = 30,
         stack = 1,
         description = "",
@@ -6973,8 +6610,7 @@ return {
         }
     },
     ["f330-1"] = {
-        label = " ",
-         --'香蕉巧克力鬆餅',
+        label = "香蕉巧克力鬆餅",
         weight = 30,
         stack = 1,
         description = "",
@@ -6990,8 +6626,7 @@ return {
         }
     },
     ["f331-1"] = {
-        label = " ",
-         --'涼拌小黃瓜喔',
+        label = "涼拌小黃瓜喔",
         weight = 30,
         stack = 1,
         description = "",
@@ -7007,8 +6642,7 @@ return {
         }
     },
     ["f332-1"] = {
-        label = " ",
-         --'想妳的夜市地瓜球',
+        label = "想妳的夜市地瓜球",
         weight = 30,
         stack = 1,
         description = "",
@@ -7024,8 +6658,7 @@ return {
         }
     },
     ["f333-1"] = {
-        label = " ",
-         --'吐司',
+        label = "吐司",
         weight = 30,
         stack = 1,
         description = "吐司",
@@ -7041,8 +6674,7 @@ return {
         }
     },
     ["f334-1"] = {
-        label = " ",
-         --'薯餅',
+        label = "薯餅",
         weight = 30,
         stack = 1,
         description = "薯餅",
@@ -7058,8 +6690,7 @@ return {
         }
     },
     ["f335-1"] = {
-        label = " ",
-         --'肉鬆',
+        label = "肉鬆",
         weight = 30,
         stack = 1,
         description = "肉鬆",
@@ -7075,8 +6706,7 @@ return {
         }
     },
     ["f336-1"] = {
-        label = " ",
-         --'以沫特製甜點',
+        label = "以沫特製甜點",
         weight = 30,
         stack = 1,
         description = "",
@@ -7092,8 +6722,7 @@ return {
         }
     },
     ["f337-1"] = {
-        label = " ",
-         --'代海特製酸莓飯糰',
+        label = "代海特製酸莓飯糰",
         weight = 30,
         stack = 1,
         description = "",
@@ -7109,8 +6738,7 @@ return {
         }
     },
     ["f338-1"] = {
-        label = " ",
-         --'代海特製薯條',
+        label = "代海特製薯條",
         weight = 30,
         stack = 1,
         description = "",
@@ -7126,8 +6754,7 @@ return {
         }
     },
     ["f339-1"] = {
-        label = " ",
-         --'代海特製洋蔥圈',
+        label = "代海特製洋蔥圈",
         weight = 30,
         stack = 1,
         description = "",
@@ -7143,8 +6770,7 @@ return {
         }
     },
     ["f340-1"] = {
-        label = " ",
-         --'白蘇維濃白酒',
+        label = "白蘇維濃白酒",
         weight = 110,
         stack = true,
         close = true,
@@ -7162,8 +6788,7 @@ return {
         }
     },
     ["f341-1"] = {
-        label = " ",
-         --'代海特製炸雞',
+        label = "代海特製炸雞",
         weight = 30,
         stack = 1,
         description = "",
@@ -7179,8 +6804,7 @@ return {
         }
     },
     ["f342-1"] = {
-        label = " ",
-         --'日式炭火慢烤鰻魚飯',
+        label = "日式炭火慢烤鰻魚飯",
         weight = 30,
         stack = 1,
         description = "",
@@ -7196,8 +6820,7 @@ return {
         }
     },
     ["f343-1"] = {
-        label = " ",
-         --'白蘇維濃奶油螃蟹粥',
+        label = "白蘇維濃奶油螃蟹粥",
         weight = 30,
         stack = 1,
         description = "",
@@ -7213,8 +6836,7 @@ return {
         }
     },
     ["f344-1"] = {
-        label = " ",
-         --'清蒸波士頓大龍蝦',
+        label = "清蒸波士頓大龍蝦",
         weight = 30,
         stack = 1,
         description = "",
@@ -7230,8 +6852,7 @@ return {
         }
     },
     ["f345-1"] = {
-        label = " ",
-         --'使徒',
+        label = "使徒",
         weight = 30,
         stack = 1,
         description = "帶些氣泡感的藍莓風味特製咖啡",
@@ -7243,8 +6864,7 @@ return {
         }
     },
     ["f347-1"] = {
-        label = " ",
-         --'花茶',
+        label = "花茶",
         weight = 30,
         stack = 1,
         description = "",
@@ -7256,8 +6876,7 @@ return {
         }
     },
     ["f348-1"] = {
-        label = " ",
-         --'摩卡',
+        label = "摩卡",
         weight = 30,
         stack = 1,
         description = "",
@@ -7269,8 +6888,7 @@ return {
         }
     },
     ["f349-1"] = {
-        label = " ",
-         --'經典拿鐵',
+        label = "經典拿鐵",
         weight = 30,
         stack = 1,
         description = "",
@@ -7282,8 +6900,7 @@ return {
         }
     },
     ["f350-1"] = {
-        label = " ",
-         --'墨西哥辣味鹹派',
+        label = "墨西哥辣味鹹派",
         weight = 30,
         stack = 1,
         description = "",
@@ -7299,8 +6916,7 @@ return {
         }
     },
     ["f351-1"] = {
-        label = " ",
-         --'舒芙蕾',
+        label = "舒芙蕾",
         weight = 30,
         stack = 1,
         description = "",
@@ -7316,8 +6932,7 @@ return {
         }
     },
     ["f352-1"] = {
-        label = " ",
-         --'巧克力布朗尼',
+        label = "巧克力布朗尼",
         weight = 30,
         stack = 1,
         description = "",
@@ -7333,8 +6948,7 @@ return {
         }
     },
     ["f353-1"] = {
-        label = " ",
-         --'鹽酥雞',
+        label = "鹽酥雞",
         weight = 30,
         stack = 1,
         description = "",
@@ -7350,8 +6964,7 @@ return {
         }
     },
     ["f354-1"] = {
-        label = " ",
-         --'炸雞肉便當',
+        label = "炸雞肉便當",
         weight = 30,
         stack = 1,
         description = "",
@@ -7367,8 +6980,7 @@ return {
         }
     },
     ["f355-1"] = {
-        label = " ",
-         --'炸豬排便當',
+        label = "炸豬排便當",
         weight = 30,
         stack = 1,
         description = "",
@@ -7384,8 +6996,7 @@ return {
         }
     },
     ["f356-1"] = {
-        label = " ",
-         --'魚排肉捲便當',
+        label = "魚排肉捲便當",
         weight = 30,
         stack = 1,
         description = "",
@@ -7401,8 +7012,7 @@ return {
         }
     },
     ["f357-1"] = {
-        label = " ",
-         --'肉丸子便當',
+        label = "肉丸子便當",
         weight = 30,
         stack = 1,
         description = "",
@@ -7418,8 +7028,7 @@ return {
         }
     },
     ["f358-1"] = {
-        label = " ",
-         --'羅勒雞肉便當',
+        label = "羅勒雞肉便當",
         weight = 30,
         stack = 1,
         description = "",
@@ -7435,8 +7044,7 @@ return {
         }
     },
     ["f359-1"] = {
-        label = " ",
-         --'玫瑰檸檬塔',
+        label = "玫瑰檸檬塔",
         weight = 30,
         stack = 1,
         description = "",
@@ -7452,8 +7060,7 @@ return {
         }
     },
     ["f360-1"] = {
-        label = " ",
-         --'聖多諾黑',
+        label = "聖多諾黑",
         weight = 30,
         stack = 1,
         description = "",
@@ -7469,8 +7076,7 @@ return {
         }
     },
     ["f361-1"] = {
-        label = " ",
-         --'焦糖閃電泡芙',
+        label = "焦糖閃電泡芙",
         weight = 30,
         stack = 1,
         description = "",
@@ -7486,8 +7092,7 @@ return {
         }
     },
     ["f362-1"] = {
-        label = " ",
-         --'瑪德蓮',
+        label = "瑪德蓮",
         weight = 30,
         stack = 1,
         description = "",
@@ -7503,8 +7108,7 @@ return {
         }
     },
     ["f363-1"] = {
-        label = " ",
-         --'馬卡龍',
+        label = "馬卡龍",
         weight = 10,
         stack = true,
         description = "",
@@ -7521,8 +7125,7 @@ return {
         }
     },
     ["f364-1"] = {
-        label = " ",
-         --'炸和牛',
+        label = "炸和牛",
         weight = 30,
         stack = 1,
         description = "炸和牛",
@@ -7538,8 +7141,7 @@ return {
         }
     },
     ["f365-1"] = {
-        label = " ",
-         --'烤土司',
+        label = "烤土司",
         weight = 30,
         stack = 1,
         description = "烤土司",
@@ -7555,8 +7157,7 @@ return {
         }
     },
     ["f366-1"] = {
-        label = " ",
-         --'松露炸和牛三明治',
+        label = "松露炸和牛三明治",
         weight = 10,
         stack = true,
         description = "",
@@ -7572,8 +7173,7 @@ return {
         }
     },
     ["f367-1"] = {
-        label = " ",
-         --'蜂蜜蛋糕',
+        label = "蜂蜜蛋糕",
         weight = 100,
         stack = 1,
         consume = 1,
@@ -7590,8 +7190,7 @@ return {
         }
     },
     ["f368-1"] = {
-        label = " ",
-         --'千層蛋糕',
+        label = "千層蛋糕",
         weight = 100,
         stack = 1,
         consume = 1,
@@ -7608,8 +7207,7 @@ return {
         }
     },
     ["f369-1"] = {
-        label = " ",
-         --'酥皮蛋塔',
+        label = "酥皮蛋塔",
         weight = 10,
         stack = true,
         consume = 1,
@@ -7626,8 +7224,7 @@ return {
         }
     },
     ["f370-1"] = {
-        label = " ",
-         --'生巧克力',
+        label = "生巧克力",
         weight = 100,
         stack = 1,
         consume = 1,
@@ -7644,8 +7241,7 @@ return {
         }
     },
     ["f371-1"] = {
-        label = " ",
-         --'法式草莓塔',
+        label = "法式草莓塔",
         weight = 100,
         stack = 1,
         consume = 1,
@@ -7662,8 +7258,7 @@ return {
         }
     },
     ["f372-1"] = {
-        label = " ",
-         --'沾一步特製醬料',
+        label = "沾一步特製醬料",
         weight = 184,
         stack = true,
         close = true,
@@ -7680,8 +7275,7 @@ return {
         }
     },
     ["f373-1"] = {
-        label = " ",
-         --'早一步聲蛋拌飯',
+        label = "早一步聲蛋拌飯",
         weight = 184,
         stack = true,
         close = true,
@@ -7715,8 +7309,7 @@ return {
         }
     },
     ["f375-1"] = {
-        label = " ",
-         --'糖一步雞肝糖球',
+        label = "糖一步雞肝糖球",
         weight = 184,
         stack = true,
         close = true,
@@ -7733,8 +7326,7 @@ return {
         }
     },
     ["f376-1"] = {
-        label = " ",
-         --'水一步味噌湯',
+        label = "水一步味噌湯",
         weight = 184,
         stack = true,
         close = true,
@@ -7751,8 +7343,7 @@ return {
         }
     },
     ["f377-1"] = {
-        label = " ",
-         --'魚一步生魚片',
+        label = "魚一步生魚片",
         weight = 184,
         stack = true,
         close = true,
@@ -7769,8 +7360,7 @@ return {
         }
     },
     ["f378-1"] = {
-        label = " ",
-         --'混一步燒肉飯',
+        label = "混一步燒肉飯",
         weight = 184,
         stack = true,
         close = true,
@@ -7787,8 +7377,7 @@ return {
         }
     },
     ["f379-1"] = {
-        label = " ",
-         --'夜一步咖哩飯',
+        label = "夜一步咖哩飯",
         weight = 10,
         stack = true,
         close = true,
@@ -7805,8 +7394,7 @@ return {
         }
     },
     ["f380-1"] = {
-        label = " ",
-         --'日一步親子丼',
+        label = "日一步親子丼",
         weight = 184,
         stack = true,
         close = true,
@@ -7823,8 +7411,7 @@ return {
         }
     },
     ["f381-1"] = {
-        label = " ",
-         --'淘沛吉(改良版)',
+        label = "淘沛吉(改良版)",
         weight = 110,
         stack = true,
         close = true,
@@ -7841,8 +7428,7 @@ return {
         }
     },
     ["f382-1"] = {
-        label = " ",
-         --'淘沛吉',
+        label = "淘沛吉",
         weight = 10,
         stack = true,
         close = true,
@@ -7859,8 +7445,7 @@ return {
         }
     },
     ["f383-1"] = {
-        label = " ",
-         --'水果千層派',
+        label = "水果千層派",
         weight = 114,
         stack = true,
         close = true,
@@ -7877,8 +7462,7 @@ return {
         }
     },
     ["f384-1"] = {
-        label = " ",
-         --'閃電泡芙',
+        label = "閃電泡芙",
         weight = 10,
         stack = true,
         close = true,
@@ -7895,8 +7479,7 @@ return {
         }
     },
     ["f385-1"] = {
-        label = " ",
-         --'兔子檸檬塔',
+        label = "兔子檸檬塔",
         weight = 114,
         stack = true,
         close = true,
@@ -7913,8 +7496,7 @@ return {
         }
     },
     ["f386-1"] = {
-        label = " ",
-         --'香蕉煎餅',
+        label = "香蕉煎餅",
         weight = 124,
         stack = true,
         close = true,
@@ -7931,8 +7513,7 @@ return {
         }
     },
     ["f387-1"] = {
-        label = " ",
-         --'蜜糖鬆餅',
+        label = "蜜糖鬆餅",
         weight = 124,
         stack = true,
         close = true,
@@ -7949,8 +7530,7 @@ return {
         }
     },
     ["f388-1"] = {
-        label = " ",
-         --'心型巧克力',
+        label = "心型巧克力",
         weight = 124,
         stack = true,
         close = true,
@@ -7967,8 +7547,7 @@ return {
         }
     },
     ["f389-1"] = {
-        label = " ",
-         --'遺骸',
+        label = "遺骸",
         weight = 200,
         stack = true,
         close = true,
@@ -7985,8 +7564,7 @@ return {
         }
     },
     ["f390-1"] = {
-        label = " ",
-         --'蛤',
+        label = "蛤",
         weight = 200,
         stack = true,
         close = true,
@@ -8003,8 +7581,7 @@ return {
         }
     },
     ["f391-1"] = {
-        label = " ",
-         --'天使',
+        label = "天使",
         weight = 200,
         stack = true,
         close = true,
@@ -8021,8 +7598,7 @@ return {
         }
     },
     ["f392-1"] = {
-        label = " ",
-         --'陽光下的海豚',
+        label = "陽光下的海豚",
         weight = 200,
         stack = true,
         close = true,
@@ -8039,8 +7615,7 @@ return {
         }
     },
     ["f394-1"] = {
-        label = " ",
-         --'Brandy',
+        label = "Brandy",
         weight = 100,
         stack = true,
         close = true,
@@ -8057,8 +7632,7 @@ return {
         }
     },
     ["f395-1"] = {
-        label = " ",
-         --'白蘭地',
+        label = "白蘭地",
         weight = 800,
         stack = true,
         close = true,
@@ -8094,8 +7668,7 @@ return {
         }
     },
     ["f398-1"] = {
-        label = " ",
-         --'馬丁尼',
+        label = "馬丁尼",
         weight = 200,
         stack = true,
         close = true,
@@ -8113,8 +7686,7 @@ return {
         }
     },
     ["f399-1"] = {
-        label = " ",
-         --'蔓越莓汁',
+        label = "蔓越莓汁",
         weight = 300,
         stack = true,
         close = true,
@@ -8149,8 +7721,7 @@ return {
         }
     },
     ["f401-1"] = {
-        label = " ",
-         --'Old Fashioned',
+        label = "Old Fashioned",
         weight = 200,
         stack = true,
         close = true,
@@ -8202,8 +7773,7 @@ return {
         }
     },
     ["f404-1"] = {
-        label = " ",
-         --'威士忌',
+        label = "威士忌",
         weight = 500,
         stack = true,
         close = true,
@@ -8221,8 +7791,7 @@ return {
         }
     },
     ["f405-1"] = {
-        label = " ",
-         --'琴酒shot',
+        label = "琴酒shot",
         weight = 100,
         stack = true,
         close = true,
@@ -8239,8 +7808,7 @@ return {
         }
     },
     ["f406-1"] = {
-        label = " ",
-         --'琴酒',
+        label = "琴酒",
         weight = 600,
         stack = true,
         close = true,
@@ -8258,8 +7826,7 @@ return {
         }
     },
     ["f407-1"] = {
-        label = " ",
-         --'萊姆酒shot',
+        label = "萊姆酒shot",
         weight = 100,
         stack = true,
         close = true,
@@ -8276,8 +7843,7 @@ return {
         }
     },
     ["f408-1"] = {
-        label = " ",
-         --'子祈特製小雞便當',
+        label = "子祈特製小雞便當",
         weight = 500,
         stack = true,
         close = true,
@@ -8294,8 +7860,7 @@ return {
         }
     },
     ["f409-1"] = {
-        label = " ",
-         --'子祈特製熊貓便當',
+        label = "子祈特製熊貓便當",
         weight = 10,
         stack = true,
         close = true,
@@ -8312,8 +7877,7 @@ return {
         }
     },
     ["f410-1"] = {
-        label = " ",
-         --'海苔',
+        label = "海苔",
         weight = 20,
         stack = true,
         close = true,
@@ -8330,16 +7894,14 @@ return {
         }
     },
     ["f411-1"] = {
-        label = " ",
-         --'萵苣',
+        label = "萵苣",
         weight = 30,
         stack = true,
         close = true,
         description = "萵苣"
     },
     ["f412-1"] = {
-        label = " ",
-         --'小香腸',
+        label = "小香腸",
         weight = 100,
         stack = true,
         close = true,
@@ -8357,8 +7919,7 @@ return {
         }
     },
     ["f413-1"] = {
-        label = " ",
-         --'鳳梨酥',
+        label = "鳳梨酥",
         weight = 10,
         stack = true,
         close = true,
@@ -8375,8 +7936,7 @@ return {
         }
     },
     ["f414-1"] = {
-        label = " ",
-         --'太陽餅',
+        label = "太陽餅",
         weight = 300,
         stack = true,
         close = true,
@@ -8393,8 +7953,7 @@ return {
         }
     },
     ["f414-2"] = {
-        label = " ",
-         -- '太陽餅',
+        label = "太陽餅",
         weight = 250,
         stack = false,
         close = true,
@@ -8409,8 +7968,7 @@ return {
         }
     },
     ["f415-1"] = {
-        label = " ",
-         --'烤布蕾',
+        label = "烤布蕾",
         weight = 300,
         stack = true,
         close = true,
@@ -8427,8 +7985,7 @@ return {
         }
     },
     ["f416-1"] = {
-        label = " ",
-         --'冰淇淋',
+        label = "冰淇淋",
         weight = 100,
         stack = true,
         close = true,
@@ -8446,8 +8003,7 @@ return {
         }
     },
     ["f417-1"] = {
-        label = " ",
-         --'布朗尼佐冰淇淋',
+        label = "布朗尼佐冰淇淋",
         weight = 10,
         stack = true,
         close = true,
@@ -8464,8 +8020,7 @@ return {
         }
     },
     ["f418-1"] = {
-        label = " ",
-         --'連手工杏仁茶',
+        label = "連手工杏仁茶",
         weight = 10,
         stack = true,
         description = "",
@@ -8477,8 +8032,7 @@ return {
         }
     },
     ["f419-1"] = {
-        label = " ",
-         --'巧克力杯子蛋糕',
+        label = "巧克力杯子蛋糕",
         weight = 10,
         stack = true,
         description = "",
@@ -8494,8 +8048,7 @@ return {
         }
     },
     ["f420-1"] = {
-        label = " ",
-         --'草莓糖葫蘆',
+        label = "草莓糖葫蘆",
         weight = 30,
         stack = 1,
         description = "",
@@ -8511,8 +8064,7 @@ return {
         }
     },
     ["f421-1"] = {
-        label = " ",
-         --'切塊國王餅',
+        label = "切塊國王餅",
         weight = 30,
         stack = 1,
         description = "",
@@ -8528,8 +8080,7 @@ return {
         }
     },
     ["f422-1"] = {
-        label = " ",
-         --'國王餅',
+        label = "國王餅",
         weight = 240,
         stack = 1,
         description = "",
@@ -8538,8 +8089,7 @@ return {
         }
     },
     ["f423-1"] = {
-        label = " ",
-         --'咖啡麵包',
+        label = "咖啡麵包",
         weight = 30,
         stack = 1,
         description = "香氣逼人，口感蓬鬆，特殊技術讓他冷熱都好吃。",
@@ -8555,8 +8105,7 @@ return {
         }
     },
     ["f424-1"] = {
-        label = " ",
-         --'水煮雞胸肉',
+        label = "水煮雞胸肉",
         weight = 10,
         stack = true,
         consume = 1,
@@ -8573,8 +8122,7 @@ return {
         }
     },
     ["f425-1"] = {
-        label = " ",
-         --'水果果凍',
+        label = "水果果凍",
         weight = 20,
         stack = 1,
         consume = 1,
@@ -8591,8 +8139,7 @@ return {
         }
     },
     ["f426-1"] = {
-        label = " ",
-         --'水果蛋糕',
+        label = "水果蛋糕",
         weight = 200,
         stack = 1,
         consume = 1,
@@ -8609,8 +8156,7 @@ return {
         }
     },
     ["f428-1"] = {
-        label = " ",
-         --'韓式炸雞',
+        label = "韓式炸雞",
         weight = 200,
         stack = 1,
         consume = 1,
@@ -8627,8 +8173,7 @@ return {
         }
     },
     ["f429-1"] = {
-        label = " ",
-         --'夏威夷比薩',
+        label = "夏威夷比薩",
         weight = 10,
         stack = true,
         consume = 1,
@@ -8645,8 +8190,7 @@ return {
         }
     },
     ["f430-1"] = {
-        label = " ",
-         --'培根',
+        label = "培根",
         weight = 20,
         stack = 1,
         consume = 1,
@@ -8663,8 +8207,7 @@ return {
         }
     },
     ["f431-1"] = {
-        label = " ",
-         --'好運餅乾',
+        label = "好運餅乾",
         weight = 10,
         stack = true,
         close = true,
@@ -8682,8 +8225,7 @@ return {
         }
     },
     ["f432-1"] = {
-        label = " ",
-         --'手手舉舉派',
+        label = "手手舉舉派",
         weight = 10,
         stack = true,
         close = true,
@@ -8701,8 +8243,7 @@ return {
         }
     },
     ["f433-1"] = {
-        label = " ",
-         --'桃花酒',
+        label = "桃花酒",
         weight = 10,
         stack = true,
         close = true,
@@ -8716,8 +8257,7 @@ return {
         }
     },
     ["f434-1"] = {
-        label = " ",
-         --'蜂蜜瑪德蓮',
+        label = "蜂蜜瑪德蓮",
         weight = 10,
         stack = true,
         close = true,
@@ -8735,8 +8275,7 @@ return {
         }
     },
     ["f435-1"] = {
-        label = " ",
-         --'海洋聖代',
+        label = "海洋聖代",
         weight = 10,
         stack = true,
         close = true,
@@ -8754,8 +8293,7 @@ return {
         }
     },
     ["f436-1"] = {
-        label = " ",
-         --'家鄉味水果塔',
+        label = "家鄉味水果塔",
         weight = 10,
         stack = true,
         close = true,
@@ -8773,8 +8311,7 @@ return {
         }
     },
     ["f437-1"] = {
-        label = " ",
-         --'QQ兔子軟糖',
+        label = "QQ兔子軟糖",
         weight = 10,
         stack = true,
         close = true,
@@ -8792,8 +8329,7 @@ return {
         }
     },
     ["f438-1"] = {
-        label = " ",
-         --'熱帶果凍飲',
+        label = "熱帶果凍飲",
         weight = 110,
         stack = true,
         close = true,
@@ -8808,8 +8344,7 @@ return {
         }
     },
     ["f439-1"] = {
-        label = " ",
-         --'焦糖布丁',
+        label = "焦糖布丁",
         weight = 10,
         stack = true,
         close = true,
@@ -8826,8 +8361,7 @@ return {
         }
     },
     ["f440-1"] = {
-        label = " ",
-         --'燈塔蒟蒻',
+        label = "燈塔蒟蒻",
         weight = 124,
         stack = true,
         close = true,
@@ -8845,8 +8379,7 @@ return {
         }
     },
     ["f441-1"] = {
-        label = " ",
-         --'時兔',
+        label = "時兔",
         weight = 250,
         stack = true,
         close = true,
@@ -8864,8 +8397,7 @@ return {
         }
     },
     ["f442-1"] = {
-        label = " ",
-         --'星諾',
+        label = "星諾",
         weight = 250,
         stack = true,
         close = true,
@@ -8883,8 +8415,7 @@ return {
         }
     },
     ["f443-1"] = {
-        label = " ",
-         --'鯨淚果甜甜圈',
+        label = "鯨淚果甜甜圈",
         weight = 144,
         stack = true,
         close = true,
@@ -8902,8 +8433,7 @@ return {
         }
     },
     ["f444-1"] = {
-        label = " ",
-         --'草莓慕斯  ',
+        label = "草莓慕斯  ",
         weight = 100,
         stack = 1,
         consume = 1,
@@ -8920,8 +8450,7 @@ return {
         }
     },
     ["f445-1"] = {
-        label = " ",
-         --'提拉米蘇',
+        label = "提拉米蘇",
         weight = 100,
         stack = 1,
         consume = 1,
@@ -8938,8 +8467,7 @@ return {
         }
     },
     ["f446-1"] = {
-        label = " ",
-         --'熊掌餅乾',
+        label = "熊掌餅乾",
         weight = 10,
         stack = true,
         consume = 1,
@@ -8956,8 +8484,7 @@ return {
         }
     },
     ["f447-1"] = {
-        label = " ",
-         --'暮色',
+        label = "暮色",
         weight = 10,
         stack = true,
         consume = 1,
@@ -8974,8 +8501,7 @@ return {
         }
     },
     ["f448-1"] = {
-        label = " ",
-         --'桃花',
+        label = "桃花",
         weight = 20,
         stack = 1,
         close = 1,
@@ -8993,8 +8519,7 @@ return {
         }
     },
     ["f449-1"] = {
-        label = " ",
-         --'巧克力',
+        label = "巧克力",
         weight = 10,
         stack = true,
         close = true,
@@ -9012,8 +8537,7 @@ return {
         }
     },
     ["f450-1"] = {
-        label = " ",
-         --'琥珀糖',
+        label = "琥珀糖",
         weight = 1,
         stack = true,
         close = true,
@@ -9028,8 +8552,7 @@ return {
         }
     },
     ["f451-1"] = {
-        label = " ",
-         --'大罐琥珀糖',
+        label = "大罐琥珀糖",
         weight = 100,
         stack = 0,
         close = 0,
@@ -9040,8 +8563,7 @@ return {
         }
     },
     ["f455-1"] = {
-        label = " ",
-         --'秀琴手作紅麵粿',
+        label = "秀琴手作紅麵粿",
         weight = 241,
         stack = true,
         close = true,
@@ -9058,8 +8580,7 @@ return {
         }
     },
     ["f456-1"] = {
-        label = " ",
-         --'老澄仔仔',
+        label = "老澄仔仔",
         weight = 80,
         stack = true,
         close = true,
@@ -9070,8 +8591,7 @@ return {
         }
     },
     ["f457-1"] = {
-        label = " ",
-         --'餽贈超好吃麵包',
+        label = "餽贈超好吃麵包",
         weight = 10,
         stack = true,
         close = true,
@@ -9082,8 +8602,7 @@ return {
         }
     },
     ["f458-1"] = {
-        label = " ",
-         --'餽贈超好吃薯餅',
+        label = "餽贈超好吃薯餅",
         weight = 10,
         stack = true,
         close = true,
@@ -9094,8 +8613,7 @@ return {
         }
     },
     ["f459-1"] = {
-        label = " ",
-         --'餽贈超好吃飯糰',
+        label = "餽贈超好吃飯糰",
         weight = 10,
         stack = true,
         close = true,
@@ -9106,8 +8624,7 @@ return {
         }
     },
     ["f460-1"] = {
-        label = " ",
-         --'黑色能量棒',
+        label = "黑色能量棒",
         weight = 200,
         stack = true,
         close = true,
@@ -9118,8 +8635,7 @@ return {
         }
     },
     ["f461-1"] = {
-        label = " ",
-         --'褐色能量棒',
+        label = "褐色能量棒",
         weight = 200,
         stack = true,
         close = true,
@@ -9130,8 +8646,7 @@ return {
         }
     },
     ["f462-1"] = {
-        label = " ",
-         --'烤果串',
+        label = "烤果串",
         weight = 123,
         stack = true,
         close = true,
@@ -9142,8 +8657,7 @@ return {
         }
     },
     ["f463-1"] = {
-        label = " ",
-         --'烤棉串',
+        label = "烤棉串",
         weight = 124,
         stack = true,
         close = true,
@@ -9154,8 +8668,7 @@ return {
         }
     },
     ["f464-1"] = {
-        label = " ",
-         --'五味雜陳烤果串',
+        label = "五味雜陳烤果串",
         weight = 125,
         stack = true,
         close = true,
@@ -9166,8 +8679,7 @@ return {
         }
     },
     ["f465-1"] = {
-        label = " ",
-         --'倭布茲道',
+        label = "倭布茲道",
         weight = 142,
         stack = true,
         close = true,
@@ -9184,8 +8696,7 @@ return {
         }
     },
     ["f466-1"] = {
-        label = " ",
-         --'心碎羽落',
+        label = "心碎羽落",
         weight = 142,
         stack = true,
         close = true,
@@ -9202,8 +8713,7 @@ return {
         }
     },
     ["f467-1"] = {
-        label = " ",
-         --'初戀慕斯',
+        label = "初戀慕斯",
         weight = 134,
         stack = true,
         close = true,
@@ -9220,8 +8730,7 @@ return {
         }
     },
     ["f468-1"] = {
-        label = " ",
-         --'貓貓愛吃魚',
+        label = "貓貓愛吃魚",
         weight = 111,
         stack = true,
         close = true,
@@ -9238,8 +8747,7 @@ return {
         }
     },
     ["f469-1"] = {
-        label = " ",
-         --'果醬麵包塔',
+        label = "果醬麵包塔",
         weight = 124,
         stack = true,
         close = true,
@@ -9256,8 +8764,7 @@ return {
         }
     },
     ["f470-1"] = {
-        label = " ",
-         --'玫瑰烤焦魚',
+        label = "玫瑰烤焦魚",
         weight = 144,
         stack = true,
         close = true,
@@ -9269,8 +8776,7 @@ return {
         }
     },
     ["f471-1"] = {
-        label = " ",
-         --'神秘聖代',
+        label = "神秘聖代",
         weight = 241,
         stack = true,
         close = true,
@@ -9287,8 +8793,7 @@ return {
         }
     },
     ["f472-1"] = {
-        label = " ",
-         --'秀琴姊手工醬菜',
+        label = "秀琴姊手工醬菜",
         weight = 241,
         stack = true,
         close = true,
@@ -9305,8 +8810,7 @@ return {
         }
     },
     ["f473-1"] = {
-        label = " ",
-         --'仿光苒特製海味摩卡濃湯',
+        label = "仿光苒特製海味摩卡濃湯",
         weight = 241,
         stack = true,
         close = true,
@@ -9323,8 +8827,7 @@ return {
         }
     },
     ["f474-1"] = {
-        label = " ",
-         --'秀琴神秘炸物',
+        label = "秀琴神秘炸物",
         weight = 241,
         stack = true,
         close = true,
@@ -9341,8 +8844,7 @@ return {
         }
     },
     ["f475-1"] = {
-        label = " ",
-         --'鳳凰',
+        label = "鳳凰",
         weight = 47,
         stack = true,
         close = true,
@@ -9359,8 +8861,7 @@ return {
         }
     },
     ["f476-1"] = {
-        label = " ",
-         --'仿秀琴姐手工飯糰',
+        label = "仿秀琴姐手工飯糰",
         weight = 201,
         stack = true,
         close = true,
@@ -9377,8 +8878,7 @@ return {
         }
     },
     ["f477-1"] = {
-        label = " ",
-         --'特製健身飲料',
+        label = "特製健身飲料",
         weight = 333,
         stack = true,
         close = true,
@@ -9395,8 +8895,7 @@ return {
         }
     },
     ["f478-1"] = {
-        label = " ",
-         --'東木豐堡',
+        label = "東木豐堡",
         weight = 241,
         stack = true,
         close = true,
@@ -9413,8 +8912,7 @@ return {
         }
     },
     ["f479-1"] = {
-        label = " ",
-         --'醃肉堡',
+        label = "醃肉堡",
         weight = 157,
         stack = true,
         close = true,
@@ -9431,8 +8929,7 @@ return {
         }
     },
     ["f480-1"] = {
-        label = " ",
-         --'烤蟹',
+        label = "烤蟹",
         weight = 157,
         stack = true,
         close = true,
@@ -9449,8 +8946,7 @@ return {
         }
     },
     ["f481-1"] = {
-        label = " ",
-         --'烤風螺',
+        label = "烤風螺",
         weight = 157,
         stack = true,
         close = true,
@@ -9467,8 +8963,7 @@ return {
         }
     },
     ["f482-1"] = {
-        label = " ",
-         --'烤鰻',
+        label = "烤鰻",
         weight = 157,
         stack = true,
         close = true,
@@ -9485,8 +8980,7 @@ return {
         }
     },
     ["f483-1"] = {
-        label = " ",
-         --'神秘的醃製肉類',
+        label = "神秘的醃製肉類",
         weight = 117,
         stack = true,
         close = true,
@@ -9503,8 +8997,7 @@ return {
         }
     },
     ["f484-1"] = {
-        label = " ",
-         --'醃製肉類',
+        label = "醃製肉類",
         weight = 147,
         stack = true,
         close = true,
@@ -9521,8 +9014,7 @@ return {
         }
     },
     ["f485-1"] = {
-        label = " ",
-         --'迷途鯨魚',
+        label = "迷途鯨魚",
         weight = 250,
         stack = true,
         close = true,
@@ -9539,8 +9031,7 @@ return {
         }
     },
     ["f486-1"] = {
-        label = " ",
-         --'深海裡的鯨魚',
+        label = "深海裡的鯨魚",
         weight = 250,
         stack = true,
         close = true,
@@ -9557,8 +9048,7 @@ return {
         }
     },
     ["f487-1"] = {
-        label = " ",
-         --'沙拉',
+        label = "沙拉",
         weight = 120,
         stack = true,
         close = true,
@@ -9575,8 +9065,7 @@ return {
         }
     },
     ["f488-1"] = {
-        label = " ",
-         --'鯨淚酒',
+        label = "鯨淚酒",
         weight = 127,
         stack = true,
         close = true,
@@ -9593,8 +9082,7 @@ return {
         }
     },
     ["f489-1"] = {
-        label = " ",
-         --'紫藤酒',
+        label = "紫藤酒",
         weight = 127,
         stack = true,
         close = true,
@@ -9611,8 +9099,7 @@ return {
         }
     },
     ["f490-1"] = {
-        label = " ",
-         --'藍天酒',
+        label = "藍天酒",
         weight = 127,
         stack = true,
         close = true,
@@ -9629,8 +9116,7 @@ return {
         }
     },
     ["f491-1"] = {
-        label = " ",
-         --'雪誘酒',
+        label = "雪誘酒",
         weight = 127,
         stack = true,
         close = true,
@@ -9647,8 +9133,7 @@ return {
         }
     },
     ["f492-1"] = {
-        label = " ",
-         --'麥酒',
+        label = "麥酒",
         weight = 127,
         stack = true,
         close = true,
@@ -9665,8 +9150,7 @@ return {
         }
     },
     ["f493-1"] = {
-        label = " ",
-         --'天草冰酒',
+        label = "天草冰酒",
         weight = 127,
         stack = true,
         close = true,
@@ -9683,8 +9167,7 @@ return {
         }
     },
     ["f495-1"] = {
-        label = " ",
-         --'人魚的眼淚',
+        label = "人魚的眼淚",
         weight = 250,
         stack = true,
         close = true,
@@ -9701,8 +9184,7 @@ return {
         }
     },
     ["f496-1"] = {
-        label = " ",
-         --'茶中王',
+        label = "茶中王",
         weight = 200,
         stack = true,
         close = true,
@@ -9719,8 +9201,7 @@ return {
         }
     },
     ["f497-1"] = {
-        label = " ",
-         --'原茶',
+        label = "原茶",
         weight = 75,
         stack = true,
         close = true,
@@ -9737,8 +9218,7 @@ return {
         }
     },
     ["f498-1"] = {
-        label = " ",
-         --'糖醋排骨',
+        label = "糖醋排骨",
         weight = 240,
         stack = true,
         close = true,
@@ -9755,8 +9235,7 @@ return {
         }
     },
     ["f498-2"] = {
-        label = " ",
-         -- '糖醋排骨',
+        label = "糖醋排骨",
         weight = 250,
         stack = false,
         close = true,
@@ -9771,8 +9250,7 @@ return {
         }
     },
     ["f499-1"] = {
-        label = " ",
-         --'甜心莓莓',
+        label = "甜心莓莓",
         weight = 49,
         stack = true,
         close = true,
@@ -9806,8 +9284,7 @@ return {
         }
     },
     ["f501-1"] = {
-        label = " ",
-         --'流浪狗之歌',
+        label = "流浪狗之歌",
         weight = 150,
         stack = true,
         close = true,
@@ -9824,8 +9301,7 @@ return {
         }
     },
     ["f502-1"] = {
-        label = " ",
-         --'混合肉排',
+        label = "混合肉排",
         weight = 195,
         stack = true,
         close = true,
@@ -9913,8 +9389,7 @@ return {
         }
     },
     ["f507-1"] = {
-        label = " ",
-         --'披著狼皮的羊',
+        label = "披著狼皮的羊",
         weight = 150,
         stack = true,
         close = true,
@@ -9966,8 +9441,7 @@ return {
         }
     },
     ["f510-1"] = {
-        label = " ",
-         --'羅杰特製煎茶',
+        label = "羅杰特製煎茶",
         weight = 120,
         stack = true,
         close = true,
@@ -9984,8 +9458,7 @@ return {
         }
     },
     ["f511-1"] = {
-        label = " ",
-         --'海鮮蔬菜燉湯',
+        label = "海鮮蔬菜燉湯",
         weight = 110,
         stack = true,
         close = true,
@@ -10002,8 +9475,7 @@ return {
         }
     },
     ["f512-1"] = {
-        label = " ",
-         --'海鮮濃湯',
+        label = "海鮮濃湯",
         weight = 210,
         stack = true,
         close = true,
@@ -10020,8 +9492,7 @@ return {
         }
     },
     ["f513-1"] = {
-        label = " ",
-         --'蝦蝦沙拉',
+        label = "蝦蝦沙拉",
         weight = 140,
         stack = true,
         close = true,
@@ -10056,8 +9527,7 @@ return {
         }
     },
     ["f515-1"] = {
-        label = " ",
-         --'濃妝搖滾',
+        label = "濃妝搖滾",
         weight = 150,
         stack = true,
         close = true,
@@ -10074,8 +9544,7 @@ return {
         }
     },
     ["f516-1"] = {
-        label = " ",
-         --'炭烤香魚',
+        label = "炭烤香魚",
         weight = 170,
         stack = true,
         close = true,
@@ -10092,8 +9561,7 @@ return {
         }
     },
     ["f517-1"] = {
-        label = " ",
-         --'羅杰特製炸年糕',
+        label = "羅杰特製炸年糕",
         weight = 240,
         stack = true,
         close = true,
@@ -10110,8 +9578,7 @@ return {
         }
     },
     ["f518-1"] = {
-        label = " ",
-         --'米飯',
+        label = "米飯",
         weight = 50,
         stack = true,
         close = true,
@@ -10129,8 +9596,7 @@ return {
         }
     },
     ["f519-1"] = {
-        label = " ",
-         --'公主的閨房',
+        label = "公主的閨房",
         weight = 240,
         stack = true,
         close = true,
@@ -10164,8 +9630,7 @@ return {
         }
     },
     ["f521-1"] = {
-        label = " ",
-         --'水色珍珠音調',
+        label = "水色珍珠音調",
         weight = 275,
         stack = true,
         close = true,
@@ -10199,8 +9664,7 @@ return {
         }
     },
     ["f524-1"] = {
-        label = " ",
-         --'綜合奶昔',
+        label = "綜合奶昔",
         weight = 185,
         stack = true,
         close = true,
@@ -10217,8 +9681,7 @@ return {
         }
     },
     ["f526-1"] = {
-        label = " ",
-         --'肉餡牛肚',
+        label = "肉餡牛肚",
         weight = 250,
         stack = true,
         close = true,
@@ -10235,8 +9698,7 @@ return {
         }
     },
     ["f527-1"] = {
-        label = " ",
-         --'肉蛋吐司',
+        label = "肉蛋吐司",
         weight = 240,
         stack = true,
         close = true,
@@ -10270,8 +9732,7 @@ return {
         }
     },
     ["f529-1"] = {
-        label = " ",
-         --'棉花糖',
+        label = "棉花糖",
         weight = 100,
         stack = true,
         close = true,
@@ -10288,8 +9749,7 @@ return {
         }
     },
     ["f529-2"] = {
-        label = " ",
-         -- '棉花糖',
+        label = "棉花糖",
         weight = 350,
         stack = true,
         close = true,
@@ -10308,8 +9768,7 @@ return {
         }
     },
     ["f531-1"] = {
-        label = " ",
-         --'朗基努斯',
+        label = "朗基努斯",
         weight = 150,
         stack = true,
         close = true,
@@ -10326,8 +9785,7 @@ return {
         }
     },
     ["f534-1"] = {
-        label = " ",
-         --'璟湘酒',
+        label = "璟湘酒",
         weight = 212,
         stack = true,
         close = true,
@@ -10344,8 +9802,7 @@ return {
         }
     },
     ["f535-1"] = {
-        label = " ",
-         --'不想睡咖啡',
+        label = "不想睡咖啡",
         weight = 231,
         stack = true,
         close = true,
@@ -10362,8 +9819,7 @@ return {
         }
     },
     ["f536-1"] = {
-        label = " ",
-         --'鳳仙',
+        label = "鳳仙",
         weight = 0,
         stack = true,
         close = true,
@@ -10380,8 +9836,7 @@ return {
         }
     },
     ["f537-1"] = {
-        label = " ",
-         --'霜淇淋',
+        label = "霜淇淋",
         weight = 100,
         stack = true,
         close = true,
@@ -10398,8 +9853,7 @@ return {
         }
     },
     ["f538-1"] = {
-        label = " ",
-         --'冰可可',
+        label = "冰可可",
         weight = 142,
         stack = true,
         close = true,
@@ -10416,8 +9870,7 @@ return {
         }
     },
     ["f539-1"] = {
-        label = " ",
-         --'麥麥酒',
+        label = "麥麥酒",
         weight = 175,
         stack = true,
         close = true,
@@ -10434,8 +9887,7 @@ return {
         }
     },
     ["f540-1"] = {
-        label = " ",
-         --'烤豬排',
+        label = "烤豬排",
         weight = 222,
         stack = true,
         close = true,
@@ -10452,8 +9904,7 @@ return {
         }
     },
     ["f541-1"] = {
-        label = " ",
-         --'烤魚排',
+        label = "烤魚排",
         weight = 232,
         stack = true,
         close = true,
@@ -10470,8 +9921,7 @@ return {
         }
     },
     ["f542-1"] = {
-        label = " ",
-         --'艾可酒',
+        label = "艾可酒",
         weight = 111,
         stack = true,
         close = true,
@@ -10488,8 +9938,7 @@ return {
         }
     },
     ["f543-1"] = {
-        label = " ",
-         --'羅杰特製蛋炒飯',
+        label = "羅杰特製蛋炒飯",
         weight = 357,
         stack = true,
         close = true,
@@ -10506,8 +9955,7 @@ return {
         }
     },
     ["f544-1"] = {
-        label = " ",
-         --'雪地裡的狐狸',
+        label = "雪地裡的狐狸",
         weight = 253,
         stack = true,
         close = true,
@@ -10524,8 +9972,7 @@ return {
         }
     },
     ["f545-1"] = {
-        label = " ",
-         --'炸魚薯條',
+        label = "炸魚薯條",
         weight = 200,
         stack = true,
         close = true,
@@ -10542,8 +9989,7 @@ return {
         }
     },
     ["f546-1"] = {
-        label = " ",
-         --'醃魚罐頭',
+        label = "醃魚罐頭",
         weight = 200,
         stack = true,
         close = true,
@@ -10560,8 +10006,7 @@ return {
         }
     },
     ["f547-1"] = {
-        label = " ",
-         --'烤魚漢堡',
+        label = "烤魚漢堡",
         weight = 200,
         stack = true,
         close = true,
@@ -10578,8 +10023,7 @@ return {
         }
     },
     ["f548-1"] = {
-        label = " ",
-         --'炸豆腐',
+        label = "炸豆腐",
         weight = 240,
         stack = true,
         close = true,
@@ -10596,8 +10040,7 @@ return {
         }
     },
     ["f549-1"] = {
-        label = " ",
-         --'花之仙女',
+        label = "花之仙女",
         weight = 175,
         stack = true,
         close = true,
@@ -10614,8 +10057,7 @@ return {
         }
     },
     ["f550-1"] = {
-        label = " ",
-         --'利爪能量飲',
+        label = "利爪能量飲",
         weight = 200,
         stack = true,
         close = true,
@@ -10632,8 +10074,7 @@ return {
         }
     },
     ["f551-1"] = {
-        label = " ",
-         --'巧克力泡芙',
+        label = "巧克力泡芙",
         weight = 148,
         stack = true,
         close = true,
@@ -10667,8 +10108,7 @@ return {
         }
     },
     ["f553-1"] = {
-        label = " ",
-         --'羅杰特製龍蝦餃',
+        label = "羅杰特製龍蝦餃",
         weight = 340,
         stack = true,
         close = true,
@@ -10685,8 +10125,7 @@ return {
         }
     },
     ["f554-1"] = {
-        label = " ",
-         --'拉瑪醉醺醺',
+        label = "拉瑪醉醺醺",
         weight = 350,
         stack = true,
         close = true,
@@ -10703,8 +10142,7 @@ return {
         }
     },
     ["f555-1"] = {
-        label = " ",
-         --'海豚巧克力',
+        label = "海豚巧克力",
         weight = 124,
         stack = true,
         close = true,
@@ -10721,8 +10159,7 @@ return {
         }
     },
     ["f556-1"] = {
-        label = " ",
-         --'戴著鹿角的貓',
+        label = "戴著鹿角的貓",
         weight = 199,
         stack = true,
         close = true,
@@ -10757,8 +10194,7 @@ return {
         }
     },
     ["f558-1"] = {
-        label = " ",
-         --'晴天shot',
+        label = "晴天shot",
         weight = 45,
         stack = true,
         close = true,
@@ -10775,8 +10211,7 @@ return {
         }
     },
     ["f559-1"] = {
-        label = " ",
-         --'狐狸shot',
+        label = "狐狸shot",
         weight = 45,
         stack = true,
         close = true,
@@ -10793,8 +10228,7 @@ return {
         }
     },
     ["f560-1"] = {
-        label = " ",
-         --'烏雲shot',
+        label = "烏雲shot",
         weight = 45,
         stack = true,
         close = true,
@@ -10811,8 +10245,7 @@ return {
         }
     },
     ["f561-1"] = {
-        label = " ",
-         --'烏雲',
+        label = "烏雲",
         weight = 210,
         stack = true,
         close = true,
@@ -10829,8 +10262,7 @@ return {
         }
     },
     ["f562-1"] = {
-        label = " ",
-         --'墨魚麵',
+        label = "墨魚麵",
         weight = 324,
         stack = true,
         close = true,
@@ -10847,8 +10279,7 @@ return {
         }
     },
     ["f563-1"] = {
-        label = " ",
-         --'莓果杯子蛋糕',
+        label = "莓果杯子蛋糕",
         weight = 310,
         stack = true,
         close = true,
@@ -10865,8 +10296,7 @@ return {
         }
     },
     ["f565-1"] = {
-        label = " ",
-         --'餅乾',
+        label = "餅乾",
         weight = 85,
         stack = true,
         close = true,
@@ -10883,8 +10313,7 @@ return {
         }
     },
     ["f566-1"] = {
-        label = " ",
-         --'冷泡茶',
+        label = "冷泡茶",
         weight = 143,
         stack = true,
         close = true,
@@ -10917,8 +10346,7 @@ return {
         }
     },
     ["f568-1"] = {
-        label = " ",
-         --'辣椒汽水',
+        label = "辣椒汽水",
         weight = 117,
         stack = true,
         close = true,
@@ -10935,8 +10363,7 @@ return {
         }
     },
     ["f569-1"] = {
-        label = " ",
-         --'恰克恰起司鍋',
+        label = "恰克恰起司鍋",
         weight = 250,
         stack = true,
         close = true,
@@ -10953,8 +10380,7 @@ return {
         }
     },
     ["f570-1"] = {
-        label = " ",
-         --'起司胖洋芋片',
+        label = "起司胖洋芋片",
         weight = 172,
         stack = true,
         close = true,
@@ -10971,8 +10397,7 @@ return {
         }
     },
     ["f571-1"] = {
-        label = " ",
-         --'起司肉漢堡',
+        label = "起司肉漢堡",
         weight = 321,
         stack = true,
         close = true,
@@ -11006,8 +10431,7 @@ return {
         }
     },
     ["f573-1"] = {
-        label = " ",
-         --'醫生的好夥伴',
+        label = "醫生的好夥伴",
         weight = 213,
         stack = true,
         close = true,
@@ -11020,8 +10444,7 @@ return {
         }
     },
     ["f574-1"] = {
-        label = " ",
-         --'復甦',
+        label = "復甦",
         weight = 180,
         stack = true,
         close = true,
@@ -11055,8 +10478,7 @@ return {
         }
     },
     ["f576-1"] = {
-        label = " ",
-         --'向日葵',
+        label = "向日葵",
         weight = 180,
         stack = true,
         close = true,
@@ -11073,8 +10495,7 @@ return {
         }
     },
     ["f577-1"] = {
-        label = " ",
-         --'樂園',
+        label = "樂園",
         weight = 180,
         stack = true,
         close = true,
@@ -11108,8 +10529,7 @@ return {
         }
     },
     ["f579-1"] = {
-        label = " ",
-         --'麵包',
+        label = "麵包",
         weight = 75,
         stack = true,
         close = true,
@@ -11162,8 +10582,7 @@ return {
         }
     },
     ["f582-1"] = {
-        label = " ",
-         --'咖啡',
+        label = "咖啡",
         weight = 134,
         stack = true,
         close = true,
@@ -11181,8 +10600,7 @@ return {
         }
     },
     ["f583-1"] = {
-        label = " ",
-         --'咖啡牛奶',
+        label = "咖啡牛奶",
         weight = 134,
         stack = true,
         close = true,
@@ -11199,8 +10617,7 @@ return {
         }
     },
     ["f584-1"] = {
-        label = " ",
-         --'健康豆漿',
+        label = "健康豆漿",
         weight = 174,
         stack = true,
         close = true,
@@ -11217,8 +10634,7 @@ return {
         }
     },
     ["f585-1"] = {
-        label = " ",
-         --'布丁',
+        label = "布丁",
         weight = 124,
         stack = true,
         close = true,
@@ -11235,8 +10651,7 @@ return {
         }
     },
     ["f586-1"] = {
-        label = " ",
-         --'巧克力餅乾',
+        label = "巧克力餅乾",
         weight = 174,
         stack = true,
         close = true,
@@ -11253,8 +10668,7 @@ return {
         }
     },
     ["f587-1"] = {
-        label = " ",
-         --'一杯鬆餅',
+        label = "一杯鬆餅",
         weight = 214,
         stack = true,
         close = true,
@@ -11271,8 +10685,7 @@ return {
         }
     },
     ["f588-1"] = {
-        label = " ",
-         --'手指餅乾',
+        label = "手指餅乾",
         weight = 234,
         stack = true,
         close = true,
@@ -11289,8 +10702,7 @@ return {
         }
     },
     ["f589-1"] = {
-        label = " ",
-         --'圓圓姨特製甜點',
+        label = "圓圓姨特製甜點",
         weight = 234,
         stack = true,
         close = true,
@@ -11307,8 +10719,7 @@ return {
         }
     },
     ["f590-1"] = {
-        label = " ",
-         --'豆子肉罐頭',
+        label = "豆子肉罐頭",
         weight = 200,
         stack = true,
         close = true,
@@ -11325,8 +10736,7 @@ return {
         }
     },
     ["f591-1"] = {
-        label = " ",
-         --'豆豆水',
+        label = "豆豆水",
         weight = 85,
         stack = true,
         close = true,
@@ -11343,8 +10753,7 @@ return {
         }
     },
     ["f592-1"] = {
-        label = " ",
-         --'烤肉 ',
+        label = "烤肉 ",
         weight = 175,
         stack = true,
         close = true,
@@ -11361,8 +10770,7 @@ return {
         }
     },
     ["f592-2"] = {
-        label = " ",
-         -- '烤肉',
+        label = "烤肉",
         weight = 350,
         stack = true,
         close = true,
@@ -11376,8 +10784,7 @@ return {
         }
     },
     ["f593-1"] = {
-        label = " ",
-         --'喵嗚貓飯',
+        label = "喵嗚貓飯",
         weight = 245,
         stack = true,
         close = true,
@@ -11394,8 +10801,7 @@ return {
         }
     },
     ["f594-1"] = {
-        label = " ",
-         --'魚肉飯',
+        label = "魚肉飯",
         weight = 175,
         stack = true,
         close = true,
@@ -11411,8 +10817,7 @@ return {
         }
     },
     ["f595-1"] = {
-        label = " ",
-         --'魚肉瓜飯糰',
+        label = "魚肉瓜飯糰",
         weight = 175,
         stack = true,
         close = true,
@@ -11428,8 +10833,7 @@ return {
         }
     },
     ["f596-1"] = {
-        label = " ",
-         --'森日蛋糕',
+        label = "森日蛋糕",
         weight = 240,
         stack = true,
         close = true,
@@ -11446,8 +10850,7 @@ return {
         }
     },
     ["f597-1"] = {
-        label = " ",
-         --'安眠枕馬卡龍',
+        label = "安眠枕馬卡龍",
         weight = 777,
         stack = true,
         close = true,
@@ -11457,8 +10860,7 @@ return {
         }
     },
     ["f598-1"] = {
-        label = " ",
-         --'可可愛愛肉排排',
+        label = "可可愛愛肉排排",
         weight = 777,
         stack = true,
         close = true,
@@ -11475,8 +10877,7 @@ return {
         }
     },
     ["f599-1"] = {
-        label = " ",
-         --'亮眼的心跳巧克力',
+        label = "亮眼的心跳巧克力",
         weight = 142,
         stack = true,
         close = true,
@@ -11493,8 +10894,7 @@ return {
         }
     },
     ["f600-1"] = {
-        label = " ",
-         --'亮眼心跳巧克力',
+        label = "亮眼心跳巧克力",
         weight = 142,
         stack = true,
         close = true,
@@ -11511,8 +10911,7 @@ return {
         }
     },
     ["f601-1"] = {
-        label = " ",
-         --'汽水',
+        label = "汽水",
         weight = 153,
         stack = true,
         close = true,
@@ -11530,8 +10929,7 @@ return {
         }
     },
     ["f602-1"] = {
-        label = " ",
-         --'豆豆麵',
+        label = "豆豆麵",
         weight = 196,
         stack = true,
         close = true,
@@ -11547,8 +10945,7 @@ return {
         }
     },
     ["f603-1"] = {
-        label = " ",
-         --'咖哩蛋蛋飯',
+        label = "咖哩蛋蛋飯",
         weight = 248,
         stack = true,
         close = true,
@@ -11598,8 +10995,7 @@ return {
         }
     },
     ["f606-1"] = {
-        label = " ",
-         --'海鮮鍋',
+        label = "海鮮鍋",
         weight = 350,
         stack = true,
         close = true,
@@ -11632,8 +11028,7 @@ return {
         }
     },
     ["f608-1"] = {
-        label = " ",
-         --'多力多脆',
+        label = "多力多脆",
         weight = 250,
         stack = true,
         close = true,
@@ -11649,8 +11044,7 @@ return {
         }
     },
     ["f608-2"] = {
-        label = " ",
-         -- '多力多脆',
+        label = "多力多脆",
         weight = 108,
         stack = true,
         close = true,
@@ -11665,8 +11059,7 @@ return {
         }
     },
     ["f609-1"] = {
-        label = " ",
-         --'烤玉米',
+        label = "烤玉米",
         weight = 250,
         stack = true,
         close = true,
@@ -11682,8 +11075,7 @@ return {
         }
     },
     ["f609-2"] = {
-        label = " ",
-         -- '烤玉米',
+        label = "烤玉米",
         weight = 280,
         stack = false,
         close = true,
@@ -11698,8 +11090,7 @@ return {
         }
     },
     ["f610-1"] = {
-        label = " ",
-         --'碳烤巧顆粒吐司',
+        label = "碳烤巧顆粒吐司",
         weight = 127,
         stack = true,
         close = true,
@@ -11715,8 +11106,7 @@ return {
         }
     },
     ["f611-1"] = {
-        label = " ",
-         --'漢堡',
+        label = "漢堡",
         weight = 220,
         stack = true,
         close = true,
@@ -11732,8 +11122,7 @@ return {
         }
     },
     ["f612-1"] = {
-        label = " ",
-         --'涼拌小黃瓜',
+        label = "涼拌小黃瓜",
         weight = 74,
         stack = true,
         close = true,
@@ -11749,8 +11138,7 @@ return {
         }
     },
     ["f614-1"] = {
-        label = " ",
-         --'綜合蔬果汁',
+        label = "綜合蔬果汁",
         weight = 244,
         stack = true,
         close = true,
@@ -11766,8 +11154,7 @@ return {
         }
     },
     ["f615-1"] = {
-        label = " ",
-         --'烤鰻魚',
+        label = "烤鰻魚",
         weight = 144,
         stack = true,
         close = true,
@@ -11783,8 +11170,7 @@ return {
         }
     },
     ["f616-1"] = {
-        label = " ",
-         --'烤飯糰',
+        label = "烤飯糰",
         weight = 144,
         stack = true,
         close = true,
@@ -11800,8 +11186,7 @@ return {
         }
     },
     ["f617-1"] = {
-        label = " ",
-         --'烤龍蝦',
+        label = "烤龍蝦",
         weight = 144,
         stack = true,
         close = true,
@@ -11818,8 +11203,7 @@ return {
         }
     },
     ["f618-1"] = {
-        label = " ",
-         --'烤螃蟹',
+        label = "烤螃蟹",
         weight = 144,
         stack = true,
         close = true,
@@ -11835,8 +11219,7 @@ return {
         }
     },
     ["f619-1"] = {
-        label = " ",
-         --'烤藍貝',
+        label = "烤藍貝",
         weight = 144,
         stack = true,
         close = true,
@@ -11852,8 +11235,7 @@ return {
         }
     },
     ["f620-1"] = {
-        label = " ",
-         --'烤晶貝',
+        label = "烤晶貝",
         weight = 144,
         stack = true,
         close = true,
@@ -11869,8 +11251,7 @@ return {
         }
     },
     ["f621-1"] = {
-        label = " ",
-         --'烤墨魚',
+        label = "烤墨魚",
         weight = 144,
         stack = true,
         close = true,
@@ -11886,8 +11267,7 @@ return {
         }
     },
     ["f622-1"] = {
-        label = " ",
-         --'辣肉乾',
+        label = "辣肉乾",
         weight = 144,
         stack = true,
         close = true,
@@ -11903,8 +11283,7 @@ return {
         }
     },
     ["f623-1"] = {
-        label = " ",
-         --'蜜汁肉乾',
+        label = "蜜汁肉乾",
         weight = 144,
         stack = true,
         close = true,
@@ -11920,8 +11299,7 @@ return {
         }
     },
     ["f624-1"] = {
-        label = " ",
-         --'豆腐煲',
+        label = "豆腐煲",
         weight = 144,
         stack = true,
         close = true,
@@ -11937,8 +11315,7 @@ return {
         }
     },
     ["f625-1"] = {
-        label = " ",
-         --'花椒麵',
+        label = "花椒麵",
         weight = 144,
         stack = true,
         close = true,
@@ -11954,8 +11331,7 @@ return {
         }
     },
     ["f626-1"] = {
-        label = " ",
-         --'炸飯糰',
+        label = "炸飯糰",
         weight = 144,
         stack = true,
         close = true,
@@ -11971,8 +11347,7 @@ return {
         }
     },
     ["f627-1"] = {
-        label = " ",
-         --'坨坨駝駝飯',
+        label = "坨坨駝駝飯",
         weight = 144,
         stack = true,
         close = true,
@@ -11988,8 +11363,7 @@ return {
         }
     },
     ["f628-1"] = {
-        label = " ",
-         --'麻辣螃蟹',
+        label = "麻辣螃蟹",
         weight = 144,
         stack = true,
         close = true,
@@ -12005,8 +11379,7 @@ return {
         }
     },
     ["f629-1"] = {
-        label = " ",
-         --'羅杰特製香辣蟹',
+        label = "羅杰特製香辣蟹",
         weight = 200,
         stack = true,
         close = true,
@@ -12022,8 +11395,7 @@ return {
         }
     },
     ["f636-1"] = {
-        label = " ",
-         --'燕尾花茶',
+        label = "燕尾花茶",
         weight = 200,
         stack = true,
         close = true,
@@ -12039,8 +11411,7 @@ return {
         }
     },
     ["f637-1"] = {
-        label = " ",
-         --'海鮮粥',
+        label = "海鮮粥",
         weight = 200,
         stack = true,
         close = true,
@@ -12056,8 +11427,7 @@ return {
         }
     },
     ["f638-1"] = {
-        label = " ",
-         --'咖啡凍',
+        label = "咖啡凍",
         weight = 200,
         stack = true,
         close = true,
@@ -12073,8 +11443,7 @@ return {
         }
     },
     ["f639-1"] = {
-        label = " ",
-         --'茶凍',
+        label = "茶凍",
         weight = 200,
         stack = true,
         close = true,
@@ -12090,8 +11459,7 @@ return {
         }
     },
     ["f640-1"] = {
-        label = " ",
-         --'果果冰棒',
+        label = "果果冰棒",
         weight = 200,
         stack = true,
         close = true,
@@ -12107,8 +11475,7 @@ return {
         }
     },
     ["f641-1"] = {
-        label = " ",
-         --'果果吐司',
+        label = "果果吐司",
         weight = 200,
         stack = true,
         close = true,
@@ -12124,8 +11491,7 @@ return {
         }
     },
     ["f642-1"] = {
-        label = " ",
-         --'香酥豆腐',
+        label = "香酥豆腐",
         weight = 200,
         stack = true,
         close = true,
@@ -12141,8 +11507,7 @@ return {
         }
     },
     ["f643-1"] = {
-        label = " ",
-         --'鮮魚堡',
+        label = "鮮魚堡",
         weight = 250,
         stack = true,
         close = true,
@@ -12158,8 +11523,7 @@ return {
         }
     },
     ["f644-1"] = {
-        label = " ",
-         --'薯條',
+        label = "薯條",
         weight = 150,
         stack = true,
         close = true,
@@ -12175,8 +11539,7 @@ return {
         }
     },
     ["f645-1"] = {
-        label = " ",
-         --'豆花',
+        label = "豆花",
         weight = 150,
         stack = true,
         close = true,
@@ -12192,8 +11555,7 @@ return {
         }
     },
     ["f646-1"] = {
-        label = " ",
-         --'紀念',
+        label = "紀念",
         weight = 247,
         stack = true,
         close = true,
@@ -12210,8 +11572,7 @@ return {
         }
     },
     ["f647-1"] = {
-        label = " ",
-         --'鯨聲鯨世',
+        label = "鯨聲鯨世",
         weight = 240,
         stack = true,
         close = true,
@@ -12228,8 +11589,7 @@ return {
         }
     },
     ["f648-1"] = {
-        label = " ",
-         --'熱陽',
+        label = "熱陽",
         weight = 145,
         stack = true,
         close = true,
@@ -12246,8 +11606,7 @@ return {
         }
     },
     ["f649-1"] = {
-        label = " ",
-         --'祈福',
+        label = "祈福",
         weight = 145,
         stack = true,
         close = true,
@@ -12264,8 +11623,7 @@ return {
         }
     },
     ["f650-1"] = {
-        label = " ",
-         --'哈瓜',
+        label = "哈瓜",
         weight = 145,
         stack = true,
         close = true,
@@ -12282,8 +11640,7 @@ return {
         }
     },
     ["f651-1"] = {
-        label = " ",
-         --'玉米壽司',
+        label = "玉米壽司",
         weight = 100,
         stack = true,
         close = true,
@@ -12299,8 +11656,7 @@ return {
         }
     },
     ["f652-1"] = {
-        label = " ",
-         --'葡萄鈴鈴包',
+        label = "葡萄鈴鈴包",
         weight = 150,
         stack = true,
         close = true,
@@ -12316,8 +11672,7 @@ return {
         }
     },
     ["f653-1"] = {
-        label = " ",
-         --'胡蘿蔔蛋糕',
+        label = "胡蘿蔔蛋糕",
         weight = 350,
         stack = true,
         close = true,
@@ -12333,8 +11688,7 @@ return {
         }
     },
     ["f654-1"] = {
-        label = " ",
-         --'巧克力小蛋糕',
+        label = "巧克力小蛋糕",
         weight = 175,
         stack = true,
         close = true,
@@ -12345,8 +11699,7 @@ return {
         }
     },
     ["f655-1"] = {
-        label = " ",
-         --'生日快樂蛋糕',
+        label = "生日快樂蛋糕",
         weight = 275,
         stack = true,
         close = true,
@@ -12357,8 +11710,7 @@ return {
         }
     },
     ["f656-1"] = {
-        label = " ",
-         --'米拎',
+        label = "米拎",
         weight = 155,
         stack = true,
         close = true,
@@ -12369,8 +11721,7 @@ return {
         }
     },
     ["f657-1"] = {
-        label = " ",
-         --'香蕉奶昔',
+        label = "香蕉奶昔",
         weight = 155,
         stack = true,
         close = true,
@@ -12381,8 +11732,7 @@ return {
         }
     },
     ["f658-1"] = {
-        label = " ",
-         --'櫻花冰茶',
+        label = "櫻花冰茶",
         weight = 145,
         stack = true,
         close = true,
@@ -12399,8 +11749,7 @@ return {
         }
     },
     ["f659-1"] = {
-        label = " ",
-         --'酸酸甜甜',
+        label = "酸酸甜甜",
         weight = 155,
         stack = true,
         close = true,
@@ -12422,8 +11771,7 @@ return {
         }
     },
     ["f661-1"] = {
-        label = " ",
-         --'日慕月',
+        label = "日慕月",
         weight = 111,
         stack = true,
         close = true,
@@ -12434,8 +11782,7 @@ return {
         }
     },
     ["f662-1"] = {
-        label = " ",
-         --'芒果雪雪',
+        label = "芒果雪雪",
         weight = 125,
         stack = true,
         close = true,
@@ -12446,8 +11793,7 @@ return {
         }
     },
     ["f663-1"] = {
-        label = " ",
-         --'黑黑包',
+        label = "黑黑包",
         weight = 185,
         stack = true,
         close = true,
@@ -12458,8 +11804,7 @@ return {
         }
     },
     ["f664-1"] = {
-        label = " ",
-         --'心意',
+        label = "心意",
         weight = 375,
         stack = true,
         close = true,
@@ -12470,8 +11815,7 @@ return {
         }
     },
     ["f665-1"] = {
-        label = " ",
-         --'融心蛋糕',
+        label = "融心蛋糕",
         weight = 275,
         stack = true,
         close = true,
@@ -12482,8 +11826,7 @@ return {
         }
     },
     ["f666-1"] = {
-        label = " ",
-         --'果果冰淇淋',
+        label = "果果冰淇淋",
         weight = 175,
         stack = true,
         close = true,
@@ -12494,8 +11837,7 @@ return {
         }
     },
     ["f667-1"] = {
-        label = " ",
-         --'田園煎蛋',
+        label = "田園煎蛋",
         weight = 175,
         stack = true,
         close = true,
@@ -12506,8 +11848,7 @@ return {
         }
     },
     ["f668-1"] = {
-        label = " ",
-         --'炸蟲蟲',
+        label = "炸蟲蟲",
         weight = 175,
         stack = true,
         close = true,
@@ -12518,8 +11859,7 @@ return {
         }
     },
     ["f669-1"] = {
-        label = " ",
-         --'守望',
+        label = "守望",
         weight = 124,
         stack = true,
         close = true,
@@ -12530,8 +11870,7 @@ return {
         }
     },
     ["f670-1"] = {
-        label = " ",
-         --'浩浩糰子',
+        label = "浩浩糰子",
         weight = 111,
         stack = true,
         close = true,
@@ -12542,8 +11881,7 @@ return {
         }
     },
     ["f671-1"] = {
-        label = " ",
-         -- '年糕',
+        label = "年糕",
         weight = 250,
         stack = false,
         close = true,
@@ -12558,8 +11896,7 @@ return {
         }
     },
     ["f671-2"] = {
-        label = " ",
-         -- '甜炸年糕',
+        label = "甜炸年糕",
         weight = 350,
         stack = false,
         close = true,
@@ -12603,8 +11940,7 @@ return {
         }
     },
     ["f673-1"] = {
-        label = " ",
-         -- '玉米罐頭',
+        label = "玉米罐頭",
         weight = 350,
         stack = true,
         close = true,
@@ -12619,8 +11955,7 @@ return {
         }
     },
     ["f673-2"] = {
-        label = " ",
-         -- '玉米罐頭',
+        label = "玉米罐頭",
         weight = 200,
         stack = true,
         close = true,
@@ -12635,8 +11970,7 @@ return {
         }
     },
     ["f674-1"] = {
-        label = " ",
-         -- '鳳梨罐頭',
+        label = "鳳梨罐頭",
         weight = 350,
         stack = true,
         close = true,
@@ -12651,8 +11985,7 @@ return {
         }
     },
     ["f674-2"] = {
-        label = " ",
-         -- '鳳梨罐頭',
+        label = "鳳梨罐頭",
         weight = 227,
         stack = true,
         close = true,
@@ -12696,8 +12029,7 @@ return {
         }
     },
     ["f676-1"] = {
-        label = " ",
-         -- '午餐肉罐頭',
+        label = "午餐肉罐頭",
         weight = 350,
         stack = true,
         close = true,
@@ -12712,8 +12044,7 @@ return {
         }
     },
     ["f676-2"] = {
-        label = " ",
-         -- '午餐肉罐頭',
+        label = "午餐肉罐頭",
         weight = 150,
         stack = true,
         close = true,
@@ -12728,8 +12059,7 @@ return {
         }
     },
     ["f676-3"] = {
-        label = " ",
-         -- '午餐肉罐頭',
+        label = "午餐肉罐頭",
         weight = 175,
         stack = true,
         close = true,
@@ -12744,8 +12074,7 @@ return {
         }
     },
     ["f677-1"] = {
-        label = " ",
-         -- '星星餅乾',
+        label = "星星餅乾",
         weight = 120,
         stack = true,
         close = true,
@@ -12759,8 +12088,7 @@ return {
         }
     },
     ["f677-2"] = {
-        label = " ",
-         -- '星星餅乾',
+        label = "星星餅乾",
         weight = 40,
         stack = true,
         close = true,
@@ -12779,8 +12107,7 @@ return {
         }
     },
     ["f677-3"] = {
-        label = " ",
-         -- '澪星糖',
+        label = "澪星糖",
         weight = 10,
         stack = true,
         close = true,
@@ -12799,8 +12126,7 @@ return {
         }
     },
     ["f678-1"] = {
-        label = " ",
-         -- '魚湯',
+        label = "魚湯",
         weight = 300,
         stack = false,
         close = true,
@@ -12815,8 +12141,7 @@ return {
         }
     },
     ["f678-2"] = {
-        label = " ",
-         -- '魚湯',
+        label = "魚湯",
         weight = 550,
         stack = false,
         close = true,
@@ -12830,8 +12155,7 @@ return {
         }
     },
     ["f679-1"] = {
-        label = " ",
-         -- '烤地瓜',
+        label = "烤地瓜",
         weight = 250,
         stack = false,
         close = true,
@@ -12846,8 +12170,7 @@ return {
         }
     },
     ["f679-2"] = {
-        label = " ",
-         -- '烤地瓜',
+        label = "烤地瓜",
         weight = 250,
         stack = true,
         close = true,
@@ -12861,8 +12184,7 @@ return {
         }
     },
     ["f680-1"] = {
-        label = " ",
-         -- '南瓜湯',
+        label = "南瓜湯",
         weight = 250,
         stack = false,
         close = true,
@@ -12876,8 +12198,7 @@ return {
         }
     },
     ["f680-2"] = {
-        label = " ",
-         -- '南瓜湯',
+        label = "南瓜湯",
         weight = 200,
         stack = false,
         close = true,
@@ -12892,8 +12213,7 @@ return {
         }
     },
     ["f681-1"] = {
-        label = " ",
-         -- '烤馬鈴薯',
+        label = "烤馬鈴薯",
         weight = 150,
         stack = true,
         close = true,
@@ -12908,8 +12228,7 @@ return {
         }
     },
     ["f681-2"] = {
-        label = " ",
-         -- '烤馬鈴薯',
+        label = "烤馬鈴薯",
         weight = 150,
         stack = false,
         close = true,
@@ -12924,8 +12243,7 @@ return {
         }
     },
     ["f682-1"] = {
-        label = " ",
-         -- '熱可可',
+        label = "熱可可",
         weight = 150,
         stack = false,
         close = true,
@@ -12943,8 +12261,7 @@ return {
         }
     },
     ["f682-2"] = {
-        label = " ",
-         -- '熱可可',
+        label = "熱可可",
         weight = 350,
         stack = false,
         close = true,
@@ -12963,8 +12280,7 @@ return {
         }
     },
     ["f683-1"] = {
-        label = " ",
-         -- '蛋炒飯',
+        label = "蛋炒飯",
         weight = 200,
         stack = false,
         close = true,
@@ -12979,8 +12295,7 @@ return {
         }
     },
     ["f683-2"] = {
-        label = " ",
-         -- '蛋炒飯',
+        label = "蛋炒飯",
         weight = 350,
         stack = false,
         close = true,
@@ -12995,8 +12310,7 @@ return {
         }
     },
     ["f684-1"] = {
-        label = " ",
-         -- '咖哩飯',
+        label = "咖哩飯",
         weight = 950,
         stack = false,
         close = true,
@@ -13011,8 +12325,7 @@ return {
         }
     },
     ["f684-2"] = {
-        label = " ",
-         -- '咖哩飯',
+        label = "咖哩飯",
         weight = 450,
         stack = false,
         close = true,
@@ -13031,8 +12344,7 @@ return {
         }
     },
     ["f685-1"] = {
-        label = " ",
-         -- '黑糖薑茶',
+        label = "黑糖薑茶",
         weight = 300,
         stack = false,
         close = true,
@@ -13047,8 +12359,7 @@ return {
         }
     },
     ["f685-2"] = {
-        label = " ",
-         -- '黑糖薑茶',
+        label = "黑糖薑茶",
         weight = 300,
         stack = false,
         close = true,
@@ -13105,8 +12416,7 @@ return {
         }
     },
     ["f687-1"] = {
-        label = " ",
-         --'于治',
+        label = "于治",
         weight = 250,
         stack = true,
         close = true,
@@ -13138,8 +12448,7 @@ return {
         }
     },
     ["f689-1"] = {
-        label = " ",
-         -- '士力架',
+        label = "士力架",
         weight = 50,
         stack = true,
         close = true,
@@ -13154,8 +12463,7 @@ return {
         }
     },
     ["f690-1"] = {
-        label = " ",
-         -- '八寶粥',
+        label = "八寶粥",
         weight = 375,
         stack = true,
         close = true,
@@ -13170,8 +12478,7 @@ return {
         }
     },
     ["f691-1"] = {
-        label = " ",
-         -- '午餐肉',
+        label = "午餐肉",
         weight = 450,
         stack = true,
         close = true,
@@ -13186,8 +12493,7 @@ return {
         }
     },
     ["f692-1"] = {
-        label = " ",
-         -- '太平洋秋刀魚罐頭',
+        label = "太平洋秋刀魚罐頭",
         weight = 300,
         stack = true,
         close = true,
@@ -13202,8 +12508,7 @@ return {
         }
     },
     ["f693-1"] = {
-        label = " ",
-         -- '西鯡魚罐頭',
+        label = "西鯡魚罐頭",
         weight = 350,
         stack = true,
         close = true,
@@ -13218,8 +12523,7 @@ return {
         }
     },
     ["f694-1"] = {
-        label = " ",
-         -- '金槍魚罐頭',
+        label = "金槍魚罐頭",
         weight = 350,
         stack = true,
         close = true,
@@ -13234,8 +12538,7 @@ return {
         }
     },
     ["f695-1"] = {
-        label = " ",
-         -- '鮭魚罐頭',
+        label = "鮭魚罐頭",
         weight = 350,
         stack = true,
         close = true,
@@ -13250,8 +12553,7 @@ return {
         }
     },
     ["f696-1"] = {
-        label = " ",
-         -- '鯡魚罐頭',
+        label = "鯡魚罐頭",
         weight = 350,
         stack = true,
         close = true,
@@ -13266,8 +12568,7 @@ return {
         }
     },
     ["f697-1"] = {
-        label = " ",
-         -- '豆類罐頭',
+        label = "豆類罐頭",
         weight = 350,
         stack = true,
         close = true,
@@ -13282,8 +12583,7 @@ return {
         }
     },
     ["f698-1"] = {
-        label = " ",
-         -- '胡蘿蔔罐頭',
+        label = "胡蘿蔔罐頭",
         weight = 350,
         stack = true,
         close = true,
@@ -13298,8 +12598,7 @@ return {
         }
     },
     ["f699-1"] = {
-        label = " ",
-         -- '馬鈴薯罐頭',
+        label = "馬鈴薯罐頭",
         weight = 350,
         stack = true,
         close = true,
@@ -13314,8 +12613,7 @@ return {
         }
     },
     ["f700-1"] = {
-        label = " ",
-         -- '碗豆罐頭',
+        label = "碗豆罐頭",
         weight = 350,
         stack = true,
         close = true,
@@ -13330,8 +12628,7 @@ return {
         }
     },
     ["f701-1"] = {
-        label = " ",
-         -- '辣椒罐頭',
+        label = "辣椒罐頭",
         weight = 350,
         stack = true,
         close = true,
@@ -13346,8 +12643,7 @@ return {
         }
     },
     ["f702-1"] = {
-        label = " ",
-         -- '義大利肉醬罐頭',
+        label = "義大利肉醬罐頭",
         weight = 350,
         stack = true,
         close = true,
@@ -13362,8 +12658,7 @@ return {
         }
     },
     ["f703-1"] = {
-        label = " ",
-         -- '番茄罐頭',
+        label = "番茄罐頭",
         weight = 350,
         stack = true,
         close = true,
@@ -13378,8 +12673,7 @@ return {
         }
     },
     ["f704-1"] = {
-        label = " ",
-         -- '燉美味牛肉罐頭',
+        label = "燉美味牛肉罐頭",
         weight = 350,
         stack = true,
         close = true,
@@ -13394,8 +12688,7 @@ return {
         }
     },
     ["f705-1"] = {
-        label = " ",
-         -- '湯類罐頭',
+        label = "湯類罐頭",
         weight = 350,
         stack = true,
         close = true,
@@ -13410,8 +12703,7 @@ return {
         }
     },
     ["f706-1"] = {
-        label = " ",
-         -- '蘑菇湯罐頭',
+        label = "蘑菇湯罐頭",
         weight = 350,
         stack = true,
         close = true,
@@ -13426,8 +12718,7 @@ return {
         }
     },
     ["f707-1"] = {
-        label = " ",
-         -- '口香糖',
+        label = "口香糖",
         weight = 10,
         stack = true,
         close = true,
@@ -13442,8 +12733,7 @@ return {
         }
     },
     ["f708-1"] = {
-        label = " ",
-         -- '可口可樂',
+        label = "可口可樂",
         weight = 350,
         stack = true,
         close = true,
@@ -13487,8 +12777,7 @@ return {
         }
     },
     ["f711-1"] = {
-        label = " ",
-         -- '紅牛',
+        label = "紅牛",
         weight = 350,
         stack = true,
         close = true,
@@ -13503,8 +12792,7 @@ return {
         }
     },
     ["f712-1"] = {
-        label = " ",
-         -- '橙子汽水',
+        label = "橙子汽水",
         weight = 350,
         stack = true,
         close = true,
@@ -13534,8 +12822,7 @@ return {
         }
     },
     ["f714-1"] = {
-        label = " ",
-         -- '果汁',
+        label = "果汁",
         weight = 450,
         stack = true,
         close = true,
@@ -13550,8 +12837,7 @@ return {
         }
     },
     ["f715-1"] = {
-        label = " ",
-         -- '菠蘿汁',
+        label = "菠蘿汁",
         weight = 350,
         stack = true,
         close = true,
@@ -13566,8 +12852,7 @@ return {
         }
     },
     ["f716-1"] = {
-        label = " ",
-         -- '白葡萄酒',
+        label = "白葡萄酒",
         weight = 750,
         stack = false,
         close = true,
@@ -13582,8 +12867,7 @@ return {
         }
     },
     ["f717-1"] = {
-        label = " ",
-         -- '傑克丹尼爾威士忌',
+        label = "傑克丹尼爾威士忌",
         weight = 750,
         stack = false,
         close = true,
@@ -13598,8 +12882,7 @@ return {
         }
     },
     ["f718-1"] = {
-        label = " ",
-         -- '蘇聯紅伏特加',
+        label = "蘇聯紅伏特加",
         weight = 850,
         stack = false,
         close = true,
@@ -13614,8 +12897,7 @@ return {
         }
     },
     ["f719-1"] = {
-        label = " ",
-         -- '蛋黃醬',
+        label = "蛋黃醬",
         weight = 350,
         stack = true,
         close = true,
@@ -13630,8 +12912,7 @@ return {
         }
     },
     ["f720-1"] = {
-        label = " ",
-         -- '花生牛奶',
+        label = "花生牛奶",
         weight = 350,
         stack = true,
         close = true,
@@ -13646,8 +12927,7 @@ return {
         }
     },
     ["f721-1"] = {
-        label = " ",
-         -- '草莓麻糬',
+        label = "草莓麻糬",
         weight = 50,
         stack = true,
         close = true,
@@ -13662,8 +12942,7 @@ return {
         }
     },
     ["f722-1"] = {
-        label = " ",
-         -- '壓縮乾糧250g',
+        label = "壓縮乾糧250g",
         weight = 250,
         stack = false,
         close = true,
@@ -13677,8 +12956,7 @@ return {
         }
     },
     ["f724-1"] = {
-        label = " ",
-         -- '醃菜罐',
+        label = "醃菜罐",
         weight = 2000,
         stack = false,
         close = true,
@@ -13693,8 +12971,7 @@ return {
         }
     },
     ["f725-1"] = {
-        label = " ",
-         -- '各類罐頭',
+        label = "各類罐頭",
         weight = 600,
         stack = true,
         close = true,
@@ -13709,8 +12986,7 @@ return {
         }
     },
     ["f726-1"] = {
-        label = " ",
-         -- '綜合水果罐頭',
+        label = "綜合水果罐頭",
         weight = 565,
         stack = true,
         close = true,
@@ -13725,8 +13001,7 @@ return {
         }
     },
     ["f727-1"] = {
-        label = " ",
-         -- '綜合水果果汁',
+        label = "綜合水果果汁",
         weight = 300,
         stack = true,
         close = true,
@@ -13741,8 +13016,7 @@ return {
         }
     },
     ["f728-1"] = {
-        label = " ",
-         -- '綜合果乾',
+        label = "綜合果乾",
         weight = 300,
         stack = true,
         close = true,
@@ -13757,8 +13031,7 @@ return {
         }
     },
     ["f729-1"] = {
-        label = " ",
-         -- '水果禮盒',
+        label = "水果禮盒",
         weight = 800,
         stack = false,
         close = true,
@@ -13773,8 +13046,7 @@ return {
         }
     },
     ["f730-1"] = {
-        label = " ",
-         -- '糙米麵包',
+        label = "糙米麵包",
         weight = 50,
         stack = true,
         close = true,
@@ -13789,8 +13061,7 @@ return {
         }
     },
     ["f731-1"] = {
-        label = " ",
-         -- '原味小麵包',
+        label = "原味小麵包",
         weight = 20,
         stack = true,
         close = true,
@@ -13805,8 +13076,7 @@ return {
         }
     },
     ["f732-1"] = {
-        label = " ",
-         -- '營養口糧',
+        label = "營養口糧",
         weight = 300,
         stack = true,
         close = true,
@@ -13836,8 +13106,7 @@ return {
         }
     },
     ["f734-1"] = {
-        label = " ",
-         -- '速食肉罐頭',
+        label = "速食肉罐頭",
         weight = 400,
         stack = true,
         close = true,
@@ -13852,8 +13121,7 @@ return {
         }
     },
     ["f735-1"] = {
-        label = " ",
-         -- '水果乾',
+        label = "水果乾",
         weight = 400,
         stack = true,
         close = true,
@@ -13868,8 +13136,7 @@ return {
         }
     },
     ["f736-1"] = {
-        label = " ",
-         -- '急用乾糧',
+        label = "急用乾糧",
         weight = 400,
         stack = true,
         close = true,
@@ -13884,8 +13151,7 @@ return {
         }
     },
     ["f737-1"] = {
-        label = " ",
-         -- '急用乾糧盒裝',
+        label = "急用乾糧盒裝",
         weight = 2000,
         stack = false,
         close = true,
@@ -13896,8 +13162,7 @@ return {
         }
     },
     ["f738-1"] = {
-        label = " ",
-         -- '水果乾盒裝',
+        label = "水果乾盒裝",
         weight = 2000,
         stack = false,
         close = true,
@@ -13908,8 +13173,7 @@ return {
         }
     },
     ["f739-1"] = {
-        label = " ",
-         -- '誇松',
+        label = "誇松",
         weight = 45,
         stack = true,
         close = true,
@@ -13924,8 +13188,7 @@ return {
         }
     },
     ["f740-1"] = {
-        label = " ",
-         -- '紅豆麵包',
+        label = "紅豆麵包",
         weight = 102,
         stack = true,
         close = true,
@@ -13940,8 +13203,7 @@ return {
         }
     },
     ["f741-1"] = {
-        label = " ",
-         -- '菠蘿麵包',
+        label = "菠蘿麵包",
         weight = 180,
         stack = true,
         close = true,
@@ -13956,8 +13218,7 @@ return {
         }
     },
     ["f742-1"] = {
-        label = " ",
-         -- '全麥吐司',
+        label = "全麥吐司",
         weight = 111,
         stack = true,
         close = true,
@@ -13972,8 +13233,7 @@ return {
         }
     },
     ["f743-1"] = {
-        label = " ",
-         -- '全麥麵包',
+        label = "全麥麵包",
         weight = 88,
         stack = true,
         close = true,
@@ -13988,8 +13248,7 @@ return {
         }
     },
     ["f744-1"] = {
-        label = " ",
-         -- '草莓貝果',
+        label = "草莓貝果",
         weight = 111,
         stack = true,
         close = true,
@@ -14004,8 +13263,7 @@ return {
         }
     },
     ["f745-1"] = {
-        label = " ",
-         -- '櫻桃口味棒棒糖',
+        label = "櫻桃口味棒棒糖",
         weight = 20,
         stack = true,
         close = true,
@@ -14019,8 +13277,7 @@ return {
         }
     },
     ["f746-1"] = {
-        label = " ",
-         -- '即時納豆',
+        label = "即時納豆",
         weight = 20,
         stack = true,
         close = true,
@@ -14035,8 +13292,7 @@ return {
         }
     },
     ["f747-1"] = {
-        label = " ",
-         -- '烤昆蟲',
+        label = "烤昆蟲",
         weight = 100,
         stack = true,
         close = true,
@@ -14051,8 +13307,7 @@ return {
         }
     },
     ["f748-1"] = {
-        label = " ",
-         -- '大肉排',
+        label = "大肉排",
         weight = 500,
         stack = true,
         close = true,
@@ -14067,8 +13322,7 @@ return {
         }
     },
     ["f749-1"] = {
-        label = " ",
-         -- '奶油煎蛋',
+        label = "奶油煎蛋",
         weight = 100,
         stack = true,
         close = true,
@@ -14083,8 +13337,7 @@ return {
         }
     },
     ["f750-1"] = {
-        label = " ",
-         -- '軍用口糧',
+        label = "軍用口糧",
         weight = 470,
         stack = true,
         close = true,
@@ -14099,8 +13352,7 @@ return {
         }
     },
     ["f751-1"] = {
-        label = " ",
-         -- '礦泉水',
+        label = "礦泉水",
         weight = 1650,
         stack = true,
         close = true,
@@ -14111,8 +13363,7 @@ return {
         }
     },
     ["f752-1"] = {
-        label = " ",
-         -- '肉乾',
+        label = "肉乾",
         weight = 150,
         stack = true,
         close = true,
@@ -14126,8 +13377,7 @@ return {
         }
     },
     ["f753-1"] = {
-        label = " ",
-         -- '果乾',
+        label = "果乾",
         weight = 150,
         stack = true,
         close = true,
@@ -14141,8 +13391,7 @@ return {
         }
     },
     ["f756-1"] = {
-        label = " ",
-         -- '桃子罐頭',
+        label = "桃子罐頭",
         weight = 350,
         stack = true,
         close = true,
@@ -14156,8 +13405,7 @@ return {
         }
     },
     ["f757-1"] = {
-        label = " ",
-         -- '橘子罐頭',
+        label = "橘子罐頭",
         weight = 312,
         stack = true,
         close = true,
@@ -14171,8 +13419,7 @@ return {
         }
     },
     ["f758-1"] = {
-        label = " ",
-         -- '番茄糊罐頭',
+        label = "番茄糊罐頭",
         weight = 340,
         stack = true,
         close = true,
@@ -14186,8 +13433,7 @@ return {
         }
     },
     ["f759-1"] = {
-        label = " ",
-         -- '火腿片',
+        label = "火腿片",
         weight = 185,
         stack = true,
         close = true,
@@ -14201,8 +13447,7 @@ return {
         }
     },
     ["f760-1"] = {
-        label = " ",
-         -- '莓果派',
+        label = "莓果派",
         weight = 350,
         stack = false,
         close = true,
@@ -14216,8 +13461,7 @@ return {
         }
     },
     ["f761-1"] = {
-        label = " ",
-         -- '烤南瓜',
+        label = "烤南瓜",
         weight = 250,
         stack = false,
         close = true,
@@ -14231,8 +13475,7 @@ return {
         }
     },
     ["f762-1"] = {
-        label = " ",
-         -- '地瓜葉湯',
+        label = "地瓜葉湯",
         weight = 250,
         stack = false,
         close = true,
@@ -14246,8 +13489,7 @@ return {
         }
     },
     ["f763-1"] = {
-        label = " ",
-         -- '菜湯',
+        label = "菜湯",
         weight = 150,
         stack = false,
         close = true,
@@ -14261,8 +13503,7 @@ return {
         }
     },
     ["f764-1"] = {
-        label = " ",
-         -- '燙青菜',
+        label = "燙青菜",
         weight = 200,
         stack = false,
         close = true,
@@ -14276,8 +13517,7 @@ return {
         }
     },
     ["f765-1"] = {
-        label = " ",
-         -- '水煮紅蘿蔔',
+        label = "水煮紅蘿蔔",
         weight = 200,
         stack = false,
         close = true,
@@ -14291,8 +13531,7 @@ return {
         }
     },
     ["f766-1"] = {
-        label = " ",
-         -- '水煮芋頭',
+        label = "水煮芋頭",
         weight = 200,
         stack = false,
         close = true,
@@ -14306,8 +13545,7 @@ return {
         }
     },
     ["f767-1"] = {
-        label = " ",
-         -- '水煮豆芽',
+        label = "水煮豆芽",
         weight = 150,
         stack = false,
         close = true,
@@ -14321,8 +13559,7 @@ return {
         }
     },
     ["f768-1"] = {
-        label = " ",
-         -- '水煮花椰菜',
+        label = "水煮花椰菜",
         weight = 150,
         stack = false,
         close = true,
@@ -14336,8 +13573,7 @@ return {
         }
     },
     ["f769-1"] = {
-        label = " ",
-         -- '烤青椒',
+        label = "烤青椒",
         weight = 150,
         stack = false,
         close = true,
@@ -14351,8 +13587,7 @@ return {
         }
     },
     ["f770-1"] = {
-        label = " ",
-         -- '奶油烤魚',
+        label = "奶油烤魚",
         weight = 250,
         stack = false,
         close = true,
@@ -14366,8 +13601,7 @@ return {
         }
     },
     ["f771-1"] = {
-        label = " ",
-         -- '蒸葉子',
+        label = "蒸葉子",
         weight = 100,
         stack = false,
         close = true,
@@ -14381,8 +13615,7 @@ return {
         }
     },
     ["f772-1"] = {
-        label = " ",
-         -- '烤魚便當',
+        label = "烤魚便當",
         weight = 650,
         stack = false,
         close = true,
@@ -14396,8 +13629,7 @@ return {
         }
     },
     ["f773-1"] = {
-        label = " ",
-         -- '巧克力麥片',
+        label = "巧克力麥片",
         weight = 300,
         stack = true,
         close = true,
@@ -14412,8 +13644,7 @@ return {
         }
     },
     ["f774-1"] = {
-        label = " ",
-         -- '一把桑葚',
+        label = "一把桑葚",
         weight = 150,
         stack = true,
         close = true,
@@ -14428,8 +13659,7 @@ return {
         }
     },
     ["f775-1"] = {
-        label = " ",
-         -- '玉子燒*3',
+        label = "玉子燒*3",
         weight = 150,
         stack = true,
         close = true,
@@ -14442,8 +13672,7 @@ return {
         }
     },
     ["f776-1"] = {
-        label = " ",
-         -- '蚵仔煎洋芋片',
+        label = "蚵仔煎洋芋片",
         weight = 43,
         stack = true,
         close = true,
@@ -14458,8 +13687,7 @@ return {
         }
     },
     ["f777-1"] = {
-        label = " ",
-         -- '方便麵',
+        label = "方便麵",
         weight = 75,
         stack = true,
         close = true,
@@ -14474,8 +13702,7 @@ return {
         }
     },
     ["f778-1"] = {
-        label = " ",
-         -- '意粉肉丸罐頭',
+        label = "意粉肉丸罐頭",
         weight = 120,
         stack = true,
         close = true,
@@ -14490,8 +13717,7 @@ return {
         }
     },
     ["f779-1"] = {
-        label = " ",
-         -- '味噌鮪魚罐頭',
+        label = "味噌鮪魚罐頭",
         weight = 150,
         stack = true,
         close = true,
@@ -14506,8 +13732,7 @@ return {
         }
     },
     ["f780-1"] = {
-        label = " ",
-         -- '秋刀魚罐頭',
+        label = "秋刀魚罐頭",
         weight = 160,
         stack = true,
         close = true,
@@ -14522,8 +13747,7 @@ return {
         }
     },
     ["f781-1"] = {
-        label = " ",
-         -- '蜜桃果罐',
+        label = "蜜桃果罐",
         weight = 200,
         stack = true,
         close = true,
@@ -14542,8 +13766,7 @@ return {
         }
     },
     ["f782-1"] = {
-        label = " ",
-         -- '紅燒豬肉罐頭',
+        label = "紅燒豬肉罐頭",
         weight = 200,
         stack = true,
         close = true,
@@ -14558,8 +13781,7 @@ return {
         }
     },
     ["f783-1"] = {
-        label = " ",
-         -- '草菇素肉罐頭',
+        label = "草菇素肉罐頭",
         weight = 150,
         stack = true,
         close = true,
@@ -14574,8 +13796,7 @@ return {
         }
     },
     ["f784-1"] = {
-        label = " ",
-         -- '意式燴麵',
+        label = "意式燴麵",
         weight = 150,
         stack = false,
         close = true,
@@ -14590,8 +13811,7 @@ return {
         }
     },
     ["f785-1"] = {
-        label = " ",
-         -- '日式醬蛋飯',
+        label = "日式醬蛋飯",
         weight = 80,
         stack = false,
         close = true,
@@ -14606,8 +13826,7 @@ return {
         }
     },
     ["f786-1"] = {
-        label = " ",
-         -- '泡麵',
+        label = "泡麵",
         weight = 100,
         stack = false,
         close = true,
@@ -14622,8 +13841,7 @@ return {
         }
     },
     ["f787-1"] = {
-        label = " ",
-         -- '咖哩雜菜',
+        label = "咖哩雜菜",
         weight = 130,
         stack = false,
         close = true,
@@ -14638,8 +13856,7 @@ return {
         }
     },
     ["f788-1"] = {
-        label = " ",
-         -- '熟肉',
+        label = "熟肉",
         weight = 250,
         stack = true,
         close = true,
@@ -14654,8 +13871,7 @@ return {
         }
     },
     ["f789-1"] = {
-        label = " ",
-         -- '烤蔬菜',
+        label = "烤蔬菜",
         weight = 80,
         stack = true,
         close = true,
@@ -14670,8 +13886,7 @@ return {
         }
     },
     ["f790-1"] = {
-        label = " ",
-         -- '曬肉干',
+        label = "曬肉干",
         weight = 50,
         stack = true,
         close = true,
@@ -14686,8 +13901,7 @@ return {
         }
     },
     ["f791-1"] = {
-        label = " ",
-         -- '曬魚乾',
+        label = "曬魚乾",
         weight = 40,
         stack = true,
         close = true,
@@ -14702,8 +13916,7 @@ return {
         }
     },
     ["f792-1"] = {
-        label = " ",
-         -- '蔬菜肉湯',
+        label = "蔬菜肉湯",
         weight = 80,
         stack = false,
         close = true,
@@ -14718,8 +13931,7 @@ return {
         }
     },
     ["f793-1"] = {
-        label = " ",
-         -- '味噌菜湯',
+        label = "味噌菜湯",
         weight = 65,
         stack = true,
         close = true,
@@ -14734,8 +13946,7 @@ return {
         }
     },
     ["f794-1"] = {
-        label = " ",
-         -- '手工餅乾',
+        label = "手工餅乾",
         weight = 65,
         stack = true,
         close = true,
@@ -14750,8 +13961,7 @@ return {
         }
     },
     ["f795-1"] = {
-        label = " ",
-         -- '果凍',
+        label = "果凍",
         weight = 50,
         stack = true,
         close = true,
@@ -14766,8 +13976,7 @@ return {
         }
     },
     ["f796-1"] = {
-        label = " ",
-         -- '抹茶果凍',
+        label = "抹茶果凍",
         weight = 50,
         stack = true,
         close = true,
@@ -14782,8 +13991,7 @@ return {
         }
     },
     ["f797-1"] = {
-        label = " ",
-         -- '熱咖啡',
+        label = "熱咖啡",
         weight = 150,
         stack = false,
         close = true,
@@ -14801,8 +14009,7 @@ return {
         }
     },
     ["f798-1"] = {
-        label = " ",
-         -- '紅豆湯',
+        label = "紅豆湯",
         weight = 150,
         stack = false,
         close = true,
@@ -14817,8 +14024,7 @@ return {
         }
     },
     ["f799-1"] = {
-        label = " ",
-         -- '綠豆湯',
+        label = "綠豆湯",
         weight = 150,
         stack = false,
         close = true,
@@ -14833,8 +14039,7 @@ return {
         }
     },
     ["f800-1"] = {
-        label = " ",
-         -- '洋蔥炒蛋',
+        label = "洋蔥炒蛋",
         weight = 200,
         stack = false,
         close = true,
@@ -14849,8 +14054,7 @@ return {
         }
     },
     ["f801-1"] = {
-        label = " ",
-         -- '蔬菜湯',
+        label = "蔬菜湯",
         weight = 200,
         stack = false,
         close = true,
@@ -14868,8 +14072,7 @@ return {
         }
     },
     ["f802-1"] = {
-        label = " ",
-         -- '蒸蛋糕',
+        label = "蒸蛋糕",
         weight = 50,
         stack = false,
         close = true,
@@ -14884,8 +14087,7 @@ return {
         }
     },
     ["f803-1"] = {
-        label = " ",
-         -- '番茄燉菜',
+        label = "番茄燉菜",
         weight = 400,
         stack = false,
         close = true,
@@ -14900,8 +14102,7 @@ return {
         }
     },
     ["f804-1"] = {
-        label = " ",
-         -- '魚乾',
+        label = "魚乾",
         weight = 200,
         stack = true,
         close = true,
@@ -14916,8 +14117,7 @@ return {
         }
     },
     ["f805-1"] = {
-        label = " ",
-         -- '麥片',
+        label = "麥片",
         weight = 400,
         stack = false,
         close = true,
@@ -14926,8 +14126,7 @@ return {
         client = {}
     },
     ["f806-1"] = {
-        label = " ",
-         -- '雙倍歐姆蛋包飯',
+        label = "雙倍歐姆蛋包飯",
         weight = 450,
         stack = false,
         close = true,
@@ -14942,8 +14141,7 @@ return {
         }
     },
     ["f807-1"] = {
-        label = " ",
-         -- '清粥',
+        label = "清粥",
         weight = 350,
         stack = false,
         close = true,
@@ -14958,8 +14156,7 @@ return {
         }
     },
     ["f808-1"] = {
-        label = " ",
-         -- '肉絲蛋炒飯',
+        label = "肉絲蛋炒飯",
         weight = 450,
         stack = false,
         close = true,
@@ -14974,8 +14171,7 @@ return {
         }
     },
     ["f809-1"] = {
-        label = " ",
-         -- '培根蛋炒飯',
+        label = "培根蛋炒飯",
         weight = 450,
         stack = false,
         close = true,
@@ -14990,8 +14186,7 @@ return {
         }
     },
     ["f810-1"] = {
-        label = " ",
-         -- '牛肉蛋炒飯',
+        label = "牛肉蛋炒飯",
         weight = 450,
         stack = false,
         close = true,
@@ -15006,8 +14201,7 @@ return {
         }
     },
     ["f811-1"] = {
-        label = " ",
-         -- '豬肉蓋炒飯',
+        label = "豬肉蓋炒飯",
         weight = 450,
         stack = false,
         close = true,
@@ -15022,8 +14216,7 @@ return {
         }
     },
     ["f812-1"] = {
-        label = " ",
-         -- '黑胡椒豬排蓋炒飯',
+        label = "黑胡椒豬排蓋炒飯",
         weight = 450,
         stack = false,
         close = true,
@@ -15038,8 +14231,7 @@ return {
         }
     },
     ["f813-1"] = {
-        label = " ",
-         -- '燒豬肉',
+        label = "燒豬肉",
         weight = 250,
         stack = false,
         close = true,
@@ -15054,8 +14246,7 @@ return {
         }
     },
     ["f814-1"] = {
-        label = " ",
-         -- '燒牛肉',
+        label = "燒牛肉",
         weight = 250,
         stack = false,
         close = true,
@@ -15070,8 +14261,7 @@ return {
         }
     },
     ["f815-1"] = {
-        label = " ",
-         -- '麻婆豆腐',
+        label = "麻婆豆腐",
         weight = 350,
         stack = false,
         close = true,
@@ -15086,8 +14276,7 @@ return {
         }
     },
     ["f816-1"] = {
-        label = " ",
-         -- '醬爆肉片',
+        label = "醬爆肉片",
         weight = 350,
         stack = false,
         close = true,
@@ -15102,8 +14291,7 @@ return {
         }
     },
     ["f817-1"] = {
-        label = " ",
-         -- '蔥油餅',
+        label = "蔥油餅",
         weight = 350,
         stack = false,
         close = true,
@@ -15118,8 +14306,7 @@ return {
         }
     },
     ["f818-1"] = {
-        label = " ",
-         -- '茶葉蛋',
+        label = "茶葉蛋",
         weight = 100,
         stack = true,
         close = true,
@@ -15134,8 +14321,7 @@ return {
         }
     },
     ["f819-1"] = {
-        label = " ",
-         -- '糖醋里肌',
+        label = "糖醋里肌",
         weight = 350,
         stack = false,
         close = true,
@@ -15150,8 +14336,7 @@ return {
         }
     },
     ["f820-1"] = {
-        label = " ",
-         -- '咖哩馬鈴薯',
+        label = "咖哩馬鈴薯",
         weight = 200,
         stack = false,
         close = true,
@@ -15166,8 +14351,7 @@ return {
         }
     },
     ["f821-1"] = {
-        label = " ",
-         -- '洋蔥炒肉絲',
+        label = "洋蔥炒肉絲",
         weight = 250,
         stack = false,
         close = true,
@@ -15182,8 +14366,7 @@ return {
         }
     },
     ["f822-1"] = {
-        label = " ",
-         -- '獅子頭',
+        label = "獅子頭",
         weight = 250,
         stack = false,
         close = true,
@@ -15198,8 +14381,7 @@ return {
         }
     },
     ["f823-1"] = {
-        label = " ",
-         -- '可樂東坡肉',
+        label = "可樂東坡肉",
         weight = 250,
         stack = false,
         close = true,
@@ -15214,8 +14396,7 @@ return {
         }
     },
     ["f824-1"] = {
-        label = " ",
-         -- '滷杏鮑菇',
+        label = "滷杏鮑菇",
         weight = 250,
         stack = false,
         close = true,
@@ -15230,8 +14411,7 @@ return {
         }
     },
     ["f825-1"] = {
-        label = " ",
-         -- '蜜汁叉燒',
+        label = "蜜汁叉燒",
         weight = 150,
         stack = false,
         close = true,
@@ -15246,8 +14426,7 @@ return {
         }
     },
     ["f826-1"] = {
-        label = " ",
-         -- '冬瓜滷肉',
+        label = "冬瓜滷肉",
         weight = 200,
         stack = false,
         close = true,
@@ -15262,8 +14441,7 @@ return {
         }
     },
     ["f827-1"] = {
-        label = " ",
-         -- '糖醋魚',
+        label = "糖醋魚",
         weight = 350,
         stack = false,
         close = true,
@@ -15278,8 +14456,7 @@ return {
         }
     },
     ["f828-1"] = {
-        label = " ",
-         -- '三杯杏鮑菇',
+        label = "三杯杏鮑菇",
         weight = 250,
         stack = false,
         close = true,
@@ -15294,8 +14471,7 @@ return {
         }
     },
     ["f829-1"] = {
-        label = " ",
-         -- '清蒸魚',
+        label = "清蒸魚",
         weight = 250,
         stack = false,
         close = true,
@@ -15310,8 +14486,7 @@ return {
         }
     },
     ["f830-1"] = {
-        label = " ",
-         -- '南瓜饅頭',
+        label = "南瓜饅頭",
         weight = 250,
         stack = false,
         close = true,
@@ -15326,8 +14501,7 @@ return {
         }
     },
     ["f831-1"] = {
-        label = " ",
-         -- '鹽烤魚',
+        label = "鹽烤魚",
         weight = 250,
         stack = false,
         close = true,
@@ -15342,8 +14516,7 @@ return {
         }
     },
     ["f832-1"] = {
-        label = " ",
-         -- '蔥爆牛肉',
+        label = "蔥爆牛肉",
         weight = 250,
         stack = false,
         close = true,
@@ -15358,8 +14531,7 @@ return {
         }
     },
     ["f833-1"] = {
-        label = " ",
-         -- '醉蝦',
+        label = "醉蝦",
         weight = 250,
         stack = false,
         close = true,
@@ -15374,8 +14546,7 @@ return {
         }
     },
     ["f834-1"] = {
-        label = " ",
-         -- '麥片蝦',
+        label = "麥片蝦",
         weight = 250,
         stack = false,
         close = true,
@@ -15390,8 +14561,7 @@ return {
         }
     },
     ["f835-1"] = {
-        label = " ",
-         -- '燕麥粥',
+        label = "燕麥粥",
         weight = 250,
         stack = false,
         close = true,
@@ -15406,8 +14576,7 @@ return {
         }
     },
     ["f836-1"] = {
-        label = " ",
-         -- '螞蟻上樹',
+        label = "螞蟻上樹",
         weight = 350,
         stack = false,
         close = true,
@@ -15422,8 +14591,7 @@ return {
         }
     },
     ["f837-1"] = {
-        label = " ",
-         -- '素炒粉絲',
+        label = "素炒粉絲",
         weight = 150,
         stack = false,
         close = true,
@@ -15438,8 +14606,7 @@ return {
         }
     },
     ["f838-1"] = {
-        label = " ",
-         -- '紅豆車輪餅',
+        label = "紅豆車輪餅",
         weight = 250,
         stack = false,
         close = true,
@@ -15454,8 +14621,7 @@ return {
         }
     },
     ["f839-1"] = {
-        label = " ",
-         -- '方塊酥',
+        label = "方塊酥",
         weight = 250,
         stack = false,
         close = true,
@@ -15470,8 +14636,7 @@ return {
         }
     },
     ["f840-1"] = {
-        label = " ",
-         -- '炸湯圓',
+        label = "炸湯圓",
         weight = 250,
         stack = false,
         close = true,
@@ -15486,8 +14651,7 @@ return {
         }
     },
     ["f841-1"] = {
-        label = " ",
-         -- '湯圓',
+        label = "湯圓",
         weight = 100,
         stack = false,
         close = true,
@@ -15502,8 +14666,7 @@ return {
         }
     },
     ["f842-1"] = {
-        label = " ",
-         -- '蛋塔',
+        label = "蛋塔",
         weight = 300,
         stack = false,
         close = true,
@@ -15518,8 +14681,7 @@ return {
         }
     },
     ["f843-1"] = {
-        label = " ",
-         -- '牛舌餅',
+        label = "牛舌餅",
         weight = 200,
         stack = false,
         close = true,
@@ -15534,8 +14696,7 @@ return {
         }
     },
     ["f844-1"] = {
-        label = " ",
-         -- '黑糖發糕',
+        label = "黑糖發糕",
         weight = 250,
         stack = false,
         close = true,
@@ -15550,8 +14711,7 @@ return {
         }
     },
     ["f845-1"] = {
-        label = " ",
-         -- '抹茶酥',
+        label = "抹茶酥",
         weight = 250,
         stack = false,
         close = true,
@@ -15566,8 +14726,7 @@ return {
         }
     },
     ["f846-1"] = {
-        label = " ",
-         -- '炸鮮奶',
+        label = "炸鮮奶",
         weight = 250,
         stack = false,
         close = true,
@@ -15582,8 +14741,7 @@ return {
         }
     },
     ["f847-1"] = {
-        label = " ",
-         -- '油飯',
+        label = "油飯",
         weight = 250,
         stack = false,
         close = true,
@@ -15598,8 +14756,7 @@ return {
         }
     },
     ["f848-1"] = {
-        label = " ",
-         -- '小籠包',
+        label = "小籠包",
         weight = 250,
         stack = false,
         close = true,
@@ -15614,8 +14771,7 @@ return {
         }
     },
     ["f849-1"] = {
-        label = " ",
-         -- '蝦餃',
+        label = "蝦餃",
         weight = 250,
         stack = false,
         close = true,
@@ -15630,8 +14786,7 @@ return {
         }
     },
     ["f850-1"] = {
-        label = " ",
-         -- '奶黃包',
+        label = "奶黃包",
         weight = 250,
         stack = false,
         close = true,
@@ -15646,8 +14801,7 @@ return {
         }
     },
     ["f851-1"] = {
-        label = " ",
-         -- '蛋黃酥',
+        label = "蛋黃酥",
         weight = 250,
         stack = false,
         close = true,
@@ -15662,8 +14816,7 @@ return {
         }
     },
     ["f852-1"] = {
-        label = " ",
-         -- '牛肉麵',
+        label = "牛肉麵",
         weight = 450,
         stack = false,
         close = true,
@@ -15678,8 +14831,7 @@ return {
         }
     },
     ["f853-1"] = {
-        label = " ",
-         -- '滷排骨',
+        label = "滷排骨",
         weight = 200,
         stack = false,
         close = true,
@@ -15694,8 +14846,7 @@ return {
         }
     },
     ["f854-1"] = {
-        label = " ",
-         -- '傻瓜乾麵',
+        label = "傻瓜乾麵",
         weight = 250,
         stack = false,
         close = true,
@@ -15710,8 +14861,7 @@ return {
         }
     },
     ["f855-1"] = {
-        label = " ",
-         -- 'ABC湯',
+        label = "ABC湯",
         weight = 300,
         stack = false,
         close = true,
@@ -15726,8 +14876,7 @@ return {
         }
     },
     ["f856-1"] = {
-        label = " ",
-         -- '培根花椰濃湯',
+        label = "培根花椰濃湯",
         weight = 300,
         stack = false,
         close = true,
@@ -15742,8 +14891,7 @@ return {
         }
     },
     ["f857-1"] = {
-        label = " ",
-         -- '鮮甜螃蟹湯',
+        label = "鮮甜螃蟹湯",
         weight = 300,
         stack = false,
         close = true,
@@ -15758,8 +14906,7 @@ return {
         }
     },
     ["f858-1"] = {
-        label = " ",
-         -- '調味意大利麵',
+        label = "調味意大利麵",
         weight = 200,
         stack = false,
         close = true,
@@ -15774,8 +14921,7 @@ return {
         }
     },
     ["f859-1"] = {
-        label = " ",
-         -- '馬鈴薯泥',
+        label = "馬鈴薯泥",
         weight = 100,
         stack = false,
         close = true,
@@ -15790,8 +14936,7 @@ return {
         }
     },
     ["f860-1"] = {
-        label = " ",
-         -- '蔬菜沙拉',
+        label = "蔬菜沙拉",
         weight = 100,
         stack = false,
         close = true,
@@ -15806,8 +14951,7 @@ return {
         }
     },
     ["f861-1"] = {
-        label = " ",
-         -- '番茄焗蛋',
+        label = "番茄焗蛋",
         weight = 180,
         stack = false,
         close = true,
@@ -15822,8 +14966,7 @@ return {
         }
     },
     ["f862-1"] = {
-        label = " ",
-         -- '青椒辣炒雞蛋',
+        label = "青椒辣炒雞蛋",
         weight = 200,
         stack = false,
         close = true,
@@ -15838,8 +14981,7 @@ return {
         }
     },
     ["f863-1"] = {
-        label = " ",
-         -- '芋頭玉米飯',
+        label = "芋頭玉米飯",
         weight = 220,
         stack = false,
         close = true,
@@ -15854,8 +14996,7 @@ return {
         }
     },
     ["f864-1"] = {
-        label = " ",
-         -- '清蒸南瓜鳳梨',
+        label = "清蒸南瓜鳳梨",
         weight = 150,
         stack = false,
         close = true,
@@ -15870,8 +15011,7 @@ return {
         }
     },
     ["f865-1"] = {
-        label = " ",
-         -- '綜合豆豆零食',
+        label = "綜合豆豆零食",
         weight = 100,
         stack = false,
         close = true,
@@ -15886,8 +15026,7 @@ return {
         }
     },
     ["f866-1"] = {
-        label = " ",
-         -- '黑松露米煎餅',
+        label = "黑松露米煎餅",
         weight = 150,
         stack = false,
         close = true,
@@ -15902,8 +15041,7 @@ return {
         }
     },
     ["f867-1"] = {
-        label = " ",
-         -- '蘆薈燉蘋果',
+        label = "蘆薈燉蘋果",
         weight = 200,
         stack = false,
         close = true,
@@ -15918,8 +15056,7 @@ return {
         }
     },
     ["f868-1"] = {
-        label = " ",
-         -- '威士忌草頭',
+        label = "威士忌草頭",
         weight = 250,
         stack = false,
         close = true,
@@ -15934,8 +15071,7 @@ return {
         }
     },
     ["f869-1"] = {
-        label = " ",
-         -- '葡萄酒肉品',
+        label = "葡萄酒肉品",
         weight = 400,
         stack = false,
         close = true,
@@ -15950,8 +15086,7 @@ return {
         }
     },
     ["f870-1"] = {
-        label = " ",
-         -- '白蘭地肉品',
+        label = "白蘭地肉品",
         weight = 400,
         stack = false,
         close = true,
@@ -15966,8 +15101,7 @@ return {
         }
     },
     ["f871-1"] = {
-        label = " ",
-         -- '西式酒嗆牛扒',
+        label = "西式酒嗆牛扒",
         weight = 400,
         stack = false,
         close = true,
@@ -15982,8 +15116,7 @@ return {
         }
     },
     ["f872-1"] = {
-        label = " ",
-         -- '西式橙酒肺魚',
+        label = "西式橙酒肺魚",
         weight = 300,
         stack = false,
         close = true,
@@ -15998,8 +15131,7 @@ return {
         }
     },
     ["f873-1"] = {
-        label = " ",
-         -- '白酒魚片',
+        label = "白酒魚片",
         weight = 150,
         stack = false,
         close = true,
@@ -16014,8 +15146,7 @@ return {
         }
     },
     ["f874-1"] = {
-        label = " ",
-         -- '辣椒蒸魚',
+        label = "辣椒蒸魚",
         weight = 150,
         stack = false,
         close = true,
@@ -16030,8 +15161,7 @@ return {
         }
     },
     ["f875-1"] = {
-        label = " ",
-         -- '清水煮魚',
+        label = "清水煮魚",
         weight = 150,
         stack = false,
         close = true,
@@ -16046,8 +15176,7 @@ return {
         }
     },
     ["f876-1"] = {
-        label = " ",
-         -- '西式白酒嗆蝦',
+        label = "西式白酒嗆蝦",
         weight = 200,
         stack = false,
         close = true,
@@ -16062,8 +15191,7 @@ return {
         }
     },
     ["f877-1"] = {
-        label = " ",
-         -- '檸檬片蝦',
+        label = "檸檬片蝦",
         weight = 150,
         stack = false,
         close = true,
@@ -16078,8 +15206,7 @@ return {
         }
     },
     ["f878-1"] = {
-        label = " ",
-         -- '龍舌蘭麻辣龍蝦',
+        label = "龍舌蘭麻辣龍蝦",
         weight = 200,
         stack = false,
         close = true,
@@ -16094,8 +15221,7 @@ return {
         }
     },
     ["f879-1"] = {
-        label = " ",
-         -- '迷迭香墨魚',
+        label = "迷迭香墨魚",
         weight = 200,
         stack = false,
         close = true,
@@ -16110,8 +15236,7 @@ return {
         }
     },
     ["f880-1"] = {
-        label = " ",
-         -- '莓果盤',
+        label = "莓果盤",
         weight = 100,
         stack = false,
         close = true,
@@ -16126,8 +15251,7 @@ return {
         }
     },
     ["f881-1"] = {
-        label = " ",
-         -- '水果盤',
+        label = "水果盤",
         weight = 100,
         stack = false,
         close = true,
@@ -16142,8 +15266,7 @@ return {
         }
     },
     ["f882-1"] = {
-        label = " ",
-         -- '梨子凍',
+        label = "梨子凍",
         weight = 100,
         stack = false,
         close = true,
@@ -16158,8 +15281,7 @@ return {
         }
     },
     ["f883-1"] = {
-        label = " ",
-         -- '萊姆酒漬葡萄',
+        label = "萊姆酒漬葡萄",
         weight = 100,
         stack = false,
         close = true,
@@ -16174,8 +15296,7 @@ return {
         }
     },
     ["f884-1"] = {
-        label = " ",
-         -- '蔓越莓琴酒',
+        label = "蔓越莓琴酒",
         weight = 200,
         stack = false,
         close = true,
@@ -16190,8 +15311,7 @@ return {
         }
     },
     ["f885-1"] = {
-        label = " ",
-         -- '葡萄柚伏特加',
+        label = "葡萄柚伏特加",
         weight = 200,
         stack = false,
         close = true,
@@ -16220,8 +15340,7 @@ return {
         }
     },
     ["f887-1"] = {
-        label = " ",
-         -- '奇異果汁',
+        label = "奇異果汁",
         weight = 200,
         stack = false,
         close = true,
@@ -16236,8 +15355,7 @@ return {
         }
     },
     ["f888-1"] = {
-        label = " ",
-         -- '大雜煮鍋',
+        label = "大雜煮鍋",
         weight = 8000,
         stack = false,
         close = true,
@@ -16249,8 +15367,7 @@ return {
         }
     },
     ["f889-1"] = {
-        label = " ",
-         -- '小雜煮',
+        label = "小雜煮",
         weight = 800,
         stack = false,
         close = true,
@@ -16265,8 +15382,7 @@ return {
         }
     },
     ["f890-1"] = {
-        label = " ",
-         -- '咖哩鍋',
+        label = "咖哩鍋",
         weight = 8000,
         stack = false,
         close = true,
@@ -16278,8 +15394,7 @@ return {
         }
     },
     ["f891-1"] = {
-        label = " ",
-         -- '白飯',
+        label = "白飯",
         weight = 150,
         stack = false,
         close = true,
@@ -16294,8 +15409,7 @@ return {
         }
     },
     ["f892-1"] = {
-        label = " ",
-         -- '咖哩醬',
+        label = "咖哩醬",
         weight = 800,
         stack = false,
         close = true,
@@ -16310,8 +15424,7 @@ return {
         }
     },
     ["f893-1"] = {
-        label = " ",
-         -- '荼蘼茶',
+        label = "荼蘼茶",
         weight = 300,
         stack = false,
         close = true,
@@ -16326,8 +15439,7 @@ return {
         }
     },
     ["f894-1"] = {
-        label = " ",
-         -- '艾草茶',
+        label = "艾草茶",
         weight = 300,
         stack = false,
         close = true,
@@ -16342,8 +15454,7 @@ return {
         }
     },
     ["f895-1"] = {
-        label = " ",
-         -- '草藥湯',
+        label = "草藥湯",
         weight = 300,
         stack = false,
         close = true,
@@ -16358,8 +15469,7 @@ return {
         }
     },
     ["f896-1"] = {
-        label = " ",
-         -- '薑黃南瓜湯',
+        label = "薑黃南瓜湯",
         weight = 400,
         stack = false,
         close = true,
@@ -16374,8 +15484,7 @@ return {
         }
     },
     ["f897-1"] = {
-        label = " ",
-         -- '蜂蜜檸檬蘆薈飲',
+        label = "蜂蜜檸檬蘆薈飲",
         weight = 400,
         stack = false,
         close = true,
@@ -16390,8 +15499,7 @@ return {
         }
     },
     ["f898-1"] = {
-        label = " ",
-         -- '胡蘿蔔汁',
+        label = "胡蘿蔔汁",
         weight = 350,
         stack = false,
         close = true,
@@ -16406,8 +15514,7 @@ return {
         }
     },
     ["f899-1"] = {
-        label = " ",
-         -- '抹茶紅豆珍珠拿鐵',
+        label = "抹茶紅豆珍珠拿鐵",
         weight = 350,
         stack = false,
         close = true,
@@ -16422,8 +15529,7 @@ return {
         }
     },
     ["f900-1"] = {
-        label = " ",
-         -- '桑葚果醋',
+        label = "桑葚果醋",
         weight = 250,
         stack = false,
         close = true,
@@ -16438,8 +15544,7 @@ return {
         }
     },
     ["f901-1"] = {
-        label = " ",
-         -- '薄荷檸檬蜜茶飲',
+        label = "薄荷檸檬蜜茶飲",
         weight = 350,
         stack = false,
         close = true,
@@ -16454,8 +15559,7 @@ return {
         }
     },
     ["f902-1"] = {
-        label = " ",
-         -- '薄荷檸檬水',
+        label = "薄荷檸檬水",
         weight = 300,
         stack = false,
         close = true,
@@ -16470,8 +15574,7 @@ return {
         }
     },
     ["f903-1"] = {
-        label = " ",
-         -- '蜂蜜薄荷飲',
+        label = "蜂蜜薄荷飲",
         weight = 300,
         stack = false,
         close = true,
@@ -16486,8 +15589,7 @@ return {
         }
     },
     ["f904-1"] = {
-        label = " ",
-         -- '蘆薈多多綠',
+        label = "蘆薈多多綠",
         weight = 300,
         stack = false,
         close = true,
@@ -16502,8 +15604,7 @@ return {
         }
     },
     ["f905-1"] = {
-        label = " ",
-         -- '多多檸檬',
+        label = "多多檸檬",
         weight = 350,
         stack = false,
         close = true,
@@ -16518,8 +15619,7 @@ return {
         }
     },
     ["f906-1"] = {
-        label = " ",
-         -- '甘蔗青茶',
+        label = "甘蔗青茶",
         weight = 300,
         stack = false,
         close = true,
@@ -16534,8 +15634,7 @@ return {
         }
     },
     ["f907-1"] = {
-        label = " ",
-         -- '甘蔗紅茶',
+        label = "甘蔗紅茶",
         weight = 300,
         stack = false,
         close = true,
@@ -16550,8 +15649,7 @@ return {
         }
     },
     ["f908-1"] = {
-        label = " ",
-         -- '甘蔗綠茶',
+        label = "甘蔗綠茶",
         weight = 300,
         stack = false,
         close = true,
@@ -16566,8 +15664,7 @@ return {
         }
     },
     ["f909-1"] = {
-        label = " ",
-         -- '甘蔗檸檬蜜茶',
+        label = "甘蔗檸檬蜜茶",
         weight = 350,
         stack = false,
         close = true,
@@ -16582,8 +15679,7 @@ return {
         }
     },
     ["f910-1"] = {
-        label = " ",
-         -- '甘蔗汁',
+        label = "甘蔗汁",
         weight = 300,
         stack = false,
         close = true,
@@ -16598,8 +15694,7 @@ return {
         }
     },
     ["f911-1"] = {
-        label = " ",
-         -- '青茶',
+        label = "青茶",
         weight = 250,
         stack = false,
         close = true,
@@ -16614,8 +15709,7 @@ return {
         }
     },
     ["f912-1"] = {
-        label = " ",
-         -- '綠茶',
+        label = "綠茶",
         weight = 250,
         stack = false,
         close = true,
@@ -16630,8 +15724,7 @@ return {
         }
     },
     ["f913-1"] = {
-        label = " ",
-         -- '烏龍茶',
+        label = "烏龍茶",
         weight = 250,
         stack = false,
         close = true,
@@ -16646,8 +15739,7 @@ return {
         }
     },
     ["f914-1"] = {
-        label = " ",
-         -- '奶茶',
+        label = "奶茶",
         weight = 300,
         stack = false,
         close = true,
@@ -16662,8 +15754,7 @@ return {
         }
     },
     ["f915-1"] = {
-        label = " ",
-         -- '檸檬紅茶',
+        label = "檸檬紅茶",
         weight = 300,
         stack = false,
         close = true,
@@ -16678,8 +15769,7 @@ return {
         }
     },
     ["f916-1"] = {
-        label = " ",
-         -- '冬瓜茶',
+        label = "冬瓜茶",
         weight = 300,
         stack = false,
         close = true,
@@ -16694,8 +15784,7 @@ return {
         }
     },
     ["f917-1"] = {
-        label = " ",
-         -- '冬瓜檸檬',
+        label = "冬瓜檸檬",
         weight = 300,
         stack = false,
         close = true,
@@ -16710,8 +15799,7 @@ return {
         }
     },
     ["f918-1"] = {
-        label = " ",
-         -- '烤玉米',
+        label = "烤玉米",
         weight = 160,
         stack = true,
         close = true,
@@ -16726,8 +15814,7 @@ return {
         }
     },
     ["f919-1"] = {
-        label = " ",
-         -- '高麗菜炒肉',
+        label = "高麗菜炒肉",
         weight = 450,
         stack = false,
         close = true,
@@ -16742,8 +15829,7 @@ return {
         }
     },
     ["f920-1"] = {
-        label = " ",
-         -- '烤魚',
+        label = "烤魚",
         weight = 300,
         stack = false,
         close = true,
@@ -16758,8 +15844,7 @@ return {
         }
     },
     ["f921-1"] = {
-        label = " ",
-         -- '豬腳麵線',
+        label = "豬腳麵線",
         weight = 350,
         stack = true,
         close = true,
@@ -16774,8 +15859,7 @@ return {
         }
     },
     ["f922-1"] = {
-        label = " ",
-         -- '冰淇淋汽水',
+        label = "冰淇淋汽水",
         weight = 300,
         stack = false,
         close = true,
@@ -16794,8 +15878,7 @@ return {
         }
     },
     ["f923-1"] = {
-        label = " ",
-         -- '鹹檸七',
+        label = "鹹檸七",
         weight = 500,
         stack = false,
         close = true,
@@ -16814,8 +15897,7 @@ return {
         }
     },
     ["f924-1"] = {
-        label = " ",
-         -- '凍檸茶',
+        label = "凍檸茶",
         weight = 500,
         stack = false,
         close = true,
@@ -16834,8 +15916,7 @@ return {
         }
     },
     ["f925-1"] = {
-        label = " ",
-         -- '星星糖',
+        label = "星星糖",
         weight = 250,
         stack = true,
         close = true,
@@ -16854,8 +15935,7 @@ return {
         }
     },
     ["f927-1"] = {
-        label = " ",
-         -- '臭豆腐',
+        label = "臭豆腐",
         weight = 250,
         stack = false,
         close = true,
@@ -16874,8 +15954,7 @@ return {
         }
     },
     ["f928-1"] = {
-        label = " ",
-         -- '蘋果沙拉',
+        label = "蘋果沙拉",
         weight = 300,
         stack = false,
         close = true,
@@ -16894,8 +15973,7 @@ return {
         }
     },
     ["f929-1"] = {
-        label = " ",
-         -- '蘋果慕斯蛋糕',
+        label = "蘋果慕斯蛋糕",
         weight = 350,
         stack = false,
         close = true,
@@ -16914,8 +15992,7 @@ return {
         }
     },
     ["f930-1"] = {
-        label = " ",
-         -- '可可肉桂蘋果法式吐司',
+        label = "可可肉桂蘋果法式吐司",
         weight = 350,
         stack = false,
         close = true,
@@ -16934,8 +16011,7 @@ return {
         }
     },
     ["f931-1"] = {
-        label = " ",
-         -- '蘋果醋',
+        label = "蘋果醋",
         weight = 450,
         stack = false,
         close = true,
@@ -16973,8 +16049,7 @@ return {
         }
     },
     ["f933-1"] = {
-        label = " ",
-         -- '蘋果蘇打',
+        label = "蘋果蘇打",
         weight = 450,
         stack = false,
         close = true,
@@ -16993,8 +16068,7 @@ return {
         }
     },
     ["f934-1"] = {
-        label = " ",
-         -- '蘋果馬丁尼',
+        label = "蘋果馬丁尼",
         weight = 250,
         stack = false,
         close = true,
@@ -17013,8 +16087,7 @@ return {
         }
     },
     ["f935-1"] = {
-        label = " ",
-         -- '熱牛奶',
+        label = "熱牛奶",
         weight = 350,
         stack = false,
         close = true,
@@ -17033,8 +16106,7 @@ return {
         }
     },
     ["f936-1"] = {
-        label = " ",
-         -- '黑糖水',
+        label = "黑糖水",
         weight = 350,
         stack = false,
         close = true,
@@ -17053,8 +16125,7 @@ return {
         }
     },
     ["f937-1"] = {
-        label = " ",
-         -- '酥皮',
+        label = "酥皮",
         weight = 50,
         stack = true,
         close = true,
@@ -17063,8 +16134,7 @@ return {
         client = {}
     },
     ["f938-1"] = {
-        label = " ",
-         -- '蘋果牛奶',
+        label = "蘋果牛奶",
         weight = 250,
         stack = false,
         close = true,
@@ -17083,8 +16153,7 @@ return {
         }
     },
     ["f939-1"] = {
-        label = " ",
-         -- '蘇格蘭蘋果酒',
+        label = "蘇格蘭蘋果酒",
         weight = 250,
         stack = false,
         close = true,
@@ -17103,8 +16172,7 @@ return {
         }
     },
     ["f940-1"] = {
-        label = " ",
-         -- '仰望派',
+        label = "仰望派",
         weight = 10,
         stack = true,
         close = true,
@@ -17123,8 +16191,7 @@ return {
         }
     },
     ["f941-1"] = {
-        label = " ",
-         -- '樂樂牌歐姆蛋',
+        label = "樂樂牌歐姆蛋",
         weight = 250,
         stack = false,
         close = true,
@@ -17143,8 +16210,7 @@ return {
         }
     },
     ["f942-1"] = {
-        label = " ",
-         -- '紅奶油派',
+        label = "紅奶油派",
         weight = 250,
         stack = true,
         close = true,
@@ -17163,8 +16229,7 @@ return {
         }
     },
     ["f943-1"] = {
-        label = " ",
-         -- '鯛魚燒',
+        label = "鯛魚燒",
         weight = 0,
         stack = true,
         close = true,
@@ -17183,8 +16248,7 @@ return {
         }
     },
     ["f944-1"] = {
-        label = " ",
-         -- '棉花糖貓掌布丁',
+        label = "棉花糖貓掌布丁",
         weight = 150,
         stack = false,
         close = true,
@@ -17203,8 +16267,7 @@ return {
         }
     },
     ["f945-1"] = {
-        label = " ",
-         -- '粉色棒棒糖',
+        label = "粉色棒棒糖",
         weight = 50,
         stack = true,
         close = true,
@@ -17223,8 +16286,7 @@ return {
         }
     },
     ["f946-1"] = {
-        label = " ",
-         -- '珍珠奶茶冰淇淋鯛魚燒',
+        label = "珍珠奶茶冰淇淋鯛魚燒",
         weight = 250,
         stack = false,
         close = true,
@@ -17243,8 +16305,7 @@ return {
         }
     },
     ["f947-1"] = {
-        label = " ",
-         -- '抹茶冰淇淋鯛魚燒',
+        label = "抹茶冰淇淋鯛魚燒",
         weight = 250,
         stack = false,
         close = true,
@@ -17263,8 +16324,7 @@ return {
         }
     },
     ["f948-1"] = {
-        label = " ",
-         -- '燒肉丼飯',
+        label = "燒肉丼飯",
         weight = 450,
         stack = false,
         close = true,
@@ -17283,8 +16343,7 @@ return {
         }
     },
     ["f949-1"] = {
-        label = " ",
-         -- '蔥抓餅',
+        label = "蔥抓餅",
         weight = 300,
         stack = false,
         close = true,
@@ -17303,8 +16362,7 @@ return {
         }
     },
     ["f950-1"] = {
-        label = " ",
-         -- '拿鐵特調',
+        label = "拿鐵特調",
         weight = 300,
         stack = false,
         close = true,
@@ -17337,8 +16395,7 @@ return {
         }
     },
     ["f953-1"] = {
-        label = " ",
-         -- '綜合玫果塔',
+        label = "綜合玫果塔",
         weight = 250,
         stack = false,
         close = true,
@@ -17357,8 +16414,7 @@ return {
         }
     },
     ["f953-2"] = {
-        label = " ",
-         -- '玫瑰巧克力草莓塔',
+        label = "玫瑰巧克力草莓塔",
         weight = 250,
         stack = false,
         close = true,
@@ -17377,8 +16433,7 @@ return {
         }
     },
     ["f954-1"] = {
-        label = " ",
-         -- '草莓手指餅乾',
+        label = "草莓手指餅乾",
         weight = 150,
         stack = false,
         close = true,
@@ -17397,8 +16452,7 @@ return {
         }
     },
     ["f955-1"] = {
-        label = " ",
-         -- '貓咪杯子蛋糕',
+        label = "貓咪杯子蛋糕",
         weight = 150,
         stack = true,
         close = true,
@@ -17417,8 +16471,7 @@ return {
         }
     },
     ["f956-1"] = {
-        label = " ",
-         -- '白糖甜甜圈',
+        label = "白糖甜甜圈",
         weight = 150,
         stack = true,
         close = true,
@@ -17437,8 +16490,7 @@ return {
         }
     },
     ["f957-1"] = {
-        label = " ",
-         -- '咖灰甜甜圈',
+        label = "咖灰甜甜圈",
         weight = 150,
         stack = true,
         close = true,
@@ -17457,8 +16509,7 @@ return {
         }
     },
     ["f958-1"] = {
-        label = " ",
-         -- '羊朵甜甜圈',
+        label = "羊朵甜甜圈",
         weight = 150,
         stack = true,
         close = true,
@@ -17477,8 +16528,7 @@ return {
         }
     },
     ["f959-1"] = {
-        label = " ",
-         -- '黑白雙煞',
+        label = "黑白雙煞",
         weight = 10,
         stack = false,
         close = true,
@@ -17497,8 +16547,7 @@ return {
         }
     },
     ["f960-1"] = {
-        label = " ",
-         -- '蜂蜜鬆餅',
+        label = "蜂蜜鬆餅",
         weight = 350,
         stack = false,
         close = true,
@@ -17517,8 +16566,7 @@ return {
         }
     },
     ["f961-1"] = {
-        label = " ",
-         -- '舒芙蕾厚鬆',
+        label = "舒芙蕾厚鬆",
         weight = 250,
         stack = false,
         close = true,
@@ -17537,8 +16585,7 @@ return {
         }
     },
     ["f962-1"] = {
-        label = " ",
-         -- '輕薄銅鑼燒',
+        label = "輕薄銅鑼燒",
         weight = 250,
         stack = false,
         close = true,
@@ -17557,8 +16604,7 @@ return {
         }
     },
     ["f963-1"] = {
-        label = " ",
-         -- '貓咪咖哩飯',
+        label = "貓咪咖哩飯",
         weight = 10,
         stack = true,
         close = true,
@@ -17577,8 +16623,7 @@ return {
         }
     },
     ["f964-1"] = {
-        label = " ",
-         -- '貓糬',
+        label = "貓糬",
         weight = 350,
         stack = false,
         close = true,
@@ -17597,8 +16642,7 @@ return {
         }
     },
     ["f965-1"] = {
-        label = " ",
-         -- '飯糰',
+        label = "飯糰",
         weight = 350,
         stack = false,
         close = true,
@@ -17617,8 +16661,7 @@ return {
         }
     },
     ["f966-1"] = {
-        label = " ",
-         -- '雞蛋糕',
+        label = "雞蛋糕",
         weight = 350,
         stack = false,
         close = true,
@@ -17637,8 +16680,7 @@ return {
         }
     },
     ["f967-1"] = {
-        label = " ",
-         -- '貓咪餅乾',
+        label = "貓咪餅乾",
         weight = 150,
         stack = true,
         close = true,
@@ -17657,8 +16699,7 @@ return {
         }
     },
     ["f968-1"] = {
-        label = " ",
-         -- '貓咪糰子',
+        label = "貓咪糰子",
         weight = 200,
         stack = false,
         close = true,
@@ -17677,8 +16718,7 @@ return {
         }
     },
     ["f969-1"] = {
-        label = " ",
-         -- '貓咪鳳梨酥',
+        label = "貓咪鳳梨酥",
         weight = 350,
         stack = false,
         close = true,
@@ -17697,8 +16737,7 @@ return {
         }
     },
     ["f970-1"] = {
-        label = " ",
-         -- '貓咪麵包',
+        label = "貓咪麵包",
         weight = 450,
         stack = false,
         close = true,
@@ -17717,8 +16756,7 @@ return {
         }
     },
     ["f971-1"] = {
-        label = " ",
-         -- '貓咪蛋包飯',
+        label = "貓咪蛋包飯",
         weight = 550,
         stack = false,
         close = true,
@@ -17737,8 +16775,7 @@ return {
         }
     },
     ["f972-1"] = {
-        label = " ",
-         -- '棉花糖可可',
+        label = "棉花糖可可",
         weight = 550,
         stack = false,
         close = true,
@@ -17757,8 +16794,7 @@ return {
         }
     },
     ["f973-1"] = {
-        label = " ",
-         -- '茉莉花茶',
+        label = "茉莉花茶",
         weight = 450,
         stack = false,
         close = true,
@@ -17777,8 +16813,7 @@ return {
         }
     },
     ["f974-1"] = {
-        label = " ",
-         -- '雲朵',
+        label = "雲朵",
         weight = 450,
         stack = false,
         close = true,
@@ -17815,8 +16850,7 @@ return {
         }
     },
     ["f976-1"] = {
-        label = " ",
-         -- '草莓牛奶',
+        label = "草莓牛奶",
         weight = 450,
         stack = false,
         close = true,
@@ -17835,8 +16869,7 @@ return {
         }
     },
     ["f977-1"] = {
-        label = " ",
-         -- '暗日等待',
+        label = "暗日等待",
         weight = 10,
         stack = true,
         close = true,
@@ -17855,8 +16888,7 @@ return {
         }
     },
     ["f978-1"] = {
-        label = " ",
-         -- '經典冰可可',
+        label = "經典冰可可",
         weight = 550,
         stack = false,
         close = true,
@@ -17875,8 +16907,7 @@ return {
         }
     },
     ["f979-1"] = {
-        label = " ",
-         -- '貓咪抹茶拿鐵',
+        label = "貓咪抹茶拿鐵",
         weight = 550,
         stack = false,
         close = true,
@@ -17895,8 +16926,7 @@ return {
         }
     },
     ["f980-1"] = {
-        label = " ",
-         -- '貓咪拉花咖啡',
+        label = "貓咪拉花咖啡",
         weight = 550,
         stack = false,
         close = true,
@@ -17915,8 +16945,7 @@ return {
         }
     },
     ["f981-1"] = {
-        label = " ",
-         -- '焦糖瑪奇朵',
+        label = "焦糖瑪奇朵",
         weight = 550,
         stack = false,
         close = true,
@@ -17935,8 +16964,7 @@ return {
         }
     },
     ["f982-1"] = {
-        label = " ",
-         -- '甜蜜水果茶',
+        label = "甜蜜水果茶",
         weight = 550,
         stack = false,
         close = true,
@@ -17955,8 +16983,7 @@ return {
         }
     },
     ["f983-1"] = {
-        label = " ",
-         -- '咖波咖啡',
+        label = "咖波咖啡",
         weight = 550,
         stack = false,
         close = true,
@@ -17975,8 +17002,7 @@ return {
         }
     },
     ["f984-1"] = {
-        label = " ",
-         -- '芒果星冰樂',
+        label = "芒果星冰樂",
         weight = 550,
         stack = false,
         close = true,
@@ -17995,8 +17021,7 @@ return {
         }
     },
     ["f985-1"] = {
-        label = " ",
-         -- '兔子馬卡龍',
+        label = "兔子馬卡龍",
         weight = 350,
         stack = false,
         close = true,
@@ -18127,8 +17152,7 @@ return {
         }
     },
     ["f992-1"] = {
-        label = " ",
-         -- '紫地瓜烤飯糰',
+        label = "紫地瓜烤飯糰",
         weight = 500,
         stack = false,
         close = true,
@@ -18147,8 +17171,7 @@ return {
         }
     },
     ["f993-1"] = {
-        label = " ",
-         -- '紫芋地瓜',
+        label = "紫芋地瓜",
         weight = 60,
         stack = true,
         close = true,
@@ -18157,8 +17180,7 @@ return {
         client = {}
     },
     ["f994-1"] = {
-        label = " ",
-         -- '過往(盤)',
+        label = "過往(盤)",
         weight = 10,
         stack = true,
         close = true,
@@ -18169,8 +17191,7 @@ return {
         }
     },
     ["f995-1"] = {
-        label = " ",
-         -- '過往',
+        label = "過往",
         weight = 40,
         stack = true,
         close = true,
@@ -18189,8 +17210,7 @@ return {
         }
     },
     ["f996-1"] = {
-        label = " ",
-         -- '關你屁事',
+        label = "關你屁事",
         weight = 310,
         stack = true,
         close = true,
@@ -18209,8 +17229,7 @@ return {
         }
     },
     ["f997-1"] = {
-        label = " ",
-         -- '酒鬼',
+        label = "酒鬼",
         weight = 240,
         stack = true,
         close = true,
@@ -18229,8 +17248,7 @@ return {
         }
     },
     ["f998-1"] = {
-        label = " ",
-         -- '新生',
+        label = "新生",
         weight = 350,
         stack = true,
         close = true,
@@ -18249,8 +17267,7 @@ return {
         }
     },
     ["f999-1"] = {
-        label = " ",
-         -- '狂妄',
+        label = "狂妄",
         weight = 350,
         stack = true,
         close = true,
@@ -18269,8 +17286,7 @@ return {
         }
     },
     ["f1000-1"] = {
-        label = " ",
-         -- '小可愛',
+        label = "小可愛",
         weight = 250,
         stack = true,
         close = true,
@@ -18289,8 +17305,7 @@ return {
         }
     },
     ["f1001-1"] = {
-        label = " ",
-         -- '小白癡(人)',
+        label = "小白癡(人)",
         weight = 250,
         stack = true,
         close = true,
@@ -18309,8 +17324,7 @@ return {
         }
     },
     ["f1002-1"] = {
-        label = " ",
-         -- '小白癡(貓)',
+        label = "小白癡(貓)",
         weight = 250,
         stack = true,
         close = true,
@@ -18329,8 +17343,7 @@ return {
         }
     },
     ["f1003-1"] = {
-        label = " ",
-         -- '零星',
+        label = "零星",
         weight = 350,
         stack = true,
         close = true,
@@ -18349,8 +17362,7 @@ return {
         }
     },
     ["f1004-1"] = {
-        label = " ",
-         -- '海苔壽司捲',
+        label = "海苔壽司捲",
         weight = 610,
         stack = false,
         close = true,
@@ -18369,8 +17381,7 @@ return {
         }
     },
     ["f1005-1"] = {
-        label = " ",
-         --'泡菜',
+        label = "泡菜",
         weight = 45,
         stack = true,
         close = true,
@@ -18388,8 +17399,7 @@ return {
         }
     },
     ["f1006-1"] = {
-        label = " ",
-         -- '鮮蝦蛋炒飯',
+        label = "鮮蝦蛋炒飯",
         weight = 450,
         stack = false,
         close = true,
@@ -18404,8 +17414,7 @@ return {
         }
     },
     ["f1007-1"] = {
-        label = " ",
-         -- '醃菜',
+        label = "醃菜",
         weight = 180,
         stack = true,
         close = true,
@@ -18424,8 +17433,7 @@ return {
         }
     },
     ["f1008-1"] = {
-        label = " ",
-         --'海綿蛋糕',
+        label = "海綿蛋糕",
         weight = 200,
         stack = 1,
         consume = 1,
@@ -18442,8 +17450,7 @@ return {
         }
     },
     ["f1010-1"] = {
-        label = " ",
-         --'魚乾',
+        label = "魚乾",
         weight = 55,
         stack = true,
         close = true,
@@ -18460,8 +17467,7 @@ return {
         }
     },
     ["f1011-1"] = {
-        label = " ",
-         -- '哈哈是我章魚熱狗',
+        label = "哈哈是我章魚熱狗",
         weight = 30,
         stack = true,
         close = true,

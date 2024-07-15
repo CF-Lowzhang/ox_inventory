@@ -4,6 +4,13 @@ local shopTypes = {}
 local shops = {}
 local createBlip = require 'modules.utils.client'.CreateBlip
 
+RegisterNetEvent('ox_inventory:Shops:Get')
+AddEventHandler('ox_inventory:Shops:Get', function()
+  TriggerEvent('CF_General:GodZone:ShopSetting',shopTypes)
+end)
+
+
+
 for shopType, shopData in pairs(lib.load('data.shops') --[[@as table<string, OxShop>]]) do
 	local shop = {
 		name = shopData.name,
@@ -116,11 +123,11 @@ local function refreshShops()
 	for type, shop in pairs(shopTypes) do
 		local blip = shop.blip
 		local label = shop.label or locale('open_label', shop.name)
-
+		--print(shop.label,type,shop)
 		if shared.target then
 			if shop.model then
 				if not hasShopAccess(shop) then goto skipLoop end
-
+				--print('target-model',shop.model)
 				exports.ox_target:removeModel(shop.model, shop.name)
 				exports.ox_target:addModel(shop.model, {
                     {
@@ -135,6 +142,7 @@ local function refreshShops()
 				})
 			elseif shop.targets then
 				if #shop.targets == 0 then
+					--print('target-targets-0')
 					if not hasShopAccess(shop) then goto skipLoop end
 					for i = 1, #shop.locations do
 						local coords = shop.locations[i]
@@ -145,12 +153,22 @@ local function refreshShops()
 							inv = 'shop',
 							invId = i,
 							type = type,
-							nearby = nearbyShop,
+		                    marker = markerColour,
+		                    prompt = {
+		                        options = shop.icon and { icon = shop.icon } or shopPrompt,
+		                        message = ('**%s**  \n%s'):format(label, locale('interact_prompt', GetControlInstructionalButton(0, 38, true):sub(3)))
+		                    },
+							nearby = Utils.nearbyMarker,
 							blip = blip and createBlip(blip, coords)
 						})
+
+
+
+
 					end
 				end
 				for i = 1, #shop.targets do
+					--print('target-targets:',#shop.targets,id)
 					local target = shop.targets[i]
 					local shopid = ('%s-%s'):format(type, i)
 
@@ -201,6 +219,7 @@ local function refreshShops()
 				end
 			end
 		elseif shop.locations then
+			--print('locations:',id)
 			if not hasShopAccess(shop) then goto skipLoop end
             local shopPrompt = { icon = 'fas fa-shopping-basket' }
 

@@ -1,7 +1,6 @@
 return {
     ["o1-1"] = {
-        label = " ",
-         --'芥末',
+        label = "芥末",
         weight = 500,
         client = {
             status = {hunger = 25000, thirst = 25000},
@@ -12,24 +11,21 @@ return {
         }
     },
     ["o2-1"] = {
-        label = " ",
-         --'消毒用酒精',
+        label = "消毒用酒精",
         weight = 20,
         stack = 1,
         close = 1,
         description = ""
     },
     ["o3-1"] = {
-        label = " ",
-         --'矽膠',
+        label = "矽膠",
         weight = 20,
         stack = 1,
         close = 1,
         description = ""
     },
     ["o4-1"] = {
-        label = " ",
-         -- '生腿排',
+        label = "生腿排",
         weight = 170,
         stack = true,
         close = true,
@@ -38,8 +34,7 @@ return {
         client = {}
     },
     ["o5-1"] = {
-        label = " ",
-         -- '生蔥肉串',
+        label = "生蔥肉串",
         weight = 170,
         stack = true,
         close = true,
@@ -48,8 +43,7 @@ return {
         client = {}
     },
     ["o6-1"] = {
-        label = " ",
-         -- '生烤肉串',
+        label = "生烤肉串",
         weight = 170,
         stack = true,
         close = true,
@@ -58,8 +52,7 @@ return {
         client = {}
     },
     ["o7-1"] = {
-        label = " ",
-         --'愛齊雅祖傳醬汁',
+        label = "愛齊雅祖傳醬汁",
         weight = 50,
         stack = true,
         close = true,
@@ -78,8 +71,7 @@ return {
         }
     },
     ["o9-1"] = {
-        label = " ",
-         --'西谷米',
+        label = "西谷米",
         weight = 70,
         stack = true,
         close = true,
@@ -88,8 +80,7 @@ return {
         client = {}
     },
     ["o10-1"] = {
-        label = " ",
-         --'藍色染劑',
+        label = "藍色染劑",
         weight = 150,
         stack = true,
         close = true,
@@ -98,8 +89,7 @@ return {
         client = {}
     },
     ["o13-1"] = {
-        label = " ",
-         --'年糕',
+        label = "年糕",
         weight = 50,
         stack = true,
         close = true,
@@ -118,8 +108,7 @@ return {
         }
     },
     ["o15-1"] = {
-        label = " ",
-         --'Q彈麵',
+        label = "Q彈麵",
         weight = 50,
         stack = true,
         close = true,
@@ -128,8 +117,7 @@ return {
         client = {}
     },
     ["o16-1"] = {
-        label = " ",
-         --'白芝麻',
+        label = "白芝麻",
         weight = 60,
         stack = true,
         close = true,
@@ -138,30 +126,26 @@ return {
         client = {}
     },
     ["o18-1"] = {
-        label = " ",
-         --'紅棗',
+        label = "紅棗",
         weight = 30,
         stack = 1,
         description = "紅棗"
     },
     ["o20-1"] = {
-        label = " ",
-         --'頂級肉肉',
+        label = "頂級肉肉",
         weight = 20,
         stack = true,
         close = true,
         description = "頂級肉肉"
     },
     ["o22-1"] = {
-        label = " ",
-         --'珍珠',
+        label = "珍珠",
         weight = 50,
         stack = true,
         close = true
     },
     ["o22-2"] = {
-        label = " ",
-         -- '珍珠',
+        label = "珍珠",
         weight = 100,
         stack = true,
         close = true,
@@ -176,46 +160,40 @@ return {
         }
     },
     ["o23-1"] = {
-        label = " ",
-         --'黑糖',
+        label = "黑糖",
         weight = 30,
         stack = true,
         close = true,
         description = "黑糖"
     },
     ["o24-1"] = {
-        label = " ",
-         --'花生醬',
+        label = "花生醬",
         weight = 150,
         stack = true,
         close = true,
         description = "花生醬"
     },
     ["o25-1"] = {
-        label = " ",
-         --'麥芽糖',
+        label = "麥芽糖",
         weight = 80,
         stack = true,
         close = true,
         description = "麥芽糖"
     },
     ["o26-1"] = {
-        label = " ",
-         --'奶油乳酪',
+        label = "奶油乳酪",
         weight = 50,
         stack = 1,
         description = "奶油乳酪"
     },
     ["o27-1"] = {
-        label = " ",
-         --'小蘇打粉',
+        label = "小蘇打粉",
         weight = 50,
         stack = 1,
         description = "小蘇打粉"
     },
     ["o28-1"] = {
-        label = " ",
-         --'麵',
+        label = "麵",
         weight = 30,
         stack = 1,
         description = "麵",
@@ -231,36 +209,31 @@ return {
         }
     },
     ["o29-1"] = {
-        label = " ",
-         --'鬆餅粉',
+        label = "鬆餅粉",
         weight = 30,
         stack = 1,
         description = "鬆餅粉"
     },
     ["o31-1"] = {
-        label = " ",
-         --'精選生菜',
+        label = "精選生菜",
         weight = 30,
         stack = 1,
         description = "精選生菜"
     },
     ["o32-1"] = {
-        label = " ",
-         --'綜合鍋物',
+        label = "綜合鍋物",
         weight = 30,
         stack = 1,
         description = "綜合鍋物"
     },
     ["o33-1"] = {
-        label = " ",
-         --'咖哩塊',
+        label = "咖哩塊",
         weight = 30,
         stack = 1,
         description = "咖哩塊"
     },
     ["o33-2"] = {
-        label = " ",
-         -- '咖哩塊',
+        label = "咖哩塊",
         weight = 120,
         stack = true,
         close = true,
@@ -269,126 +242,109 @@ return {
         client = {}
     },
     ["o34-1"] = {
-        label = " ",
-         --'蛋餅皮',
+        label = "蛋餅皮",
         weight = 30,
         stack = 1,
         description = "蛋餅皮"
     },
     ["o36-1"] = {
-        label = " ",
-         --'梅干',
+        label = "梅干",
         weight = 200,
         stack = 1,
         description = "梅干"
     },
     ["o38-1"] = {
-        label = " ",
-         --'玫瑰花瓣',
+        label = "花瓣(玫瑰)",
         weight = 25,
         stack = true,
         close = true,
-        description = "玫瑰花瓣"
     },
     ["o39-1"] = {
-        label = " ",
-         --'千層酥皮',
+        label = "千層酥皮",
         weight = 25,
         stack = true,
         close = true,
         description = "千層酥皮"
     },
     ["o40-1"] = {
-        label = " ",
-         --'杏仁粉',
+        label = "杏仁粉",
         weight = 25,
         stack = true,
         close = true,
         description = "杏仁粉"
     },
     ["o41-1"] = {
-        label = " ",
-         --'黃芥末醬',
+        label = "黃芥末醬",
         weight = 25,
         stack = true,
         close = true,
         description = "黃芥末醬"
     },
     ["o42-1"] = {
-        label = " ",
-         --'奶黃醬',
+        label = "奶黃醬",
         weight = 25,
         stack = true,
         close = true,
         description = "奶黃醬"
     },
     ["o43-1"] = {
-        label = " ",
-         --'松露醬',
+        label = "松露醬",
         weight = 25,
         stack = true,
         close = true,
         description = "松露醬"
     },
     ["o44-1"] = {
-        label = " ",
-         --'黑胡椒',
+        label = "黑胡椒",
         weight = 30,
         stack = true,
         close = true,
         description = "黑胡椒"
     },
     ["o45-1"] = {
-        label = " ",
-         --'味醂',
+        label = "味醂",
         weight = 200,
         stack = true,
         close = true,
         description = "味醂"
     },
     ["o47-1"] = {
-        label = " ",
-         --'豆腐',
+        label = "豆腐",
         weight = 100,
         stack = true,
         close = true,
         description = "豆腐"
     },
     ["o48-1"] = {
-        label = " ",
-         --'味噌',
+        label = "味噌",
         weight = 100,
         stack = true,
         close = true,
         description = "味噌"
     },
     ["o49-1"] = {
-        label = " ",
-         --'藍橙香甜酒',
+        label = "藍橙香甜酒",
         weight = 200,
         stack = true,
         close = true,
         description = "藍橙香甜酒"
     },
     ["o50-1"] = {
-        label = " ",
-         --'苦精',
+        label = "苦精",
         weight = 100,
         stack = true,
         close = true,
         description = "苦精"
     },
     ["o54-1"] = {
-        label = " ",
-         --'夏威夷豆',
+        label = "夏威夷豆",
         weight = 100,
         stack = true,
         close = true,
         description = "夏威夷豆"
     },
     ["o55-1"] = {
-        label = " ",
-         --'肉桂粉',
+        label = "肉桂粉",
         weight = 500,
         stack = true,
         close = true,
@@ -406,8 +362,7 @@ return {
         }
     },
     ["o56-1"] = {
-        label = " ",
-         --'萊姆酒',
+        label = "萊姆酒",
         weight = 500,
         stack = true,
         close = true,
@@ -425,8 +380,7 @@ return {
         }
     },
     ["o57-1"] = {
-        label = " ",
-         --'香草精',
+        label = "香草精",
         weight = 150,
         stack = true,
         close = true,
@@ -441,8 +395,7 @@ return {
         }
     },
     ["o58-1"] = {
-        label = " ",
-         --'葡萄乾',
+        label = "葡萄乾",
         weight = 100,
         stack = true,
         close = true,
@@ -460,15 +413,13 @@ return {
         }
     },
     ["o59-1"] = {
-        label = " ",
-         --'雞',
+        label = "雞",
         weight = 200,
         stack = 1,
         description = ""
     },
     ["o61-1"] = {
-        label = " ",
-         --'無鹽奶油',
+        label = "無鹽奶油",
         weight = 35,
         stack = 1,
         consume = 1,
@@ -485,8 +436,7 @@ return {
         }
     },
     ["o63-1"] = {
-        label = " ",
-         --'餽贈牌醬油',
+        label = "餽贈牌醬油",
         weight = 200,
         stack = 1,
         consume = 1,
@@ -499,8 +449,7 @@ return {
         }
     },
     ["o65-1"] = {
-        label = " ",
-         --'乾燥小白菊',
+        label = "乾燥小白菊",
         weight = 20,
         stack = 1,
         close = 1,
@@ -518,8 +467,7 @@ return {
         }
     },
     ["o66-1"] = {
-        label = " ",
-         --'薑黃',
+        label = "薑黃",
         weight = 20,
         stack = 1,
         close = 1,
@@ -537,8 +485,7 @@ return {
         }
     },
     ["o70-1"] = {
-        label = " ",
-         --'乾燥玫瑰',
+        label = "乾燥玫瑰",
         weight = 20,
         stack = 1,
         close = 1,
@@ -556,8 +503,7 @@ return {
         }
     },
     ["o76-1"] = {
-        label = " ",
-         --'起司',
+        label = "起司",
         weight = 10,
         stack = true,
         close = true,
@@ -575,37 +521,31 @@ return {
         }
     },
     ["o77-1"] = {
-        label = " ",
-         --'鮮奶油',
+        label = "鮮奶油",
         weight = 50,
         stack = true,
         close = true,
-        description = "鮮奶油"
     },
     ["o78-1"] = {
-        label = " ",
-         --'抹茶粉',
+        label = "抹茶粉",
         weight = 100,
         stack = 1,
         description = "抹茶粉"
     },
     ["o79-1"] = {
-        label = " ",
-         --'果凍粉',
+        label = "果凍粉",
         weight = 100,
         stack = 1,
         description = "果凍粉"
     },
     ["o80-1"] = {
-        label = " ",
-         --'寒天粉',
+        label = "寒天粉",
         weight = 100,
         stack = 1,
         description = "寒天粉"
     },
     ["o81-1"] = {
-        label = " ",
-         --'番茄醬',
+        label = "番茄醬",
         weight = 50,
         stack = true,
         close = true,
@@ -617,8 +557,7 @@ return {
         }
     },
     ["o94-1"] = {
-        label = " ",
-         --'焦糖',
+        label = "焦糖",
         weight = 35,
         stack = true,
         close = true,
@@ -635,8 +574,7 @@ return {
         }
     },
     ["o99-1"] = {
-        label = " ",
-         --'電解質水',
+        label = "電解質水",
         weight = 124,
         stack = true,
         close = true,
@@ -653,8 +591,7 @@ return {
         }
     },
     ["o106-1"] = {
-        label = " ",
-         --'肉桂',
+        label = "肉桂",
         weight = 20,
         stack = true,
         close = true,
@@ -672,8 +609,7 @@ return {
         }
     },
     ["o108-1"] = {
-        label = " ",
-         --'雞腿',
+        label = "雞腿",
         weight = 45,
         stack = true,
         close = true,
@@ -690,8 +626,7 @@ return {
         }
     },
     ["o109-1"] = {
-        label = " ",
-         --'魚子醬',
+        label = "魚子醬",
         weight = 213,
         stack = true,
         close = true,
@@ -708,98 +643,83 @@ return {
         }
     },
     ["o112-1"] = {
-        label = " ",
-         --'奶油',
+        label = "奶油",
         weight = 14,
         stack = true,
         close = true,
         description = "奶油"
     },
     ["o114-1"] = {
-        label = " ",
-         --'可可豆',
+        label = "可可豆",
         weight = 75,
         stack = true,
         close = true,
-        description = "可可豆"
     },
     ["o115-1"] = {
-        label = " ",
-         --'可可粉',
+        label = "可可粉",
         weight = 5,
         stack = true,
         close = true,
         description = "可可粉"
     },
     ["o116-1"] = {
-        label = " ",
-         --'食用油',
+        label = "食用油",
         weight = 20,
         stack = true,
         close = true,
         description = "食用油"
     },
     ["o118-1"] = {
-        label = " ",
-         --'鑽石',
+        label = "鑽石",
         weight = 55,
         stack = true,
         close = true
     },
     ["o121-1"] = {
-        label = " ",
-         --'火藥',
+        label = "火藥",
         weight = 45,
         stack = true,
         close = true
     },
     ["o122-1"] = {
-        label = " ",
-         --'高溫油團',
+        label = "高溫油團",
         weight = 212,
         stack = true,
         close = true
     },
     ["o123-1"] = {
-        label = " ",
-         --'麵粉',
-        weight = 35,
+        label = "麵粉",
+        weight = 50,
         stack = true,
         close = true,
-        description = "麵粉"
     },
     ["o125-1"] = {
-        label = " ",
-         --'金屬液體',
+        label = "金屬液體",
         weight = 250,
         stack = true,
         close = true
     },
     ["o126-1"] = {
-        label = " ",
-         --'金屬原料',
+        label = "金屬原料",
         weight = 250,
         stack = true,
         close = true
     },
     ["o128-1"] = {
-        label = " ",
-         --'石油',
+        label = "石油",
         weight = 140,
         stack = true,
         close = true
     },
     ["o129-1"] = {
-        label = " ",
-         --'果菌',
+        label = "果菌",
         weight = 81,
         stack = true,
         close = true,
         description = "果菌"
     },
     ["o133-1"] = {
-        label = " ",
-         --'鹽',
+        label = "鹽",
         weight = 12,
         stack = true,
         close = true,
@@ -817,39 +737,33 @@ return {
         }
     },
     ["o134-1"] = {
-        label = " ",
-         --'花椒',
+        label = "花椒",
         weight = 20,
         stack = true,
         close = true,
         description = "花椒"
     },
     ["o135-1"] = {
-        label = " ",
-         --'醬油',
+        label = "醬油",
         weight = 10,
         stack = true,
         close = true,
         description = "醬油"
     },
     ["o136-1"] = {
-        label = " ",
-         --'砂糖',
+        label = "砂糖",
         weight = 10,
         stack = true,
         close = true,
-        description = "砂糖"
     },
     ["o137-1"] = {
-        label = " ",
-         --'異常塑料',
+        label = "異常塑料",
         weight = 999,
         stack = true,
         close = true
     },
     ["o138-1"] = {
-        label = " ",
-         --'洗淨的原石',
+        label = "洗淨的原石",
         weight = 40,
         stack = true,
         close = true,
@@ -858,22 +772,19 @@ return {
         }
     },
     ["o139-1"] = {
-        label = " ",
-         --'白石',
+        label = "白石",
         weight = 45,
         stack = true,
         close = true
     },
     ["o142-1"] = {
-        label = " ",
-         --'布料',
+        label = "布料",
         weight = 21,
         stack = true,
         close = true
     },
     ["o143-1"] = {
-        label = " ",
-         --'魚油',
+        label = "魚油",
         weight = 48,
         stack = true,
         close = true,
@@ -888,8 +799,7 @@ return {
         }
     },
     ["o144-1"] = {
-        label = " ",
-         --'梨果糖',
+        label = "梨果糖",
         weight = 75,
         stack = true,
         close = true,
@@ -905,36 +815,31 @@ return {
         }
     },
     ["o145-1"] = {
-        label = " ",
-         --'結晶體',
+        label = "結晶體",
         weight = 48,
         stack = true,
         close = true
     },
     ["o146-1"] = {
-        label = " ",
-         --'柳樹皮',
+        label = "柳樹皮",
         weight = 122,
         stack = true,
         close = true
     },
     ["o147-1"] = {
-        label = " ",
-         --'繡線菊',
+        label = "繡線菊",
         weight = 32,
         stack = true,
         close = true
     },
     ["o148-1"] = {
-        label = " ",
-         --'麵包蟲粉',
+        label = "麵包蟲粉",
         weight = 20,
         stack = true,
         close = true
     },
     ["o149-1"] = {
-        label = " ",
-         --'蛋黃醬',
+        label = "蛋黃醬",
         weight = 150,
         stack = true,
         close = true,
@@ -950,8 +855,7 @@ return {
         }
     },
     ["o149-2"] = {
-        label = " ",
-         -- '煉乳',
+        label = "煉乳",
         weight = 350,
         stack = true,
         close = true,
@@ -966,8 +870,7 @@ return {
         }
     },
     ["o150-1"] = {
-        label = " ",
-         --'豆腐',
+        label = "豆腐",
         weight = 100,
         stack = true,
         close = true,
@@ -983,8 +886,7 @@ return {
         }
     },
     ["o151-1"] = {
-        label = " ",
-         --'海岩苔',
+        label = "海岩苔",
         weight = 15,
         stack = true,
         close = true,
@@ -1000,15 +902,13 @@ return {
         }
     },
     ["o152-1"] = {
-        label = " ",
-         --'御果蜂',
+        label = "御果蜂",
         weight = 15,
         stack = true,
         close = true
     },
     ["o153-1"] = {
-        label = " ",
-         --'米米花',
+        label = "米米花",
         weight = 85,
         stack = true,
         close = true,
@@ -1019,22 +919,19 @@ return {
         }
     },
     ["o154-1"] = {
-        label = " ",
-         --'非晶矽',
+        label = "非晶矽",
         weight = 40,
         stack = true,
         close = true
     },
     ["o155-1"] = {
-        label = " ",
-         --'迪化錮',
+        label = "迪化錮",
         weight = 12,
         stack = true,
         close = true
     },
     ["o156-1"] = {
-        label = " ",
-         -- '紅葡萄酒',
+        label = "紅葡萄酒",
         weight = 750,
         stack = false,
         close = true,
@@ -1049,8 +946,7 @@ return {
         }
     },
     ["o157-1"] = {
-        label = " ",
-         -- '穀物粉',
+        label = "穀物粉",
         weight = 150,
         stack = true,
         close = true,
@@ -1065,8 +961,7 @@ return {
         }
     },
     ["o158-1"] = {
-        label = " ",
-         -- '辛香料',
+        label = "辛香料",
         weight = 150,
         stack = true,
         close = true,
@@ -1075,8 +970,7 @@ return {
         client = {}
     },
     ["o159-1"] = {
-        label = " ",
-         -- '調味料',
+        label = "調味料",
         weight = 150,
         stack = true,
         close = true,
@@ -1085,8 +979,7 @@ return {
         client = {}
     },
     ["o160-1"] = {
-        label = " ",
-         -- '醬料',
+        label = "醬料",
         weight = 350,
         stack = false,
         close = true,
@@ -1095,8 +988,7 @@ return {
         client = {}
     },
     ["o161-1"] = {
-        label = " ",
-         -- '豐收水晶',
+        label = "豐收水晶",
         weight = 10,
         stack = true,
         close = true,
@@ -1105,8 +997,7 @@ return {
         client = {}
     },
     ["o162-1"] = {
-        label = " ",
-         -- '望梅水晶',
+        label = "望梅水晶",
         weight = 10,
         stack = true,
         close = true,
@@ -1115,8 +1006,7 @@ return {
         client = {}
     },
     ["o163-1"] = {
-        label = " ",
-         -- '飽滿水晶',
+        label = "飽滿水晶",
         weight = 10,
         stack = true,
         close = true,
@@ -1125,8 +1015,7 @@ return {
         client = {}
     },
     ["o164-1"] = {
-        label = " ",
-         -- '味噌罐',
+        label = "味噌罐",
         weight = 25,
         stack = false,
         close = true,
@@ -1135,8 +1024,7 @@ return {
         client = {}
     },
     ["o165-1"] = {
-        label = " ",
-         -- 'cake粉',
+        label = "cake粉",
         weight = 150,
         stack = true,
         close = true,
@@ -1145,8 +1033,7 @@ return {
         client = {}
     },
     ["o166-1"] = {
-        label = " ",
-         -- '果醬',
+        label = "果醬",
         weight = 160,
         stack = true,
         close = true,
@@ -1165,8 +1052,7 @@ return {
         }
     },
     ["o168-1"] = {
-        label = " ",
-         -- '綠掛式咖啡包',
+        label = "綠掛式咖啡包",
         weight = 9,
         stack = true,
         close = true,
@@ -1182,8 +1068,7 @@ return {
         }
     },
     ["o169-1"] = {
-        label = " ",
-         -- '草莓果醬',
+        label = "草莓果醬",
         weight = 250,
         stack = false,
         close = true,
@@ -1201,8 +1086,7 @@ return {
         }
     },
     ["o170-1"] = {
-        label = " ",
-         -- '米酒',
+        label = "米酒",
         weight = 500,
         stack = false,
         close = true,
@@ -1217,8 +1101,7 @@ return {
         }
     },
     ["o172-1"] = {
-        label = " ",
-         -- '地瓜粉',
+        label = "地瓜粉",
         weight = 400,
         stack = false,
         close = true,
@@ -1227,8 +1110,7 @@ return {
         client = {}
     },
     ["o173-1"] = {
-        label = " ",
-         -- '玉米粉',
+        label = "玉米粉",
         weight = 400,
         stack = false,
         close = true,
@@ -1237,8 +1119,7 @@ return {
         client = {}
     },
     ["o174-1"] = {
-        label = " ",
-         -- '糯米粉',
+        label = "糯米粉",
         weight = 400,
         stack = false,
         close = true,
@@ -1247,8 +1128,7 @@ return {
         client = {}
     },
     ["o176-1"] = {
-        label = " ",
-         -- '豆腐醬',
+        label = "豆腐醬",
         weight = 50,
         stack = true,
         close = true,
@@ -1263,8 +1143,7 @@ return {
         }
     },
     ["o177-1"] = {
-        label = " ",
-         -- '黑牛',
+        label = "黑牛",
         weight = 300,
         stack = false,
         close = true,
@@ -1283,8 +1162,7 @@ return {
         }
     },
     ["o178-1"] = {
-        label = " ",
-         -- '醋',
+        label = "醋",
         weight = 450,
         stack = false,
         close = true,
@@ -1293,8 +1171,7 @@ return {
         client = {}
     },
     ["o179-1"] = {
-        label = " ",
-         -- '五穀米',
+        label = "五穀米",
         weight = 200,
         stack = true,
         close = true,
@@ -1303,8 +1180,7 @@ return {
         client = {}
     },
     ["o180-1"] = {
-        label = " ",
-         -- '金箔',
+        label = "金箔",
         weight = 150,
         stack = true,
         close = true,
@@ -1313,8 +1189,7 @@ return {
         client = {}
     },
     ["o181-1"] = {
-        label = " ",
-         -- '自製花生醬',
+        label = "自製花生醬",
         weight = 250,
         stack = false,
         close = true,
@@ -1323,8 +1198,7 @@ return {
         client = {}
     },
     ["o182-1"] = {
-        label = " ",
-         --'糖漿',
+        label = "糖漿",
         weight = 100,
         stack = true,
         close = true,
@@ -1339,8 +1213,7 @@ return {
         }
     },
     ["o183-1"] = {
-        label = " ",
-         --'艾酒',
+        label = "艾酒",
         weight = 200,
         stack = true,
         close = true,
@@ -1358,15 +1231,13 @@ return {
         }
     },
     ["o184-1"] = {
-        label = " ",
-         --'子彈原料',
+        label = "子彈原料",
         weight = 500,
         stack = true,
         close = true
     },
     ["o185-1"] = {
-        label = " ",
-         --'可愛茵',
+        label = "可愛茵",
         weight = 150,
         stack = true,
         close = true,

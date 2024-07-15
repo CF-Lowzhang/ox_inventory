@@ -3,6 +3,25 @@ return {
 		----------------------------------------------------------------
 		-- 近戰武器 Item
 		----------------------------------------------------------------
+		
+		['WEAPON_BAT_MINECRAFT'] = {
+			label = '鑽石長鎬',
+			weight = 1000,
+			durability = 0.1,
+		},
+		['WEAPON_PICKAXE_MINECRAFT'] = {
+			label = '鑽石鎬',
+			weight = 1000,
+			durability = 0.1,
+		},
+		['WEAPON_MINECRAFT_SWORD'] = {
+			label = '鑽石劍',
+			weight = 1000,
+			durability = 0.1,
+		},
+		----------------------------------------------------------------
+		-- 近戰武器 Item
+		----------------------------------------------------------------
 		['WEAPON_DAGGER'] = {
 			label = '古董騎兵匕首',
 			weight = 800,
@@ -29,7 +48,7 @@ return {
 			durability = 0.1,
 		},
 		['WEAPON_CROWBAR'] = {
-			label = '	鐵撬',
+			label = '鐵撬',
 			weight = 2500,
 			durability = 0.1,
 		},

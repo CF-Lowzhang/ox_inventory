@@ -1,4 +1,126 @@
 return {
+
+	JDZ1_Technology = {
+	 name = '悸動技術處',
+	 inventory = {
+			 { name = 'jdz1_blue_heart', price = 0 ,currency = 'money'},
+			 { name = 'jdz1_red_heart', price = 0 ,currency = 'money'},
+			 { name = 'jdz1_dogtag', price = 0 ,currency = 'money'},
+			 { name = 'jdz1_maple', price = 0 ,currency = 'money' },
+			 { name = 'jdz1_parchment', price = 0 ,currency = 'money'},
+			 { name = 'jdz1_parchmentmap', price = 0 ,currency = 'money'},
+			 { name = 't1-1', price = 0 ,currency = 'money'}, -- 釣竿
+			 { name = 't1-2', price = 0 ,currency = 'money'}, -- 斧頭
+			 { name = 't1-3', price = 0 ,currency = 'money'}, -- 鎬子
+			 { name = 't1-4', price = 0 ,currency = 'money'}, -- 鏟子
+			 { name = 't1-5', price = 0 ,currency = 'money'}, -- 鐮刀
+			 { name = 'jdz1_tool', price = 0 ,currency = 'money'},
+			 { name = 'jdz1_spatula', price = 0 ,currency = 'money'}, -- 鍋鏟
+			 { name = 't166-1', price = 0 ,currency = 'money'}, -- 平底鍋
+			 { name = 'jdz1_belg', price = 0 ,currency = 'money'},--比利時夾心巧克力
+			 { name = 'jdz1_cake', price = 0 ,currency = 'money'},--法式草莓夾心蛋糕
+			 { name = 'jdz1_choco', price = 0 ,currency = 'money'},-- 巧克力千層酥
+			 { name = 'jdz1_cigar', price = 0 ,currency = 'money'}, -- 法式雪茄捲
+			 { name = 'jdz1_demon', price = 0 ,currency = 'money'}, -- 惡魔之書
+			 { name = 'jdz1_moon', price = 0 ,currency = 'money'}, -- 月鈴花
+			 { name = 'jdz1_msg', price = 0 ,currency = 'money'}, -- 瓶中信
+			 { name = 'jdz1_rosecookie', price = 0 ,currency = 'money'}, -- 玫瑰餅乾
+			 { name = 'jdz1_star', price = 0 ,currency = 'money'}, -- 仰望星空派
+			 { name = 'jdz1_vanil', price = 0 ,currency = 'money'}, -- 香草
+			 { name = 'jdz1_srecipet', price = 0 ,currency = 'money'}, -- 神秘的料理食譜
+			 { name = 'c65-1', price = 0 ,currency = 'money'}, -- 小麥
+			 { name = 'o123-1', price = 0 ,currency = 'money'}, -- 麵粉
+			 { name = 'c183-1', price = 0 ,currency = 'money'}, -- 雞蛋
+			 { name = 'c183-2', price = 0 ,currency = 'money'}, -- 水煮蛋
+			 { name = 'o136-1', price = 0 ,currency = 'money'}, -- 砂糖
+			 { name = 'o77-1', price = 0 ,currency = 'money'},  -- 鮮奶油
+			 { name = 'c188-1', price = 0 ,currency = 'money'}, -- 牛奶
+			 { name = 'o114-1', price = 0 ,currency = 'money'}, -- 可可豆
+			 { name = 'o38-1', price = 0 ,currency = 'money'},  -- 玫瑰花瓣
+			 { name = 'c2-2', price = 0 ,currency = 'money'},   -- 檸檬
+			 { name = 'c58-1', price = 0 ,currency = 'money'},  -- 草莓
+			 { name = 'c175-1', price = 0 ,currency = 'money'}, -- 魚
+			 { name = 'c11-1', price = 0 ,currency = 'money'},  -- 雜草 
+			 { name = 'c78-1', price = 0 ,currency = 'money'},  -- 礦鹽
+			 { name = 'c80-1', price = 0 ,currency = 'money'},  -- 玫瑰鹽
+			 { name = 'c90-1', price = 0 ,currency = 'money'},  -- 海鹽
+			 { name = 't54-2', price = 0 ,currency = 'money'},  -- 空白配方表
+			 { name = 's42-5', price = 0 ,currency = 'money'},  -- 超酸檸檬
+			 { name = 's42-6', price = 0 ,currency = 'money'},  -- 壞壞忙果
+			 { name = 'c81-1', price = 0 ,currency = 'money'},  -- 沙子
+			 { name = 'c38-1', price = 0 ,currency = 'money'},  -- 白沙
+			 { name = 'c39-1', price = 0 ,currency = 'money'},  -- 紅沙
+			 { name = 'c40-1', price = 0 ,currency = 'money'},  -- 黑沙
+			 { name = 's312-2', price = 0 ,currency = 'money'},  -- 黑沙
+			 { name = 'jdz1_label', price = 0 ,currency = 'money'},  -- 黑沙
+			 { name = 'jdz1_medpk', price = 0 ,currency = 'money'},  -- 黑沙
+			 { name = 'jdz1_ticket', price = 0 ,currency = 'money'},  -- 黑沙
+			 { name = 'jdz1_ring', price = 0 ,currency = 'money'},  -- 黑沙
+			 { name = 'jdz1_efood', price = 0 ,currency = 'money'},  -- 黑沙
+			 { name = 'jdz1_ssand', price = 0 ,currency = 'money'},  -- 黑沙
+			 { name = 'jdz1_bttle', price = 0 ,currency = 'money'},  -- 黑沙
+			 { name = 'jdz1_card', price = 0 ,currency = 'money'},  
+			 { name = 'jdz1_card1', price = 0 ,currency = 'money'},  
+			 { name = 'jdz1_card2', price = 0 ,currency = 'money'},  
+			 { name = 'jdz1_card3', price = 0 ,currency = 'money'},  
+			 { name = 'jdz1_card4', price = 0 ,currency = 'money'},  
+			 { name = 'jdz1_card5', price = 0 ,currency = 'money'},  
+			 { name = 'jdz1_card6', price = 0 ,currency = 'money'},  
+			 { name = 'jdz1_card7', price = 0 ,currency = 'money'}, 			
+			 { name = 'WEAPON_BAT', price = 0 ,currency = 'money'}, 
+			 { name = 'WEAPON_FLASHLIGHT', price = 0 ,currency = 'money'}, 
+			 { name = 'WEAPON_FIREWORK', price = 0 ,currency = 'money'}, 
+			 { name = 'ammo-special', price = 0 ,currency = 'money'}, 
+			 { name = 'WEAPON_BALL', price = 0 ,currency = 'money'}, 
+			 { name = 'WEAPON_FIREEXTINGUISHER', price = 0 ,currency = 'money'}, 
+			 { name = 'c7-1', price = 0 ,currency = 'money'},
+			 { name = 'f710-1', price = 0 ,currency = 'money'},
+			 { name = 'f23-1', price = 0 ,currency = 'money'},
+			 { name = 'f223-1', price = 0 ,currency = 'money'},
+			 { name = 'f714-1', price = 0 ,currency = 'money'}, 
+	         { name = 'f402-1', price = 0 ,currency = 'money'},
+			 { name = 'f398-1', price = 0 ,currency = 'money'},
+			 { name = 'f263-1', price = 0 ,currency = 'money'},
+			 { name = 'f31-1', price = 0 ,currency = 'money'},
+			 { name = 'f389-1', price = 0 ,currency = 'money'},
+			 { name = 'f109-1', price = 0 ,currency = 'money'},
+			 { name = 'f259-1', price = 0 ,currency = 'money'},
+			 { name = 'f13-1', price = 0 ,currency = 'money'},
+			 { name = 'f261-1', price = 0 ,currency = 'money'},
+	         { name = 'f509-1', price = 0 ,currency = 'money'},
+			 { name = 'f684-1', price = 0 ,currency = 'money'},
+			 { name = 'f157-1', price = 0 ,currency = 'money'},
+			 { name = 'f344-1', price = 0 ,currency = 'money'},
+			 { name = 'f342-1', price = 0 ,currency = 'money'},
+			 { name = 'f343-1', price = 0 ,currency = 'money'},
+			 { name = 'f932-1', price = 0 ,currency = 'money'},
+			 { name = 'c7-1', price = 0 ,currency = 'money'},
+			 { name = 'f579-1', price = 0 ,currency = 'money'},
+			 { name = 'f23-4', price = 0 ,currency = 'money'},
+			 { name = 'f786-1', price = 0 ,currency = 'money'},
+			 { name = 'f675-1', price = 0 ,currency = 'money'},
+			 { name = 'f675-2', price = 0 ,currency = 'money'},
+			 { name = 'f745-1', price = 0 ,currency = 'money'},
+			 { name = 'f945-1', price = 0 ,currency = 'money'},
+			 { name = 'f449-1', price = 0 ,currency = 'money'},
+			 { name = 'jdz1_efood', price = 0 ,currency = 'money'},
+			 { name = 't1-3', price = 0 ,currency = 'money'},
+			 { name = 't1-1', price = 0 ,currency = 'money'},
+			 { name = 't1-4', price = 0 ,currency = 'money'},
+			 { name = 't1-5', price = 0 ,currency = 'money'},
+			 { name = 't109-1', price = 0 ,currency = 'money'},
+ 
+		}, locations = {
+			--vector3(-1268.00,-3005.00,-48.48)
+		}, targets = {
+            {
+                ped = `a_f_y_bevhills_03`,
+                scenario = 'WORLD_HUMAN_JANITOR',
+                loc = vec3(-1247.64, -2967.68, -49.48),
+                heading = 87.04,
+            },
+        },
+	},	
 	YNS1_Newbie = {
 	 name = '遺念禮包處',
 	 inventory = {
@@ -35,6 +157,68 @@ return {
 	YNS1_Technology = {
 	 name = '遺念技術處',
 	 inventory = {
+				{ name = 'yns1-punish', price = 0 ,currency = 'money'},
+				{ name = 'yns1-punish2', price = 0 ,currency = 'money'},
+				{ name = 'yns1-medi1', price = 0 ,currency = 'money'},
+				{ name = 'yns1-medi2', price = 0 ,currency = 'money'},
+				{ name = 'yns1-medi3', price = 0 ,currency = 'money'},
+				{ name = 'yns1-medi4', price = 0 ,currency = 'money'},
+				{ name = 'yns1-medi5', price = 0 ,currency = 'money'},
+				{ name = 'yns1-medi6', price = 0 ,currency = 'money'},
+				{ name = 'yns1-medi7', price = 0 ,currency = 'money'},
+				{ name = 'yns1-medi8-1', price = 0 ,currency = 'money'},
+				{ name = 'yns1-medi8-2', price = 0 ,currency = 'money'},
+				{ name = 'yns1-medi8-3', price = 0 ,currency = 'money'},
+				{ name = 'yns1-medi8-4', price = 0 ,currency = 'money'},
+				{ name = 'yns1-medi9', price = 0 ,currency = 'money'},
+				{ name = 'yns1-medi10', price = 0 ,currency = 'money'},
+				{ name = 'yns1-medi11', price = 0 ,currency = 'money'},
+				{ name = 'yns1-medi12', price = 0 ,currency = 'money'},
+				{ name = 'yns1-medi13', price = 0 ,currency = 'money'},
+
+				{ name = 'f2-2', price = 0 ,currency = 'money'},
+				{ name = 'f2-5', price = 0 ,currency = 'money'},
+				{ name = 'yns1-burger1',price = 0 ,currency = 'money'},
+				{ name = 'yns1-burger2',price = 0 ,currency = 'money'},
+				{ name = 'yns1-burger3',price = 0 ,currency = 'money'},
+				{ name = 'yns1-burger4',price = 0 ,currency = 'money'},
+				{ name = 'yns1-burger5',price = 0 ,currency = 'money'},
+				{ name = 'yns1-burger6',price = 0 ,currency = 'money'},
+				{ name = 'yns1-burger7',price = 0 ,currency = 'money'},
+				{ name = 'yns1-burger8',price = 0 ,currency = 'money'},
+				{ name = 'yns1-pizza1',price = 0 ,currency = 'money'},
+				{ name = 'yns1-pizza2',price = 0 ,currency = 'money'},
+				{ name = 'yns1-pizza3',price = 0 ,currency = 'money'},
+				{ name = 'yns1-pizza4',price = 0 ,currency = 'money'},
+				{ name = 'yns1-pizza5',price = 0 ,currency = 'money'},
+				{ name = 'yns1-pizza6',price = 0 ,currency = 'money'},
+				{ name = 'yns1-pizza7',price = 0 ,currency = 'money'},
+				{ name = 'yns1-pizza8',price = 0 ,currency = 'money'},
+				{ name = 'yns1-taco1',price = 0 ,currency = 'money'},
+				{ name = 'yns1-taco2',price = 0 ,currency = 'money'},
+				{ name = 'yns1-taco3',price = 0 ,currency = 'money'},
+				{ name = 'yns1-hulahoop',price = 0 ,currency = 'money'},
+				{ name = 'yns1-glassescloth',price = 0 ,currency = 'money'},
+				{ name = 'yns1-phototransfer',price = 0 ,currency = 'money'},
+				{ name = 'animal-flute_boar',price = 0 ,currency = 'money'},
+				{{ name = 'animal-flute',metadata = { label = '獸笛(牛)',type = 'cow' },price = 0 ,currency = 'money'},
+				 name = 'animal-flute',metadata = { label = '獸笛(熊)',type = 'boar' },price = 0 ,currency = 'money'},
+				{ name = 'animal-flute',metadata = { label = '獸笛(鹿)',type = 'deer' },price = 0 ,currency = 'money'},
+				{ name = 'animal-flute',metadata = { label = '獸笛(馬)',type = 'horse' },price = 0 ,currency = 'money'},
+				{ name = 'animal-flute',metadata = { label = '獸笛(山獅)',type = 'mtlion' },price = 0 ,currency = 'money'},
+				{ name = 'animal-flute_cow',price = 0 ,currency = 'money'},
+				{ name = 'animal-flute_boar',price = 0 ,currency = 'money'},
+				{ name = 'animal-flute_deer',price = 0 ,currency = 'money'},
+				{ name = 'animal-flute_horse',price = 0 ,currency = 'money'},
+				{ name = 'animal-flute_lion',price = 0 ,currency = 'money'},
+				{ name = 'yns1-menu-taco', price = 0 ,currency = 'money'},
+				{ name = 'yns1-menu-burger', price = 0 ,currency = 'money'},
+				{ name = 'yns1-menu-pizza', price = 0 ,currency = 'money'},
+				{ name = 'p_cone', price = 0 ,currency = 'money'},
+				{ name = 'p_barrier', price = 0 ,currency = 'money'},
+				{ name = 'p_barrier2', price = 0 ,currency = 'money'},
+				{ name = 'yns1-cft0001-8', price = 0 ,currency = 'money'},
+				{ name = 'yns1-cft0001-9', price = 0 ,currency = 'money'},
 				{ name = 'yns1-cft0001-1', price = 0 ,currency = 'money'},
 				{ name = 'yns1-cft0001-2', price = 0 ,currency = 'money'},
 				{ name = 'yns1-cft0001-3', price = 0 ,currency = 'money'},
@@ -152,6 +336,7 @@ return {
 				{ name = 's280-1', price = 0 ,currency = 'money'}, -- 橡皮鴨
 				{ name = 's282-1', price = 0 ,currency = 'money'}, -- 玩具熊
 				{ name = 's359-1', price = 0 ,currency = 'money'}, -- 眼球吊飾
+				{ name = 't2-1',price = 0 ,currency = 'money'},
 				{ name = 't4-1', price = 0 ,currency = 'money'},
 				{ name = 't4-2', price = 0 ,currency = 'money'},
 				{ name = 't4-3', price = 0 ,currency = 'money'},
@@ -573,6 +758,241 @@ return {
             },
         },
 	},	
+
+	JDZ1_Coffee = {
+		name = '商店(咖啡)',
+		blip = {
+			id = 59, colour = 69, scale = 0.8
+		}, inventory = {
+			{ name = 'f385-1', price = 1000 ,currency = 's234-1'},
+			{ name = 'f361-1', price = 1200 ,currency = 's234-1'},
+			{ name = 'f180-1', price = 1150 ,currency = 's234-1'},
+			{ name = 'f307-1', price = 1500 ,currency = 's234-1'},
+			{ name = 'f981-1', price = 1200 ,currency = 's234-1'},
+			{ name = 'f950-1', price = 1000 ,currency = 's234-1'},
+			{ name = 'f1-1', price = 6000 ,currency = 's234-1'},
+			{ name = 'f289-1', price = 10000 ,currency = 's234-1'},
+			{ name = 'f944-1', price = 8000 ,currency = 's234-1'},
+			{ name = 'f73-1', price = 7000 ,currency = 's234-1'},
+			{ name = 'f980-1', price = 9000 ,currency = 's234-1'},
+		}, locations = {
+			vector3(-583.36, -1060.4, 22.36),
+			vector3(-634.4, 233.76, 81.88),
+		}, targets = {
+			-- { loc = vec3(-584,-1059.2,22.0), length = 0.7, width = 0.5, heading = 90.526, minZ = 21.3,maxZ = 22.5, distance = 1.5 },
+			--{ loc = vec3(-3039.18, 585.13, 7.91), length = 0.6, width = 0.5, heading = 15.0, minZ = 7.91, maxZ = 8.31, distance = 1.5 },
+		}
+	},
+
+	JDZ1_General = {
+		name = '商店(一般)',
+		blip = {
+			id = 59, colour = 69, scale = 0.8
+		}, inventory = {
+			{ name = 'c7-1', price = 0 ,currency = 's234-1'},
+			{ name = 'f579-1', price = 0 ,currency = 's234-1'},
+			{ name = 'f23-4', price = 0 ,currency = 's234-1'},
+			{ name = 'f786-1', price = 0 ,currency = 's234-1'},
+			{ name = 'f675-1', price = 0 ,currency = 's234-1'},
+			{ name = 'f675-2', price = 0 ,currency = 's234-1'},
+			{ name = 'f745-1', price = 0 ,currency = 's234-1'},
+			{ name = 'f945-1', price = 0 ,currency = 's234-1'},
+			{ name = 'f449-1', price = 0 ,currency = 's234-1'},
+			{ name = 'jdz1_efood', price = 0 ,currency = 's234-1'},
+			{ name = 't1-3', price = 0 ,currency = 's234-1'},
+			{ name = 't1-1', price = 0 ,currency = 's234-1'},
+			{ name = 't1-4', price = 0 ,currency = 's234-1'},
+			{ name = 't1-5', price = 0 ,currency = 's234-1'},
+			{ name = 't109-1', price = 0 ,currency = 's234-1'},
+		}, locations = {
+			vec3(25.7, -1347.3, 29.49),
+			vec3(-3038.71, 585.9, 7.9),
+			vec3(-3241.47, 1001.14, 12.83),
+			vec3(1728.66, 6414.16, 35.03),
+			vec3(1697.99, 4924.4, 42.06),
+			vec3(1961.48, 3739.96, 32.34),
+			vec3(547.79, 2671.79, 42.15),
+			vec3(2679.25, 3280.12, 55.24),
+			vec3(2557.94, 382.05, 108.62),
+			vec3(373.55, 325.56, 103.56),
+		}, targets = {
+			{ loc = vec3(25.06, -1347.32, 29.5), length = 0.7, width = 0.5, heading = 0.0, minZ = 29.5, maxZ = 29.9, distance = 1.5 },
+			{ loc = vec3(-3039.18, 585.13, 7.91), length = 0.6, width = 0.5, heading = 15.0, minZ = 7.91, maxZ = 8.31, distance = 1.5 },
+			{ loc = vec3(-3242.2, 1000.58, 12.83), length = 0.6, width = 0.6, heading = 175.0, minZ = 12.83, maxZ = 13.23, distance = 1.5 },
+			{ loc = vec3(1728.39, 6414.95, 35.04), length = 0.6, width = 0.6, heading = 65.0, minZ = 35.04, maxZ = 35.44, distance = 1.5 },
+			{ loc = vec3(1698.37, 4923.43, 42.06), length = 0.5, width = 0.5, heading = 235.0, minZ = 42.06, maxZ = 42.46, distance = 1.5 },
+			{ loc = vec3(1960.54, 3740.28, 32.34), length = 0.6, width = 0.5, heading = 120.0, minZ = 32.34, maxZ = 32.74, distance = 1.5 },
+			{ loc = vec3(548.5, 2671.25, 42.16), length = 0.6, width = 0.5, heading = 10.0, minZ = 42.16, maxZ = 42.56, distance = 1.5 },
+			{ loc = vec3(2678.29, 3279.94, 55.24), length = 0.6, width = 0.5, heading = 330.0, minZ = 55.24, maxZ = 55.64, distance = 1.5 },
+			{ loc = vec3(2557.19, 381.4, 108.62), length = 0.6, width = 0.5, heading = 0.0, minZ = 108.62, maxZ = 109.02, distance = 1.5 },
+			{ loc = vec3(373.13, 326.29, 103.57), length = 0.6, width = 0.5, heading = 345.0, minZ = 103.57, maxZ = 103.97, distance = 1.5 },
+		}
+	},
+	JDZ1_Resturant = {
+		name = '商店(餐館)',
+		inventory = {	 
+			        { name = 'f509-1', price = 1500 ,currency = 's234-1'},
+					{ name = 'f684-1', price = 1000 ,currency = 's234-1'},
+					{ name = 'f157-1', price = 1200 ,currency = 's234-1'},
+					{ name = 'f344-1', price = 10000 ,currency = 's234-1'},
+					{ name = 'f342-1', price = 9000 ,currency = 's234-1'},
+					{ name = 'f343-1', price = 8000 ,currency = 's234-1'},
+					{ name = 'f932-1', price = 1200 ,currency = 's234-1'},
+		}, locations = {
+			vector3(-1818.68, -1197.84, 14.48),
+		}, targets = {
+			--{loc = vector3(324.72, -584.28, 42.28), length = 0.5, width = 3.0, heading = 153.0, minZ = 40.28, maxZ = 43.28, distance = 6 },
+		},
+	},	
+	JDZ1_BeachRest = {
+		name = '商店(酒吧)',
+		inventory = {	 
+			        { name = 'f402-1', price = 5000 ,currency = 's234-1'},
+					{ name = 'f398-1', price = 5000 ,currency = 's234-1'},
+					{ name = 'f263-1', price = 5000 ,currency = 's234-1'},
+					{ name = 'f31-1', price = 5000 ,currency = 's234-1'},
+					{ name = 'f389-1', price = 5000 ,currency = 's234-1'},
+					{ name = 'f109-1', price = 5000 ,currency = 's234-1'},
+					{ name = 'f259-1', price = 5000 ,currency = 's234-1'},
+					{ name = 'f13-1', price = 5000 ,currency = 's234-1'},
+					{ name = 'f261-1', price = 100000 ,currency = 's234-1'},
+		}, locations = {
+			vector3(-1508.04, -1511.48, 6.24),
+			vector3(128.52, -1285.8, 29.28),
+		}, targets = {
+			--{loc = vector3(324.72, -584.28, 42.28), length = 0.5, width = 3.0, heading = 153.0, minZ = 40.28, maxZ = 43.28, distance = 6 },
+		},
+	},
+	JDZ1_Ammunation = {
+		name = '商店(武器)',
+		blip = {
+			id = 110, colour = 69, scale = 0.8
+		}, inventory = {
+			{ name = 'WEAPON_BAT', price = 1000,currency = 's234-1'},
+			{ name = 'WEAPON_FLASHLIGHT', price = 0,currency = 's234-1'},
+			{ name = 'WEAPON_FIREWORK', price = 100000,currency = 's234-1'},
+			{ name = 'ammo-special', price = 1000,currency = 's234-1'},
+			{ name = 'WEAPON_BALL', price = 100,currency = 's234-1'},
+			{ name = 'WEAPON_FIREEXTINGUISHER', price = 1000,currency = 's234-1'},
+		}, locations = {
+			vec3(-662.180, -934.961, 21.829),
+			vec3(810.25, -2157.60, 29.62),
+			vec3(1693.44, 3760.16, 34.71),
+			vec3(-330.24, 6083.88, 31.45),
+			vec3(252.63, -50.00, 69.94),
+			vec3(22.56, -1109.89, 29.80),
+			vec3(2567.69, 294.38, 108.73),
+			vec3(-1117.58, 2698.61, 18.55),
+			vec3(842.44, -1033.42, 28.19)
+		}, targets = {
+			{ loc = vec3(-660.92, -934.10, 21.94), length = 0.6, width = 0.5, heading = 180.0, minZ = 21.8, maxZ = 22.2, distance = 2.0 },
+			{ loc = vec3(808.86, -2158.50, 29.73), length = 0.6, width = 0.5, heading = 360.0, minZ = 29.6, maxZ = 30.0, distance = 2.0 },
+			{ loc = vec3(1693.57, 3761.60, 34.82), length = 0.6, width = 0.5, heading = 227.39, minZ = 34.7, maxZ = 35.1, distance = 2.0 },
+			{ loc = vec3(-330.29, 6085.54, 31.57), length = 0.6, width = 0.5, heading = 225.0, minZ = 31.4, maxZ = 31.8, distance = 2.0 },
+			{ loc = vec3(252.85, -51.62, 70.0), length = 0.6, width = 0.5, heading = 70.0, minZ = 69.9, maxZ = 70.3, distance = 2.0 },
+			{ loc = vec3(23.68, -1106.46, 29.91), length = 0.6, width = 0.5, heading = 160.0, minZ = 29.8, maxZ = 30.2, distance = 2.0 },
+			{ loc = vec3(2566.59, 293.13, 108.85), length = 0.6, width = 0.5, heading = 360.0, minZ = 108.7, maxZ = 109.1, distance = 2.0 },
+			{ loc = vec3(-1117.61, 2700.26, 18.67), length = 0.6, width = 0.5, heading = 221.82, minZ = 18.5, maxZ = 18.9, distance = 2.0 },
+			{ loc = vec3(841.05, -1034.76, 28.31), length = 0.6, width = 0.5, heading = 360.0, minZ = 28.2, maxZ = 28.6, distance = 2.0 }
+		}
+	},	
+
+	JDZ1_Liquor = {
+		name = '商店(飲料)',
+		blip = {
+			id = 93, colour = 69, scale = 0.8
+		}, inventory = {
+			{ name = 'c7-1', price = 0 ,currency = 's234-1'},
+			{ name = 'f710-1', price = 0 ,currency = 's234-1'},
+			{ name = 'f23-1', price = 0 ,currency = 's234-1'},
+			{ name = 'f223-1', price = 0 ,currency = 's234-1'},
+			{ name = 'f714-1', price = 0 ,currency = 's234-1'},
+		}, locations = {
+			vec3(1135.808, -982.281, 46.415),
+			vec3(-1222.915, -906.983, 12.326),
+			vec3(-1487.553, -379.107, 40.163),
+			vec3(-2968.243, 390.910, 15.043),
+			vec3(1166.024, 2708.930, 38.157),
+			vec3(1392.562, 3604.684, 34.980),
+			vec3(-1393.409, -606.624, 30.319)
+		}, targets = {
+			{ loc = vec3(1134.9, -982.34, 46.41), length = 0.5, width = 0.5, heading = 96.0, minZ = 46.4, maxZ = 46.8, distance = 1.5 },
+			{ loc = vec3(-1222.33, -907.82, 12.43), length = 0.6, width = 0.5, heading = 32.7, minZ = 12.3, maxZ = 12.7, distance = 1.5 },
+			{ loc = vec3(-1486.67, -378.46, 40.26), length = 0.6, width = 0.5, heading = 133.77, minZ = 40.1, maxZ = 40.5, distance = 1.5 },
+			{ loc = vec3(-2967.0, 390.9, 15.14), length = 0.7, width = 0.5, heading = 85.23, minZ = 15.0, maxZ = 15.4, distance = 1.5 },
+			{ loc = vec3(1165.95, 2710.20, 38.26), length = 0.6, width = 0.5, heading = 178.84, minZ = 38.1, maxZ = 38.5, distance = 1.5 },
+			{ loc = vec3(1393.0, 3605.95, 35.11), length = 0.6, width = 0.6, heading = 200.0, minZ = 35.0, maxZ = 35.4, distance = 1.5 }
+		}
+	},
+	--[[
+	YNS1_Taco = {
+	 name = 'Cluckin’ Bell',
+	 inventory = {	 					 
+				{ name = 'yns1-menu-taco', price = 0 ,currency = 'money'}, 
+				{ name = 'yns1-taco1',price = 0 ,currency = 'money'},
+				{ name = 'yns1-taco2',price = 0 ,currency = 'money'},
+				{ name = 'yns1-taco3',price = 0 ,currency = 'money'},
+				-- { name = 'yns1-punish', price = 0 ,currency = 'money'},
+				-- { name = 'yns1-punish', price = 0 ,currency = 'money'},
+				-- { name = 'yns1-punish', price = 0 ,currency = 'money'},
+				-- { name = 'yns1-punish', price = 0 ,currency = 'money'},
+
+		}, locations = {
+			vector3(-584.48, -594.84, 34.68),
+		}, targets = {
+		},
+	},
+	YNS1_Burger = {
+	 name = 'Burger Shot',
+	 inventory = {	 					 
+				{ name = 'yns1-menu-burger', price = 0 ,currency = 'money'}, 
+				{ name = 'yns1-burger1',price = 0 ,currency = 'money'},
+				{ name = 'yns1-burger2',price = 0 ,currency = 'money'},
+				{ name = 'yns1-burger3',price = 0 ,currency = 'money'},
+				{ name = 'yns1-burger4',price = 0 ,currency = 'money'},
+				{ name = 'yns1-burger5',price = 0 ,currency = 'money'},
+				{ name = 'yns1-burger6',price = 0 ,currency = 'money'},
+				{ name = 'yns1-burger7',price = 0 ,currency = 'money'},
+				{ name = 'yns1-burger8',price = 0 ,currency = 'money'},
+				--{ name = 'yns1-punish', price = 0 ,currency = 'money'},
+				--{ name = 'yns1-punish', price = 0 ,currency = 'money'},
+				--{ name = 'yns1-punish', price = 0 ,currency = 'money'},
+				--{ name = 'yns1-punish', price = 0 ,currency = 'money'},
+				--{ name = 'yns1-punish', price = 0 ,currency = 'money'},
+				--{ name = 'yns1-punish', price = 0 ,currency = 'money'},
+				--{ name = 'yns1-punish', price = 0 ,currency = 'money'},
+				--{ name = 'yns1-punish', price = 0 ,currency = 'money'},
+
+		}, locations = {
+			vector3(-584.68, -614.08, 34.68)
+		}, targets = {
+		},
+	},
+	YNS1_Pizza = {
+	 name = 'Al Dentes',
+	 inventory = {	 					 
+				{ name = 'yns1-menu-pizza', price = 0 ,currency = 'money'},
+				{ name = 'yns1-pizza1',price = 0 ,currency = 'money'},
+				{ name = 'yns1-pizza2',price = 0 ,currency = 'money'},
+				{ name = 'yns1-pizza3',price = 0 ,currency = 'money'},
+				{ name = 'yns1-pizza4',price = 0 ,currency = 'money'},
+				{ name = 'yns1-pizza5',price = 0 ,currency = 'money'},
+				{ name = 'yns1-pizza6',price = 0 ,currency = 'money'},
+				{ name = 'yns1-pizza7',price = 0 ,currency = 'money'},
+				{ name = 'yns1-pizza8',price = 0 ,currency = 'money'}, 
+				--{ name = 'yns1-punish', price = 0 ,currency = 'money'},
+				--{ name = 'yns1-punish', price = 0 ,currency = 'money'},
+				--{ name = 'yns1-punish', price = 0 ,currency = 'money'},
+				--{ name = 'yns1-punish', price = 0 ,currency = 'money'},
+				--{ name = 'yns1-punish', price = 0 ,currency = 'money'},
+				--{ name = 'yns1-punish', price = 0 ,currency = 'money'},
+				--{ name = 'yns1-punish', price = 0 ,currency = 'money'},
+				--{ name = 'yns1-punish', price = 0 ,currency = 'money'},
+		}, locations = {
+			vector3(-584.64, -604.56, 34.68)
+		}, targets = {
+		},
+	},
 	YNS1_Sushi = {
 	 name = 'Noodle壽司處',
 	 inventory = {	 					 
@@ -581,6 +1001,15 @@ return {
 				{ name = 'f152-1', price = 0 ,currency = 'money'},
 				{ name = 'f152-4', price = 0 ,currency = 'money'}, 
 				{ name = 'f152-5', price = 0 ,currency = 'money'}, 
+				{ name = 'f2-2', price = 0 ,currency = 'money'},
+				{ name = 'f2-5', price = 0 ,currency = 'money'},
+				--{ name = 'yns1-punish', price = 0 ,currency = 'money'},
+				--{ name = 'yns1-punish', price = 0 ,currency = 'money'},
+				--{ name = 'yns1-punish', price = 0 ,currency = 'money'},
+				--{ name = 'yns1-punish', price = 0 ,currency = 'money'},
+				--{ name = 'yns1-punish', price = 0 ,currency = 'money'},
+				--{ name = 'yns1-punish2', price = 0 ,currency = 'money'},
+				--{ name = 'yns1-punish2', price = 0 ,currency = 'money'},
 
 		}, locations = {
 			vector3(-533.24, -610.96, 34.68),
@@ -590,13 +1019,29 @@ return {
 	},
 	YNS1_Resort = {
 	 name = '渡假村點餐處',
-	 inventory = {	 					 
+	 inventory = {	
+					--{ name = 'yns1-punish2', price = 0 ,currency = 'money'},
+					--{ name = 'yns1-punish2', price = 0 ,currency = 'money'}, 
+					--{ name = 'yns1-punish2', price = 0 ,currency = 'money'},
+					--{ name = 'yns1-punish2', price = 0 ,currency = 'money'}, 					 
 					 { name = 'f13-1', price = 0 ,currency = 'money'},
 					 { name = 'f13-2', price = 0 ,currency = 'money'},
 					 { name = 'f32-1', price = 0 ,currency = 'money'},
 					 { name = 'f35-1', price = 0 ,currency = 'money'},
 					 { name = 'yns1-cs0013-2', price = 0 ,currency = 'money'},
 					 { name = 'yns1-cs0013-3', price = 0 ,currency = 'money'},
+					-- { name = 'yns1-punish2', price = 0 ,currency = 'money'},
+					-- { name = 'yns1-punish2', price = 0 ,currency = 'money'}, 
+					-- { name = 'yns1-punish2', price = 0 ,currency = 'money'},
+					-- { name = 'yns1-punish2', price = 0 ,currency = 'money'}, 
+					-- { name = 'yns1-punish2', price = 0 ,currency = 'money'},
+					-- { name = 'yns1-punish2', price = 0 ,currency = 'money'}, 
+					-- { name = 'yns1-punish2', price = 0 ,currency = 'money'},
+					-- { name = 'yns1-punish2', price = 0 ,currency = 'money'}, 
+					-- { name = 'yns1-punish2', price = 0 ,currency = 'money'},
+					-- { name = 'yns1-punish2', price = 0 ,currency = 'money'}, 
+					-- { name = 'yns1-punish2', price = 0 ,currency = 'money'},
+					-- { name = 'yns1-punish2', price = 0 ,currency = 'money'}, 
 					 { name = 'f36-1', price = 0 ,currency = 'money'},
 					 { name = 'f42-1', price = 0 ,currency = 'money'},
 					 { name = 'f233-1', price = 0 ,currency = 'money'},
@@ -622,6 +1067,25 @@ return {
 	YNS1_Coffee = {
 	 name = '咖啡廳點餐處',
 	 inventory = {	 		
+					-- { name = 'yns1-punish2', price = 0 ,currency = 'money'}, 
+					-- { name = 'yns1-punish2', price = 0 ,currency = 'money'},
+					-- { name = 'yns1-punish2', price = 0 ,currency = 'money'}, 
+					-- { name = 'yns1-punish2', price = 0 ,currency = 'money'},
+					-- { name = 'yns1-punish2', price = 0 ,currency = 'money'}, 
+					-- { name = 'yns1-punish2', price = 0 ,currency = 'money'}, 
+					-- { name = 'yns1-punish2', price = 0 ,currency = 'money'},
+					-- { name = 'yns1-punish2', price = 0 ,currency = 'money'}, 
+					-- { name = 'yns1-punish2', price = 0 ,currency = 'money'},
+					-- { name = 'yns1-punish2', price = 0 ,currency = 'money'}, 
+					-- { name = 'yns1-punish', price = 0 ,currency = 'money'}, 
+					-- { name = 'yns1-punish', price = 0 ,currency = 'money'},
+					-- { name = 'yns1-punish', price = 0 ,currency = 'money'}, 
+					-- { name = 'yns1-punish', price = 0 ,currency = 'money'}, 
+					-- { name = 'yns1-punish', price = 0 ,currency = 'money'},
+					-- { name = 'yns1-punish', price = 0 ,currency = 'money'}, 
+					-- { name = 'yns1-punish', price = 0 ,currency = 'money'}, 
+					-- { name = 'yns1-punish', price = 0 ,currency = 'money'},
+					-- { name = 'yns1-punish', price = 0 ,currency = 'money'}, 
 				{ name = 'yns1-cs0013-1', price = 0 ,currency = 'money'},			 
 				{ name = 'c7-1', price = 0 ,currency = 'money'},
 				{ name = 'c7-2', price = 0 ,currency = 'money'},
@@ -652,8 +1116,15 @@ return {
 	YNS1_Shopping = {
 	 name = '商場購買處',
 	 inventory = {	 
+				{ name = 'p_cone', price = 0 ,currency = 'money'},
+				{ name = 'p_barrier', price = 0 ,currency = 'money'},
+				{ name = 'p_barrier2', price = 0 ,currency = 'money'},
 				{ name = 'radio', price = 0 ,currency = 'money'},
 				{ name = 'umbrella', price = 0 ,currency = 'money'},
+				-- { name = 'yns1-punish2', price = 0 ,currency = 'money'}, 
+				-- { name = 'yns1-punish', price = 0 ,currency = 'money'}, 
+				-- { name = 'yns1-punish2', price = 0 ,currency = 'money'}, 
+				-- { name = 'yns1-punish', price = 0 ,currency = 'money'}, 
 				{ name = 'f271-1', price = 0 ,currency = 'money'},
 				{ name = 'f675-1', price = 0 ,currency = 'money'},
 				{ name = 'f675-2', price = 0 ,currency = 'money'},
@@ -661,9 +1132,9 @@ return {
 				{ name = 's117-1', price = 0 ,currency = 'money'},
 				{ name = 's121-1', price = 0 ,currency = 'money'},
 				{ name = 's263-8', price = 0 ,currency = 'money'},
-				{ name = 's280-1', price = 0 ,currency = 'money'}, -- 橡皮鴨
-				{ name = 's282-1', price = 0 ,currency = 'money'}, -- 玩具熊
-				{ name = 's359-1', price = 0 ,currency = 'money'}, -- 眼球吊飾
+				{ name = 's280-1', price = 0 ,currency = 'money'}, 
+				{ name = 's282-1', price = 0 ,currency = 'money'}, 
+				{ name = 's359-1', price = 0 ,currency = 'money'}, 
 				{ name = 't9-1', price = 0 ,currency = 'money'},
 				{ name = 't9-2', price = 0 ,currency = 'money'},
 				{ name = 't9-3', price = 0 ,currency = 'money'},
@@ -678,32 +1149,35 @@ return {
 				{ name = 't5-2', price = 0 ,currency = 'money'},
 				{ name = 't5-3', price = 0 ,currency = 'money'},
 				{ name = 't20-1', price = 0 ,currency = 'money'},
-				{ name = 't29-1', price = 0 ,currency = 'money'}, -- 滑板
-				{ name = 't29-2', price = 0 ,currency = 'money'}, -- 滑板
-				{ name = 't30-1', price = 0 ,currency = 'money'}, -- 音響
-				{ name = 't46-1', price = 0 ,currency = 'money'}, -- 書
-				{ name = 't47-1', price = 0 ,currency = 'money'}, -- 文信封
-				{ name = 't47-2', price = 0 ,currency = 'money'}, -- 黑信封
-				{ name = 't47-3', price = 0 ,currency = 'money'}, -- 白信封
-				{ name = 't48-1', price = 0 ,currency = 'money'}, -- 
+				{ name = 't29-1', price = 0 ,currency = 'money'}, 
+				{ name = 't29-2', price = 0 ,currency = 'money'}, 
+				{ name = 't30-1', price = 0 ,currency = 'money'}, 
+				{ name = 't46-1', price = 0 ,currency = 'money'}, 
+				{ name = 't47-1', price = 0 ,currency = 'money'}, 
+				{ name = 't47-2', price = 0 ,currency = 'money'}, 
+				{ name = 't47-3', price = 0 ,currency = 'money'}, 
+				{ name = 't48-1', price = 0 ,currency = 'money'}, 
 				{ name = 't58-1', price = 0 ,currency = 'money'}, 
 				{ name = 't58-2', price = 0 ,currency = 'money'}, 
 				{ name = 't58-3', price = 0 ,currency = 'money'},
 				{ name = 't79-1', price = 0 ,currency = 'money'}, 
 				{ name = 't79-2', price = 0 ,currency = 'money'}, 
 				{ name = 'yns1-cs0005-1', price = 0 ,currency = 'money'},
-				{ name = 't81-1', price = 0 ,currency = 'money'}, -- 毛巾
-				{ name = 't81-2', price = 0 ,currency = 'money'}, -- 熱毛巾
-				--{ name = 't81-3', price = 0 ,currency = 'money'}, -- 髒毛巾
+				{ name = 't81-1', price = 0 ,currency = 'money'},   
+				{ name = 't81-2', price = 0 ,currency = 'money'},   
+				--{ name = 't81-3', price = 0 ,currency = 'money'}, 
 				{ name = 't109-1', price = 0 ,currency = 'money'},
-				{ name = 't111-1', price = 0 ,currency = 'money'}, -- 漫畫
-				{ name = 't116-1', price = 0 ,currency = 'money'}, -- 牙刷
-				{ name = 't117-1', price = 0 ,currency = 'money'}, -- 牙膏
-				{ name = 't127-1', price = 0 ,currency = 'money'}, -- 法蘭絨單人毛毯
-				{ name = 't187-1', price = 0 ,currency = 'money'}, -- 空氣鳳梨瓶
-				{ name = 't188-1', price = 0 ,currency = 'money'}, -- 鳶尾玻璃吊飾
-				{ name = 't189-1', price = 0 ,currency = 'money'}, -- 末路荼蘼香水
-				{ name = 't190-1', price = 0 ,currency = 'money'}, -- 恐龍香氛玩偶
+				{ name = 't111-1', price = 0 ,currency = 'money'}, 
+				{ name = 't116-1', price = 0 ,currency = 'money'}, 
+				{ name = 't117-1', price = 0 ,currency = 'money'}, 
+				{ name = 't127-1', price = 0 ,currency = 'money'}, 
+				{ name = 't187-1', price = 0 ,currency = 'money'}, 
+				{ name = 't188-1', price = 0 ,currency = 'money'}, 
+				{ name = 't189-1', price = 0 ,currency = 'money'}, 
+				{ name = 't190-1', price = 0 ,currency = 'money'}, 
+				{ name = 'yns1-glassescloth',price = 0 ,currency = 'money'},
+				{ name = 'yns1-phototransfer',price = 0 ,currency = 'money'},
+				{ name = 'yns1-hulahoop',price = 0 ,currency = 'money'},
 
 		}, locations = {
 			vector3(-552.12, -584.6, 34.68),
@@ -734,6 +1208,15 @@ return {
 					 { name = 'WEAPON_BALL', price = 0 ,currency = 'money'},
 					 { name = 'WEAPON_SNOWBALL', price = 0 ,currency = 'money'},
 					 { name = 'WEAPON_FIREEXTINGUISHER', price = 0 ,currency = 'money'},
+					 --{ name = 'animal-flute',metadata = { label = '獸笛(馬)',type = 'horse' },price = 0 ,currency = 'money'},
+					 { name = 'animal-flute_horse',price = 0 ,currency = 'money'},
+					 { name = 't2-1',price = 0 ,currency = 'money'},
+					 { name = 'ammo-pistol', price = 0 ,currency = 'money'},
+					 { name = 'ammo-mg', price = 0 ,currency = 'money'},
+					 { name = 'ammo-special', price = 0 ,currency = 'money'},
+					 { name = 'ammo-rifle', price = 0 ,currency = 'money'},
+					 { name = 'ammo-shotgun', price = 0 ,currency = 'money'},
+					 { name = 'ammo-sniper', price = 0 ,currency = 'money'},
 		}, locations = {
 			vector3(-543.64, -584.48, 34.68)
 		}, targets = {},
@@ -741,26 +1224,38 @@ return {
 	YNS1_Resturant = {
 		name = '購買餐點處',
 		inventory = {
-		             { name = 'yns1-cs0004-1', price = 0 ,currency = 'money'},	 
-			         { name = 'f509-1', price = 0 ,currency = 'money'},
-					 { name = 'f520-1', price = 0 ,currency = 'money'},
-					 { name = 'f528-1', price = 0 ,currency = 'money'},
-					 { name = 'f25-2', price = 0 ,currency = 'money'},
-					 { name = 'f552-1', price = 0 ,currency = 'money'},
-					 { name = 'f660-1', price = 0 ,currency = 'money'},
-					 { name = 'f567-1', price = 0 ,currency = 'money'},
-					 { name = 'f580-1', price = 0 ,currency = 'money'},
-					 { name = 'f500-1', price = 0 ,currency = 'money'},
-					 { name = 'f505-1', price = 0 ,currency = 'money'},
-					 { name = 'f508-1', price = 0 ,currency = 'money'},
-					 { name = 'f578-1', price = 0 ,currency = 'money'},
-					 { name = 'f575-1', price = 0 ,currency = 'money'},
-					 { name = 'f202-1', price = 0 ,currency = 'money'},
-					 { name = 'f522-1', price = 0 ,currency = 'money'},
-					 { name = 'yns1-cs0011-1', price = 0 ,currency = 'money'},
-					 { name = 'yns1-cs0011-2', price = 0 ,currency = 'money'},
-					 { name = 'yns1-cs0011-3', price = 0 ,currency = 'money'},
-					 { name = 'yns1-cft0001-7', price = 0 ,currency = 'money'},
+					-- { name = 'yns1-punish2', price = 0 ,currency = 'money'}, 
+					-- { name = 'yns1-punish', price = 0 ,currency = 'money'}, 
+					-- { name = 'yns1-punish2', price = 0 ,currency = 'money'}, 
+					-- { name = 'yns1-punish', price = 0 ,currency = 'money'}, 
+					-- { name = 'yns1-punish2', price = 0 ,currency = 'money'}, 
+					-- { name = 'yns1-punish', price = 0 ,currency = 'money'}, 
+					-- { name = 'yns1-punish2', price = 0 ,currency = 'money'}, 
+					-- { name = 'yns1-punish', price = 0 ,currency = 'money'}, 
+					-- { name = 'yns1-punish2', price = 0 ,currency = 'money'}, 
+					-- { name = 'yns1-punish', price = 0 ,currency = 'money'}, 
+					-- { name = 'yns1-punish2', price = 0 ,currency = 'money'}, 
+					-- { name = 'yns1-punish', price = 0 ,currency = 'money'}, 
+		            { name = 'yns1-cs0004-1', price = 0 ,currency = 'money'},	 
+			        { name = 'f509-1', price = 0 ,currency = 'money'},
+					{ name = 'f520-1', price = 0 ,currency = 'money'},
+					{ name = 'f528-1', price = 0 ,currency = 'money'},
+					{ name = 'f25-2', price = 0 ,currency = 'money'},
+					{ name = 'f552-1', price = 0 ,currency = 'money'},
+					{ name = 'f660-1', price = 0 ,currency = 'money'},
+					{ name = 'f567-1', price = 0 ,currency = 'money'},
+					{ name = 'f580-1', price = 0 ,currency = 'money'},
+					{ name = 'f500-1', price = 0 ,currency = 'money'},
+					{ name = 'f505-1', price = 0 ,currency = 'money'},
+					{ name = 'f508-1', price = 0 ,currency = 'money'},
+					{ name = 'f578-1', price = 0 ,currency = 'money'},
+					{ name = 'f575-1', price = 0 ,currency = 'money'},
+					{ name = 'f202-1', price = 0 ,currency = 'money'},
+					{ name = 'f522-1', price = 0 ,currency = 'money'},
+					{ name = 'yns1-cs0011-1', price = 0 ,currency = 'money'},
+					{ name = 'yns1-cs0011-2', price = 0 ,currency = 'money'},
+					{ name = 'yns1-cs0011-3', price = 0 ,currency = 'money'},
+					{ name = 'yns1-cft0001-7', price = 0 ,currency = 'money'},
 
 
 		}, locations = {
@@ -772,30 +1267,48 @@ return {
 	YNS1_hospital_Shop = {
 	 	name = '醫療品購買處',
 		inventory = {
-					{ name = 'yns1-cs0004-2', price = 0 ,currency = 'money'},
-				     { name = 'yns1-cs0008-2', price = 0 ,currency = 'money'},
-					 { name = 'crutch', price = 0 ,currency = 'money'},
-					 { name = 'crutch2', price = 0 ,currency = 'money'},
-					 { name = 'm2-2', price = 0 ,currency = 'money'},
-					 { name = 'm12-1', price = 0 ,currency = 'money'},
-					 { name = 'm15-1', price = 0 ,currency = 'money'},
-					 { name = 'm16-1', price = 0 ,currency = 'money'},
-					 { name = 'm17-1', price = 0 ,currency = 'money'},
-					 { name = 'm20-1', price = 0 ,currency = 'money'},
-					 { name = 'm21-1', price = 0 ,currency = 'money'},
-					 { name = 'm26-1', price = 0 ,currency = 'money'},
-					 { name = 'm34-1', price = 0 ,currency = 'money'},
-					 { name = 'm40-1', price = 0 ,currency = 'money'},
-					 { name = 'm42-1', price = 0 ,currency = 'money'},
-					 { name = 'm6-1', price = 0 ,currency = 'money'},
-					 { name = 'm8-1', price = 0 ,currency = 'money'},
-					 { name = 't4-1', price = 0 ,currency = 'money'},
-					 { name = 't19-1', price = 0 ,currency = 'money'},
+					{ name = 'm2-2', price = 0 ,currency = 'money'},
+					{ name = 'yns1-medi1', price = 0 ,currency = 'money'},
+					{ name = 'yns1-medi2', price = 0 ,currency = 'money'},
+					{ name = 'yns1-medi3', price = 0 ,currency = 'money'},
+					{ name = 'yns1-medi4', price = 0 ,currency = 'money'},
+					{ name = 'yns1-medi5', price = 0 ,currency = 'money'},
+					{ name = 'yns1-medi6', price = 0 ,currency = 'money'},
+					{ name = 'yns1-medi7', price = 0 ,currency = 'money'},
+					{ name = 'yns1-medi8-1', price = 0 ,currency = 'money'},
+					{ name = 'yns1-medi8-2', price = 0 ,currency = 'money'},
+					{ name = 'yns1-medi8-3', price = 0 ,currency = 'money'},
+					{ name = 'yns1-medi8-4', price = 0 ,currency = 'money'},
+					{ name = 'yns1-medi9', price = 0 ,currency = 'money'},
+					{ name = 'yns1-medi10', price = 0 ,currency = 'money'},
+					{ name = 'yns1-medi11', price = 0 ,currency = 'money'},
+					{ name = 'yns1-medi12', price = 0 ,currency = 'money'},
+					{ name = 'yns1-medi13', price = 0 ,currency = 'money'},
+					{ name = 'm12-1', price = 0 ,currency = 'money'},
+					{ name = 'm15-1', price = 0 ,currency = 'money'},
+					{ name = 'm16-1', price = 0 ,currency = 'money'},
+					{ name = 'm17-1', price = 0 ,currency = 'money'},
+					{ name = 'm20-1', price = 0 ,currency = 'money'},
+					{ name = 'm21-1', price = 0 ,currency = 'money'},
+					{ name = 'm26-1', price = 0 ,currency = 'money'},
+					{ name = 'm34-1', price = 0 ,currency = 'money'},
+					{ name = 'm40-1', price = 0 ,currency = 'money'},
+					{ name = 'm42-1', price = 0 ,currency = 'money'},
+					{ name = 'm6-1', price = 0 ,currency = 'money'},
+					{ name = 'm8-1', price = 0 ,currency = 'money'},
+					{ name = 't4-1', price = 0 ,currency = 'money'},
+					{ name = 't19-1', price = 0 ,currency = 'money'},
 					{ name = 'yns1-cs0008-6', price = 0 ,currency = 'money'},
 					{ name = 'yns1-cs0008-7', price = 0 ,currency = 'money'},
 					{ name = 'yns1-cs0008-8', price = 0 ,currency = 'money'},
+					{ name = 'yns1-cs0004-2', price = 0 ,currency = 'money'},
+				    { name = 'yns1-cs0008-2', price = 0 ,currency = 'money'},
+				    { name = 'yns1-cft0001-8', price = 0 ,currency = 'money'},
+				    { name = 'yns1-cft0001-9', price = 0 ,currency = 'money'},
+					{ name = 'crutch', price = 0 ,currency = 'money'},
+					{ name = 'crutch2', price = 0 ,currency = 'money'},
 		}, 
-		groups = {["YN_care"] = 0,["god"] = 0,["star"] = 0},
+		--groups = {["YN_care"] = 0,["god"] = 0,["star"] = 0},
 		locations = {
 				vector3(324.2, -585.04, 43.28),
 		}, 
@@ -811,7 +1324,8 @@ return {
 		}, locations = {
 			vector3(309.56, -585.8, 43.28)
 		}, targets = {},
-	},	
+	},
+	]]	
 	godItem_C = {
 	 name = '道具(C)購買處',
 	 inventory = {
@@ -1160,7 +1674,7 @@ return {
 					 { name = 'f198-1', price = 0 ,currency = 'money'},
 					 { name = 'f199-1', price = 0 ,currency = 'money'},
 					 { name = 'f2-2', price = 0 ,currency = 'money'},
-					 { name = 'f2-2', price = 0 ,currency = 'money'},
+					 { name = 'f2-5', price = 0 ,currency = 'money'},
 					 { name = 'f2-3', price = 0 ,currency = 'money'},
 					 { name = 'f2-4', price = 0 ,currency = 'money'},
 					 { name = 'f20-1', price = 0 ,currency = 'money'},
@@ -3550,6 +4064,9 @@ return {
 	godItem_Weapon = {
 	 name = '道具(Weapon)購買處',
 	 inventory = {
+					 { name = 'WEAPON_MINECRAFT_SWORD', price = 0 ,currency = 'money'},
+					 { name = 'WEAPON_BAT_MINECRAFT', price = 0 ,currency = 'money'},
+					 { name = 'WEAPON_PICKAXE_MINECRAFT', price = 0 ,currency = 'money'},
 					 { name = 'WEAPON_DAGGER', price = 0 ,currency = 'money'},
 					 { name = 'WEAPON_BAT', price = 0 ,currency = 'money'},
 					 { name = 'WEAPON_BATTLEAXE', price = 0 ,currency = 'money'},
@@ -3737,38 +4254,6 @@ return {
 			vec3(-1284.1,-2965.1,-48.5)
 		}, targets = {},
 	},
-	--[[General = {
-		name = 'Shop',
-		blip = {
-			id = 59, colour = 69, scale = 0.8
-		}, inventory = {
-			{ name = 'burger', price = 10 },
-			{ name = 'water', price = 10 },
-			{ name = 'cola', price = 10 },
-		}, locations = {
-			vec3(25.7, -1347.3, 29.49),
-			vec3(-3038.71, 585.9, 7.9),
-			vec3(-3241.47, 1001.14, 12.83),
-			vec3(1728.66, 6414.16, 35.03),
-			vec3(1697.99, 4924.4, 42.06),
-			vec3(1961.48, 3739.96, 32.34),
-			vec3(547.79, 2671.79, 42.15),
-			vec3(2679.25, 3280.12, 55.24),
-			vec3(2557.94, 382.05, 108.62),
-			vec3(373.55, 325.56, 103.56),
-		}, targets = {
-			{ loc = vec3(25.06, -1347.32, 29.5), length = 0.7, width = 0.5, heading = 0.0, minZ = 29.5, maxZ = 29.9, distance = 1.5 },
-			{ loc = vec3(-3039.18, 585.13, 7.91), length = 0.6, width = 0.5, heading = 15.0, minZ = 7.91, maxZ = 8.31, distance = 1.5 },
-			{ loc = vec3(-3242.2, 1000.58, 12.83), length = 0.6, width = 0.6, heading = 175.0, minZ = 12.83, maxZ = 13.23, distance = 1.5 },
-			{ loc = vec3(1728.39, 6414.95, 35.04), length = 0.6, width = 0.6, heading = 65.0, minZ = 35.04, maxZ = 35.44, distance = 1.5 },
-			{ loc = vec3(1698.37, 4923.43, 42.06), length = 0.5, width = 0.5, heading = 235.0, minZ = 42.06, maxZ = 42.46, distance = 1.5 },
-			{ loc = vec3(1960.54, 3740.28, 32.34), length = 0.6, width = 0.5, heading = 120.0, minZ = 32.34, maxZ = 32.74, distance = 1.5 },
-			{ loc = vec3(548.5, 2671.25, 42.16), length = 0.6, width = 0.5, heading = 10.0, minZ = 42.16, maxZ = 42.56, distance = 1.5 },
-			{ loc = vec3(2678.29, 3279.94, 55.24), length = 0.6, width = 0.5, heading = 330.0, minZ = 55.24, maxZ = 55.64, distance = 1.5 },
-			{ loc = vec3(2557.19, 381.4, 108.62), length = 0.6, width = 0.5, heading = 0.0, minZ = 108.62, maxZ = 109.02, distance = 1.5 },
-			{ loc = vec3(373.13, 326.29, 103.57), length = 0.6, width = 0.5, heading = 345.0, minZ = 103.57, maxZ = 103.97, distance = 1.5 },
-		}
-	},]]
 	--[[Liquor = {
 		name = 'Liquor Store',
 		blip = {

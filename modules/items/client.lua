@@ -259,6 +259,85 @@ Item('whalepic_specialcard', function(data, slot)
 end)
 
 ---------------------
+-- 悸動 (JDZ1)Item
+---------------------
+
+Item('jdz1_parchment', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		ExecuteCommand('showPic treasuremap02')
+		lib.notify({duration = 10000,title = '道具描述',description = '背面的文字寫著：『玲瓏拔下龍麟妝點樹枝，而骨恕的生命根源，成為了玲瓏的角，死後兩者皆雙雙溶在生命之泉中，受眷顧的有情人在擺渡口，才有辦法看見。』',type = 'inform'})
+	end)
+end)
+
+Item('jdz1_parchmentmap', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		ExecuteCommand('showPic treasuremap01')
+		lib.notify({duration = 10000,title = '道具描述',description = '背面的文字寫著：『這片土地生長著不少相依為命的雙生古樹，不少人選在樹下埋藏他們的定情物，象徵愛意永恆。』',type = 'inform'})
+	end)
+end)
+
+Item('jdz1_msg', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		lib.notify({duration = 10000,title = '道具描述',description = '使用後獲得「神秘的料理食譜」',type = 'inform'})
+	end)
+end)
+
+Item('jdz1_tool', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+        TriggerServerEvent('CF_General:removeItem', 'jdz1_tool', 1)
+		TriggerServerEvent('CF_General:giveItem', 't1-1', 1)    
+		TriggerServerEvent('CF_General:giveItem', 't1-4', 1)   
+		TriggerServerEvent('CF_General:giveItem', 't1-5', 1)   
+		TriggerServerEvent('CF_General:giveItem', 'jdz1_spatula', 1)   
+		TriggerServerEvent('CF_General:giveItem', 't166-1', 1)   
+	end)
+end)
+
+
+local jdz1_medpkcard = {'jdz1_card1','jdz1_card2','jdz1_card3','jdz1_card4','jdz1_card5','jdz1_card6','jdz1_card7'}
+Item('jdz1_medpk', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+    	ExecuteCommand('heal me')
+    	ExecuteCommand('showSound yimoha')
+    	TriggerServerEvent('CF_General:giveItem',jdz1_medpkcard[math.random(#jdz1_medpkcard)],1)
+	end)
+end)
+
+Item('jdz1_ticket', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			TriggerEvent('CF_General:JDZ1:ticket')
+		end
+	end)
+end)
+
+Item('jdz1_ring', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			TriggerEvent('CF_Teleport:Teleport:Trigger',vector3(2594.32, 4872.16, 34.48),1000)
+			Citizen.Wait(2000)
+			lib.notify({duration = 10000,title = '系統訊息',description = '恭喜配對成功',type = 'inform'})
+
+		end
+	end)
+end)
+
+local jdz1_card = {'jdz1_card1','jdz1_card2','jdz1_card3','jdz1_card4','jdz1_card5','jdz1_card6','jdz1_card7'}
+Item('jdz1_card', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+    	TriggerServerEvent('CF_General:giveItem',jdz1_card[math.random(#jdz1_card)],1)
+	end)
+end)
+
+Item('jdz1_card1', function(data, slot) ox_inventory:useItem(data, function(data)	ExecuteCommand('showPic jdz1_card1') end) end)
+Item('jdz1_card2', function(data, slot) ox_inventory:useItem(data, function(data)	ExecuteCommand('showPic jdz1_card2') end) end)
+Item('jdz1_card3', function(data, slot) ox_inventory:useItem(data, function(data)	ExecuteCommand('showPic jdz1_card3') end) end)
+Item('jdz1_card4', function(data, slot) ox_inventory:useItem(data, function(data)	ExecuteCommand('showPic jdz1_card4') end) end)
+Item('jdz1_card5', function(data, slot) ox_inventory:useItem(data, function(data)	ExecuteCommand('showPic jdz1_card5') end) end)
+Item('jdz1_card6', function(data, slot) ox_inventory:useItem(data, function(data)	ExecuteCommand('showPic jdz1_card6') end) end)
+Item('jdz1_card7', function(data, slot) ox_inventory:useItem(data, function(data)	ExecuteCommand('showPic jdz1_card7') end) end)
+
+---------------------
 -- 殘烈 	(CL)(G1) Item
 ---------------------
 Item('g1_1miao', function(data, slot)
@@ -286,7 +365,6 @@ Item('g1_1788_foodcan4', function(data, slot)
       lib.notify({type = 'error', description = '你沒有可以開啟他的工具'})
     end
 end)
-
 ---------------------
 -- 遺念 (YNS1)Item
 ---------------------
@@ -307,6 +385,35 @@ end)
 Item('yns1_rules', function(data, slot)
 	ox_inventory:useItem(data, function(data)
 		ExecuteCommand('showPic rules')
+	end)
+end)
+Item('yns1-glassescloth', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		lib.notify({duration = 5000,title = '動作描述',description = '眼鏡擦拭乾淨。',type = 'inform'})
+	end)
+end)
+Item('yns1-phototransfer', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		TriggerEvent('CF_Props:PhotoTransfer:Printer')
+	end)
+end)
+Item('yns1-photo', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			if data.metadata then
+				if data.metadata.imageview then
+					TriggerEvent('CF_MenuViewer:open',data.metadata.imageview)
+				end
+			end
+		end
+	end)
+end)
+Item('yns1-hulahoop', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			ExecuteCommand('hula3')
+        	lib.notify({duration = 10000,title = '道具狀況',description = '呼拉圈突然變超大，變得跟救生圈一樣大。',type = 'inform'})
+		end
 	end)
 end)
 Item('yns1-cft0001-1', function(data, slot)
@@ -382,8 +489,6 @@ Item('yns1-cs0008-5', function(data, slot)
         ExecuteCommand('showPic yns1-cs0008-5')
 	end)
 end)
-
-
 
 ---------------------
 -- 房蝕 (FSZ1)Item
@@ -633,7 +738,77 @@ end)
 Item('umbrella', function(data, slot)
 	ox_inventory:useItem(data, function(data)
 		if data then
-        	ExecuteCommand('e umbrella')
+        	ExecuteCommand('umbrella')
+		end
+	end)
+end)
+----------------------------------------------------------------
+-- 動物A(Animal) Item
+----------------------------------------------------------------
+Item('animal-flute', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			local metadata = data.metadata
+			TriggerEvent('CF_RideAnimal:Iten:TriggerMenu',metadata.type)
+		end
+	end)
+end)
+Item('animal-flute_deer', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			TriggerEvent('CF_RideAnimal:Iten:TriggerMenu','deer')
+		end
+	end)
+end)
+Item('animal-flute_horse', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			TriggerEvent('CF_RideAnimal:Iten:TriggerMenu','horse')
+		end
+	end)
+end)
+Item('animal-flute_boar', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			TriggerEvent('CF_RideAnimal:Iten:TriggerMenu','boar')
+		end
+	end)
+end)
+Item('animal-flute_lion', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			TriggerEvent('CF_RideAnimal:Iten:TriggerMenu','mtlion')
+		end
+	end)
+end)
+Item('animal-flute_cow', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			TriggerEvent('CF_RideAnimal:Iten:TriggerMenu','cow')
+		end
+	end)
+end)
+----------------------------------------------------------------
+-- 道具P(Props) Item
+----------------------------------------------------------------
+Item('p_cone', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			ExecuteCommand('cone')
+		end
+	end)
+end)
+Item('p_barrier', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			ExecuteCommand('P_barrier2')
+		end
+	end)
+end)
+Item('p_barrier2', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			ExecuteCommand('P_barrier')
 		end
 	end)
 end)
@@ -1675,7 +1850,7 @@ end)
 ----------------------------------------------------------------
 Item('t1-1', function(data, slot)
 	ox_inventory:useItem(data, function(data)
-		TriggerEvent('fishing:fishstart')
+		TriggerEvent('CF_Collection:Tool:Trigger','fishing')
 	end)
 end)
 Item('t1-2', function(data, slot)
@@ -1860,8 +2035,13 @@ end)
 Item('t54-1', function(data, slot)
 	ox_inventory:useItem(data, function(data)
 		if data then
-			local metadata = data.metadata
-			TriggerServerEvent('CF_core:addvalue', 'craft', metadata.crafting)
+			local craftingData = data.metadata.crafting
+			if craftingData then
+				--TriggerServerEvent('CF_core:addvalue', 'craft', metadata.crafting)
+				TriggerServerEvent('CF_General:cf_core:Field:Add', 'craft' , craftingData)	
+			else
+		    	lib.notify({title = '道具內容',description = '沒有內容，非常白。',type = 'info'})
+			end
 		end
 	end)
 end)

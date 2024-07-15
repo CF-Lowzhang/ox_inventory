@@ -133,7 +133,6 @@ lib.callback.register('ox_inventory:openShop', function(source, data)
 
 	if data then
 		shop = Shops[data.type]
-
 		if not shop then return end
 		if not shop.items then
 			shop = (data.id and shop[data.id] or createShop(data.type, data.id))

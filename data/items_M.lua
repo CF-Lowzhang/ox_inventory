@@ -1,7 +1,6 @@
 return {
     ["m1-1"] = {
-        label = " ",
-         --'特效藥',
+        label = "特效藥",
         weight = 300,
         stack = 1,
         close = 1,
@@ -17,8 +16,7 @@ return {
         -- }
     },
     ["m2-1"] = {
-        label = " ",
-         --'餽贈急救包',
+        label = "餽贈急救包",
         weight = 10,
         stack = true,
         close = true,
@@ -37,24 +35,21 @@ return {
             usetime = 2500},
     },
     ["m3-1"] = {
-        label = " ",
-         --'麻醉劑',
+        label = "麻醉劑",
         weight = 42,
         stack = 1,
         close = 1,
         description = ""
     },
     ["m4-1"] = {
-        label = " ",
-         --'雅瑟珮琳',
+        label = "雅瑟珮琳",
         weight = 20,
         stack = 1,
         close = 1,
         description = "消炎退燒，具有消炎退燒效果"
     },
     ["m5-1"] = {
-        label = " ",
-         --'白創藥膏',
+        label = "白創藥膏",
         weight = 40,
         stack = 1,
         close = 1,
@@ -73,8 +68,7 @@ return {
         },
     },
     ["m7-1"] = {
-        label = " ",
-         --'活化精華',
+        label = "活化精華",
         weight = 50,
         stack = 1,
         close = 1,
@@ -91,8 +85,7 @@ return {
         }
     },
     ["m9-1"] = {
-        label = " ",
-         --'葡萄糖錠',
+        label = "葡萄糖錠",
         weight = 15,
         stack = 1,
         close = 1,
@@ -104,16 +97,14 @@ return {
         }
     },
     ["m10-1"] = {
-        label = " ",
-         --'心橋碇',
+        label = "心橋碇",
         weight = 20,
         stack = 1,
         close = 0,
         description = ""
     },
     ["m11-1"] = {
-        label = " ",
-         --'茵草膏',
+        label = "茵草膏",
         weight = 50,
         stack = 1,
         close = 1,
@@ -127,8 +118,7 @@ return {
         description = ""
     },
     ["m14-1"] = {
-        label = " ",
-         --'醫療包',
+        label = "醫療包",
         weight = 10,
         stack = true,
         close = true,
@@ -171,8 +161,7 @@ return {
         }
     },
     ["m18-1"] = {
-        label = " ",
-         --'ok繃',
+        label = "ok繃",
         weight = 10,
         stack = 1,
         close = 1,
@@ -190,8 +179,7 @@ return {
         }
     },
     ["m19-2"] = {
-        label = " ",
-         -- '止痛藥',
+        label = "止痛藥",
         weight = 50,
         stack = true,
         close = true,
@@ -214,8 +202,7 @@ return {
         }
     },
     ["m20-2"] = {
-        label = " ",
-         --'藥膏貼布',
+        label = "藥膏貼布",
         weight = 500,
         stack = true,
         close = true,
@@ -235,24 +222,21 @@ return {
         }
     },
     ["m22-1"] = {
-        label = " ",
-         --'吸入噴劑',
+        label = "吸入噴劑",
         weight = 20,
         stack = 1,
         close = 1,
         description = ""
     },
     ["m23-1"] = {
-        label = " ",
-         --'疫苗',
+        label = "疫苗",
         weight = 500,
         stack = 1,
         close = 1,
         description = ""
     },  
     ["m24-1"] = {
-        label = " ",
-         --'單管血液樣本',
+        label = "單管血液樣本",
         weight = 120,
         stack = true,
         close = true,
@@ -263,8 +247,7 @@ return {
         }
     },  
     ["m25-1"] = {
-        label = " ",
-         --'取血針',
+        label = "取血針",
         weight = 10,
         stack = true,
         close = true,
@@ -287,8 +270,7 @@ return {
         }
     },
     ["m27-1"] = {
-        label = " ",
-         --'氣管擴張劑',
+        label = "氣管擴張劑",
         weight = 200,
         stack = 1,
         description = "",
@@ -300,8 +282,7 @@ return {
         }
     },
     ["m28-1"] = {
-        label = " ",
-         --'耐絞寧舌下錠',
+        label = "耐絞寧舌下錠",
         weight = 5,
         stack = 1,
         description = "",
@@ -313,8 +294,7 @@ return {
         }
     },
     ["m29-1"] = {
-        label = " ",
-         --'餽贈特製安眠藥',
+        label = "餽贈特製安眠藥",
         weight = 20,
         stack = 1,
         consume = 1,
@@ -327,8 +307,7 @@ return {
         }
     },
     ["m30-1"] = {
-        label = " ",
-         --'噴暈藥水',
+        label = "噴暈藥水",
         weight = 110,
         stack = true,
         close = true,
@@ -342,15 +321,13 @@ return {
         }
     },
     ["m32-1"] = {
-        label = " ",
-         --'血袋',
+        label = "血袋",
         weight = 250,
         stack = true,
         close = true
     },
     ["m33-1"] = {
-        label = " ",
-         --'葡萄糖',
+        label = "葡萄糖",
         weight = 24,
         stack = true,
         close = true,
@@ -365,8 +342,7 @@ return {
         close = true
     },
     ["m35-1"] = {
-        label = " ",
-         --'二酚外傷藥膏',
+        label = "二酚外傷藥膏",
         weight = 20,
         stack = true,
         close = true,
@@ -377,8 +353,7 @@ return {
         }
     },
     ["m36-1"] = {
-        label = " ",
-         --'二酚外傷藥膏(new)',
+        label = "二酚外傷藥膏(new)",
         weight = 20,
         stack = true,
         close = true,
@@ -389,8 +364,7 @@ return {
         }
     },
     ["m37-1"] = {
-        label = " ",
-         --'魚油錠',
+        label = "魚油錠",
         weight = 10,
         stack = true,
         close = true,
@@ -401,8 +375,7 @@ return {
         }
     },
     ["m38-1"] = {
-        label = " ",
-         --'解酒液',
+        label = "解酒液",
         weight = 250,
         stack = true,
         close = true,
@@ -419,8 +392,7 @@ return {
         }
     },
     ["m39-1"] = {
-        label = " ",
-         -- '酒精棉片',
+        label = "酒精棉片",
         weight = 5,
         stack = true,
         close = true,
@@ -446,8 +418,7 @@ return {
         }
     },
     ["m41-1"] = {
-        label = " ",
-         -- '安眠藥',
+        label = "安眠藥",
         weight = 50,
         stack = true,
         close = true,
@@ -475,8 +446,7 @@ return {
         }
     },
     ["m43-1"] = {
-        label = " ",
-         -- '抗憂鬱藥',
+        label = "抗憂鬱藥",
         weight = 50,
         stack = true,
         close = true,
@@ -489,8 +459,7 @@ return {
         }
     },
     ["m44-1"] = {
-        label = " ",
-         -- '維生素',
+        label = "維生素",
         weight = 50,
         stack = true,
         close = true,
@@ -503,8 +472,7 @@ return {
         }
     },
     ["m45-1"] = {
-        label = " ",
-         -- '美樂蒂醫療包',
+        label = "美樂蒂醫療包",
         weight = 300,
         stack = false,
         close = true,
@@ -515,8 +483,7 @@ return {
         }
     },
     ["m46-1"] = {
-        label = " ",
-         -- '嗎啡粉',
+        label = "嗎啡粉",
         weight = 150,
         stack = true,
         close = true,
@@ -529,8 +496,7 @@ return {
         }
     },
     ["m47-1"] = {
-        label = " ",
-         -- '疫苗',
+        label = "疫苗",
         weight = 200,
         stack = true,
         close = true,
