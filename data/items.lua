@@ -160,7 +160,10 @@ return {
             label = '神秘的料理食譜',weight = 10,stack = true,close = true,consume = 0,
             description = '上面寫著一道料理的方法',
         },
-
+        ['jdz1_recipet'] = {
+            label = '食譜',weight = 10,stack = true,close = true,consume = 0,
+            description = '上面寫著料理的方法',
+        },
         ['jdz1_label'] = {
             label = '名牌',weight = 10,stack = true,close = true,consume = 0,
             description = '上面寫著你的名字',
@@ -178,7 +181,7 @@ return {
             description = '一枚高級的戒指',
         },
         ['jdz1_efood'] = {
-            label = '某組織緊急口糧',weight = 150,stack = true,close = true,consume = 1,
+            label = '某組織緊急口糧',weight = 250,stack = true,close = true,consume = 1,
             description = '某組織緊急口糧',
             client = {
                 status = {hunger = 220000, thirst = -120000},
@@ -188,7 +191,7 @@ return {
                     pos = {x = 0.02, y = 0.02, z = -0.02},
                     rot = {x = 0.0, y = 0.0, z = 0.0}
                 },
-                usetime = 1500,
+                usetime = 2500,
                 notification = "雖然很飽，但是口乾舌燥。"
             }
         },
@@ -208,6 +211,20 @@ return {
         ['jdz1_card5'] = {label = '女僕卡',weight = 5,stack = true,close = true,consume = 0,description = '女僕卡',},
         ['jdz1_card6'] = {label = '女僕卡',weight = 5,stack = true,close = true,consume = 0,description = '女僕卡',},
         ['jdz1_card7'] = {label = '女僕卡',weight = 5,stack = true,close = true,consume = 0,description = '女僕卡',},
+        
+        ['jdz10011-1']  = {label = '蕎麥麵',weight = 250,stack = false,close = true,consume = 1,description = '醬油、鮮味在碗裡融在一起，請搭配開水一起喝，適當洗刷口中的味道，再次品嘗海鮮的味道',client = {status = {hunger = 250000},anim = "eating",usetime = 2500}},
+        ['jdz10011-2']  = {label = '鮭魚',weight = 200,stack = true,close = true,consume = 0,description = '不可直接食用，不知名的人養殖的',},
+        ['jdz10011-3']  = {label = '鰹魚',weight = 150,stack = true,close = true,consume = 0,description = '不可直接食用，不知名的人養殖的',},
+        ['jdz10011-4']  = {label = '鱒魚',weight = 150,stack = true,close = true,consume = 0,description = '不可直接食用，不知名的人養殖的',},
+        ['jdz10011-5']  = {label = '蝦',weight = 90,stack = true,close = true,consume = 0,description = '不可直接食用，不知名的人養殖的',},
+        ['jdz10011-6']  = {label = '魷',weight = 100,stack = true,close = true,consume = 0,description = '不可直接食用，不知名的人養殖的',},
+        ['jdz10011-7']  = {label = '鰻',weight = 200,stack = true,close = true,consume = 0,description = '不可直接食用，不知名的人養殖的',},
+        ['jdz10011-8']  = {label = '蛸',weight = 90,stack = true,close = true,consume = 0,description = '不可直接食用，不知名的人養殖的',},
+        ['jdz10011-9']  = {label = '鰤',weight = 100,stack = true,close = true,consume = 0,description = '不可直接食用，不知名的人養殖的',},
+        ['jdz10011-10'] = {label = '鱚',weight = 20,stack = true,close = true,consume = 0,description = '不可直接食用，不知名的人養殖的，通常用作當餌',},
+        ['jdz10011-11'] = {label = '麵糰',weight = 100,stack = true,close = true,consume = 0,description = '不可直接食用，通常用來作麵食',},
+        ['jdz10011-12'] = {label = '鯛',weight = 100,stack = true,close = true,consume = 0,description = '不可直接食用，不知名的人養殖的',},
+
 
         ----------------------------------------------------------------
         -- Animal Item

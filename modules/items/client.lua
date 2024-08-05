@@ -279,6 +279,8 @@ end)
 Item('jdz1_msg', function(data, slot)
 	ox_inventory:useItem(data, function(data)
 		lib.notify({duration = 10000,title = '道具描述',description = '使用後獲得「神秘的料理食譜」',type = 'inform'})
+        TriggerServerEvent('CF_General:removeItem', 'jdz1_msg', 1)
+		TriggerServerEvent('CF_General:giveItem', 'jdz1_srecipet', 1)  
 	end)
 end)
 
@@ -294,12 +296,33 @@ Item('jdz1_tool', function(data, slot)
 end)
 
 
-local jdz1_medpkcard = {'jdz1_card1','jdz1_card2','jdz1_card3','jdz1_card4','jdz1_card5','jdz1_card6','jdz1_card7'}
+local jdz1_card = {'jdz1_card1','jdz1_card2','jdz1_card3','jdz1_card4','jdz1_card5','jdz1_card6','jdz1_card7'}
+local jdz1_medpksound = {'jdz1_kiss','jdz1_kiss2'}
 Item('jdz1_medpk', function(data, slot)
 	ox_inventory:useItem(data, function(data)
     	ExecuteCommand('heal me')
-    	ExecuteCommand('showSound yimoha')
-    	TriggerServerEvent('CF_General:giveItem',jdz1_medpkcard[math.random(#jdz1_medpkcard)],1)
+    	ExecuteCommand('showSound '..jdz1_medpksound[math.random(#jdz1_medpksound)])
+    	TriggerServerEvent('CF_General:giveItem',jdz1_card[math.random(#jdz1_card)],1)
+	end)
+end)
+
+
+Item('jdz1_recipet', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		ExecuteCommand('showPic jdz1_recipet')
+		ExecuteCommand('giverecipe me jdz1_rosecookie')
+		ExecuteCommand('giverecipe me jdz1_choco')
+		ExecuteCommand('giverecipe me jdz1_cake')
+		ExecuteCommand('giverecipe me jdz1_belg')
+		ExecuteCommand('giverecipe me jdz1_cigar')
+	end)
+end)
+
+
+Item('jdz1_srecipet', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		ExecuteCommand('showPic jdz1_srecipet')
+		ExecuteCommand('giverecipe me jdz1_star')
 	end)
 end)
 
@@ -317,12 +340,9 @@ Item('jdz1_ring', function(data, slot)
 			TriggerEvent('CF_Teleport:Teleport:Trigger',vector3(2594.32, 4872.16, 34.48),1000)
 			Citizen.Wait(2000)
 			lib.notify({duration = 10000,title = '系統訊息',description = '恭喜配對成功',type = 'inform'})
-
 		end
 	end)
 end)
-
-local jdz1_card = {'jdz1_card1','jdz1_card2','jdz1_card3','jdz1_card4','jdz1_card5','jdz1_card6','jdz1_card7'}
 Item('jdz1_card', function(data, slot)
 	ox_inventory:useItem(data, function(data)
     	TriggerServerEvent('CF_General:giveItem',jdz1_card[math.random(#jdz1_card)],1)
@@ -336,6 +356,13 @@ Item('jdz1_card4', function(data, slot) ox_inventory:useItem(data, function(data
 Item('jdz1_card5', function(data, slot) ox_inventory:useItem(data, function(data)	ExecuteCommand('showPic jdz1_card5') end) end)
 Item('jdz1_card6', function(data, slot) ox_inventory:useItem(data, function(data)	ExecuteCommand('showPic jdz1_card6') end) end)
 Item('jdz1_card7', function(data, slot) ox_inventory:useItem(data, function(data)	ExecuteCommand('showPic jdz1_card7') end) end)
+
+Item('jdz10011-10', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+    	TriggerEvent('CF_Collection:Fishing:Bait','jdz10011-10')
+	end)
+end)
+ 
 
 ---------------------
 -- 殘烈 	(CL)(G1) Item

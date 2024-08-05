@@ -3759,11 +3759,13 @@ return {
         close = true
     },
     ["s234-1"] = {
-        label = "代幣",
+        --label = "代幣",
+        label = "特愛幣",
         weight = 0,
         stack = true,
         close = true,
-        description = "鯨落國政府發行之鯨幣。"
+        --description = "鯨落國政府發行之鯨幣。"
+        description = "晶落政府發行之合法貨幣"
     },
     ["s235-1"] = {
         label = "垃圾",

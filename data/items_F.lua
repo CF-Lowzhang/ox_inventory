@@ -148,28 +148,19 @@ return {
         client = {
             status = {hunger = 70000},
             anim = {dict = "mp_player_inteat@burger", clip = "mp_player_int_eat_burger_fp"},
-            prop = {
-                model = "prop_cs_burger_01",
-                pos = {x = 0.02, y = 0.02, z = -0.02},
-                rot = {x = 0.0, y = 0.0, z = 0.0}
-            },
             usetime = 2500
         }
     },
     ["f4-2"] = {
         label = "生魚片",
         weight = 250,
-        stack = true,
+        stack = false,
         close = true,
         consume = 1,
         client = {
-            status = {hunger = 160000},
+            status = {hunger = 250000},
             anim = {dict = "mp_player_inteat@burger", clip = "mp_player_int_eat_burger_fp"},
-            prop = {
-                model = "prop_cs_burger_01",
-                pos = {x = 0.020000000000004, y = 0.020000000000004, y = -0.020000000000004},
-                rot = {x = 0.0, y = 0.0, y = 0.0}
-            },
+
             usetime = 2500
         }
     },

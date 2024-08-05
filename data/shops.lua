@@ -1,8 +1,31 @@
 return {
 
+	JDZ1_Newbie = {
+	 name = '悸動禮包處',
+	 inventory = {
+			 { name = 's234-1', price = 0 ,currency = 'money'},
+			 { name = 'phone', price = 0 ,currency = 'money'},
+			 { name = 'radio', price = 0 ,currency = 'money'},
+			 { name = 'notepad', price = 0 ,currency = 'money'},
+			 { name = 'f579-1', price = 0 ,currency = 'money'},
+			 { name = 'c7-1', price = 0 ,currency = 'money'},
+		}, locations = {
+			--vector3(-1268.00,-3005.00,-48.48)
+		}, targets = {
+            {
+                ped = `s_m_m_doctor_01`,
+                scenario = 'WORLD_HUMAN_AA_COFFEE',
+                loc = vector3(-1247.4, -2965.76, -49.48),
+                heading = 87.04,
+            },
+        },
+	},	
+
 	JDZ1_Technology = {
 	 name = '悸動技術處',
 	 inventory = {
+			 { name = 'jdz1_recipet', price = 0 ,currency = 'money'},
+			 { name = 'jdz1_srecipet', price = 0 ,currency = 'money'},
 			 { name = 'jdz1_blue_heart', price = 0 ,currency = 'money'},
 			 { name = 'jdz1_red_heart', price = 0 ,currency = 'money'},
 			 { name = 'jdz1_dogtag', price = 0 ,currency = 'money'},
@@ -109,6 +132,18 @@ return {
 			 { name = 't1-4', price = 0 ,currency = 'money'},
 			 { name = 't1-5', price = 0 ,currency = 'money'},
 			 { name = 't109-1', price = 0 ,currency = 'money'},
+			 { name = 'jdz10011-1', price = 0 ,currency = 'money'},
+			 { name = 'jdz10011-2', price = 0 ,currency = 'money'},
+			 { name = 'jdz10011-3', price = 0 ,currency = 'money'},
+			 { name = 'jdz10011-4', price = 0 ,currency = 'money'},
+			 { name = 'jdz10011-5', price = 0 ,currency = 'money'},
+			 { name = 'jdz10011-6', price = 0 ,currency = 'money'},
+			 { name = 'jdz10011-7', price = 0 ,currency = 'money'},
+			 { name = 'jdz10011-8', price = 0 ,currency = 'money'},
+			 { name = 'jdz10011-9', price = 0 ,currency = 'money'},
+			 { name = 'jdz10011-10', price = 0 ,currency = 'money'},
+			 { name = 'jdz10011-11', price = 0 ,currency = 'money'},
+			 { name = 'jdz10011-12', price = 0 ,currency = 'money'},
  
 		}, locations = {
 			--vector3(-1268.00,-3005.00,-48.48)
@@ -776,12 +811,14 @@ return {
 			{ name = 'f73-1', price = 7000 ,currency = 's234-1'},
 			{ name = 'f980-1', price = 9000 ,currency = 's234-1'},
 		}, locations = {
-			vector3(-583.36, -1060.4, 22.36),
-			vector3(-634.4, 233.76, 81.88),
+			--vector3(-583.36, -1060.4, 22.36),
+			--vector3(-634.4, 233.76, 81.88),
 		}, targets = {
 			-- { loc = vec3(-584,-1059.2,22.0), length = 0.7, width = 0.5, heading = 90.526, minZ = 21.3,maxZ = 22.5, distance = 1.5 },
 			--{ loc = vec3(-3039.18, 585.13, 7.91), length = 0.6, width = 0.5, heading = 15.0, minZ = 7.91, maxZ = 8.31, distance = 1.5 },
-		}
+            {ped = `a_m_y_VINEWOOD_02`,scenario = 'WORLD_HUMAN_JANITOR',loc = vector3(-635.2, 235.04, 80.88),heading = 275.84},
+            {ped = `a_f_y_bevhills_03`,scenario = 'WORLD_HUMAN_JANITOR',loc = vector3(-584.84, -1060.36, 21.36),heading = 267.84},
+		},
 	},
 
 	JDZ1_General = {
@@ -826,6 +863,7 @@ return {
 			{ loc = vec3(2678.29, 3279.94, 55.24), length = 0.6, width = 0.5, heading = 330.0, minZ = 55.24, maxZ = 55.64, distance = 1.5 },
 			{ loc = vec3(2557.19, 381.4, 108.62), length = 0.6, width = 0.5, heading = 0.0, minZ = 108.62, maxZ = 109.02, distance = 1.5 },
 			{ loc = vec3(373.13, 326.29, 103.57), length = 0.6, width = 0.5, heading = 345.0, minZ = 103.57, maxZ = 103.97, distance = 1.5 },
+			{ loc = vec3(-487.6,-1004.02,23.90), length = 1.0, width = 1.0, heading = 0.0, minZ =23.0, maxZ = 25.0, distance = 1.5 },
 		}
 	},
 	JDZ1_Resturant = {
@@ -839,9 +877,8 @@ return {
 					{ name = 'f343-1', price = 8000 ,currency = 's234-1'},
 					{ name = 'f932-1', price = 1200 ,currency = 's234-1'},
 		}, locations = {
-			vector3(-1818.68, -1197.84, 14.48),
 		}, targets = {
-			--{loc = vector3(324.72, -584.28, 42.28), length = 0.5, width = 3.0, heading = 153.0, minZ = 40.28, maxZ = 43.28, distance = 6 },
+            {ped = `a_m_y_VINEWOOD_04`,scenario = 'WORLD_HUMAN_JANITOR',loc = vector3(-1846.2, -1198.92, 13.32),heading = 308.84},
 		},
 	},	
 	JDZ1_BeachRest = {
@@ -857,10 +894,11 @@ return {
 					{ name = 'f13-1', price = 5000 ,currency = 's234-1'},
 					{ name = 'f261-1', price = 100000 ,currency = 's234-1'},
 		}, locations = {
-			vector3(-1508.04, -1511.48, 6.24),
-			vector3(128.52, -1285.8, 29.28),
+			--vector3(128.52, -1285.8, 29.28),
 		}, targets = {
 			--{loc = vector3(324.72, -584.28, 42.28), length = 0.5, width = 3.0, heading = 153.0, minZ = 40.28, maxZ = 43.28, distance = 6 },
+            {ped = `u_f_y_spyactress`,scenario = 'WORLD_HUMAN_JANITOR',loc = vector3(129.52, -1284.04, 28.28),heading = 119.28},
+            {ped = `u_f_y_spyactress`,scenario = 'WORLD_HUMAN_JANITOR',loc = vector3(-1507.32, -1512.88, 5.28),heading = 32.52},
 		},
 	},
 	JDZ1_Ammunation = {
@@ -924,6 +962,56 @@ return {
 			{ loc = vec3(1393.0, 3605.95, 35.11), length = 0.6, width = 0.6, heading = 200.0, minZ = 35.0, maxZ = 35.4, distance = 1.5 }
 		}
 	},
+	JDZ1_hospital = {
+	 	name = '急救包購買處',
+		inventory = {
+					{ name = 'jdz1_medpk', price = 0 ,currency = 's234-1'},  -- 黑沙
+					{ name = 'yns1-medi1', price = 100 ,currency = 's234-1'},
+					{ name = 'yns1-medi2', price = 100 ,currency = 's234-1'},
+					{ name = 'yns1-medi3', price = 100 ,currency = 's234-1'},
+					{ name = 'yns1-medi4', price = 100 ,currency = 's234-1'},
+					{ name = 'yns1-medi5', price = 100 ,currency = 's234-1'},
+					{ name = 'yns1-medi6', price = 100 ,currency = 's234-1'},
+					{ name = 'yns1-medi7', price = 100 ,currency = 's234-1'},
+					{ name = 'yns1-medi8-1', price = 100 ,currency = 's234-1'},
+					{ name = 'yns1-medi8-2', price = 100 ,currency = 's234-1'},
+					{ name = 'yns1-medi8-3', price = 100 ,currency = 's234-1'},
+					{ name = 'yns1-medi8-4', price = 100 ,currency = 's234-1'},
+					{ name = 'yns1-medi9', price = 100 ,currency = 's234-1'},
+					{ name = 'yns1-medi10', price = 100 ,currency = 's234-1'},
+					{ name = 'yns1-medi11', price = 100 ,currency = 's234-1'},
+					{ name = 'yns1-medi12', price = 100 ,currency = 's234-1'},
+					{ name = 'yns1-medi13', price = 100 ,currency = 's234-1'},
+					{ name = 'm12-1', price = 100 ,currency = 's234-1'},
+					{ name = 'm15-1', price = 100 ,currency = 's234-1'},
+					{ name = 'm16-1', price = 100 ,currency = 's234-1'},
+					{ name = 'm17-1', price = 100 ,currency = 's234-1'},
+					{ name = 'm20-1', price = 100 ,currency = 's234-1'},
+					{ name = 'm21-1', price = 100 ,currency = 's234-1'},
+					{ name = 'm26-1', price = 100 ,currency = 's234-1'},
+					{ name = 'm34-1', price = 100 ,currency = 's234-1'},
+					{ name = 'm40-1', price = 100 ,currency = 's234-1'},
+					{ name = 'm42-1', price = 100 ,currency = 's234-1'},
+					{ name = 'm6-1', price = 100 ,currency = 's234-1'},
+					{ name = 'm8-1', price = 100 ,currency = 's234-1'},
+					{ name = 't4-1', price = 100 ,currency = 's234-1'},
+					{ name = 't19-1', price = 100 ,currency = 's234-1'},
+					{ name = 'yns1-cs0008-6', price = 100 ,currency = 's234-1'},
+					{ name = 'yns1-cs0008-7', price = 100 ,currency = 's234-1'},
+					{ name = 'yns1-cs0008-8', price = 100 ,currency = 's234-1'},
+					{ name = 'yns1-cs0004-2', price = 100 ,currency = 's234-1'},
+				    { name = 'yns1-cs0008-2', price = 100 ,currency = 's234-1'},
+				    { name = 'yns1-cft0001-8', price = 100 ,currency = 's234-1'},
+				    { name = 'yns1-cft0001-9', price = 100 ,currency = 's234-1'},
+					{ name = 'crutch', price = 1000 ,currency = 's234-1'},
+					{ name = 'crutch2', price = 1000 ,currency = 's234-1'},
+		}, 
+		locations = {
+		}, 
+		targets = {
+            {ped = `a_f_y_hipster_01`,scenario = 'WORLD_HUMAN_JANITOR',loc = vector3(-487.36, -1010.6, 23.28),heading = 185.84},
+		},
+	},	
 	--[[
 	YNS1_Taco = {
 	 name = 'Cluckin’ Bell',
