@@ -974,7 +974,9 @@ function client.keybindOpper()
 		local checkVehicle = Vehicles.Storage[vehicleHash]
 
 		-- No storage or no glovebox
-		if (checkVehicle == 0 or checkVehicle == 2) or (not Vehicles.glovebox[vehicleClass] and not Vehicles.glovebox.models[vehicleHash]) then return end
+		if (checkVehicle == 0 or checkVehicle == 2) or (not Vehicles.glovebox[vehicleClass] and not Vehicles.glovebox.models[vehicleHash]) then 
+			return client.openInventory() 
+		end
 
 		local isOpen = client.openInventory('glovebox', { id = 'glove'..GetVehicleNumberPlateText(cache.vehicle), netid = NetworkGetNetworkIdFromEntity(cache.vehicle) })
 

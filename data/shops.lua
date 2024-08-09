@@ -144,6 +144,34 @@ return {
 			 { name = 'jdz10011-10', price = 0 ,currency = 'money'},
 			 { name = 'jdz10011-11', price = 0 ,currency = 'money'},
 			 { name = 'jdz10011-12', price = 0 ,currency = 'money'},
+			 { name = 'jdz10011-13', price = 0 ,currency = 'money'},
+			 { name = 'jdz10011-14', price = 0 ,currency = 'money'},
+			 { name = 'jdz10011-15', price = 0 ,currency = 'money'},
+			 { name = 'jdz10011-16', price = 0 ,currency = 'money'},
+			 { name = 'jdz10011-17', price = 0 ,currency = 'money'},
+			 { name = 'jdz10011-18', price = 0 ,currency = 'money'},
+			 { name = 'jdz10011-19', price = 0 ,currency = 'money'},
+			 { name = 'jdz10011-20', price = 0 ,currency = 'money'},
+			 { name = 'jdz10011-21', price = 0 ,currency = 'money'},
+			 { name = 'jdz10011-22', price = 0 ,currency = 'money'},
+			 { name = 'jdz10011-23', price = 0 ,currency = 'money'},
+			 { name = 'jdz10011-24', price = 0 ,currency = 'money'},
+			 { name = 'jdz10011-25', price = 0 ,currency = 'money'},
+			 { name = 'f691-1', price = 0 ,currency = 'money'},
+			 { name = 'f734-1', price = 0 ,currency = 'money'},
+			 { name = 'f748-1', price = 0 ,currency = 'money'},
+			 { name = 'o20-1', price = 0 ,currency = 'money'},
+			 { name = 'o59-1', price = 0 ,currency = 'money'},
+			 { name = 'c146-1', price = 0 ,currency = 'money'},
+			 { name = 'c44-1', price = 0 ,currency = 'money'},
+			 { name = 'c98-1', price = 0 ,currency = 'money'},
+			 { name = 'c99-1', price = 0 ,currency = 'money'},
+			 { name = 'f424-1', price = 0 ,currency = 'money'},
+			 { name = 'o108-1', price = 0 ,currency = 'money'},
+			 { name = 'o155-1', price = 0 ,currency = 'money'},
+			 { name = 'o183-2', price = 0 ,currency = 'money'},
+			 { name = 'f518-1', price = 0 ,currency = 'money'},
+			 { name = 'f891-1', price = 0 ,currency = 'money'},
  
 		}, locations = {
 			--vector3(-1268.00,-3005.00,-48.48)
@@ -156,6 +184,9 @@ return {
             },
         },
 	},	
+
+
+
 	YNS1_Newbie = {
 	 name = '遺念禮包處',
 	 inventory = {
@@ -823,9 +854,8 @@ return {
 
 	JDZ1_General = {
 		name = '商店(一般)',
-		blip = {
-			id = 59, colour = 69, scale = 0.8
-		}, inventory = {
+		blip = {id = 59, colour = 69, scale = 0.8}, 
+		inventory = {
 			{ name = 'c7-1', price = 0 ,currency = 's234-1'},
 			{ name = 'f579-1', price = 0 ,currency = 's234-1'},
 			{ name = 'f23-4', price = 0 ,currency = 's234-1'},
@@ -841,6 +871,7 @@ return {
 			{ name = 't1-4', price = 0 ,currency = 's234-1'},
 			{ name = 't1-5', price = 0 ,currency = 's234-1'},
 			{ name = 't109-1', price = 0 ,currency = 's234-1'},
+			{ name = 'jdz10011-19', price = 0 ,currency = 's234-1'},
 		}, locations = {
 			vec3(25.7, -1347.3, 29.49),
 			vec3(-3038.71, 585.9, 7.9),
@@ -868,6 +899,7 @@ return {
 	},
 	JDZ1_Resturant = {
 		name = '商店(餐館)',
+		blip = {id = 59, colour = 69, scale = 0.8},
 		inventory = {	 
 			        { name = 'f509-1', price = 1500 ,currency = 's234-1'},
 					{ name = 'f684-1', price = 1000 ,currency = 's234-1'},
@@ -876,13 +908,45 @@ return {
 					{ name = 'f342-1', price = 9000 ,currency = 's234-1'},
 					{ name = 'f343-1', price = 8000 ,currency = 's234-1'},
 					{ name = 'f932-1', price = 1200 ,currency = 's234-1'},
+					{ name = 'jdz10011-2', price = 300 ,currency = 's234-1'},
+					{ name = 'jdz10011-3', price = 300 ,currency = 's234-1'},
+					{ name = 'jdz10011-4', price = 300 ,currency = 's234-1'},
+					{ name = 'jdz10011-5', price = 100 ,currency = 's234-1'},
+					{ name = 'jdz10011-6', price = 300 ,currency = 's234-1'},
+					{ name = 'jdz10011-7', price = 300 ,currency = 's234-1'},
+					{ name = 'jdz10011-8', price = 300 ,currency = 's234-1'},
+					{ name = 'jdz10011-9', price = 300 ,currency = 's234-1'},
+					{ name = 'jdz10011-10', price = 300 ,currency = 's234-1'},
+					{ name = 'jdz10011-12', price = 300 ,currency = 's234-1'},
 		}, locations = {
 		}, targets = {
             {ped = `a_m_y_VINEWOOD_04`,scenario = 'WORLD_HUMAN_JANITOR',loc = vector3(-1846.2, -1198.92, 13.32),heading = 308.84},
 		},
 	},	
+	JDZ1_Gym = {
+		name = '商店(健身)',
+		blip = {id = 59, colour = 69, scale = 0.8},
+		inventory = {	 
+			        { name = 't82-1', price = 0 ,currency = 's234-1'},
+					{ name = 't81-1', price = 0 ,currency = 's234-1'},
+					{ name = 'o2-1', price = 0 ,currency = 's234-1'},
+					{ name = 'f477-1', price = 0 ,currency = 's234-1'},
+					{ name = 'c7-1', price = 0 ,currency = 's234-1'},
+					{ name = 'yns1-cs0011-10', price = 0 ,currency = 's234-1'},
+					{ name = 'yns1-cs0011-3', price = 0 ,currency = 's234-1'},
+					{ name = 'f460-1', price = 0 ,currency = 's234-1'},
+					{ name = 'f461-1', price = 0 ,currency = 's234-1'},
+					{ name = 'f235-1', price = 0 ,currency = 's234-1'},
+		}, 
+		locations = {}, 
+		targets = {
+            {ped = `a_m_y_musclbeac_02`,scenario = 'WORLD_HUMAN_MUSCLE_FLEX',loc = vector3(258.24, -271.52, 52.96),heading = 335.48},
+            {ped = `a_m_y_musclbeac_02`,scenario = 'WORLD_HUMAN_MUSCLE_FLEX',loc = vector3(-1195.4, -1577.36, 3.6),heading = 118.48},
+		},
+	},	
 	JDZ1_BeachRest = {
 		name = '商店(酒吧)',
+		blip = {id = 93, colour = 69, scale = 0.8},
 		inventory = {	 
 			        { name = 'f402-1', price = 5000 ,currency = 's234-1'},
 					{ name = 'f398-1', price = 5000 ,currency = 's234-1'},
@@ -893,6 +957,11 @@ return {
 					{ name = 'f259-1', price = 5000 ,currency = 's234-1'},
 					{ name = 'f13-1', price = 5000 ,currency = 's234-1'},
 					{ name = 'f261-1', price = 100000 ,currency = 's234-1'},
+					{ name = 'jdz10011-21', price = 5000 ,currency = 's234-1'},
+					{ name = 'jdz10011-22', price = 5000 ,currency = 's234-1'},
+					{ name = 'jdz10011-23', price = 5000 ,currency = 's234-1'},
+					{ name = 'jdz10011-24', price = 5000 ,currency = 's234-1'},
+					{ name = 'jdz10011-25', price = 5000 ,currency = 's234-1'},
 		}, locations = {
 			--vector3(128.52, -1285.8, 29.28),
 		}, targets = {
@@ -903,9 +972,8 @@ return {
 	},
 	JDZ1_Ammunation = {
 		name = '商店(武器)',
-		blip = {
-			id = 110, colour = 69, scale = 0.8
-		}, inventory = {
+		blip = {id = 110, colour = 69, scale = 0.8}, 
+		inventory = {
 			{ name = 'WEAPON_BAT', price = 1000,currency = 's234-1'},
 			{ name = 'WEAPON_FLASHLIGHT', price = 0,currency = 's234-1'},
 			{ name = 'WEAPON_FIREWORK', price = 100000,currency = 's234-1'},
@@ -937,9 +1005,8 @@ return {
 
 	JDZ1_Liquor = {
 		name = '商店(飲料)',
-		blip = {
-			id = 93, colour = 69, scale = 0.8
-		}, inventory = {
+		blip = {id = 93, colour = 69, scale = 0.8}, 
+		inventory = {
 			{ name = 'c7-1', price = 0 ,currency = 's234-1'},
 			{ name = 'f710-1', price = 0 ,currency = 's234-1'},
 			{ name = 'f23-1', price = 0 ,currency = 's234-1'},
@@ -964,6 +1031,7 @@ return {
 	},
 	JDZ1_hospital = {
 	 	name = '急救包購買處',
+		--blip = {id = 153, colour = 59, scale = 0.8}, 
 		inventory = {
 					{ name = 'jdz1_medpk', price = 0 ,currency = 's234-1'},  -- 黑沙
 					{ name = 'yns1-medi1', price = 100 ,currency = 's234-1'},

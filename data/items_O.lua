@@ -690,6 +690,7 @@ return {
     ["o123-1"] = {
         label = "麵粉",
         weight = 50,
+        description = "生吃可能不太好吃......",
         stack = true,
         close = true,
     },

@@ -9573,7 +9573,7 @@ return {
         weight = 50,
         stack = true,
         close = true,
-        description = "米飯",
+        description = "香噴噴的米飯！米飯最高！",
         consume = 1,
         client = {
             status = {hunger = 10750},

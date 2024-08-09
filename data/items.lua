@@ -224,8 +224,20 @@ return {
         ['jdz10011-10'] = {label = '鱚',weight = 20,stack = true,close = true,consume = 0,description = '不可直接食用，不知名的人養殖的，通常用作當餌',},
         ['jdz10011-11'] = {label = '麵糰',weight = 100,stack = true,close = true,consume = 0,description = '不可直接食用，通常用來作麵食',},
         ['jdz10011-12'] = {label = '鯛',weight = 100,stack = true,close = true,consume = 0,description = '不可直接食用，不知名的人養殖的',},
-
-
+        ['jdz10011-13'] = {label = '甜味玉子燒',weight = 90,stack = false,close = true,consume = 1,description = '用雞蛋和白糖做成的玉子燒，蛋香濃郁，吃起來帶點甜味 ', client = {status = {hunger =  90000},anim = "eating",usetime = 900}},
+        ['jdz10011-14'] = {label = '魚肉玉子燒',weight = 120,stack = false,close = true,consume = 1,description = '用雞蛋和魚肉做成的玉子燒，蛋香濃郁，吃起來帶點醬油味與海味，魚肉扎實的口感讓人感到飽足。',client = {status = {hunger = 120000},anim = "eating",usetime = 1200}},
+        ['jdz10011-15'] = {label = '蛋',weight = 30,stack = true,close = true,consume = 0,description = '雞蛋，蛋白質！好吃又營養！',},
+        ['jdz10011-16'] = {label = '唐揚雞',weight = 250,stack = false,close = true,consume = 1,description = '外酥里嫩的唐揚雞，金黃香脆，嫩滑多汁，每一口都充滿濃郁風味。',client = {status = {hunger = 250000},anim = "eating",usetime = 2500}},
+        ['jdz10011-17'] = {label = '漢堡排',weight = 150,stack = false,close = true,consume = 1,description = '多汁嫩滑的漢堡排，口感扎實，風味濃郁。',client = {status = {hunger = 150000},anim = "eating",usetime = 1500}},
+        ['jdz10011-18'] = {label = '親子丼',weight = 250,stack = false,close = true,consume = 1,description = '鮮嫩雞肉配上滑蛋和香甜醬汁，溫暖人心。',client = {status = {hunger = 250000},anim = "eating",usetime = 2500}},
+        ['jdz10011-19'] = {label = '酪梨',weight = 100,stack = false,close = true,consume = 1,description = '果肉柔滑如奶油，味道清新淡雅，富含營養，可以生吃。',client = {status = {hunger = 20000},anim = "eating",usetime = 1000}},
+        ['jdz10011-20'] = {label = '酪梨白蝦沙拉',weight = 200,stack = false,close = true,consume = 1,description = '白蝦與酪梨結合在一起，搭配和風醬清爽又營養。',client = {status = {hunger = 150000},anim = "eating",usetime = 2000}},
+        ['jdz10011-21'] = {label = '大鳳大吟釀',weight = 400,stack = false,close = true,consume = 1,description = '酒體豐滿醇厚，入口綿滑，散發著濃郁的米香與果香，餘味悠長。',client = {status = {drunk = 300000},anim = "drinking",usetime = 3000}},
+        ['jdz10011-22'] = {label = '鹿谷本吟釀',weight = 400,stack = false,close = true,consume = 1,description = '酒體清澈，口感純淨爽口，帶有淡淡的米香，回味甘醇，清新宜人。',client = {status = {drunk = 300000},anim = "drinking",usetime = 3000}},
+        ['jdz10011-23'] = {label = '高虎吟釀',weight = 400,stack = false,close = true,consume = 1,description = '口感細膩柔和，酒體輕盈，散發出優雅的花果香氣，餘味清爽，令人回味無窮。',client = {status = {drunk = 300000},anim = "drinking",usetime = 3000}},
+        ['jdz10011-24'] = {label = '蛸梅',weight = 400,stack = false,close = true,consume = 1,description = '酒體晶透，入口甘甜微酸，散發濃郁的梅子香氣，口感圓潤，餘味清新怡人。',client = {status = {drunk = 300000},anim = "drinking",usetime = 3000}},
+        ['jdz10011-25'] = {label = '蛸梅',weight = 400,stack = false,close = true,consume = 1,description = '酒體晶透，入口甘甜微酸，散發濃郁的梅子香氣，口感圓潤，餘味清新怡人。',client = {status = {drunk = 300000},anim = "drinking",usetime = 3000}},
+     
         ----------------------------------------------------------------
         -- Animal Item
         ----------------------------------------------------------------
@@ -948,6 +960,19 @@ return {
                 status = {hunger = 50000},
                 anim = "eating",
                 usetime = 2000,
+            }
+        },
+        ['yns1-cs0011-10'] = {
+            label = '雞肉',
+            description = '就是一塊雞肉，不是田雞，不可生吃',
+            weight = 100,
+            stack = 1,
+            close = 1,
+            consume = 1,
+            client = {
+                status = {hunger = 50000},
+                anim = "eating",
+                usetime = 1000,
             }
         },
         ['yns1-cs0011-4'] = {
