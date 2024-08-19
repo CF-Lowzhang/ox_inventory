@@ -24,6 +24,7 @@ return {
 	JDZ1_Technology = {
 	 name = '悸動技術處',
 	 inventory = {
+			 { name = 'jdz10008-1', price = 0 ,currency = 'money'},
 			 { name = 'jdz1_recipet', price = 0 ,currency = 'money'},
 			 { name = 'jdz1_srecipet', price = 0 ,currency = 'money'},
 			 { name = 'jdz1_blue_heart', price = 0 ,currency = 'money'},

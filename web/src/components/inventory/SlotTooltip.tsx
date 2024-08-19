@@ -21,6 +21,28 @@ const SlotTooltip: React.ForwardRefRenderFunction<
   const description = item.metadata?.description || itemData?.description;
   const ammoName = itemData?.ammoName && Items[itemData?.ammoName]?.label;
 
+  const getTypeValue = (type: string) => {
+    switch (type) {
+      case 'Poor':
+        return '低劣'; 
+      case 'Common':
+        return '普通'; 
+      case 'Uncommon':
+        return '罕見'; 
+      case 'Rare':
+        return '稀有'; 
+      case 'Epic':
+        return '史詩'; 
+      case 'Legendary':
+        return '傳說'; 
+      case 'Mythic':
+        return '秘傳'; 
+      default:
+        return type; 
+    }
+  };
+
+
   return (
     <>
       {!itemData ? (
@@ -40,7 +62,7 @@ const SlotTooltip: React.ForwardRefRenderFunction<
                 <p>{(item.duration !== undefined ? item.duration : 3000) / 1000}s</p>
               </div>
             ) : (
-              <p>{item.metadata?.type}</p>
+              <p>{getTypeValue(item.metadata?.type)}</p>
             )}
           </div>
           <Divider />

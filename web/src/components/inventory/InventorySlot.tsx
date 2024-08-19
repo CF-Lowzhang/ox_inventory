@@ -119,6 +119,45 @@ const InventorySlot: React.ForwardRefRenderFunction<HTMLDivElement, SlotProps> =
 
   const refs = useMergeRefs([connectRef, ref]);
 
+  type ItemType = 'Poor' | 'Common' | 'Uncommon' | 'Rare' | 'Epic' | 'Legendary' | 'Mythic';
+
+  const getItemStyle = (typeX: ItemType) => {
+    switch (typeX) {
+      case 'Poor':
+        return {
+          background: "radial-gradient(circle, rgba(102, 102, 113, 0.3) 0%, rgba(169, 169, 169, 0.3) 70%)"
+        };
+      case 'Common':
+        return {
+          background: "radial-gradient(circle, rgba(102, 102, 113, 0.3) 0%, rgba(255, 255, 255, 0.3) 70%)"
+        };
+      case 'Uncommon':
+        return {
+          background: "radial-gradient(circle, rgba(102, 102, 113, 0.3) 0%, rgba(0, 128, 0, 0.3) 70%)"
+        };
+      case 'Rare':
+        return {
+          background: "radial-gradient(circle, rgba(102, 102, 113, 0.3) 0%, rgba(0, 0, 255, 0.3) 70%)"
+        };
+      case 'Epic':
+        return {
+          background: "radial-gradient(circle, rgba(102, 102, 113, 0.3) 0%, rgba(128, 0, 128, 0.3) 70%)"
+        };
+      case 'Legendary':
+        return {
+          background: "radial-gradient(circle, rgba(102, 102, 113, 0.3) 0%, rgba(255, 165, 0, 0.3) 70%)"
+        };
+      case 'Mythic':
+        return {
+          background: "radial-gradient(circle, rgba(102, 102, 113, 0.3) 0%, rgba(255, 0, 0, 0.3) 70%)"
+        };
+      default:
+        return {};
+    }
+  };
+
+
+
   return (
     <div
       ref={refs}
@@ -133,11 +172,13 @@ const InventorySlot: React.ForwardRefRenderFunction<HTMLDivElement, SlotProps> =
         opacity: isDragging ? 0.4 : 1.0,
         backgroundImage: `url(${item?.name ? getItemUrl(item as SlotWithItem) : 'none'}`,
         border: isOver ? '1px dashed rgba(255,255,255,0.4)' : '',
+
       }}
     >
       {isSlotWithItem(item) && (
         <div
           className="item-slot-wrapper"
+          style={getItemStyle(item.metadata?.type)}
           onMouseEnter={() => {
             timerRef.current = window.setTimeout(() => {
               dispatch(openTooltip({ item, inventoryType }));
@@ -158,18 +199,23 @@ const InventorySlot: React.ForwardRefRenderFunction<HTMLDivElement, SlotProps> =
           >
             {inventoryType === 'player' && item.slot <= 6 && <div className="inventory-slot-number">{item.slot}</div>}
             <div className="item-slot-info-wrapper">
-              <p>
-                {item.weight >= 0
-                  ? item.weight >= 1000
+              {item.weight > 0 && (
+                <p>
+                  {item.weight >= 1000
                     ? `${(item.weight / 1000).toLocaleString('en-us', {
                         minimumFractionDigits: 2,
                       })}kg `
                     : `${item.weight.toLocaleString('en-us', {
                         minimumFractionDigits: 0,
-                      })}g `
-                  : ''}
-              </p>
+                      })}g `}
+                </p>
+              )}
               <p>{item.count ? `x${item.count.toLocaleString('en-us')}` : ''}</p>
+
+
+
+
+
             </div>
           </div>
           <div>

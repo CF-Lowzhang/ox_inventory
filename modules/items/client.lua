@@ -341,7 +341,7 @@ end)
 Item('jdz1_ring', function(data, slot)
 	ox_inventory:useItem(data, function(data)
 		if data then
-			TriggerEvent('CF_Teleport:Teleport:Trigger',vector3(2594.32, 4872.16, 34.48),1000)
+			TriggerEvent('CF_Teleport:Teleport:Trigger',vector3(-877.48,4091.32,164.12),1000)
 			Citizen.Wait(2000)
 			lib.notify({duration = 10000,title = '系統訊息',description = '恭喜配對成功',type = 'inform'})
 		end
@@ -366,7 +366,13 @@ Item('jdz10011-10', function(data, slot)
     	TriggerEvent('CF_Collection:Fishing:Bait','jdz10011-10')
 	end)
 end)
- 
+
+Item('jdz10008-1', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		ExecuteCommand('showPic jdz1_0008_2')
+	end)
+end)
+
 
 ---------------------
 -- 殘烈 	(CL)(G1) Item

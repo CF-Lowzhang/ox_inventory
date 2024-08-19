@@ -317,11 +317,13 @@ button:active {
   background-color: $secondaryColor;
   background-color: rgba(102,102,113,0.3);
   background-repeat: no-repeat;
-  background-position: center;
+  // background-position: center;
+  background-position: center 35%;
   border-radius: 2.5%;
   image-rendering: -webkit-optimize-contrast;
   position: relative;
-  background-size: 7vh;
+  // background-size: 6vh;
+  background-size: 7.5vh;
   color: $textColor;
   border-color: rgba(0, 0, 0, 0.2);
   border-style: inset;
@@ -384,9 +386,10 @@ button:active {
 
 .item-slot-info-wrapper {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; //原設定
+  //flex-direction: row;
   align-self: flex-end;
-  padding: 3px;
+  //padding: 3px;
   gap: 5.3vh;
   p {
     font-size: 12px;
@@ -397,12 +400,19 @@ button:active {
 .item-slot-currency-wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  padding-right: 3px;
+  // justify-content: flex-end;
+  justify-content: space-between;
+  // align-items: center;
+  align-items: flex-end;
+  padding-right: 0px;
   p {
     font-size: 14px;
     text-shadow: 0.1vh 0.1vh 0 rgba(0, 0, 0, 0.7);
+    background-color: #1a1a1ab3;
+    border-radius: 1px;
+    border-color: #cbc1c1;
+    border-width: 2px;
+    border-style: inset;
   }
 }
 
@@ -508,7 +518,8 @@ button:active {
   flex-wrap: nowrap;
   gap: 2px;
   position: absolute;
-  bottom: 20vh;
+  // bottom: 20vh;
+  bottom: 5vh;
   left: 50%;
   width: 100%;
   margin-left: calc(50% - calc($gridSize/2));

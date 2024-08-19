@@ -148,6 +148,10 @@ return {
             label = '採集道具大禮包',weight = 2000,stack = true,close = true,consume = 0,
             description = '一個有點沉重的包裹',
         },
+        ['jdz10008-1'] = {
+            label = '手串藍貝殼項鍊',weight = 50,stack = true,close = true,consume = 0,
+            description = '翻到項鍊背面有用星沙排成的愛心形狀',
+        },
         ['jdz1_msg'] = {
             label = '瓶中信',weight = 10,stack = true,close = true,consume = 0,
             description = '裡面好像塞著一張紙',
