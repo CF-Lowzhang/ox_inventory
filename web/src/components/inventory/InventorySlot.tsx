@@ -120,8 +120,17 @@ const InventorySlot: React.ForwardRefRenderFunction<HTMLDivElement, SlotProps> =
   const refs = useMergeRefs([connectRef, ref]);
 
   type ItemType = 'Poor' | 'Common' | 'Uncommon' | 'Rare' | 'Epic' | 'Legendary' | 'Mythic';
+  
+  type ItemCloth = boolean;
 
-  const getItemStyle = (typeX: ItemType) => {
+  const getItemStyle = (typeX: ItemType,typeCloth:ItemCloth) => {
+    if (typeCloth === true) {
+      return {
+        border: "3px solid rgba(35,165,90,0.5)", // 使用字符串表示
+        borderRadius: "5px",                    // 使用駝峰式命名
+        borderWidth: "3px",                     // 使用字符串表示
+      };
+    }
     switch (typeX) {
       case 'Poor':
         return {
@@ -178,7 +187,7 @@ const InventorySlot: React.ForwardRefRenderFunction<HTMLDivElement, SlotProps> =
       {isSlotWithItem(item) && (
         <div
           className="item-slot-wrapper"
-          style={getItemStyle(item.metadata?.type)}
+          style={getItemStyle(item.metadata?.type,item.metadata?.clothenable)}
           onMouseEnter={() => {
             timerRef.current = window.setTimeout(() => {
               dispatch(openTooltip({ item, inventoryType }));
