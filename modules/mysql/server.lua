@@ -31,6 +31,17 @@ Citizen.CreateThreadNow(function()
 		playerColumn = 'charid'
 		vehicleTable = 'nd_vehicles'
 		vehicleColumn = 'id'
+        playerTable = 'nd_characters'
+        playerColumn = 'charid'
+        vehicleTable = 'nd_vehicles'
+        vehicleColumn = 'id'
+    elseif shared.framework == 'qbx' then
+        playerTable = 'players'
+        playerColumn = 'citizenid'
+        vehicleTable = 'player_vehicles'
+        vehicleColumn = 'id'
+    else
+        return
     end
 
     for k, v in pairs(Query) do
@@ -230,6 +241,11 @@ function db.saveInventories(players, trunks, gloveboxes, stashes, total)
                     for i = 1, #resp do
                         if resp[i].affectedRows > 0 then affectedRows += 1 end
                     end
+<<<<<<< HEAD
+=======
+
+                    shared.info(saveStr:format(affectedRows, total[4], 'stashes', (os.nanotime() - start) / 1e6))
+>>>>>>> upstream/main
                 end
 
                 shared.info(('Saved %s/%s stashes (%.4f ms)'):format(affectedRows, total[4], (os.nanotime() - start) / 1e6))

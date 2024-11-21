@@ -69,7 +69,7 @@ local function newItem(data)
 	ItemList[data.name] = data
 end
 
-for type, data in pairs(lib.load('data.weapons')) do
+for type, data in pairs(lib.load('data.weapons') or {}) do
 	for k, v in pairs(data) do
 		v.name = k
 		v.close = type == 'Ammo' and true or false
