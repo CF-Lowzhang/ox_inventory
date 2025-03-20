@@ -10,12 +10,15 @@ Items.containers = require 'modules.items.containers'
 
 -- Possible metadata when creating garbage
 local trash = {
-	{description = 'A discarded burger carton.', weight = 50, image = 'trash_burger'},
+	{description = 'An old rolled up newspaper.', weight = 200, image = 'trash_newspaper'},
+	{description = 'A discarded burger shot carton.', weight = 50, image = 'trash_burgershot'},
 	{description = 'An empty soda can.', weight = 20, image = 'trash_can'},
 	{description = 'A mouldy piece of bread.', weight = 70, image = 'trash_bread'},
-	{description = 'An empty chips bag.', weight = 5, image = 'trash_chips'},
+	{description = 'An empty ciggarette carton.', weight = 10, image = 'trash_fags'},
 	{description = 'A slightly used pair of panties.', weight = 20, image = 'panties'},
-	{description = 'An old rolled up newspaper.', weight = 200, image = 'WEAPON_ACIDPACKAGE'},
+	{description = 'An empty coffee cup.', weight = 20, image = 'trash_coffee'},
+	{description = 'A crumpled up piece of paper.', weight = 5, image = 'trash_paper'},
+	{description = 'An empty chips bag.', weight = 5, image = 'trash_chips'},
 }
 
 ---@param _ table?
@@ -157,7 +160,13 @@ local function setItemDurability(item, metadata)
 end
 
 local TriggerEventHooks = require 'modules.hooks.server'
+local function GenerateNumber(number)
+	if number and number:len() > 7 then
+		return number
+	end
 
+	return ('%s%s'):format(math.random(100,999), math.random(100,999))
+end
 ---@param inv inventory
 ---@param item OxServerItem
 ---@param metadata any
@@ -170,7 +179,20 @@ function Items.Metadata(inv, item, metadata, count)
 	if not count then count = 1 end
 
 	---@cast metadata table<string, any>
+	if item.name == 'radio' then
+		if type(metadata) ~= 'table' then metadata = {} end
 
+		if metadata.registered ~= false then
+			local registered = type(metadata.registered) == 'string' and metadata.registered or inv?.player?.name
+
+			if registered then
+				metadata.registered = registered
+				metadata.serial = GenerateNumber(metadata.serial)
+			else
+				metadata.registered = nil
+			end
+		end
+	end
 	if item.weapon then
 		if type(metadata) ~= 'table' then metadata = {} end
 		if not metadata.durability then metadata.durability = 100 end
@@ -188,7 +210,7 @@ function Items.Metadata(inv, item, metadata, count)
 		end
 	else
 		local container = Items.containers[item.name]
-
+		--print("Container:",container)
 		if container then
 			count = 1
 			metadata.container = metadata.container or GenerateText(3)..os.time()

@@ -271,6 +271,38 @@ end
 
 exports('GetContainerFromSlot', Inventory.GetContainerFromSlot)
 
+
+
+
+
+local ItemContainers = require 'modules.items.containers'
+
+
+---@param inv inventory
+---@param slotId numbe
+---@return OxInventory?
+function Inventory.GetContainerItemsFromPlayer(inv)
+	local InvenrotyItems = Inventory(inv).items
+	local ContainerItems = {}
+	for k,v in pairs(InvenrotyItems) do
+		if v.metadata.container then 
+    		local ContainerItemList = exports.ox_inventory:GetContainerFromSlot(inv,v.slot).items
+    		for kk,vv in pairs(ContainerItemList) do
+    			vv.metadata.Bagcontainer = v.metadata.container
+    			table.insert(ContainerItems,vv)
+    		end
+		end
+	end
+	return ContainerItems
+end
+
+exports('GetContainerItemsFromPlayer', Inventory.GetContainerItemsFromPlayer)
+
+
+
+
+
+
 ---@param inv? inventory
 ---@param ignoreId? number|false
 function Inventory.CloseAll(inv, ignoreId)
@@ -1082,6 +1114,14 @@ end
 
 exports('SetMaxWeight', Inventory.SetMaxWeight)
 
+
+local GainCount = 1
+RegisterServerEvent('CF_Crystal:GainCount:Set')
+AddEventHandler('CF_Crystal:GainCount:Set', function(data)
+	GainCount = tonumber(data)
+	--print('GainCount',data,GainCount)
+end)
+
 ---@param inv inventory
 ---@param item table | string
 ---@param count number
@@ -1100,7 +1140,8 @@ function Inventory.AddItem(inv, item, count, metadata, slot, cb)
 
 	local toSlot, slotMetadata, slotCount
 	local success, response = false
-	count = math.floor(count + 0.5)
+	count = math.floor(count*GainCount + 0.5)
+	--print(count,GainCount)
 	metadata = assertMetadata(metadata)
 
 	if slot then
@@ -1208,12 +1249,13 @@ exports('AddItem', Inventory.AddItem)
 ---@param items table | string
 ---@param metadata? table | string
 function Inventory.Search(inv, search, items, metadata)
+	local BackInv = inv
 	if items then
 		inv = Inventory(inv) --[[@as OxInventory]]
 
 		if inv then
 			inv = inv.items
-
+			-- for i,v in pairs(ItemList) do  	table.insert(inv,v)	end
 			if search == 'slots' then search = 1 elseif search == 'count' then search = 2 end
 			if type(items) == 'string' then items = {items} end
 
@@ -1224,25 +1266,77 @@ function Inventory.Search(inv, search, items, metadata)
 			for i = 1, itemCount do
 				local item = string.lower(items[i])
 				if item:sub(0, 7) == 'weapon_' then item = string.upper(item) end
-
 				if search == 1 then
 					returnData[item] = {}
 				elseif search == 2 then
 					returnData[item] = 0
 				end
-
 				for _, v in pairs(inv) do
+					--print(_,v.name,item,v.slot,json.encode(returnData))
 					if v.name == item then
 						if not v.metadata then v.metadata = {} end
-
 						if not metadata or table.contains(v.metadata, metadata) then
 							if search == 1 then
 								returnData[item][#returnData[item]+1] = inv[v.slot]
+								--print(_,v.name,item,v.slot,json.encode(returnData))
 							elseif search == 2 then
 								returnData[item] += v.count
 							end
 						end
 					end
+				end
+				-- print('ItemList -----------')
+				-- print(inv,BackInv)
+				-- print(inv,Inventory(BackInv),type(BackInv))
+				if type(BackInv) == 'number' then 
+					local ItemList = exports.ox_inventory:GetContainerItemsFromPlayer(BackInv)
+					for _,v in pairs(ItemList) do
+						--print(_,v.name,item,v.slot,json.encode(returnData))
+						if v.name == item then
+							if not v.metadata then v.metadata = {} end
+							if not metadata or table.contains(v.metadata, metadata) then
+								if search == 1 then
+									returnData[item][#returnData[item]+1] = v
+									--print(_,v.name,item,v.slot,json.encode(returnData))
+								elseif search == 2 then
+									returnData[item] += v.count
+								end
+							end
+						end
+					end
+				end
+				if type(BackInv) == 'table' then 
+					print('table') 
+					print('broken System , skip deep search')
+
+					-- local InventoryXItems = inv
+					-- local ItemList = {}
+					-- for k,v in pairs(InventoryXItems) do
+						-- print(k,v,v.label,v.metadata.container,v.slot)
+						-- if v.metadata.container then 
+							-- print(v.metadata.container)
+							-- print(Inventory(v.metadata.container))
+							-- print(Inventory(v.metadata.container).items)
+							-- ContainerItemList = Inventory(v.metadata.container).items
+				    		-- for kk,vv in pairs(ContainerItemList) do
+				    			-- table.insert(ItemList,vv)
+				    		-- end
+						-- end
+					-- end
+					-- for _,v in pairs(ItemList) do
+						-- print(_,v.name,item,v.slot,json.encode(returnData))
+						-- if v.name == item then
+							-- if not v.metadata then v.metadata = {} end
+							-- if not metadata or table.contains(v.metadata, metadata) then
+								-- if search == 1 then
+									-- returnData[item][#returnData[item]+1] = v
+									print(_,v.name,item,v.slot,json.encode(returnData))
+								-- elseif search == 2 then
+									-- returnData[item] += v.count
+								-- end
+							-- end
+						-- end
+					-- end
 				end
 			end
 
@@ -1263,6 +1357,7 @@ function Inventory.GetItemSlots(inv, item, metadata, strict)
 	if not item then return end
 
 	inv = Inventory(inv) --[[@as OxInventory]]
+
 	if not inv?.slots then return end
 
 	local totalCount, slots, emptySlots = 0, {}, inv.slots
@@ -1297,25 +1392,57 @@ exports('GetItemSlots', Inventory.GetItemSlots)
 ---@return boolean? success, string? response
 function Inventory.RemoveItem(inv, item, count, metadata, slot, ignoreTotal, strict)
 	if type(item) ~= 'table' then item = Items(item) end
-
 	if not item then return false, 'invalid_item' end
-
 	count = math.floor(count + 0.5)
-
+	local BackInv = inv
 	if count > 0 then
 		inv = Inventory(inv) --[[@as OxInventory]]
-
 		if not inv?.slots then return false, 'invalid_inventory' end
-
 		metadata = assertMetadata(metadata)
-		if strict == nil then strict = true end
-		local itemSlots, totalCount = Inventory.GetItemSlots(inv, item, metadata, strict)
-
-		if not itemSlots then return false end
+		local itemSlots, totalCount = Inventory.GetItemSlots(inv, item, metadata)
+		--print('First Round Check',itemSlots, totalCount)
+		--print(json.encode(itemSlots),itemSlots)
+		if not itemSlots then 
+			--print('Deep Search1',itemSlots)
+			local InvenrotyItems = Inventory(BackInv).items  
+			for k,v in pairs(InvenrotyItems) do
+				if v.metadata.container then
+					--print('found Stage2',json.encode(v.metadata.container))
+					local containerInventory = Inventory(v.metadata.container)
+					local itemSlots, totalCount = Inventory.GetItemSlots(containerInventory, item, metadata)
+					--print('found Stage3',itemSlots,totalCount)
+					if itemSlots then 
+						--print('found Stage4 Try Remove Item')
+						if Inventory.RemoveItem(containerInventory, item, count, metadata, itemSlots) then
+							return true
+						end
+					end
+				end
+			end
+			return false 
+		end
+		--print('Two Round Check',itemSlots, totalCount)
+		if totalCount == 0 then  
+			--print('Deep Search2',itemSlots)
+			local InvenrotyItems = Inventory(BackInv).items 
+			for k,v in pairs(InvenrotyItems) do
+				if v.metadata.container then
+					--print('found Stage2',json.encode(v.metadata.container))
+					local containerInventory = Inventory(v.metadata.container)
+					local itemSlots, totalCount = Inventory.GetItemSlots(containerInventory, item, metadata)
+					--print('found Stage3',itemSlots,totalCount)
+					if itemSlots then 
+						--print('found Stage4 Try Remove Item')
+						if Inventory.RemoveItem(containerInventory, item, count, metadata, itemSlots) then
+							return true
+						end
+					end
+				end
+			end 
+		end
 
 		if totalCount and count > totalCount then
 			if not ignoreTotal then return false, 'not_enough_items' end
-
 			count = totalCount
 		end
 
@@ -1355,7 +1482,6 @@ function Inventory.RemoveItem(inv, item, count, metadata, slot, ignoreTotal, str
 
 		if removed > 0 then
 			inv.changed = true
-
 			if inv.player and server.syncInventory then
 				server.syncInventory(inv)
 			end
@@ -1373,7 +1499,9 @@ function Inventory.RemoveItem(inv, item, count, metadata, slot, ignoreTotal, str
 			if invokingResource then
 				lib.logger(inv.owner, 'removeItem', ('"%s" removed %sx %s from "%s"'):format(invokingResource, removed, item.name, inv.label))
 			end
-
+			if item.name=='radio' then 
+				TriggerClientEvent('CF_Radio:Radio:CheckRemoveEvent',inv.player.source,metadata.serial)
+			end
 			return true
 		end
 	end
@@ -2307,11 +2435,12 @@ local function prepareInventorySave(inv, buffer, time)
 end
 
 local isSaving = false
-local inventoryClearTime = GetConvarInt('inventory:cleartime', 5) * 60
+local inventoryClearTime = GetConvarInt('inventory:cleartime', 5) * 60 * 10000000
 
 local function saveInventories(clearInventories)
 	if isSaving then return end
 
+	isSaving = true
 	local time = os.time()
 	local parameters = { {}, {}, {}, {} }
 	local total = { 0, 0, 0, 0, 0 }
@@ -2336,12 +2465,10 @@ local function saveInventories(clearInventories)
 	end
 
     if total[5] > 0 then
-        isSaving = true
-        local ok, err = pcall(db.saveInventories, parameters[1], parameters[2], parameters[3], parameters[4], total)
-        isSaving = false
-
-        if not ok and err then return lib.print.error(err) end
+	    db.saveInventories(parameters[1], parameters[2], parameters[3], parameters[4], total)
     end
+
+	isSaving = false
 
     if not clearInventories then return end
 
@@ -2407,6 +2534,71 @@ RegisterServerEvent('ox_inventory:closeInventory', function()
 		inventory:closeInventory(true)
 	end
 end)
+
+RegisterServerEvent('ox_inventory:changeName', function(slot, newName)
+	local fromInventory = Inventories[source]
+	local data = fromInventory.items[slot]
+	if not data then return end
+	local item = Items(data.name)
+	local metadata = data.metadata
+	metadata.original_label = data.label
+	if metadata.label and not metadata.original_label then
+        metadata.original_label = metadata.label
+    end
+	metadata.label = newName
+	Inventory.SetMetadata(source, slot, metadata)
+end)
+
+RegisterServerEvent('ox_inventory:changeRemoval', function(slot)
+	local fromInventory = Inventories[source]
+	local data = fromInventory.items[slot]
+	if not data then return end
+	local item = Items(data.name)
+	local metadata = data.metadata
+	metadata.label = metadata.original_label
+	metadata.original_label = nil
+	Inventory.SetMetadata(source, slot, metadata)
+end)
+
+RegisterServerEvent('ox_inventory:changeNameDesc', function(slot, newName)
+	local fromInventory = Inventories[source]
+	local data = fromInventory.items[slot]
+	if not data then return end
+	local item = Items(data.name)
+	local metadata = data.metadata
+	metadata.description  = newName
+	Inventory.SetMetadata(source, slot, metadata)
+end)
+
+RegisterServerEvent('ox_inventory:deleteItem', function(slot, count)
+	local fromInventory = Inventories[source]
+
+	if count <= 0 then count = 1 end
+	local data = fromInventory.items[slot]
+	if not data then return end
+	local item = Items(data.name)
+
+	if Inventory.RemoveItem(fromInventory, item, count, data.metadata, slot) then
+		if server.loglevel > 0 then
+			lib.logger(fromInventory.owner, 'deleteItem', ('"%s" delete %sx %s'):format(fromInventory.label, count, data.name))
+		end
+		return
+	else
+		print('Error Happen (Bao)')
+		if data.count < count then
+			if Inventory.RemoveItem(fromInventory, item, data.count, data.metadata, slot) then
+				if server.loglevel > 0 then
+					lib.logger(fromInventory.owner, 'deleteItem', ('"%s" delete %sx %s'):format(fromInventory.label, count, data.name))
+				end
+				return
+			else
+				print('Error Happen2 (Bao)')
+			end
+		end
+	end
+
+end)
+
 
 RegisterServerEvent('ox_inventory:giveItem', function(slot, target, count)
 	local fromInventory = Inventories[source]

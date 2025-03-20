@@ -1,718 +1,864 @@
 return {
 	Weapons = {
-		['WEAPON_BATTLERIFLE'] = {
-			label = 'Battle Rifle',
-			weight = 3300,
-			durability = 0.03,
-			ammoname = 'ammo-rifle2',
-		},
-
-		['WEAPON_SNOWLAUNCHER'] = {
-			label = 'Snowball Launcher',
+		----------------------------------------------------------------
+		-- 近戰武器 Item
+		----------------------------------------------------------------
+		
+		['WEAPON_KITCHENKNIFE'] = {
+			label = '菜刀',
 			weight = 1000,
-			durability = 0.03,
-			ammoname = 'WEAPON_SNOWBALL',
+			durability = 0.1,
+		},
+		['WEAPON_BOW_COMPOUND'] = {
+			label = '測試弓',
+			weight = 1000,
+			durability = 0.1,
+			ammoname = 'ammo-special'
+		},
+		['WEAPON_BAT_MINECRAFT'] = {
+			label = '鑽石長鎬',
+			weight = 1000,
+			durability = 0.1,
+		},
+		['WEAPON_PICKAXE_MINECRAFT'] = {
+			label = '鑽石鎬',
+			weight = 1000,
+			durability = 0.1,
+		},
+		['WEAPON_MINECRAFT_SWORD'] = {
+			label = '鑽石劍',
+			weight = 1000,
+			durability = 0.1,
+		},
+		['WEAPON_APPEASE'] = {
+			label = '劍 | 開元劍',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_BAT_01'] = {
+			label = '馬頭',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_BATTLEAXE_CLUB'] = {
+			label = '雙戟戰斧',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_BERSERKER_MGA'] = {
+			label = '爆裂戰斧',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_BLACKCLIFF'] = {
+			label = '劍 | 黑克莉',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_BLOODTAINTED'] = {
+			label = '腥血劍',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_BRICK'] = {
+			label = '板磚',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_FAN'] = {
+			label = '扇子',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_FAVONIUS'] = {
+			label = '劍 | FAVONIUS',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_FERROUS'] = {
+			label = '劍 | FERROUS',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_GCLUB_NEW'] = {
+			label = '欄杆招牌',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_GUITAR'] = {
+			label = '吉他',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_HATCHET_BERSERKER'] = {
+			label = '狂暴者手斧',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_HATCHET_TACTICAL'] = {
+			label = 'TACTICAL手斧',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_KATANA1'] = {
+			label = '日本刀Type1',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_KATANA02'] = {
+			label = '日本刀Type2',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_KNIFE_FISH'] = {
+			label = '魚',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_KNIFE_LOAF'] = {
+			label = '法棍',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_KNIFE_SANWITCH'] = {
+			label = '法棍魚',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_KNIFE_SWORDW1'] = {
+			label = '劍 | Type1',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_KNIFE_SWORDW2'] = {
+			label = '劍 | Type2',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_KNIFE_SWORDW3'] = {
+			label = '劍 | Type3',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_KNIFE_SWORDW4'] = {
+			label = '劍 | Type4',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_KNIFE_SWORDW5'] = {
+			label = '劍 | Type5',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_KNIFE_SWORDW6'] = {
+			label = '劍 | Type6',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_KNIFE_SWORDW7'] = {
+			label = '劍 | Type7',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_LITHIC'] = {
+			label = '劍 | LITHIC',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_MACHETE_HANDSICKLE'] = {
+			label = '草砍刀',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_MACHETE_PROTOARCAIC'] = {
+			label = '關刀 | ARCAIC',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_MACHETE_PROTYPEAMINUS'] = {
+			label = '關刀 | MINUS',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_MACHETE_QUARTZ'] = {
+			label = '關刀 | QUARTZ',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_MACHETE_REAPER'] = {
+			label = '復仇者刀',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_MACHETE_UNCHECK'] = {
+			label = '否定無雀斧',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_MACHETE_UNFORGED'] = {
+			label = '劍 | 忘卻者',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_MACHETE_WALKINGSTAFF'] = {
+			label = '木製手杖',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_MORAX'] = {
+			label = '太陽開煌劍',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_NIGHITSTICK_GRAVESTONE'] = {
+			label = '榮耀石刱劍',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_NIGHITSTICK_OLDMERCPAL'] = {
+			label = '古老風俗劍',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_RAINSLASHER'] = {
+			label = '雨淚斬殺劍',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_THEBELL'] = {
+			label = '光陰時間劍',
+			weight = 1000,
+			durability = 0.0,
+		},
+		['WEAPON_WARAXE01'] = {
+			label = '單戟戰斧',
+			weight = 1000,
+			durability = 0.0,
 		},
 
-		['WEAPON_TECPISTOL'] = {
-			label = 'Tactical SMG',
-			weight = 1500,
-			durability = 0.075,
-			ammoname = 'ammo-9',
-		},
 
-		['WEAPON_ADVANCEDRIFLE'] = {
-			label = 'Advanced Rifle',
-			weight = 3100,
-			durability = 0.03,
-			ammoname = 'ammo-rifle',
-		},
 
+		----------------------------------------------------------------
+		-- 近戰武器 Item
+		----------------------------------------------------------------
+		['WEAPON_DAGGER'] = {
+			label = '古董騎兵匕首',
+			weight = 800,
+			durability = 0.1,
+		},
+		['WEAPON_BAT'] = {
+			label = '球棒',
+			weight = 1134,
+			durability = 0.1,
+		},
+		['WEAPON_BATTLEAXE'] = {
+			label = '戰鬥斧頭',
+			weight = 6500,
+			durability = 0.1,
+		},
+		['WEAPON_BOTTLE'] = {
+			label = '酒瓶',
+			weight = 350,
+			durability = 0.1,
+		},
+		['WEAPON_CANDYCANE'] = {
+			label = '拐杖糖',
+			weight = 85,
+			durability = 0.1,
+		},
+		['WEAPON_CROWBAR'] = {
+			label = '鐵撬',
+			weight = 2500,
+			durability = 0.1,
+		},
+		['WEAPON_FLASHLIGHT'] = {
+			label = '手電筒',
+			weight = 125,
+			durability = 0.1,
+		},
+		['WEAPON_GOLFCLUB'] = {
+			label = '高爾夫球桿',
+			weight = 330,
+			durability = 0.1,
+		},
+		['WEAPON_HAMMER'] = {
+			label = '鐵鎚',
+			weight = 1200,
+			durability = 0.1,
+		},
+		['WEAPON_HATCHET'] = {
+			label = '手斧',
+			weight = 1000,
+			durability = 0.1,
+		},
+		['WEAPON_KNIFE'] = {
+			label = '小刀',
+			weight = 300,
+			durability = 0.1,
+		},
+		['WEAPON_KNUCKLE'] = {
+			label = '手指虎',
+			weight = 300,
+			durability = 0.1,
+		},
+		['WEAPON_MACHETE'] = {
+			label = '開山刀',
+			weight = 1000,
+			durability = 0.1,
+		},
+		['WEAPON_NIGHTSTICK'] = {
+			label = '警棍',
+			weight = 1000,
+			durability = 0.1,
+		},
+		['WEAPON_WRENCH'] = {
+			label = '管鉗扳手',
+			weight = 2500,
+			durability = 0.1,
+		},
+		['WEAPON_POOLCUE'] = {
+			label = '撞球桿',
+			weight = 146,
+			durability = 0.1,
+		},
+		['WEAPON_STONE_HATCHET'] = {
+			label = '石斧',
+			weight = 800,
+			durability = 0.1,
+		},
+		['WEAPON_SWITCHBLADE'] = {
+			label = '彈簧刀',
+			weight = 300,
+			durability = 0.1,
+			anim = { 'anim@melee@switchblade@holster', 'unholster', 200, 'anim@melee@switchblade@holster', 'holster', 600 },
+		},
+		----------------------------------------------------------------
+		-- 手槍 Item
+		----------------------------------------------------------------
 		['WEAPON_APPISTOL'] = {
-			label = 'AP Pistol',
+			label = '穿甲手槍',
 			weight = 1400,
 			durability = 0.1,
-			ammoname = 'ammo-9',
+			ammoname = 'ammo-pistol',
 		},
-
-		['WEAPON_ASSAULTRIFLE'] = {
-			label = 'Assault Rifle',
-			weight = 4500,
-			durability = 0.03,
-			ammoname = 'ammo-rifle2',
+		['WEAPON_CERAMICPISTOL'] = {
+			label = '陶瓷手槍',
+			weight = 800,
+			durability = 0.2,
+			ammoname = 'ammo-pistol',
 		},
-
-		['WEAPON_ASSAULTRIFLE_MK2'] = {
-			label = 'Assault Rifle MK2',
-			weight = 2950,
-			durability = 0.03,
-			ammoname = 'ammo-rifle2',
+		['WEAPON_COMBATPISTOL'] = {
+			label = '戰鬥手槍',
+			weight = 785,
+			durability = 0.2,
+			ammoname = 'ammo-pistol',
 		},
-
+		['WEAPON_DOUBLEACTION'] = {
+			label = '雙動式左輪手槍',
+			weight = 940,
+			durability = 0.2,
+			ammoname = 'ammo-pistol',
+		},
+		['WEAPON_FLAREGUN'] = {
+			label = '信號槍',
+			weight = 1000,
+			durability = 0.5,
+			ammoname = 'ammo-special'
+		},
+		['WEAPON_HEAVYPISTOL'] = {
+			label = '重型手槍',
+			weight = 1100,
+			durability = 0.2,
+			ammoname = 'ammo-pistol',
+		},
+		['WEAPON_REVOLVER'] = {
+			label = '重型左輪手槍',
+			weight = 2260,
+			durability = 0.1,
+			ammoname = 'ammo-pistol',
+		},
+		['WEAPON_REVOLVER_MK2'] = {
+			label = '重型左輪手槍 Mk II',
+			weight = 2600,
+			durability = 0.1,
+			ammoname = 'ammo-pistol',
+		},
+		['WEAPON_MARKSMANPISTOL'] = {
+			label = '射手手槍',
+			weight = 1588,
+			durability = 0.5,
+			ammoname = 'ammo-pistol',
+		},
+		['WEAPON_NAVYREVOLVER'] = {
+			label = '海軍左輪手槍',
+			weight = 4000,
+			durability = 0.2,
+			ammoname = 'ammo-pistol',
+		},		
+		['WEAPON_PISTOL'] = {
+			label = '手槍',
+			weight = 1130,
+			durability = 0.1,
+			ammoname = 'ammo-pistol',
+		},
+		['WEAPON_PISTOL50'] = {
+			label = '50 口徑手槍',
+			weight = 2000,
+			durability = 0.1,
+			ammoname = 'ammo-pistol',
+		},
+		['WEAPON_PISTOL_MK2'] = {
+			label = '手槍 Mk II',
+			weight = 1000,
+			durability = 0.5,
+			ammoname = 'ammo-pistol',
+		},
+		['WEAPON_SNSPISTOL'] = {
+			label = '劣質手槍',
+			weight = 465,
+			durability = 0.1,
+			ammoname = 'ammo-pistol',
+		},
+		['WEAPON_SNSPISTOL_MK2'] = {
+			label = '劣質手槍 Mk II',
+			weight = 465,
+			durability = 0.1,
+			ammoname = 'ammo-pistol',
+		},
+		['WEAPON_GADGETPISTOL'] = {
+			label = '佩里克手槍',
+			weight = 1750,
+			durability = 0.1,
+			ammoname = 'ammo-pistol',
+		},
+		['WEAPON_STUNGUN'] = {
+			label = '電擊槍',
+			weight = 227,
+			durability = 0.1,
+		},
+		['WEAPON_RAYPISTOL'] = {
+			label = '原子堡手槍',
+			weight = 1540,
+			durability = 0.5
+		},
+		['WEAPON_VINTAGEPISTOL'] = {
+			label = '復古手槍',
+			weight = 700,
+			durability = 0.1,
+			ammoname = 'ammo-pistol',
+		},
+		['WEAPON_PISTOLXM3'] = {
+			label = 'WM 29 手槍',
+			weight = 969,
+			durability = 0.2,
+			ammoname = 'ammo-pistol',
+		},
+		----------------------------------------------------------------
+		-- 霰彈槍 Item
+		----------------------------------------------------------------
 		['WEAPON_ASSAULTSHOTGUN'] = {
-			label = 'Assault Shotgun',
+			label = '突擊霰彈槍',
 			weight = 5200,
 			durability = 0.05,
 			ammoname = 'ammo-shotgun'
 		},
-
-		['WEAPON_ASSAULTSMG'] = {
-			label = 'Assault SMG',
-			weight = 2900,
-			durability = 0.05,
-			ammoname = 'ammo-rifle'
-		},
-
-		['WEAPON_BALL'] = {
-			label = 'Ball',
-			weight = 149,
-			throwable = true,
-		},
-
-		['WEAPON_BAT'] = {
-			label = 'Bat',
-			weight = 1134,
-			durability = 0.1,
-		},
-
-		['WEAPON_BATTLEAXE'] = {
-			label = 'Battle Axe',
-			weight = 6500,
-			durability = 0.1,
-		},
-
-		['WEAPON_BOTTLE'] = {
-			label = 'Bottle',
-			weight = 350,
-			durability = 0.1,
-		},
-
-		['WEAPON_BULLPUPRIFLE'] = {
-			label = 'Bullpup Rifle',
-			weight = 2900,
-			durability = 0.03,
-			ammoname = 'ammo-rifle'
-		},
-
-		['WEAPON_BULLPUPRIFLE_MK2'] = {
-			label = 'Bullpup Rifle MK2',
-			weight = 2900,
-			durability = 0.03,
-			ammoname = 'ammo-rifle'
-		},
-
 		['WEAPON_BULLPUPSHOTGUN'] = {
-			label = 'Bullpup Shotgun',
+			label = '犢牛式霰彈槍',
 			weight = 3100,
 			durability = 0.2,
 			ammoname = 'ammo-shotgun'
 		},
-
-		['WEAPON_BZGAS'] = {
-			label = 'BZ Gas',
-			weight = 600,
-			throwable = true,
-		},
-
-		['WEAPON_CARBINERIFLE'] = {
-			label = 'Carbine Rifle',
-			weight = 3100,
-			durability = 0.03,
-			ammoname = 'ammo-rifle'
-		},
-
-		['WEAPON_CARBINERIFLE_MK2'] = {
-			label = 'Carbine Rifle MK2',
-			weight = 3000,
-			durability = 0.03,
-			ammoname = 'ammo-rifle'
-		},
-
-		['WEAPON_CERAMICPISTOL'] = {
-			label = 'Ceramic Pistol',
-			weight = 800,
-			durability = 0.2,
-			ammoname = 'ammo-9'
-		},
-
-		['WEAPON_PISTOLXM3'] = {
-			label = 'WM 29 Pistol',
-			weight = 969,
-			durability = 0.2,
-			ammoname = 'ammo-9'
-		},
-
-		['WEAPON_COMBATMG'] = {
-			label = 'Combat MG',
-			weight = 7500,
-			durability = 0.02,
-			ammoname = 'ammo-rifle'
-		},
-
-		['WEAPON_COMBATMG_MK2'] = {
-			label = 'Combat MG MK2',
-			weight = 8000,
-			durability = 0.02,
-			ammoname = 'ammo-rifle2'
-		},
-
-		['WEAPON_COMBATPDW'] = {
-			label = 'Combat PDW',
-			weight = 2300,
-			durability = 0.1,
-			ammoname = 'ammo-9'
-		},
-
-		['WEAPON_COMBATPISTOL'] = {
-			label = 'Combat Pistol',
-			weight = 785,
-			durability = 0.2,
-			ammoname = 'ammo-9'
-		},
-
 		['WEAPON_COMBATSHOTGUN'] = {
-			label = 'Combat Shotgun',
+			label = '戰鬥霰彈槍',
 			weight = 4400,
 			durability = 0.2,
 			ammoname = 'ammo-shotgun'
 		},
-
-		['WEAPON_COMPACTLAUNCHER'] = {
-			label = 'Compact Grenade Launcher',
-			weight = 2500,
-			durability = 0.05,
-			ammoname = 'ammo-grenade'
-		},
-
-		['WEAPON_COMPACTRIFLE'] = {
-			label = 'Compact Rifle',
-			weight = 3600,
-			durability = 0.05,
-			ammoname = 'ammo-rifle2'
-		},
-
-		['WEAPON_CROWBAR'] = {
-			label = 'Crowbar',
-			weight = 2500,
-			durability = 0.1,
-		},
-
-		['WEAPON_DAGGER'] = {
-			label = 'Dagger',
-			weight = 800,
-			durability = 0.1,
-		},
-
 		['WEAPON_DBSHOTGUN'] = {
-			label = 'Double Barrel Shotgun',
+			label = '雙管霰彈槍',
 			weight = 3175,
 			durability = 0.4,
 			ammoname = 'ammo-shotgun'
 		},
-
-		['WEAPON_DOUBLEACTION'] = {
-			label = 'Double Action Revolver',
-			weight = 940,
-			durability = 0.2,
-			ammoname = 'ammo-38'
-		},
-
-		['WEAPON_EMPLAUNCHER'] = {
-			label = 'Compact EMP Launcher',
-			weight = 2750,
-			durability = 0.2,
-			ammoname = 'ammo-emp'
-		},
-
-		['WEAPON_FIREEXTINGUISHER'] = {
-			label = 'Fire Extinguisher',
-			weight = 8616,
-            durability = 0.006
-		},
-
-		['WEAPON_FIREWORK'] = {
-			label = 'Firework Launcher',
-			weight = 1000,
-			durability = 0.5,
-			ammoname = 'ammo-firework'
-		},
-
-		['WEAPON_FLARE'] = {
-			label = 'Flare',
-			weight = 250,
-			throwable = true,
-		},
-
-		['WEAPON_FLAREGUN'] = {
-			label = 'Flare Gun',
-			weight = 1000,
-			durability = 0.5,
-			ammoname = 'ammo-flare'
-		},
-
-		['WEAPON_FLASHLIGHT'] = {
-			label = 'Flashlight',
-			weight = 125,
-			durability = 0.1,
-		},
-
-		['WEAPON_GOLFCLUB'] = {
-			label = 'Golf Club',
-			weight = 330,
-			durability = 0.1,
-		},
-
-		['WEAPON_GRENADE'] = {
-			label = 'Grenade',
-			weight = 400,
-			throwable = true,
-		},
-
-		['WEAPON_GRENADELAUNCHER'] = {
-			label = 'Grenade Launcher',
-			weight = 6500,
-			durability = 0.05,
-			ammoname = 'ammo-grenade'
-		},
-
-		['WEAPON_GUSENBERG'] = {
-			label = 'Gusenberg',
-			weight = 4900,
-			durability = 0.04,
-			ammoname = 'ammo-45'
-		},
-
-		['WEAPON_HAMMER'] = {
-			label = 'Hammer',
-			weight = 1200,
-			durability = 0.1,
-		},
-
-		['WEAPON_HATCHET'] = {
-			label = 'Hatchet',
-			weight = 1000,
-			durability = 0.1,
-		},
-
-		['WEAPON_HEAVYRIFLE'] = {
-			label = 'Heavy Rifle',
-			weight = 3300,
-			durability = 0.2,
-			ammoname = 'ammo-rifle'
-		},
-
-		['WEAPON_HAZARDCAN'] = {
-			label = 'Hazard Can',
-			weight = 12000,
-		},
-
-		['WEAPON_METALDETECTOR'] = {
-			label = 'Metal Detector',
-			weight = 1200,
-		},
-
-		['WEAPON_HOMINGLAUNCHER'] = {
-			label = 'Homing Launcher',
-			weight = 10000,
-			durability = 0.6,
-			ammoname = 'ammo-rocket'
-		},
-
-		['WEAPON_FERTILIZERCAN'] = {
-			label = 'Fertilizer Can',
-			weight = 12000,
-		},
-
-		['WEAPON_HEAVYPISTOL'] = {
-			label = 'Heavy Pistol',
-			weight = 1100,
-			durability = 0.2,
-			ammoname = 'ammo-45'
-		},
-
 		['WEAPON_HEAVYSHOTGUN'] = {
-			label = 'Heavy Shotgun',
+			label = '重型霰彈槍',
 			weight = 3600,
 			durability = 0.1,
 			ammoname = 'ammo-shotgun'
 		},
-
-		['WEAPON_HEAVYSNIPER'] = {
-			label = 'Heavy Sniper',
-			weight = 12700,
-			durability = 0.5,
-			ammoname = 'ammo-heavysniper'
-		},
-
-		['WEAPON_HEAVYSNIPER_MK2'] = {
-			label = 'Heavy Sniper MK2',
-			weight = 14000,
-			durability = 0.5,
-			ammoname = 'ammo-heavysniper'
-		},
-
-		['WEAPON_KNIFE'] = {
-			label = 'Knife',
-			weight = 300,
-			durability = 0.1,
-		},
-
-		['WEAPON_KNUCKLE'] = {
-			label = 'Knuckle Dusters',
-			weight = 300,
-			durability = 0.1,
-		},
-
-		['WEAPON_MACHETE'] = {
-			label = 'Machete',
-			weight = 1000,
-			durability = 0.1,
-		},
-
-		['WEAPON_MACHINEPISTOL'] = {
-			label = 'Machine Pistol',
-			weight = 1400,
-			durability = 0.05,
-			ammoname = 'ammo-9'
-		},
-
-		['WEAPON_MARKSMANPISTOL'] = {
-			label = 'Marksman Pistol',
-			weight = 1588,
-			durability = 0.5,
-			ammoname = 'ammo-22'
-		},
-
-		['WEAPON_MARKSMANRIFLE'] = {
-			label = 'Marksman Rifle',
-			weight = 7500,
-			durability = 0.4,
-			ammoname = 'ammo-sniper'
-		},
-
-		['WEAPON_MARKSMANRIFLE_MK2'] = {
-			label = 'Marksman Rifle MK2',
-			weight = 4000,
-			durability = 0.4,
-			ammoname = 'ammo-sniper'
-		},
-
-		['WEAPON_MG'] = {
-			label = 'Machine Gun',
-			weight = 9000,
-			durability = 0.02,
-			ammoname = 'ammo-rifle2'
-		},
-
-		['WEAPON_MINIGUN'] = {
-			label = 'Minigun',
-			weight = 38500,
-			durability = 0.1,
-			ammoname = 'ammo-rifle2'
-		},
-
-		['WEAPON_MICROSMG'] = {
-			label = 'Micro SMG',
-			weight = 3000,
-			durability = 0.1,
-			ammoname = 'ammo-45'
-		},
-
-		['WEAPON_MILITARYRIFLE'] = {
-			label = 'Military Rifle',
-			weight = 3600,
-			durability = 0.03,
-			ammoname = 'ammo-rifle'
-		},
-
-		['WEAPON_MINISMG'] = {
-			label = 'Mini SMG',
-			weight = 1270,
-			durability = 0.05,
-			ammoname = 'ammo-9'
-		},
-
-		['WEAPON_MOLOTOV'] = {
-			label = 'Molotov',
-			weight = 1800,
-			throwable = true,
-		},
-
 		['WEAPON_MUSKET'] = {
-			label = 'Musket',
+			label = '老式火槍',
 			weight = 4500,
 			durability = 0.5,
-			ammoname = 'ammo-musket'
+			ammoname = 'ammo-special'
 		},
-
-		['WEAPON_NAVYREVOLVER'] = {
-			label = 'Navy Revolver',
-			weight = 4000,
-			durability = 0.2,
-			ammoname = 'ammo-44'
-		},
-
-		['WEAPON_NIGHTSTICK'] = {
-			label = 'Nightstick',
-			weight = 1000,
-			durability = 0.1,
-		},
-
-		['WEAPON_PETROLCAN'] = {
-			label = 'Jerry Can',
-			weight = 4000,
-		},
-
-		['WEAPON_GADGETPISTOL'] = {
-			label = 'Perico Pistol',
-			weight = 1750,
-			durability = 0.1,
-			ammoname = 'ammo-9'
-		},
-
-		['WEAPON_PIPEBOMB'] = {
-			label = 'Pipe Bomb',
-			weight = 1800,
-			throwable = true,
-		},
-
-		['WEAPON_PISTOL'] = {
-			label = 'Pistol',
-			weight = 1130,
-			durability = 0.1,
-			ammoname = 'ammo-9',
-		},
-
-		['WEAPON_PISTOL50'] = {
-			label = 'Pistol .50',
-			weight = 2000,
-			durability = 0.1,
-			ammoname = 'ammo-50'
-		},
-
-		['WEAPON_PISTOL_MK2'] = {
-			label = 'Pistol MK2',
-			weight = 1000,
-			durability = 0.5,
-			ammoname = 'ammo-9'
-		},
-
-		['WEAPON_POOLCUE'] = {
-			label = 'Pool Cue',
-			weight = 146,
-			durability = 0.1,
-		},
-
-		['WEAPON_CANDYCANE'] = {
-			label = 'Candy Cane',
-			weight = 85,
-			durability = 0.1,
-		},
-
-		['WEAPON_PROXMINE'] = {
-			label = 'Proximity Mine',
-			weight = 2500,
-			throwable = true,
-		},
-
 		['WEAPON_PUMPSHOTGUN'] = {
-			label = 'Pump Shotgun',
+			label = '泵動式霰彈槍',
 			weight = 3400,
 			durability = 0.1,
 			ammoname = 'ammo-shotgun'
 		},
-
 		['WEAPON_PUMPSHOTGUN_MK2'] = {
-			label = 'Pump Shotgun MK2',
+			label = '泵動式霰彈槍 Mk II',
 			weight = 3200,
 			durability = 0.1,
 			ammoname = 'ammo-shotgun'
 		},
-
-		['WEAPON_RAILGUN'] = {
-			label = 'Railgun',
-			weight = 3570,
-			durability = 0.5,
-			ammoname = 'ammo-railgun'
-		},
-
-		['WEAPON_RAILGUNXM3'] = {
-			label = 'Railgun XM3',
-			weight = 3570,
-			durability = 0.5,
-			ammoname = 'ammo-railgun'
-		},
-
-		['WEAPON_RAYCARBINE'] = {
-			label = 'Unholy Hellbringer',
-			weight = 3620,
-			durability = 0.2,
-			ammoname = 'ammo-laser'
-		},
-
-		['WEAPON_RAYPISTOL'] = {
-			label = 'Up-n-Atomizer',
-			weight = 1540,
-			durability = 0.5
-		},
-
-		['WEAPON_REVOLVER'] = {
-			label = 'Revolver',
-			weight = 2260,
-			durability = 0.1,
-			ammoname = 'ammo-44'
-		},
-
-		['WEAPON_REVOLVER_MK2'] = {
-			label = 'Revolver MK2',
-			weight = 2600,
-			durability = 0.1,
-			ammoname = 'ammo-44'
-		},
-
-		['WEAPON_RPG'] = {
-			label = 'RPG',
-			weight = 5000,
-			durability = 0.3,
-			ammoname = 'ammo-rocket'
-		},
-
 		['WEAPON_SAWNOFFSHOTGUN'] = {
-			label = 'Sawn Off Shotgun',
+			label = '削短型霰彈槍',
 			weight = 2380,
 			durability = 0.1,
 			ammoname = 'ammo-shotgun'
 		},
-
+		['WEAPON_AUTOSHOTGUN'] = {
+			label = '衝鋒霰彈槍',
+			weight = 4400,
+			durability = 0.05,
+			ammoname = 'ammo-shotgun'
+		},
+		----------------------------------------------------------------
+		-- 衝鋒鎗/機槍 Item
+		----------------------------------------------------------------
+		['WEAPON_ASSAULTSMG'] = {
+			label = '突擊衝鋒槍',
+			weight = 2900,
+			durability = 0.05,
+			ammoname = 'ammo-mg'
+		},
+		['WEAPON_COMBATMG'] = {
+			label = '戰鬥機關槍',
+			weight = 7500,
+			durability = 0.02,
+			ammoname = 'ammo-mg'
+		},
+		['WEAPON_COMBATMG_MK2'] = {
+			label = '戰鬥機關槍 Mk II',
+			weight = 8000,
+			durability = 0.02,
+			ammoname = 'ammo-mg'
+		},
+		['WEAPON_COMBATPDW'] = {
+			label = '戰鬥自衛衝鋒槍',
+			weight = 2300,
+			durability = 0.1,
+			ammoname = 'ammo-mg'
+		},
+		['WEAPON_GUSENBERG'] = {
+			label = '古森柏衝鋒槍',
+			weight = 4900,
+			durability = 0.04,
+			ammoname = 'ammo-mg'
+		},
+		['WEAPON_MACHINEPISTOL'] = {
+			label = '衝鋒手槍',
+			weight = 1400,
+			durability = 0.05,
+			ammoname = 'ammo-mg'
+		},
+		['WEAPON_MG'] = {
+			label = '機關槍',
+			weight = 9000,
+			durability = 0.02,
+			ammoname = 'ammo-mg'
+		},
+		['WEAPON_MICROSMG'] = {
+			label = '小型衝鋒槍',
+			weight = 3000,
+			durability = 0.1,
+			ammoname = 'ammo-mg'
+		},
+		['WEAPON_MINISMG'] = {
+			label = '迷你衝鋒槍',
+			weight = 1270,
+			durability = 0.05,
+			ammoname = 'ammo-mg'
+		},
 		['WEAPON_SMG'] = {
-			label = 'SMG',
+			label = '衝鋒槍',
 			weight = 3084,
 			durability = 0.8,
-			ammoname = 'ammo-9'
+			ammoname = 'ammo-mg'
 		},
-
 		['WEAPON_SMG_MK2'] = {
-			label = 'SMG Mk2',
+			label = '衝鋒槍 Mk II',
 			weight = 2700,
 			durability = 0.05,
-			ammoname = 'ammo-9'
+			ammoname = 'ammo-mg'
 		},
-
-		['WEAPON_SMOKEGRENADE'] = {
-			label = 'Smoke Grenade',
-			weight = 600,
-			throwable = true,
+		['WEAPON_TECPISTOL'] = {
+			label = '戰術衝鋒槍',
+			weight = 1500,
+			durability = 0.075,
+			ammoname = 'ammo-mg'
 		},
-
-		['WEAPON_SNIPERRIFLE'] = {
-			label = 'Sniper Rifle',
-			weight = 5000,
-			durability = 0.5,
-			ammoname = 'ammo-sniper'
+		['WEAPON_RAYCARBINE'] = {
+			label = '不潔地獄使者',
+			weight = 3620,
+			durability = 0.2,
+			ammoname = 'ammo-special'
 		},
-
-		['WEAPON_SNOWBALL'] = {
-			label = 'Snow Ball',
-			weight = 5,
-			throwable = true,
+		----------------------------------------------------------------
+		-- 突擊步槍 Item
+		----------------------------------------------------------------
+		['WEAPON_ADVANCEDRIFLE'] = {
+			label = '高階步槍',
+			weight = 3100,
+			durability = 0.03,
+			ammoname = 'ammo-rifle',
 		},
-
-		['WEAPON_SNSPISTOL'] = {
-			label = 'SNS Pistol',
-			weight = 465,
-			durability = 0.1,
-			ammoname = 'ammo-45'
+		['WEAPON_ASSAULTRIFLE'] = {
+			label = '突擊步槍',
+			weight = 4500,
+			durability = 0.03,
+			ammoname = 'ammo-rifle',
 		},
-
-		['WEAPON_SNSPISTOL_MK2'] = {
-			label = 'SNS Pistol MK2',
-			weight = 465,
-			durability = 0.1,
-			ammoname = 'ammo-45'
+		['WEAPON_ASSAULTRIFLE_MK2'] = {
+			label = '突擊步槍 Mk II',
+			weight = 2950,
+			durability = 0.03,
+			ammoname = 'ammo-rifle',
 		},
-
-		['WEAPON_SPECIALCARBINE'] = {
-			label = 'Special Carbine',
+		['WEAPON_BULLPUPRIFLE'] = {
+			label = '犢牛式步槍',
+			weight = 2900,
+			durability = 0.03,
+			ammoname = 'ammo-rifle'
+		},
+		['WEAPON_BULLPUPRIFLE_MK2'] = {
+			label = '犢牛式步槍 Mk II',
+			weight = 2900,
+			durability = 0.03,
+			ammoname = 'ammo-rifle'
+		},
+		['WEAPON_CARBINERIFLE'] = {
+			label = '卡賓步槍',
+			weight = 3100,
+			durability = 0.03,
+			ammoname = 'ammo-rifle'
+		},
+		['WEAPON_CARBINERIFLE_MK2'] = {
+			label = '卡賓步槍 Mk II',
 			weight = 3000,
 			durability = 0.03,
 			ammoname = 'ammo-rifle'
 		},
-
+		['WEAPON_COMPACTRIFLE'] = {
+			label = '精簡型步槍',
+			weight = 3600,
+			durability = 0.05,
+			ammoname = 'ammo-rifle'
+		},
+		['WEAPON_HEAVYRIFLE'] = {
+			label = '重型步槍',
+			weight = 3300,
+			durability = 0.2,
+			ammoname = 'ammo-rifle'
+		},
+		['WEAPON_MILITARYRIFLE'] = {
+			label = '軍用步槍',
+			weight = 3600,
+			durability = 0.03,
+			ammoname = 'ammo-rifle'
+		},
+		-- Service Carbine
+		['WEAPON_SPECIALCARBINE'] = {
+			label = '特製卡賓步槍',
+			weight = 3000,
+			durability = 0.03,
+			ammoname = 'ammo-rifle'
+		},
 		['WEAPON_SPECIALCARBINE_MK2'] = {
-			label = 'Special Carbine MK2',
+			label = '特製卡賓步槍 Mk II',
 			weight = 3370,
 			durability = 0.03,
 			ammoname = 'ammo-rifle'
 		},
 
-		['WEAPON_STICKYBOMB'] = {
-			label = 'Sticky Bomb',
-			weight = 1000,
-			throwable = true,
-		},
-
-		['WEAPON_STONE_HATCHET'] = {
-			label = 'Stone Hatchet',
-			weight = 800,
-			durability = 0.1,
-		},
-
-		['WEAPON_STUNGUN'] = {
-			label = 'Tazer',
-			weight = 227,
-			durability = 0.1,
-		},
-
-		['WEAPON_AUTOSHOTGUN'] = {
-			label = 'Sweeper Shotgun',
-			weight = 4400,
-			durability = 0.05,
-			ammoname = 'ammo-shotgun'
-		},
-
-		['WEAPON_SWITCHBLADE'] = {
-			label = 'Switchblade',
-			weight = 300,
-			durability = 0.1,
-			anim = { 'anim@melee@switchblade@holster', 'unholster', 200, 'anim@melee@switchblade@holster', 'holster', 600 },
-		},
-
-		['WEAPON_VINTAGEPISTOL'] = {
-			label = 'Vintage Pistol',
-			weight = 700,
-			durability = 0.1,
-			ammoname = 'ammo-9'
-		},
-
-		['WEAPON_RAYMINIGUN'] = {
-			label = 'Widowmaker',
-			weight = 7000,
-			durability = 0.1,
-			ammoname = 'ammo-laser'
-		},
-
-		['WEAPON_WRENCH'] = {
-			label = 'Wrench',
-			weight = 2500,
-			durability = 0.1,
-		},
-
-		['WEAPON_PRECISIONRIFLE'] = {
-			label = 'Precision Rifle',
-			weight = 4800,
-			durability = 0.4,
-			ammoname = 'ammo-sniper'
-		},
-
 		['WEAPON_TACTICALRIFLE'] = {
-			label = 'Tactical Rifle',
+			label = '戰術步槍',
 			weight = 3400,
 			durability = 0.03,
 			ammoname = 'ammo-rifle'
 		},
+		----------------------------------------------------------------
+		-- 狙擊步槍 Item
+		----------------------------------------------------------------
+		['WEAPON_HEAVYSNIPER'] = {
+			label = '重型狙擊槍',
+			weight = 12700,
+			durability = 0.5,
+			ammoname = 'ammo-sniper'
+		},
+		['WEAPON_HEAVYSNIPER_MK2'] = {
+			label = '重型狙擊槍 Mk II',
+			weight = 14000,
+			durability = 0.5,
+			ammoname = 'ammo-sniper'
+		},
+		['WEAPON_MARKSMANRIFLE'] = {
+			label = '射手步槍',
+			weight = 7500,
+			durability = 0.4,
+			ammoname = 'ammo-sniper'
+		},
+		['WEAPON_MARKSMANRIFLE_MK2'] = {
+			label = '射手步槍 Mk II',
+			weight = 4000,
+			durability = 0.4,
+			ammoname = 'ammo-sniper'
+		},
+		['WEAPON_PRECISIONRIFLE'] = {
+			label = '精準步槍',
+			weight = 4800,
+			durability = 0.4,
+			ammoname = 'ammo-sniper'
+		},
+		['WEAPON_SNIPERRIFLE'] = {
+			label = '狙擊槍',
+			weight = 5000,
+			durability = 0.5,
+			ammoname = 'ammo-sniper'
+		},
+		----------------------------------------------------------------
+		-- 重武器 Item
+		----------------------------------------------------------------
 
+		['WEAPON_EMPLAUNCHER'] = {
+			label = '精簡型電磁脈衝發射器',
+			weight = 2750,
+			durability = 0.2,
+			ammoname = 'ammo-special'
+		},
+		['WEAPON_COMPACTLAUNCHER'] = {
+			label = '精簡榴彈發射器',
+			weight = 2500,
+			durability = 0.05,
+			ammoname = 'ammo-special'
+		},
+		['WEAPON_FIREWORK'] = {
+			label = '煙火發射器',
+			weight = 1000,
+			durability = 0.5,
+			ammoname = 'ammo-special'
+		},
+		['WEAPON_GRENADELAUNCHER'] = {
+			label = '榴彈發射器',
+			weight = 6500,
+			durability = 0.05,
+			ammoname = 'ammo-special'
+		},
+		['WEAPON_HOMINGLAUNCHER'] = {
+			label = '追蹤彈發射器',
+			weight = 10000,
+			durability = 0.6,
+			ammoname = 'ammo-special'
+		},
+		['WEAPON_MINIGUN'] = {
+			label = '火神機槍',
+			weight = 38500,
+			durability = 0.1,
+			ammoname = 'ammo-mg'
+		},
+		['WEAPON_RAILGUN'] = {
+			label = '雷射槍',
+			weight = 3570,
+			durability = 0.5,
+			ammoname = 'ammo-special'
+		},
+		['WEAPON_RAILGUNXM3'] = {
+			label = '雷射槍 XM3',
+			weight = 3570,
+			durability = 0.5,
+			ammoname = 'ammo-special'
+		},
+		['WEAPON_RPG'] = {
+			label = '火箭砲',
+			weight = 5000,
+			durability = 0.3,
+			ammoname = 'ammo-special'
+		},
+		['WEAPON_RAYMINIGUN'] = {
+			label = '寡婦製造者',
+			weight = 7000,
+			durability = 0.1,
+			ammoname = 'ammo-special'
+		},
+		----------------------------------------------------------------
+		-- 投擲武器 Item
+		----------------------------------------------------------------
+
+		['WEAPON_BALL'] = {
+			label = '棒球',
+			weight = 149,
+			throwable = true,
+		},
+		['WEAPON_SNOWBALL'] = {
+			label = '雪球',
+			weight = 5,
+			throwable = true,
+		},
+		['WEAPON_BZGAS'] = {
+			label = '毒氣彈',
+			weight = 600,
+			throwable = true,
+		},
+		['WEAPON_FIREEXTINGUISHER'] = {
+			label = '滅火器',
+			weight = 8616,
+		},
+		['WEAPON_FLARE'] = {
+			label = '信號彈',
+			weight = 250,
+			throwable = true,
+		},
+		['WEAPON_GRENADE'] = {
+			label = '手榴彈',
+			weight = 400,
+			throwable = true,
+		},
+		['WEAPON_HAZARDCAN'] = {
+			label = '有害汽油桶',
+			weight = 12000,
+		},
+		['WEAPON_METALDETECTOR'] = {
+			label = '金屬探測器',
+			weight = 1200,
+		},
+		['WEAPON_FERTILIZERCAN'] = {
+			label = '肥料桶',
+			weight = 12000,
+		},
+		['WEAPON_MOLOTOV'] = {
+			label = '汽油彈',
+			weight = 1800,
+			throwable = true,
+		},
+		['WEAPON_PETROLCAN'] = {
+			label = '汽油桶',
+			weight = 12000,
+		},
+		['WEAPON_PIPEBOMB'] = {
+			label = '土製炸彈',
+			weight = 1800,
+			throwable = true,
+		},
+		['WEAPON_PROXMINE'] = {
+			label = '感應式地雷',
+			weight = 2500,
+			throwable = true,
+		},
+		['WEAPON_SMOKEGRENADE'] = {
+			label = '煙霧彈',
+			weight = 600,
+			throwable = true,
+		},
+		['WEAPON_STICKYBOMB'] = {
+			label = '黏彈',
+			weight = 1000,
+			throwable = true,
+		},
 		['WEAPON_TEARGAS'] = {
-			label = 'Tear Gas',
+			label = '催淚瓦斯',
 			weight = 600,
 			throwable = true,
 		},
@@ -734,13 +880,11 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_suppressor_light'] = {
 			label = 'Suppressor',
 			weight = 280,
 			type = 'muzzle',
 			client = {
-                image = 'at_suppressor.png',
 				component = {
 					`COMPONENT_AT_PI_SUPP`,
 					`COMPONENT_AT_PI_SUPP_02`,
@@ -750,23 +894,20 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_suppressor_heavy'] = {
 			label = 'Tactical Suppressor',
 			weight = 280,
 			type = 'muzzle',
 			client = {
-                image = 'at_suppressor.png',
 				component = {
 					`COMPONENT_AT_AR_SUPP`,
 					`COMPONENT_AT_AR_SUPP_02`,
 					`COMPONENT_AT_SR_SUPP`,
-					`COMPONENT_AT_SR_SUPP_03`,
+					`COMPONENT_AT_SR_SUPP_03`
 				},
 				usetime = 2500
 			}
 		},
-
 		['at_grip'] = {
 			label = 'Grip',
 			type = 'grip',
@@ -779,7 +920,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_barrel'] = {
 			label = 'Heavy Barrel',
 			type = 'barrel',
@@ -798,13 +938,11 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_clip_extended_pistol'] = {
 			label = 'Extended Pistol Clip',
 			type = 'magazine',
 			weight = 280,
 			client = {
-                image = 'at_clip_extended.png',
 				component = {
 					`COMPONENT_APPISTOL_CLIP_02`,
 					`COMPONENT_CERAMICPISTOL_CLIP_02`,
@@ -821,13 +959,11 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_clip_extended_smg'] = {
 			label = 'Extended SMG Clip',
 			type = 'magazine',
 			weight = 280,
 			client = {
-                image = 'at_clip_extended.png',
 				component = {
 					`COMPONENT_ASSAULTSMG_CLIP_02`,
 					`COMPONENT_COMBATPDW_CLIP_02`,
@@ -840,13 +976,11 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_clip_extended_shotgun'] = {
 			label = 'Extended Shotgun Clip',
 			type = 'magazine',
 			weight = 280,
 			client = {
-                image = 'at_clip_extended2.png',
 				component = {
 					`COMPONENT_ASSAULTSHOTGUN_CLIP_02`,
 					`COMPONENT_HEAVYSHOTGUN_CLIP_02`,
@@ -854,13 +988,11 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_clip_extended_rifle'] = {
 			label = 'Extended Rifle Clip',
 			type = 'magazine',
 			weight = 280,
 			client = {
-                image = 'at_clip_extended2.png',
 				component = {
 					`COMPONENT_ADVANCEDRIFLE_CLIP_02`,
 					`COMPONENT_ASSAULTRIFLE_CLIP_02`,
@@ -875,18 +1007,15 @@ return {
 					`COMPONENT_SPECIALCARBINE_CLIP_02`,
 					`COMPONENT_SPECIALCARBINE_MK2_CLIP_02`,
 					`COMPONENT_TACTICALRIFLE_CLIP_02`,
-					`COMPONENT_BATTLERIFLE_CLIP_02`,
 				},
 				usetime = 2500
 			}
 		},
-
 		['at_clip_extended_mg'] = {
 			label = 'Extended MG Clip',
 			type = 'magazine',
 			weight = 280,
 			client = {
-                image = 'at_clip_drum.png',
 				component = {
 					`COMPONENT_GUSENBERG_CLIP_02`,
 					`COMPONENT_MG_CLIP_02`,
@@ -896,13 +1025,11 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_clip_extended_sniper'] = {
 			label = 'Extended Sniper Clip',
 			type = 'magazine',
 			weight = 280,
 			client = {
-                image = 'at_clip_extended2.png',
 				component = {
 					`COMPONENT_HEAVYSNIPER_MK2_CLIP_02`,
 					`COMPONENT_MARKSMANRIFLE_CLIP_02`,
@@ -911,13 +1038,11 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_clip_drum_smg'] = {
 			label = 'SMG Drum',
 			type = 'magazine',
 			weight = 280,
 			client = {
-                image = 'at_clip_drum.png',
 				component = {
 					`COMPONENT_COMBATPDW_CLIP_03`,
 					`COMPONENT_MACHINEPISTOL_CLIP_03`,
@@ -926,26 +1051,22 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_clip_drum_shotgun'] = {
 			label = 'Shotgun Drum',
 			type = 'magazine',
 			weight = 280,
 			client = {
-                image = 'at_clip_drum.png',
 				component = {
 					`COMPONENT_HEAVYSHOTGUN_CLIP_03`
 				},
 				usetime = 2500
 			}
 		},
-
 		['at_clip_drum_rifle'] = {
 			label = 'Rifle Drum',
 			type = 'magazine',
 			weight = 280,
 			client = {
-                image = 'at_clip_drum.png',
 				component = {
 					`COMPONENT_ASSAULTRIFLE_CLIP_03`,
 					`COMPONENT_COMPACTRIFLE_CLIP_03`,
@@ -955,7 +1076,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_compensator'] = {
 			label = 'Compensator',
 			type = 'muzzle',
@@ -969,7 +1089,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_scope_macro'] = {
 			label = 'Macro Scope',
 			type = 'sight',
@@ -985,7 +1104,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_scope_small'] = {
 			label = 'Small Scope',
 			type = 'sight',
@@ -1000,7 +1118,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_scope_medium'] = {
 			label = 'Medium Scope',
 			type = 'sight',
@@ -1013,7 +1130,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_scope_large'] = {
 			label = 'Large Scope',
 			type = 'sight',
@@ -1025,7 +1141,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_scope_advanced'] = {
 			label = 'Advanced Scope',
 			type = 'sight',
@@ -1037,7 +1152,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_scope_nv'] = {
 			label = 'NV Scope',
 			type = 'sight',
@@ -1049,7 +1163,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_scope_thermal'] = {
 			label = 'Thermal Scope',
 			type = 'sight',
@@ -1061,7 +1174,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_scope_holo'] = {
 			label = 'Holographic Sight',
 			type = 'sight',
@@ -1076,7 +1188,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_muzzle_flat'] = {
 			label = 'Flat Muzzle',
 			type = 'muzzle',
@@ -1088,7 +1199,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_muzzle_tactical'] = {
 			label = 'Tactical Muzzle',
 			type = 'muzzle',
@@ -1100,7 +1210,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_muzzle_fat'] = {
 			label = 'Fat Muzzle',
 			type = 'muzzle',
@@ -1112,7 +1221,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_muzzle_precision'] = {
 			label = 'Precision Muzzle',
 			type = 'muzzle',
@@ -1124,7 +1232,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_muzzle_heavy'] = {
 			label = 'Heavy Muzzle',
 			type = 'muzzle',
@@ -1136,7 +1243,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_muzzle_slanted'] = {
 			label = 'Slanted Muzzle',
 			type = 'muzzle',
@@ -1148,7 +1254,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_muzzle_split'] = {
 			label = 'Split Muzzle',
 			type = 'muzzle',
@@ -1160,7 +1265,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_muzzle_squared'] = {
 			label = 'Squared Muzzle',
 			type = 'muzzle',
@@ -1172,7 +1276,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_muzzle_bell'] = {
 			label = 'Bell Muzzle',
 			type = 'muzzle',
@@ -1184,7 +1287,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_luxe'] = {
 			label = 'Luxury Weapon Kit',
 			type = 'skin',
@@ -1205,7 +1307,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_wood'] = {
 			label = 'Wood Weapon Kit',
 			type = 'skin',
@@ -1219,7 +1320,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_metal'] = {
 			label = 'Metal Weapon Kit',
 			type = 'skin',
@@ -1235,7 +1335,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_pearl'] = {
 			label = 'Pearl Weapon Kit',
 			type = 'skin',
@@ -1247,7 +1346,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_ballas'] = {
 			label = 'Ballas Weapon Kit',
 			type = 'skin',
@@ -1259,7 +1357,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_diamond'] = {
 			label = 'Diamond Weapon Kit',
 			type = 'skin',
@@ -1271,7 +1368,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_dollar'] = {
 			label = 'Dollar Weapon Kit',
 			type = 'skin',
@@ -1283,7 +1379,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_hate'] = {
 			label = 'Hate Weapon Kit',
 			type = 'skin',
@@ -1295,7 +1390,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_king'] = {
 			label = 'King Weapon Kit',
 			type = 'skin',
@@ -1307,7 +1401,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_love'] = {
 			label = 'Love Weapon Kit',
 			type = 'skin',
@@ -1319,7 +1412,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_pimp'] = {
 			label = 'Pimp Weapon Kit',
 			type = 'skin',
@@ -1331,7 +1423,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_player'] = {
 			label = 'Player Weapon Kit',
 			type = 'skin',
@@ -1343,7 +1434,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_vagos'] = {
 			label = 'Vagos Weapon Kit',
 			type = 'skin',
@@ -1355,7 +1445,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_blagueurs'] = {
 			label = 'Blagueurs Weapon Kit',
 			type = 'skin',
@@ -1367,7 +1456,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_splatter'] = {
 			label = 'Splatter Weapon Kit',
 			type = 'skin',
@@ -1379,7 +1467,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_bulletholes'] = {
 			label = 'Bullet Holes Weapon Kit',
 			type = 'skin',
@@ -1391,7 +1478,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_burgershot'] = {
 			label = 'Burger Shot Weapon Kit',
 			type = 'skin',
@@ -1403,7 +1489,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_cluckinbell'] = {
 			label = 'Cluckin Bell Weapon Kit',
 			type = 'skin',
@@ -1415,7 +1500,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_fatalincursion'] = {
 			label = 'Fatal Incursion Weapon Kit',
 			type = 'skin',
@@ -1427,7 +1511,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_luchalibre'] = {
 			label = 'Lucha Libre Weapon Kit',
 			type = 'skin',
@@ -1439,7 +1522,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_trippy'] = {
 			label = 'Trippy Weapon Kit',
 			type = 'skin',
@@ -1451,7 +1533,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_tiedye'] = {
 			label = 'Tie-Dye Weapon Kit',
 			type = 'skin',
@@ -1463,7 +1544,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_wall'] = {
 			label = 'Wall Weapon Kit',
 			type = 'skin',
@@ -1475,7 +1555,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_vip'] = {
 			label = 'VIP Weapon Kit',
 			type = 'skin',
@@ -1488,7 +1567,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_bodyguard'] = {
 			label = 'Bodyguard Weapon Kit',
 			type = 'skin',
@@ -1501,7 +1579,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_festive'] = {
 			label = 'Festive Weapon Kit',
 			type = 'skin',
@@ -1513,7 +1590,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_security'] = {
 			label = 'Security Weapon Kit',
 			type = 'skin',
@@ -1526,7 +1602,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_camo'] = {
 			label = 'Camo Weapon Kit',
 			type = 'skin',
@@ -1549,7 +1624,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_brushstroke'] = {
 			label = 'Brushstroke Weapon Kit',
 			type = 'skin',
@@ -1572,7 +1646,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_woodland'] = {
 			label = 'Woodland Weapon Kit',
 			type = 'skin',
@@ -1595,7 +1668,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_skull'] = {
 			label = 'Skull Weapon Kit',
 			type = 'skin',
@@ -1618,7 +1690,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_sessanta'] = {
 			label = 'Sessanta Weapon Kit',
 			type = 'skin',
@@ -1641,7 +1712,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_perseus'] = {
 			label = 'Perseus Weapon Kit',
 			type = 'skin',
@@ -1664,7 +1734,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_leopard'] = {
 			label = 'Leopard Weapon Kit',
 			type = 'skin',
@@ -1687,7 +1756,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_zebra'] = {
 			label = 'Zebra Weapon Kit',
 			type = 'skin',
@@ -1710,7 +1778,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_geometric'] = {
 			label = 'Geometric Weapon Kit',
 			type = 'skin',
@@ -1733,7 +1800,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_boom'] = {
 			label = 'Boom Weapon Kit',
 			type = 'skin',
@@ -1756,7 +1822,6 @@ return {
 				usetime = 2500
 			}
 		},
-
 		['at_skin_patriotic'] = {
 			label = 'Patriotic Weapon Kit',
 			type = 'skin',
@@ -1782,99 +1847,100 @@ return {
 	},
 
 	Ammo = {
+
+		['ammo-pistol'] = {
+			label = '手槍通用子彈',
+			weight = 5,
+		},
+		['ammo-mg'] = {
+			label = '衝鋒機關槍通用子彈',
+			weight = 5,
+		},
+		['ammo-special'] = {
+			label = '特殊通用子彈',
+			weight = 50,
+		},
 		['ammo-22'] = {
-			label = '.22 Long Rifle',
+			label = '.22 子彈',
 			weight = 3,
 		},
-
 		['ammo-38'] = {
-			label = '.38 LC',
+			label = '.38 子彈',
 			weight = 15,
 		},
-
 		['ammo-44'] = {
-			label = '.44 Magnum',
+			label = '.44 子彈',
 			weight = 16,
 		},
-
 		['ammo-45'] = {
-			label = '.45 ACP',
+			label = '.45 子彈',
 			weight = 15,
 		},
-
 		['ammo-50'] = {
-			label = '.50 AE',
+			label = '.50 子彈',
 			weight = 45,
 		},
-
 		['ammo-9'] = {
-			label = '9mm',
+			label = '9mm 子彈',
 			weight = 7,
 		},
-
 		['ammo-firework'] = {
-			label = 'Firework',
+			label = '煙火彈',
 			weight = 200,
 		},
-
 		['ammo-flare'] = {
-			label = 'Flare round',
+			label = '信號彈',
 			weight = 38,
 		},
-
 		['ammo-grenade'] = {
-			label = '40mm Explosive',
+			label = '爆破子彈',
 			weight = 400,
 		},
-
 		['ammo-heavysniper'] = {
-			label = '.50 BMG',
+			label = '重型狙擊子彈',
 			weight = 51,
 		},
-
 		['ammo-laser'] = {
-			label = 'Laser charge',
+			label = '激光彈',
 			weight = 1,
 		},
-
 		['ammo-musket'] = {
-			label = '.50 Ball',
+			label = '老式火槍子彈',
 			weight = 38,
 		},
-
 		['ammo-railgun'] = {
-			label = 'Railgun charge',
+			label = '雷射槍冲能彈',
 			weight = 150,
 		},
-
 		['ammo-rifle'] = {
-			label = '5.56x45',
+			label = '步槍通用子彈',--'5.56 步槍子彈',
 			weight = 4,
 		},
-
 		['ammo-rifle2'] = {
-			label = '7.62x39',
+			label = '7.62 步槍子彈',
 			weight = 8,
 		},
 
 		['ammo-rocket'] = {
-			label = 'Rocket',
+			label = '火箭彈',
 			weight = 500,
 		},
 
 		['ammo-shotgun'] = {
-			label = '12 Gauge',
+			label = '霰彈槍通用子彈',--'霰彈槍子彈',
 			weight = 38,
 		},
 
 		['ammo-sniper'] = {
-			label = '7.62x51',
+			label = '狙擊通用子彈',--'7.62 狙擊子彈',
 			weight = 9,
 		},
 
 		['ammo-emp'] = {
-			label = 'EMP round',
+			label = 'EMP彈',
 			weight = 400,
 		},
+
+
 	}
 }
